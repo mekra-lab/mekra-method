@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "fde6485cac4bfc6fe0f5bc93393f4b240da3feb4",
+  "source_commit": "0bd96bfca5489e941aa567c4d236ce69a3819977",
   "manifest_sha256": "5a4b2abf539276c7d2d235097bc1086f74363e1d03ed07d519ea621d1b2faa81",
-  "reviewed_at": "2026-09-19T08:44:09.9176356Z",
+  "reviewed_at": "2026-09-19T09:45:02Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,13 +12,13 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "59343a3bd8db4d7d096014eb82db4da558d8c054055359ee06577c3921175157",
-      "target_sha256": "3ecfc24f7f780a6dfc2385b3a5ac701944fc7daec5315fd1b1bdb69396b86f70"
+      "source_sha256": "2e9a1a37e555f7e9045f724e2bec189fe5d4c9fb517101d68c85a4bc11a8a79d",
+      "target_sha256": "233df348609de7182bc163aab6b7233299b77d3fee680c9fa384b05952830c5e"
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "156c9546dacaff6e552327338cc567988fae9ef1c996108c32bbd16ae48d4d4d",
-      "target_sha256": "a5d9abdae16bb4c383c45b2183d6a5bacf86c87864237537310f710d4ad046a0"
+      "source_sha256": "9986589aba0f06f575e1f53be0e29f7cf9bec977a46c00fdaf406f0325a19591",
+      "target_sha256": "eb24af9fa867752794af07bfad1f7852cc6664e46ec60f09ed2bde001aabe9f3"
     },
     {
       "path": "FEEDBACK.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "okf/index.md",
-      "source_sha256": "d61ed71a7f1851f9a7ec960e360e550e88a09f47848642f76eb2b36e32103035",
-      "target_sha256": "34707588556e47ce9ed1a6e40f94edae5e86711a4d2e979874fc5d9aea4e5ed0"
+      "source_sha256": "74b9e04f3adb5707f4ac2e0779a422b49cca487f2b79b9e09cd1b59e7266fd05",
+      "target_sha256": "2a52dd0fd2fcc80ff712954cb61336f3b7a7bb6d4987512b3bb9b3b931a3a346"
     },
     {
       "path": "okf/operating-principles.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "okf/adoption.md",
-      "source_sha256": "677bbb700edab4752164f2bb90032f846ec790301e1e8a7610402c446399de68",
-      "target_sha256": "0e46bdc3277e44c35da6cf1b6de22b3dc9d9e12cf31462d12c00d9c629bc4217"
+      "source_sha256": "5810705ff2f83e075293aba8d75f209ab257f96a504876548c984e66b50fab28",
+      "target_sha256": "8c1c8a6ecc4e364e94cbb920562216e58825f0996595014e94cbb1fa4bf2d4a5"
     },
     {
       "path": "okf/feedback.md",
@@ -102,13 +102,13 @@
     },
     {
       "path": "templates/README.md",
-      "source_sha256": "00fbc4750ead18118785272b9c0cc4c6d2f84496e400dc4e828a7d034491f759",
-      "target_sha256": "951d7b1b7e69e11d991b015a178206932ae00341d4dd03afea238c50c94d3eaa"
+      "source_sha256": "f14f4aa86613dbe9b1e2b172698e6b8c5dd27131fd600dc9657622442257ebf8",
+      "target_sha256": "40fdf667738e44c5791a398a2a1cb9431f92f85aaee09d9962d7bcd8d24b10bf"
     },
     {
       "path": "templates/AGENTS.md.template",
-      "source_sha256": "625ae64986f0b659b06ccb91c55df9e42fee8f590b54ffd0ea623612a595eb50",
-      "target_sha256": "b33a362cf8fa458c92729d2add1333c0d7a36f448e434e98e6d4887f788302d1"
+      "source_sha256": "21071de4ce060c2278df856d3e6c0cd771353a59463de4ca7165518190fc9935",
+      "target_sha256": "bafaabef5e98e51746359d909e73d1c92cd488032d8b8f7795a5511ad88ce50e"
     },
     {
       "path": "templates/okf/index.md",
@@ -117,8 +117,8 @@
     },
     {
       "path": "templates/okf/concept.md",
-      "source_sha256": "b6e8c162ef05a4220d391380c92308d67dfe4ed1b379f133099521044d478bc5",
-      "target_sha256": "642340d461b0968a520bd199175ebb415ce5b34c6dc1570c483e33dea8bbe27a"
+      "source_sha256": "403c2c7227be5f0ee0cc85edfc488432a461ba8cdab185f380e36335aa2cedb1",
+      "target_sha256": "8c59e661b121d1b0b905a6d46973ff113e238e5e2eb77b14f2d2130041df5701"
     },
     {
       "path": "versions/README.md",
