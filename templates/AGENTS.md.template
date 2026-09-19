@@ -1,0 +1,14 @@
+## OKF knowledge operations
+
+This section applies to writing and updating knowledge under `okf/`, and to reflecting changes in other materials or implementations back into related knowledge. Define development, execution, and deployment instructions for the repository separately.
+
+For OKF knowledge operations, prioritize the agent's autonomous judgment. The principles below are starting points for judgment and may be applied differently depending on purpose and context.
+
+- Put concept meaning, boundaries, rules, relationships, and context needed for judgment in `okf/`.
+- Keep a clear source of truth for facts and rules, while also reflecting necessary context in other concepts that depend on them.
+- When knowledge or implementation changes, update related concepts whose meaning changes.
+- Decide the structure and writing style of knowledge documents autonomously according to the target OKF specification and repository context.
+
+### OKF-specific choices for this repository
+
+<!-- If needed, record or link repository-specific knowledge operations choices, such as the target bundle, canonical boundaries, guidance for source-material and new-knowledge intake, and remaining migration scope and triggers. Remove this section if there are none. -->
