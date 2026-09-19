@@ -5,10 +5,15 @@ This section applies to writing and updating knowledge under `okf/`, and to refl
 For OKF knowledge operations, prioritize the agent's autonomous judgment. The principles below are starting points for judgment and may be applied differently depending on purpose and context.
 
 - Put concept meaning, boundaries, rules, relationships, and context needed for judgment in `okf/`.
-- Keep a clear source of truth for facts and rules, while also reflecting necessary context in other concepts that depend on them.
-- When knowledge or implementation changes, update related concepts whose meaning changes.
+- Keep definition and change responsibility for facts and rules in a clear source of truth, while also reflecting necessary context in other concepts that depend on them.
+- Do not mechanically remove repeated context. Avoid independent ownership of the same fact in multiple places, and do not distribute responsibility for changing a fact merely because its context is distributed.
+- When knowledge or implementation changes, use the source of truth as the baseline and update related concepts whose meaning changes.
 - Decide the structure and writing style of knowledge documents autonomously according to the target OKF specification and repository context.
 
 ### OKF-specific choices for this repository
 
 <!-- If needed, record or link repository-specific knowledge operations choices, such as the target bundle, canonical boundaries, guidance for source-material and new-knowledge intake, and remaining migration scope and triggers. Remove this section if there are none. -->
+
+## Repository operating preferences
+
+<!-- This section is not limited to OKF knowledge operations; it applies to follow-up work across the repository. Include it only when repository-level preferences have been agreed with the user or delegated during adoption. Examples include preferring editable Markdown sources for document-like derivatives, reflecting durable knowledge from deliverables back into OKF, using recommended defaults for unspecified choices, reviewing substantial work for reusable knowledge, and retaining evidence paths for derivative artifacts. Do not duplicate requirements already established by OKF operating principles or the selected profile. Remove this section if there are no such preferences. -->

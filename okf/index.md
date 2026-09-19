@@ -6,6 +6,8 @@ okf_version: "0.2"
 
 This bundle internalizes the operating philosophy and design decisions adopted while working with OKF. It distinguishes the official specification from our own interpretation, and keeps the baseline for the official format in the [version documents](../versions/current.md).
 
+The core perspective is a balance in which definition and change responsibility are concentrated in clear sources of truth while the context needed for understanding is distributed across related concepts. A source of truth prevents independent ownership of the same fact, while each concept restates in natural language what that fact means from its own perspective. Distributing context does not distribute ownership of the fact itself; when something changes, use the source of truth as the baseline and propagate the impact into contexts whose meaning changes.
+
 ## Operating philosophy
 
 - [Operating principles](operating-principles.md) - Maintain clear ownership of canonical facts together with the context needed to use them.

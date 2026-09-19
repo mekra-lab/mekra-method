@@ -9,6 +9,16 @@ A public English-language repository for studying how OKF evolves and how it can
 > This repository is not a copy of the OKF specification or a framework every project must follow.  
 > The canonical source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).
 
+## Core perspective
+
+okf-lab aims for a knowledge graph where **definition and change responsibility are concentrated in clear sources of truth, while the context needed for understanding is distributed across related concepts**.
+
+Sources of truth establish the basis for facts and rules and prevent different documents from independently owning the same fact. At the same time, a single source of truth does not imply a single location for context. When one fact affects several concepts, each concept should restate as much as needed about how that fact affects its own meaning, conditions, exceptions, and judgment. Distributing context does not mean distributing responsibility for changing the fact itself.
+
+The thing to avoid is therefore not repetition of the same fact, but having multiple places independently define and change it. Links should communicate the reason for and impact of a relationship through the surrounding prose rather than acting as bare addresses. When knowledge or implementation changes, use the source of truth as the baseline and also update the context of related concepts whose meaning changes.
+
+In this balance, a domain is internalized not as one complete document but through the overlap and relationships between sources of truth that provide a center and documents that carry one another's meaning. See [operating principles](okf/operating-principles.md), [source of truth and context](okf/source-of-truth.md), [knowledge internalization](okf/knowledge-internalization.md), and [context propagation](okf/context-propagation.md) for the reasoning.
+
 ## What this repository does
 
 - Tracks upstream version changes and their migration impact.
