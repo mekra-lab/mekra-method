@@ -14,7 +14,7 @@ When source material is large or managed externally, moving all of it into OKF i
 
 Preserve source material in its original location or under `raw/` or `sources/`, and internalize in OKF the meanings and relationships repeatedly needed for understanding and judgment. Link the OKF knowledge back to the canonical location and supporting evidence of the source material.
 
-Text extractions are derivatives, not source material. Preserve them as a separate layer such as `extracted/` only when they are reused repeatedly, expensive to regenerate, or accumulate manual corrections.
+Text extracted from originals and transcriptions in Markdown are derivatives, not source material. When originals are difficult to work with directly and need to be searched or cited repeatedly, you can preserve them as the source of truth while creating derivatives in a reusable format and linking OKF concepts or summaries to the relevant evidence locations. Preserve these derivatives as a separate layer such as `extracted/` only when they are reused repeatedly, expensive to regenerate, or accumulate manual corrections. When an original changes, also examine the impact on retained derivatives and on knowledge internalized from them.
 
 In [post-adoption usage guidance](adoption.md), connect these responsibilities to actual intake locations. Explain where to preserve new originals, where directly authored knowledge belongs, and how to reflect it in OKF. For external originals, explain the reference method; if no separate source-material intake is needed, do not create an intake directory.
 

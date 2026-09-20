@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "6f7b5c4b578f538d9bc46ecc26c600f0963d57d0",
+  "source_commit": "096c8f387cefacc4c8e33d43e1d54f49776f6568",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-20T06:48:35.3776299Z",
+  "reviewed_at": "2026-09-20T07:09:54.4504481Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -57,8 +57,8 @@
     },
     {
       "path": "okf/external-sources.md",
-      "source_sha256": "2006b40ffa701656b17154eb10a44c603d6cc20ac1cdae9f4673e591c5b523b4",
-      "target_sha256": "05c3d015f94960aec7747c0a30e2ec71c221562524c009a2aae935d21b93191a"
+      "source_sha256": "48df2bbe1b2d43a8d548b46a00587e73d4471b956c412a52afb5644cbe9e52c3",
+      "target_sha256": "5e9ebbbb0adae94863d253d8777f333389d6fa08461270fb8c3ec1319e49d52f"
     },
     {
       "path": "okf/disclosure-boundary.md",
@@ -72,8 +72,8 @@
     },
     {
       "path": "okf/large-corpus.md",
-      "source_sha256": "a9acfde528c59e4f93388f02f7b6f774c25c9dba1a6219f4e8537a0e14c27492",
-      "target_sha256": "1708271e633d9f4f0522cd36c26e265f6f06d61b6d467379c6a65fca4c30074b"
+      "source_sha256": "e5d66abc86370bce077ea0b3031e35792aee94179fb21c874e11695dde6b2634",
+      "target_sha256": "3bcbcbe69a161b724b4b54e2ea910e9e434df30530804148de6af322ed0673e5"
     },
     {
       "path": "okf/adoption.md",

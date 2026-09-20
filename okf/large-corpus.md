@@ -12,6 +12,8 @@ Internalize recurring meaning, conditions, and judgment criteria through [knowle
 
 [Source material, extracted artifacts, and knowledge](external-sources.md) carry different responsibilities. Decide whether to retain extractions by considering image-based PDFs, the amount of tables and figures, searchability, reuse of extracted results, and regeneration cost. Figures or layouts that cannot be understood from text extraction alone still require reference to the original source.
 
+Reviewing the entire collection or building an OKF and converting every source into a derived format are separate scope decisions. If full conversion would substantially change processing and review workloads, storage needs, regeneration costs, or the cost of later updates, and the choice has not already been settled by the user's delegation, explain the actual scale, expected costs, and recommended approach to clarify the user's intent.
+
 People should also be able to read concept documents and find their way back to the source. Separate human and agent bodies are not inherently necessary; topical synthesis documents may be useful when they improve discovery.
 
 The [Large corpus facet](../facets/large-corpus.md) identifies environments where these judgments become especially important. Choose concrete directories and file placement from the actual location of source material, the existing storage system, and reuse cost. Domains such as medicine or law, where provenance and application conditions matter, should first use these general principles; consider a separate facet or pattern only when recurring domain-specific judgment is actually observed.
