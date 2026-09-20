@@ -1,6 +1,8 @@
 # okf-lab
 
-A repository for studying how OKF evolves and how it can be used in practice, then turning that work into operational knowledge that agents can apply to target repositories.
+OKF (Open Knowledge Format) is a format for representing knowledge that people and agents can both read and exchange.
+
+okf-lab studies how OKF evolves and how it can be used in practice, then turns that work into operational knowledge that agents can apply to target repositories.
 
 > This repository is not a copy of the OKF specification or a framework every project must follow.  
 > The canonical source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).

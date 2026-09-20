@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "0512252834a008dc35acb36fc5c7369b33ca0c1f",
+  "source_commit": "869be896d9cb9efadd7feb523418525e416234ce",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-20T07:16:34.2855946Z",
+  "reviewed_at": "2026-09-20T07:20:45.1975782Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,8 +12,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "009ec531cccaefbde888afa6ca0054b6e3f9be8d66885ca4793dc5d34a93d33e",
-      "target_sha256": "8400cc5118e4858938303cc24612b25fd4ef637dd5fcbf7c0d14964a501408b3"
+      "source_sha256": "c127eeea0db65ef1065a4ff9c82e456a60ade64f0bb5588a05b3617640112303",
+      "target_sha256": "17c57e38a592a21a19cd05de76a96f663292be623cf4dbd13fed572a228be542"
     },
     {
       "path": "APPLICATION.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "okf/index.md",
-      "source_sha256": "4c2ebbefc9f11f67aa8fbccedc05101f6ffe101f9a6c0697c0a0ee391ff5d888",
-      "target_sha256": "aee684e74723968b879a64cfee2b7df6653888c2db4ac067f86e3873b3204d26"
+      "source_sha256": "2fffc1fdb8ab433a4e27d8d194d41545304fc340526383a7100431dd3306f56b",
+      "target_sha256": "90830599a4204358c592080eb9a188ce4fe1acb857177cee404ae8bfce4a8844"
     },
     {
       "path": "okf/operating-principles.md",
