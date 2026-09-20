@@ -1,5 +1,7 @@
 # Current OKF baseline
 
+This document records the recommended baseline for the official specification. The [version guide](README.md) distinguishes okf-lab releases from the commits actually consulted.
+
 | Item | Value |
 | --- | --- |
 | Recommended baseline | OKF v0.2 |

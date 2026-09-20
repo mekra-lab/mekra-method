@@ -8,6 +8,8 @@ They are minimal starting points to copy into a real repository, remove what is 
 - [`okf/index.md`](okf/index.md): example OKF bundle root
 - [`okf/concept.md`](okf/concept.md): minimal concept document
 
+The `okf/` directory here holds an example bundle. A target can use a different name such as `knowledge/`, or use the repository root as its bundle. Copy the files inside `okf/` into the chosen bundle location and adapt instructions and links accordingly; the enclosing `okf/` folder need not be copied as-is. See [adoption judgment](../okf/adoption.md#bundle-location-and-existing-structure) for the reasoning behind location choices.
+
 When using `AGENTS.md.template`, merge each needed section into the context of the existing root `AGENTS.md`. It is not a replacement for repository-wide instructions. The autonomy principle in the `OKF knowledge operation` section applies to OKF knowledge work. If the `Repository operating preferences` section is selected, keep it as a peer section whose scope covers the repository-wide follow-up work it describes.
 
 Keeping the template unchanged is not the goal. Use the target's actual material, relevant [facets](../facets/README.md), and OKF knowledge to keep only the structure that is useful.

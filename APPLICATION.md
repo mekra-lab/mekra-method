@@ -14,7 +14,7 @@ Use [facets](facets/README.md) as supporting lenses for understanding important 
 
 An inspection request focuses on diagnosing whether the current structure and knowledge are suitable and explaining findings and improvements. If the user also requested fixes, or prior context already delegated them, implement the necessary improvements as well. If the request is diagnosis only, do not automatically proceed into structural migration.
 
-Adopted principles and patterns live under `okf/`, lenses for reading application context under `facets/`, and copyable scaffolding under `templates/`. `notes/` and `experiments/` are research material. If a specification-version transition is relevant, inspect the [version records](versions/README.md) and the format actually used by the target bundle.
+In this guide repository, adopted principles and patterns live under `okf/`, lenses for reading application context under `facets/`, and copyable scaffolding under `templates/`. `notes/` and `experiments/` are research material. If a specification-version transition is relevant, inspect the [version records](versions/README.md) and the format actually used by the target bundle.
 
 ## Ask only for intent that matters
 
@@ -32,9 +32,13 @@ Phrase questions and options using the vocabulary, conceptual familiarity, expla
 
 Reflect the chosen direction in structure and knowledge. [Templates](templates/README.md) are starting points that should be adapted while preserving existing content. Merge the OKF operating section into an existing root `AGENTS.md` and keep its scope distinct from development, execution, and deployment instructions for the target.
 
+Choose the target's [bundle location](okf/adoption.md#bundle-location-and-existing-structure) to fit its purpose and existing structure. The name `okf/` is not required; another directory or the repository root may be used. Adjust paths in template files and instructions to the location actually chosen.
+
 Internalize new knowledge into the meaning, conditions, and relationships of relevant concepts. When a source of truth or operating model changes, update concepts whose meaning is affected. Even during a full review, leave documents unchanged when no change is needed. In a progressive transition, distinguish what was converted now from what remains for later.
 
 Verify the result against the target's real questions and operating practices rather than file counts or template conformity. Check whether core concepts can be understood and supporting evidence can be traced, whether source-of-truth boundaries and links remain coherent, and whether the target specification version coexists with existing instructions. Explain remaining conflicts or constraints together with the completed scope.
+
+Distinguish what format and link checks establish from semantic review. The burden of rereading source material, missed effects of changes, and maintenance costs found in real use can be examined as [operational observations](okf/feedback.md) to help adjust the depth and organization of explanations.
 
 ## Operational handoff and completion
 
@@ -43,6 +47,8 @@ Build and transition work continues through leaving the user a usable operating 
 Explain the actual location and method selected for adding the next material. For example, if source material is intentionally kept in `raw/`, the handoff might say: "Put new source material in `raw/` and ask the agent to incorporate the new material into OKF." Replace the path with the target's actual arrangement.
 
 Leave guidance in the target README or the relevant material documentation about where source material and directly authored new knowledge belong, how external material should be referenced, and what request should be used to incorporate it. If there is no benefit in a separate source-material folder, explain how the existing location should be used instead. Repository-specific choices the agent also needs can be linked from the target's OKF operating instructions.
+
+To make later comparisons between changes in the guide and experience in use possible, it helps to briefly record the actual reference repository and commit, when verifiable, in existing guidance or adoption records. Distinguish [lab releases from the OKF specification baseline](versions/README.md), and note the scope if only part of the knowledge was updated. This does not require a separate record file or metadata on every concept.
 
 ### Optional operating preferences
 

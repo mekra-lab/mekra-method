@@ -41,6 +41,12 @@ Updating existing operating practices includes template migration and reapplying
 
 The evidence for specification-version transitions is kept in the [version records](../versions/README.md). Updating okf-lab operating practices and transitioning the official OKF version may be independently necessary, so keep them distinct.
 
+## Bundle location and existing structure
+
+As the [operating principles](operating-principles.md) explain, adopting the OKF format and choosing a directory name are separate decisions. Identify existing bundles from their document format, entry points, and existing guidance, not just the name `okf/`. Choose a new bundle's location to fit its subject and the boundaries of existing material. Names such as `knowledge/`, `domain/`, or `policy/` can express content or responsibility; when a repository distributes a single bundle, its root can serve as the bundle root.
+
+A separate subdirectory helps when bundle knowledge needs to be distinguished from code, research material, or operating guidance. Keep an existing location when it is suitable, and adapt files and instructions to the actual bundle boundary rather than the template's enclosing folder name. When moving a bundle, also inspect entry points, links, and path assumptions in related tools.
+
 ## Review scope and modification scope
 
 A scaffold application establishes operating entry points such as instructions and indexes. A progressive transition also reflects key concepts and currently affected knowledge, leaving the rest to transition when used or changed later. A full review and transition examines the agreed or delegated target scope and completes changes that are actually needed.
@@ -67,4 +73,4 @@ The intake location depends on the responsibilities described in [source materia
 
 Optional repository-wide operating preferences may also be suggested when they improve later work: preferring Markdown sources for document-like derived outputs, reflecting newly confirmed knowledge from outputs back into OKF, preferring the recommended option for unspecified choices, reviewing durable knowledge after substantial work, or preserving provenance paths for derived outputs. Select only preferences with real value to the target and user, and persist only what has been agreed or delegated in a root `AGENTS.md` or similar instructions. Do not re-ask source-of-truth management, context propagation, source-material separation, and other established OKF principles as if they were optional toggles. A facet is not a rule that reasserts those principles.
 
-Reusable discoveries from operational handoff can be connected to [feedback](feedback.md). Feedback is an optional activity that returns observations about the guide's usefulness and limits to research. Autonomous adaptation during application is not itself something that must be reported, and whether feedback is sent does not determine whether adoption is complete.
+Reusable discoveries from operational handoff can be connected to [feedback](feedback.md). Later reviews of actual use should likewise examine the conditions under which the guide supported judgment and operation, rather than how closely it was followed. Recording a verifiable [reference baseline](../versions/README.md) and the scope actually adopted helps distinguish the influence of the guide at that time from later autonomous changes. Feedback is an optional activity that returns observations about the guide's usefulness and limits to research. Autonomous adaptation during application is not itself something that must be reported, and whether feedback is sent does not determine whether adoption is complete.

@@ -18,10 +18,22 @@ The Korean edition reflects selected shared knowledge. The English edition must 
 
 The agent compares changes since the last publication and decides whether direct edits in an edition should be preserved or folded back into shared knowledge. Following [context propagation](context-propagation.md), update related concepts, facets, and templates, then review the meaning of the English edition. Tools verify the presence of listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or publication suitability.
 
+Regression tests for the tools check that the validator behaves as intended in the cases covered. Passing them does not guarantee semantic correctness across the entire knowledge graph. Differences exposed by checks are evidence for review; decide which content to change in which repository by considering meaning and publication scope.
+
 Recording the reviewed source baseline and content fingerprints for each edition makes later source changes distinguishable from direct edition edits. If only part of the work is complete, report that scope as-is; do not record the entire synchronization as complete before both editions have been checked. Public repositories keep their own histories and receive only selected file changes.
 
 Git history in an edition should explain the meaning users will see rather than the synchronization operation itself. Build commit messages by reviewing both the accumulated dev commits since the last publication and the actual edition diff, then naturally summarize the most important changes in that repository's language. Do not use titles such as `sync`, `synchronize`, or `apply distribution` that describe only the operation. When several changes are published together, put the most important user-visible change in the title and leave only useful details in the body.
 
+## Releases and adoption baselines
+
+Synchronization aligns the meaning and source baselines of public repositories; a release gives a reviewed state a name that remains available for later comparison. Not every synchronization needs a new release. Establishing a baseline after meaningful changes in the adoption model or operating judgments helps [long-term feedback](feedback.md) explain differences between the guide used then and the guide available now.
+
+The same release name in the Korean and English repositories denotes shared knowledge reviewed against the same dev baseline. Each keeps its own Git history and commits, with synchronization records connecting source and published content. If only one has been published, do not report the shared release as complete. Moving a published tag changes the meaning referenced by earlier users, so corrections belong in subsequent changes.
+
+A release is a convenient publication baseline, but it does not precisely identify the guidance used by targets that adopted it between releases. Checking the actual public repository, commit, and adoption scope makes past choices easier to interpret. Naming and reference-recording practices belong in the [version guide](../versions/README.md); distinguish the official OKF specification version from the lab release sequence.
+
 ## Changes flowing back from an edition
 
 When [feedback](feedback.md) or a direct edition edit reveals an improvement to shared knowledge, reflect it in the relevant dev concept before distributing it again as needed. Language-specific wording problems may be solved within that edition. Do not overwrite direct edition changes without comparison or allow the same knowledge to split into independently maintained [sources of truth](source-of-truth.md).
+
+The [application-guide link improvement](https://github.com/muffinbox/okf-lab-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca) on 2026-09-20 is a concrete example. A check comparing file destinations across languages exposed a link to the internalization concept that existed only in the English text. Review found it useful in context, so it was incorporated into dev and the Korean text as well. This demonstrates the process of reviewing a difference and returning it to shared knowledge; it does not establish effectiveness in other domains.

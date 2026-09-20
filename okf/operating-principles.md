@@ -12,6 +12,12 @@ Baseline: [Open Knowledge Format official specification](https://github.com/Goog
 
 Use OKF to internalize curated knowledge as concepts and relationships. Do not reduce it to a simple document index or a list of source-material locations.
 
+## Bundle location
+
+OKF is a knowledge representation format and does not prescribe a directory name for bundles. The [official specification's bundle structure](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md#3-bundle-structure) permits a bundle to occupy a whole repository or a subdirectory of a larger one. `okf/` is neither a required name nor an officially recommended standard, and its use here should not be generalized into an established convention across the ecosystem.
+
+This repository studies OKF itself and uses `okf/` to distinguish adopted knowledge from research material, templates, and tools. The roles below are choices made for this repository. [Choose](adoption.md) a different target's bundle location and name according to its purpose and existing structure.
+
 | Location | Role |
 | --- | --- |
 | `okf/` | Concept meaning, boundaries, rules, relationships, and the context needed for judgment |

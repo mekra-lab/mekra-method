@@ -16,6 +16,8 @@ Keep responsibility for changing a fact or rule in one source of truth. When ano
 
 A source of truth may be an OKF document, a policy source, code, configuration, schema, or an external document.
 
+Restating the context each concept needs is a choice intended to reduce the burden of reconstructing meaning from several sources while reading. It also creates the cost of finding and updating related restatements when the source of truth changes. Judge this balance by its usefulness for understanding and its maintenance cost during change, rather than the amount of duplicated text.
+
 ## Decision criteria
 
 - Is it clear where the fact is defined and changed?

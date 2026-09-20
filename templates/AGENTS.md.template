@@ -1,10 +1,10 @@
 ## OKF knowledge operation
 
-This section applies to authoring and updating knowledge under `okf/`, and to reflecting changes in other material or implementation back into related knowledge. Define repository-wide development, execution, and deployment instructions separately.
+This section applies to authoring and updating knowledge in this repository's OKF bundle, and to reflecting changes in other material or implementation back into related knowledge. Define repository-wide development, execution, and deployment instructions separately.
 
 For OKF knowledge operation, prioritize the agent's autonomous judgment. The principles below are starting points and may be applied differently depending on purpose and context.
 
-- Put concept meaning, boundaries, rules, relationships, and context needed for judgment in `okf/`.
+- Put concept meaning, boundaries, rules, relationships, and context needed for judgment in the OKF bundle.
 - Keep responsibility for defining and changing facts and rules in clear sources of truth, while also reflecting context needed to understand them in related concepts.
 - Do not mechanically remove duplicated context. What should be avoided is independent ownership of the same fact; distributing context does not mean distributing change responsibility.
 - When knowledge or implementation changes, use the source of truth as the baseline and also update related concepts whose meaning changes.
@@ -12,7 +12,7 @@ For OKF knowledge operation, prioritize the agent's autonomous judgment. The pri
 
 ### Repository-specific OKF choices
 
-<!-- When needed, record or link choices required for this repository's knowledge operation: target bundle, source-of-truth boundaries, where source material or new knowledge enters, remaining transition scope and triggers, and similar repository-specific decisions. Remove this item if none are needed. -->
+<!-- When needed, record or link choices required for this repository's knowledge operation: actual bundle location and entry point, source-of-truth boundaries, where source material or new knowledge enters, remaining transition scope and triggers, and similar repository-specific decisions. Remove this item if none are needed. -->
 
 ## Repository operating preferences
 

@@ -22,6 +22,8 @@ Keep repository instructions focused on purpose and repository-specific choices.
 
 Autonomous judgment depends on sufficient knowledge. Even when instructions are brief, the body should [internalize](knowledge-internalization.md) enough reasons, conditions, and relationships for judgment. Omitting domain facts or repository-specific context that the agent does not already know is not the intent of this principle.
 
+The ability to interpret context is distinct from the process of finding and reading the context needed. An agent may understand one concept well yet fail to discover another affected concept. Reliable autonomous judgment depends on the evidence and context actually explored as well as reasoning ability; [context propagation](context-propagation.md) must account for these limits of discovery.
+
 Requiring a separate deviation record every time a principle is applied differently can spend more effort on reporting and classification than on judgment. Whether a reusable decision should be reflected back into knowledge or principles is itself context-dependent. Autonomy means discretion in interpretation and working method; it does not mean authority to arbitrarily alter [sources of truth and evidence](source-of-truth.md) and turn them into facts.
 
 The same principle carries into [adoption judgment](adoption.md). Work types, scope categories, suggested questions, and procedures are defaults that support judgment. Understand the target and user intent first, then omit, combine, or adapt them as needed, and do not ask again about choices that have already been delegated. Even when the user delegates judgment, leave the actual decisions and usage instructions needed for later operation.

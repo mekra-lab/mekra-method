@@ -28,4 +28,6 @@ The [source of truth](source-of-truth.md) is the starting point for a change, wh
 
 Natural-language relationships and restatement help preserve the context each concept needs, but they do not guarantee that every semantic dependency can be tracked explicitly. When a source of truth or related knowledge changes, some concepts may therefore retain outdated meaning or decision criteria.
 
-The actual frequency and conditions of this risk, and the appropriate methods for detecting it, are not yet settled. If the problem is repeatedly observed or a response is validated, use results from notes and experiments to incorporate a separate principle or pattern.
+As scale makes affected context harder to find, search or backlinks can help narrow the candidates for review. A candidate list supports semantic judgment; its existence or completed review does not prove that every impact has been found. Decide whether to introduce tools based on actual discovery effort and patterns of omission.
+
+The actual frequency and conditions of this risk, and the appropriate methods for detecting it, are not yet settled. Use [operational observations](feedback.md) to examine outdated judgments left after changes and the cost of finding and correcting them. If the problem is repeatedly observed or a response is validated, use results from notes and experiments to incorporate a separate principle or pattern.

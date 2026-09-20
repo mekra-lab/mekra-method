@@ -18,7 +18,7 @@ A facet does not preselect directory layout, file placement, work sequence, or i
 
 The role of a facet is not to redefine general OKF knowledge, but to connect a particular environment with the knowledge and judgment questions that become especially important there.
 
-## When considering a new facet
+## Creating and maintaining facets
 
 When a new property or use case appears, distinguish among these questions.
 
@@ -29,6 +29,8 @@ When a new property or use case appears, distinguish among these questions.
 5. Would the facet be taking ownership of knowledge already explained well enough by a general OKF concept?
 
 Do not create facets just to fill out the space of possible cases. Even an observable property should remain a facet only when it provides practical value by connecting the target to relevant OKF judgment.
+
+Evaluate an existing facet by what difference reading it makes to discovery or judgment. If it merely repeats summaries of linked concepts without adding distinct judgment value, it can be integrated into those concepts or its discovery path simplified.
 
 ## Expression and structure
 

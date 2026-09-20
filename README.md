@@ -28,11 +28,11 @@ In this balance, a domain is internalized not as one complete document but throu
 | Location | Role |
 | --- | --- |
 | [`APPLICATION.md`](APPLICATION.md) | Target exploration, adoption judgment and questions, implementation, and operational handoff |
-| [`FEEDBACK.md`](FEEDBACK.md) | Selecting reusable adoption experiences, drafting feedback, and submitting it |
+| [`FEEDBACK.md`](FEEDBACK.md) | Investigating adoption and long-term operating experience, drafting feedback, and submitting it |
 | [`okf/`](okf/index.md) | Understanding of OKF, operating philosophy, reusable patterns, and conceptual relationships |
 | [`facets/`](facets/README.md) | Thin lenses for finding important judgment from properties of the target |
 | [`templates/`](templates/README.md) | Minimal scaffolding to copy into a project and adapt to its context |
-| [`versions/`](versions/README.md) | OKF version baselines, impact analysis, and migration records |
+| [`versions/`](versions/README.md) | OKF version baselines, lab releases and actual reference points, and migration records |
 | [`experiments/`](experiments/README.md) | Hypotheses and methods under validation |
 | [`notes/`](notes/README.md) | Observations and reflections not yet consolidated |
 
@@ -67,9 +67,15 @@ Public material is updated according to [publication scope and language responsi
 
 Adopted reasoning belongs in `okf/`; `facets/` helps locate relevant judgment; `templates/` provides optional application scaffolding. `notes/` and `experiments/` contain research material, and unadopted content is not a default basis for application. Observations from real use can be reflected back into related concepts and application materials when they prove reusable.
 
-Guide limitations and reusable improvements discovered during adoption can return as [feedback](FEEDBACK.md). An agent can generalize the context and draft it; ordinary applications do not require a separate report.
+Guide limitations and reusable improvements discovered during adoption can return as [feedback](FEEDBACK.md). After actual use, you can ask in the target repository:
+
+> Review our experience with https://github.com/muffinbox/okf-lab and draft feedback.
+
+The agent examines the target repository, relevant history, and the guide consulted to produce a shareable draft. Investigation and drafting start with the [feedback guide](FEEDBACK.md); external transmission stays within the scope delegated by the user. Ordinary applications do not require a separate report.
 
 ## Current baseline
 
 - Recommended baseline: **OKF v0.2**
 - Verification date and specification baseline: [`versions/current.md`](versions/current.md)
+
+The public repositories' `main` branches contain the latest adopted guidance, while releases provide fixed baselines for comparison and reproduction. Lab releases use the name `okf-<spec-version>-lab-<sequence>`. See the [version guide](versions/README.md) for what the name means and how to record the commit actually used during adoption.

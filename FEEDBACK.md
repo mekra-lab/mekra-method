@@ -1,6 +1,6 @@
 # Feedback guide
 
-Experience from real application can help improve okf-lab guidance and patterns. Feedback is optional; application and operational handoff are complete even when nothing is sent. The reasoning is in [feedback from adoption](okf/feedback.md).
+Experience during adoption and subsequent real operation can help improve okf-lab guidance and patterns. Feedback is optional; application and operational handoff are complete even when nothing is sent. The reasoning is in [feedback from adoption](okf/feedback.md).
 
 ## When to recommend it
 
@@ -12,16 +12,30 @@ An operational handoff can add something like:
 
 > This application exposed a case where two sources of truth were valid under different conditions, and the current guide did not make the judgment clear. That may be useful for improving the guide. If you want, I can draft a shareable feedback report.
 
+## Looking back after use
+
+In the repository where you use the guide, you can ask your agent:
+
+> `Review our experience with https://github.com/muffinbox/okf-lab and draft feedback.`
+
+Use the URL or name of the repository whose guidance you consulted. The agent examines the target repository and that guide, investigates the conditions under which the guide helped or fell short in real operation, and presents a shareable draft. Choose the investigation's depth and structure to fit its purpose and available material. This request alone does not authorize external transmission; if the content and destination have already been delegated, continue within that scope.
+
+Alongside current documents, examine accessible Git history, adoption records, and operating context as needed. Useful clues include how an introduced structure was maintained, adapted, or removed; whether changes to sources of truth were reflected in related concepts; and why practices absent from the guide took hold. A different arrangement may have been more appropriate in practice, so do not score compliance. Discoveries made during adoption and later retrospectives need not be split into separate modes or fixed schedules.
+
+Where possible, identify the repository, commit, or release actually consulted and compare it with the current guide. Distinguish limitations that have since been addressed from problems that remain. If the baseline cannot be found, leave it unverified; similar wording alone does not establish that a particular release was adopted. The [specification, release, and reference commit](versions/README.md) are distinct baselines.
+
+Git history shows what changed, but does not fully explain how often documents were read or why they changed. A long period without edits does not by itself imply neglect, nor do repeated revisions or deletions necessarily mean failure. Supplement the history with existing operating records or the user's explanation when needed, and distinguish confirmed changes from interpretations of their causes. Even with limited history, a draft can draw on observations supported by current material.
+
 ## What to include
 
-Draft from context the agent already understands; the user should not have to fill out a survey again. Select the items that materially support judgment and keep them concise.
+Draft from context gathered during the investigation; the user should not have to fill out a survey again. Select the items that materially support judgment and explain them at the depth needed.
 
 - Application context: request, target character and scale, relevant facets, work and scope, and the guide or baseline used.
 - Observation: what was useful, what explanation did not fit, and what actually happened.
 - Response and limitations: what was adapted, whether it helped, and what remains unverified.
 - Possible improvement: related documents, clarification that may help, and questions worth checking in other contexts.
 
-No fixed form or score is required. Distinguish observed facts from guesses about cause and from proposals. When available, include the okf-lab commit or document consulted and the target OKF specification version so different baselines are not confused.
+No fixed form or score is required. Distinguish observed facts from guesses about cause and from proposals. When verifiable, include the period and scope examined, the okf-lab repository and commit or release consulted, and the target OKF specification version so different baselines are not confused. If there are no usage records or no improvements were identified, explain that limitation; do not invent effects or problems merely to have something to report.
 
 Generalize the draft to preserve only relationships and conditions needed for judgment. Do not copy company, customer, or personally identifying information, private-repository URLs, original documents, code, or logs directly. Apply the same standard to email. If generalization cannot preserve the meaning of the case, external submission can be skipped.
 
