@@ -69,7 +69,7 @@ Adopted reasoning belongs in `okf/`; `facets/` helps locate relevant judgment; `
 
 Guide limitations and reusable improvements discovered during adoption can return as [feedback](FEEDBACK.md). After actual use, you can ask in the target repository:
 
-> Review our experience with https://github.com/muffinbox/okf-lab and draft feedback.
+> `Review our experience using okf-lab in this repository and draft feedback for https://github.com/muffinbox/okf-lab.`
 
 The agent examines the target repository, relevant history, and the guide consulted to produce a shareable draft. Investigation and drafting start with the [feedback guide](FEEDBACK.md); external transmission stays within the scope delegated by the user. Ordinary applications do not require a separate report.
 

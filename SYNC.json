@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "960810789edc5adf9035246fe61c91d35692b043",
+  "source_commit": "e79ec7fbc8943939953257a1950ed7bbdec0a6c5",
   "manifest_sha256": "fe488fb6308bbbd37f34a3df69cbd2ae611cee92c453c1395425dfb4d5a686af",
-  "reviewed_at": "2026-09-20T06:18:06.7709251Z",
+  "reviewed_at": "2026-09-20T06:37:19.7644007Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,8 +12,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "95c3eeb011aeaa7d15eda22a8b502eae6009f0759b63e7c7b948f873a861390e",
-      "target_sha256": "6118443414da3b85f17cd1b7c0892ddfa56ba137bc3869481374ef34773ff0fe"
+      "source_sha256": "e1fe92357a3941f04e6432bb13c1b04d833af2511c87d7ca40a364af7a149dc6",
+      "target_sha256": "9cc5650589d8b86c67fa05e5f5b6446556e5645be7ca9f5358fab4129e64941c"
     },
     {
       "path": "APPLICATION.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "FEEDBACK.md",
-      "source_sha256": "6e4004de354e26e813d5501eda8b7143cf5d7ac454eb4d64262d6ffe00046613",
-      "target_sha256": "791074e95ba961c409e8ca4c3ea4dd8c6c853f43c45ae62058f24a72f94dd30a"
+      "source_sha256": "c8c21ef693960a54757055e6c4648839092cc07d87b70eff5b8de5b4624a8892",
+      "target_sha256": "7f7ede14f6f77c49123afef19de204d966bcc0e0047417f1ea7d2915f8042c39"
     },
     {
       "path": "okf/index.md",

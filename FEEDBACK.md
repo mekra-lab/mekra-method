@@ -16,7 +16,7 @@ An operational handoff can add something like:
 
 In the repository where you use the guide, you can ask your agent:
 
-> `Review our experience with https://github.com/muffinbox/okf-lab and draft feedback.`
+> `Review our experience using okf-lab in this repository and draft feedback for https://github.com/muffinbox/okf-lab.`
 
 Use the URL or name of the repository whose guidance you consulted. The agent examines the target repository and that guide, investigates the conditions under which the guide helped or fell short in real operation, and presents a shareable draft. Choose the investigation's depth and structure to fit its purpose and available material. This request alone does not authorize external transmission; if the content and destination have already been delegated, continue within that scope.
 
@@ -62,8 +62,18 @@ Choose the route based on available tools and the user's preference. Do not judg
 
 External transmission occurs only within the scope the user requested. General delegation to apply okf-lab does not by itself authorize sending an issue or email. Present the content and destination to be sent, and for a GitHub Issue make clear that it will be public. If the user has already delegated transmission of that content through that route, do not ask for the same intent again. After sending, report the issue link or actual send result; drafting alone is not a completed transmission.
 
+## Boundaries between feedback and reuse
+
+okf-lab does not require rights to the target repository, source materials, code, or logs examined to prepare feedback merely because it receives that feedback.
+
+Reviewing feedback for clues to improvement is distinct from incorporating a submitter's specific wording, code, or detailed case into published materials. Before copying, translating, or adapting such content for inclusion, check what the submission channel and the terms in effect at the time permit, and seek further clarification from the submitter when needed.
+
+General problems or ideas identified in feedback can inform the project's own explanations and knowledge. Even then, check for personally identifying information, confidential material, or protected expression belonging to others.
+
 ## How received feedback is used
 
-Ambiguity or errors raised in feedback are reviewed in the related documents. Cases without a conclusion can be connected to [notes](notes/README.md), and hypotheses needing validation to [experiments](experiments/README.md). A suggestion appearing in a public issue or email is not automatically adopted guidance; confirmed conclusions are reflected in the relevant OKF concepts, facets, and templates. When privately received material is moved into the repository, preserve its permitted sharing scope.
+Ambiguity or errors raised in feedback are reviewed in the related documents. Cases without a conclusion can be connected to [notes](notes/README.md), and hypotheses needing validation to [experiments](experiments/README.md). A suggestion appearing in a public issue or email is not automatically adopted guidance; confirmed conclusions are reflected in the relevant OKF concepts, facets, and templates.
+
+Do not copy the original text or detailed cases from privately received feedback into a public repository without separate permission to disclose them. If they are worth retaining for research, capture shareable observations and questions in notes or experiments. If the original must be retained, preserve its existing private scope and stay within the permitted uses.
 
 Keep public intake separate from storage of research cases. Detailed analysis and validation can remain in the research space, while public guidance reflects only shareable evidence and generalized conclusions. Translation or explanation problems specific to one repository can be reviewed there; improvements to shared principles or patterns should connect the necessary changes across published repositories. Public issues should link only to publishable outcomes and changed documents; receiving feedback does not create authority to disclose private source material.
