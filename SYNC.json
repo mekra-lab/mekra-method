@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "04fed7696aed407de8401f80d0be0021a1cc9cf2",
+  "source_commit": "12e5edd4c3d98309a87d1f13a2c134837843d3be",
   "manifest_sha256": "fe488fb6308bbbd37f34a3df69cbd2ae611cee92c453c1395425dfb4d5a686af",
-  "reviewed_at": "2026-09-20T04:58:45.292Z",
+  "reviewed_at": "2026-09-20T05:16:27.2806822Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -17,7 +17,7 @@
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "7d65d0070cff0c86ba5879a444ab0e5855e118670582b66da1cb828983287070",
+      "source_sha256": "1da031d236dc072b320edf03603b5ea17322627e02f6e80d912a01157e5a37c9",
       "target_sha256": "5ef0f74f67c2c02c1624f89764ee52417999c17d1583f1334a19cd71ff9c86c0"
     },
     {
