@@ -14,6 +14,12 @@ Select files for publication explicitly, and reread changed content even when th
 
 The Korean edition reflects selected shared knowledge. The English edition must convey the same meaning, conditions, exceptions, and reasoning. Translation should neither add nor weaken principles. Titles, edition notes, repository URLs in examples, and repository-specific role descriptions may be adjusted for the edition. The official OKF version and a language edition's synchronization baseline are separate pieces of information.
 
+## License scope
+
+Public repositories use Apache-2.0 for files unless otherwise noted. All files under `templates/`, including its README, are provided under [CC0-1.0](../templates/LICENSE) so they can be copied, adapted, and incorporated into a target repository. Using these templates does not require okf-lab attribution or an adoption record. This exception does not extend to documents or experimental scaffolds outside `templates/`.
+
+When applying CC0 or adding content later, check the rights to that content and any third-party notices. Include `templates/LICENSE` in the publication manifest and retain the Apache-2.0 `LICENSE` at each public repository's root. The public repositories' default license does not establish a license for all of dev; licensing for dev-only `scripts/` remains undecided.
+
 ## Agent judgment and tool verification
 
 The agent compares changes since the last publication and decides whether direct edits in an edition should be preserved or folded back into shared knowledge. Following [context propagation](context-propagation.md), update related concepts, facets, and templates, then review the meaning of the English edition. Tools verify the presence of listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or publication suitability.

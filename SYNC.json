@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "e79ec7fbc8943939953257a1950ed7bbdec0a6c5",
-  "manifest_sha256": "fe488fb6308bbbd37f34a3df69cbd2ae611cee92c453c1395425dfb4d5a686af",
-  "reviewed_at": "2026-09-20T06:37:19.7644007Z",
+  "source_commit": "6f7b5c4b578f538d9bc46ecc26c600f0963d57d0",
+  "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
+  "reviewed_at": "2026-09-20T06:48:35.3776299Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,8 +12,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "e1fe92357a3941f04e6432bb13c1b04d833af2511c87d7ca40a364af7a149dc6",
-      "target_sha256": "9cc5650589d8b86c67fa05e5f5b6446556e5645be7ca9f5358fab4129e64941c"
+      "source_sha256": "009ec531cccaefbde888afa6ca0054b6e3f9be8d66885ca4793dc5d34a93d33e",
+      "target_sha256": "8400cc5118e4858938303cc24612b25fd4ef637dd5fcbf7c0d14964a501408b3"
     },
     {
       "path": "APPLICATION.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "okf/distribution.md",
-      "source_sha256": "78d26e55bf7fdfdf864453c50c703e08264b87bae88d4cab65943443d790f11a",
-      "target_sha256": "766e82328a8273e0927a4bedfcc6baab03d993899e82da0f1479aa109b65593b"
+      "source_sha256": "8ceae7fd9244525c5bc136ce6c01d371e9066abc2b4a455fbd772b45dc2819ba",
+      "target_sha256": "f23b62412b3571f35d4b46cf4f440f2e8b3f81cf192d23658d00c43072970417"
     },
     {
       "path": "facets/README.md",
@@ -116,9 +116,14 @@
       "target_sha256": "9045f52e20eb8bbdcc557ff7502d2ee354ee1b7043241fe1959175b45d900c6a"
     },
     {
+      "path": "templates/LICENSE",
+      "source_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "target_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
       "path": "templates/README.md",
-      "source_sha256": "e841a06492bdcad2dd7b929daabe1bf845d66b8a69c81e690ef916bbbbd3bfc4",
-      "target_sha256": "48f6e9ee17bc1b9a43ace14894d173957ccc5d7e3ff26a0b9df2ccbf625aea6d"
+      "source_sha256": "18eb092932cfee8182a1872002e0ee477882363ecb89e467f7d4b2d4b8a40cc4",
+      "target_sha256": "5a210614f449dbb2967bede3d8e6f4ce0a6b4192b212ad4b220681ba6ec40c2b"
     },
     {
       "path": "templates/AGENTS.md.template",

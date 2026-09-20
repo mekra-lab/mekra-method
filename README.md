@@ -79,3 +79,7 @@ The agent examines the target repository, relevant history, and the guide consul
 - Verification date and specification baseline: [`versions/current.md`](versions/current.md)
 
 The public repositories' `main` branches contain the latest adopted guidance, while releases provide fixed baselines for comparison and reproduction. Lab releases use the name `okf-<spec-version>-lab-<sequence>`. See the [version guide](versions/README.md) for what the name means and how to record the commit actually used during adoption.
+
+## License
+
+Unless otherwise noted, files are licensed under [Apache-2.0](LICENSE). All files under `templates/`, including its README, are provided under [CC0-1.0](templates/LICENSE); copied or adapted templates do not require okf-lab attribution. See the [distribution policy](okf/distribution.md#license-scope) for the scope.
