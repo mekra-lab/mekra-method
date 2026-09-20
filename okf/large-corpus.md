@@ -10,7 +10,7 @@ As a body of material grows, both the cost of turning everything into concept do
 
 Internalize recurring meaning, conditions, and judgment criteria through [knowledge internalization](knowledge-internalization.md), and connect rarely needed details to the locations that support them. Do not set the boundary solely from the number or size of source documents. Summaries and indexes may be combined or separated according to their roles.
 
-[Source material, extracted artifacts, and knowledge](external-sources.md) carry different responsibilities. Decide whether to retain extractions by considering image-based PDFs, the amount of tables and figures, searchability, reuse of extracted results, and regeneration cost. Figures or layouts that cannot be understood from text extraction alone still require reference to the original source.
+[Source material, derivatives, and knowledge](external-sources.md) carry different responsibilities. Decide whether to retain extractions by considering image-based PDFs, the amount of tables and figures, searchability, reuse of extracted results, and regeneration cost. Figures or layouts that cannot be understood from text extraction alone still require reference to the original source.
 
 Reviewing the entire collection or building an OKF and converting every source into a derived format are separate scope decisions. If full conversion would substantially change processing and review workloads, storage needs, regeneration costs, or the cost of later updates, and the choice has not already been settled by the user's delegation, explain the actual scale, expected costs, and recommended approach to clarify the user's intent.
 

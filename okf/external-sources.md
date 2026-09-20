@@ -1,7 +1,7 @@
 ---
 type: Pattern
 title: Source material and derivatives
-description: Separate the responsibilities of source material, extracted artifacts, and internalized knowledge
+description: Separate the responsibilities of source material, derivatives, and internalized knowledge
 ---
 
 # External sources
@@ -22,7 +22,7 @@ In [post-adoption usage guidance](adoption.md), connect these responsibilities t
 
 - Is this information repeatedly needed across multiple judgments?
 - Can the core concept only be understood by rereading the source material?
-- Is the cost or loss involved in regenerating the extraction greater than the cost of preserving it?
+- Is the cost or loss involved in regenerating the derivative greater than the cost of preserving it?
 - Can an internalized conclusion be traced back to its source material?
 
 Decide what knowledge to bring in from source material based on the reuse value of [internalization](knowledge-internalization.md). Applying this boundary to large bodies of material is described in [knowledge organization for large corpora](large-corpus.md).

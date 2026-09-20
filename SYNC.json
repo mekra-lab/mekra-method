@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "096c8f387cefacc4c8e33d43e1d54f49776f6568",
+  "source_commit": "0512252834a008dc35acb36fc5c7369b33ca0c1f",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-20T07:09:54.4504481Z",
+  "reviewed_at": "2026-09-20T07:16:34.2855946Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "okf/index.md",
-      "source_sha256": "b594ce3ec648e87d9957a11f6ffb86394267eeaa660d01cd97040ba91b8b1418",
-      "target_sha256": "10bcec751ceac977fe363f026d55d214b952331c67d6ea475b833316de686e67"
+      "source_sha256": "4c2ebbefc9f11f67aa8fbccedc05101f6ffe101f9a6c0697c0a0ee391ff5d888",
+      "target_sha256": "aee684e74723968b879a64cfee2b7df6653888c2db4ac067f86e3873b3204d26"
     },
     {
       "path": "okf/operating-principles.md",
@@ -57,8 +57,8 @@
     },
     {
       "path": "okf/external-sources.md",
-      "source_sha256": "48df2bbe1b2d43a8d548b46a00587e73d4471b956c412a52afb5644cbe9e52c3",
-      "target_sha256": "5e9ebbbb0adae94863d253d8777f333389d6fa08461270fb8c3ec1319e49d52f"
+      "source_sha256": "f9d1ccb27b4928afdbf895eead5bea1d97caf5acd6ad11e39a7687656c9b6835",
+      "target_sha256": "b01b3ae15a3c934c34a6487927681be61d756489cd77d3939084834b0adc928a"
     },
     {
       "path": "okf/disclosure-boundary.md",
@@ -72,8 +72,8 @@
     },
     {
       "path": "okf/large-corpus.md",
-      "source_sha256": "e5d66abc86370bce077ea0b3031e35792aee94179fb21c874e11695dde6b2634",
-      "target_sha256": "3bcbcbe69a161b724b4b54e2ea910e9e434df30530804148de6af322ed0673e5"
+      "source_sha256": "77395967f425b7b6102978784a56e82a066fd9681b5a0b81604c1bc6005a6380",
+      "target_sha256": "a03122f4a5ba01dbb77fb1189ecc1fe66d0b82ec4e6e427b7f3f50e5f151e7e0"
     },
     {
       "path": "okf/adoption.md",

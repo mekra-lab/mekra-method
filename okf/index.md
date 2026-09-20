@@ -18,7 +18,7 @@ The core perspective is a balance: concentrate definition and change responsibil
 
 - [Source of truth and context](source-of-truth.md) - centralize change responsibility while preserving necessary restatement.
 - [Context propagation](context-propagation.md) - update concepts whose meaning changes.
-- [Source material and derived artifacts](external-sources.md) - separate the responsibilities of source material, extracted artifacts, and internalized knowledge.
+- [Source material and derivatives](external-sources.md) - separate the responsibilities of source material, derivatives, and internalized knowledge.
 - [Boundary between information access and external disclosure](disclosure-boundary.md) - distinguish information usable for internal judgment from authority to disclose or transmit it externally.
 - [Knowledge organization for large corpora](large-corpus.md) - combine core knowledge with summaries and discovery paths.
 - [Role and boundaries of facets](facet-boundaries.md) - use facets as thin lenses on properties of the target rather than presets or a duplicate knowledge layer.
