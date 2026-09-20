@@ -1,55 +1,55 @@
 # Feedback guide
 
-Experience from adoption can help improve okf-lab's guides and patterns. Feedback is optional: application and operational handoff can be complete without submitting it. See [learning from adoption feedback](okf/feedback.md) for the reasoning.
+Experience from real application can help improve okf-lab guidance and patterns. Feedback is optional; application and operational handoff are complete even when nothing is sent. The reasoning is in [feedback from adoption](okf/feedback.md).
 
-## When to recommend feedback
+## When to recommend it
 
-Consider how useful and suitable the guide was, and briefly recommend feedback when a discovery could help other applications. Examples include cases existing profiles cannot explain, conflicting principles or unclear boundaries, repeated template conflicts, problems with the default scope, and simpler or more effective methods. Explaining what helped and under which conditions can also support improvements.
+Recommend brief feedback when reviewing usefulness and fit reveals something that may help other applications. Examples include a case that existing facets and OKF knowledge do not explain well, conflicting principles or unclear boundaries, recurring template friction, problems caused by a default scope, or a simpler and more effective approach. Knowing what worked and under which conditions can also be useful evidence.
 
-Autonomous adaptation alone does not require a report. Keeping an existing `sources/` directory or reviewing a small repository all at once are already supported choices. Even a substantial adaptation may have little reporting value if the current guide explains it well; a small recurring ambiguity may be worth reporting. Skip feedback requests and "nothing unusual" reports for ordinary applications.
+Autonomous adaptation alone does not need to be reported. Keeping an existing `sources/` directory or reviewing a small repository in one pass are already allowed choices. Even a large adaptation may have little reporting value if current guidance explains it well, while a small ambiguity may matter if it repeats. In ordinary applications, omit a feedback request and do not ask for a "nothing unusual" report.
 
-An operational handoff might include:
+An operational handoff can add something like:
 
-> In this application, two canonical sources were valid under different conditions, and the existing guidance did not make the decision clear. Feedback could help improve the guide. If you want, I can prepare a draft containing information suitable for sharing.
+> This application exposed a case where two sources of truth were valid under different conditions, and the current guide did not make the judgment clear. That may be useful for improving the guide. If you want, I can draft a shareable feedback report.
 
 ## What to include
 
-The agent drafts from context it already understands; the user should not have to fill out another survey. Select the information that helps judgment and explain it briefly:
+Draft from context the agent already understands; the user should not have to fill out a survey again. Select the items that materially support judgment and keep them concise.
 
-- Application context: the request, target purpose and scale, chosen profile, operation and scope, and the guidance or baseline used.
-- Observations: what helped, which explanation did not fit, and what actually happened.
-- Response and limitations: how the approach was adapted, its effect, and what remains unverified.
-- Potential improvements: relevant documents, explanations to improve, and questions worth examining in other settings.
+- Application context: request, target character and scale, relevant facets, work and scope, and the guide or baseline used.
+- Observation: what was useful, what explanation did not fit, and what actually happened.
+- Response and limitations: what was adapted, whether it helped, and what remains unverified.
+- Possible improvement: related documents, clarification that may help, and questions worth checking in other contexts.
 
-No fixed form or score is required. Distinguish observations from hypotheses about causes and from proposals. When available, identify the okf-lab commit or document used and the target OKF specification version so different baselines are not confused.
+No fixed form or score is required. Distinguish observed facts from guesses about cause and from proposals. When available, include the okf-lab commit or document consulted and the target OKF specification version so different baselines are not confused.
 
-Generalize the draft to preserve only the relationships and conditions needed for judgment. Do not copy identifying company, customer, or personal information, private repository URLs, original documents, code, or logs verbatim. Apply the same standard to email. If generalization cannot preserve the meaning of the case, public submission can be skipped.
+Generalize the draft to preserve only relationships and conditions needed for judgment. Do not copy company, customer, or personally identifying information, private-repository URLs, original documents, code, or logs directly. Apply the same standard to email. If generalization cannot preserve the meaning of the case, external submission can be skipped.
 
 ## How to send it
 
-Submit public feedback to the repository of the edition you used.
+Public feedback should go to the repository whose guidance was used.
 
-| Edition used | Feedback destination |
+| Guidance used | Feedback destination |
 | --- | --- |
-| Korean edition, `okf-lab-kr` | [Existing issues](https://github.com/muffinbox/okf-lab-kr/issues) · [Create an issue](https://github.com/muffinbox/okf-lab-kr/issues/new) |
-| Global English edition, `okf-lab` | [Existing issues](https://github.com/muffinbox/okf-lab/issues) · [Create an issue](https://github.com/muffinbox/okf-lab/issues/new) |
+| `okf-lab-kr` | [existing issues](https://github.com/muffinbox/okf-lab-kr/issues) · [new issue](https://github.com/muffinbox/okf-lab-kr/issues/new) |
+| `okf-lab` | [existing issues](https://github.com/muffinbox/okf-lab/issues) · [new issue](https://github.com/muffinbox/okf-lab/issues/new) |
 
-Issues shared by both editions need only be reported once. Connect to an existing discussion where appropriate; do not require duplicate submissions or translations for the other edition. Feedback does not require access to the research repository, `okf-lab-dev`.
+A problem shared by both repositories only needs to be reported once. If relevant discussion already exists, connect to that issue instead of submitting duplicate reports or asking the user to translate and submit the same content twice. Access to the private research repository `okf-lab-dev` is not required for submitting feedback.
 
-Both editions accept email at [muffinboxapps@gmail.com](mailto:muffinboxapps@gmail.com). Use email when a public issue is unsuitable or GitHub submission is inconvenient. The agent can prepare a subject and body for the user to send from their usual email application.
+Email for either repository can be sent to [muffinboxapps@gmail.com](mailto:muffinboxapps@gmail.com). It can be used when a public issue is unsuitable or GitHub submission is inconvenient. The agent can prepare the subject and body for the user to send from their usual email client.
 
-Choose a route based on available tools and user preference at submission time. GitHub CLI installation alone does not determine whether submission is possible; consider authenticated tools or a browser as well. Do not require new tools or a new login just to provide feedback.
+Choose the route based on available tools and the user's preference. Do not judge submission capability only from whether GitHub CLI is installed; an authenticated tool or browser may also be available. Do not require installation of a new tool or a new login solely for feedback.
 
 | Route | How to use it |
 | --- | --- |
-| GitHub Issue | If public sharing is appropriate and an authenticated writing tool is available, prepare a title and body and submit them. Connect to an existing related issue instead of duplicating it. |
-| Email | Prepare a subject and body for the shared address above. A connected email tool can also be used when the user requests sending. |
-| Skip submission | If no route is available or submission is burdensome, provide only a draft or skip feedback. Application can still be completed. |
+| GitHub Issue | When public sharing is appropriate and an authenticated write path is available, draft and submit a title and body. If a related issue already exists, connect to that discussion rather than opening a duplicate. |
+| Email | Prepare a subject and body for the shared address above. If an email tool is connected and transmission has been requested, it may be used. |
+| Skip transmission | If no convenient route exists, provide the draft only or omit feedback. Application work can still be completed. |
 
-Send externally only within the user's request. Delegation to apply the guide autonomously does not by itself authorize sending issues or email. Present the content and destination, explaining that a GitHub Issue is public. If the user already delegated sending that content through that route, do not reconfirm the same intent. After sending, provide the issue link or actual delivery result; do not report a draft as submitted.
+External transmission occurs only within the scope the user requested. General delegation to apply okf-lab does not by itself authorize sending an issue or email. Present the content and destination to be sent, and for a GitHub Issue make clear that it will be public. If the user has already delegated transmission of that content through that route, do not ask for the same intent again. After sending, report the issue link or actual send result; drafting alone is not a completed transmission.
 
-## Using received feedback
+## How received feedback is used
 
-Review reported ambiguity or errors in the relevant documents. Connect unresolved cases to [notes](notes/README.md) and hypotheses requiring validation to [experiments](experiments/README.md). A proposal in an issue or email is not automatically adopted guidance. Reflect confirmed conclusions in related OKF concepts, profiles, and templates. Respect the permitted sharing scope when moving privately received information into a repository.
+Ambiguity or errors raised in feedback are reviewed in the related documents. Cases without a conclusion can be connected to [notes](notes/README.md), and hypotheses needing validation to [experiments](experiments/README.md). A suggestion appearing in a public issue or email is not automatically adopted guidance; confirmed conclusions are reflected in the relevant OKF concepts, facets, and templates. When privately received material is moved into the repository, preserve its permitted sharing scope.
 
-Separate public intake from preservation of research cases. Analyze and validate detailed cases in the research space, and reflect shareable evidence and generalized conclusions in public distribution documents. Review translation or edition-specific wording in that edition, and connect improvements to common principles or patterns to the changes needed in both editions. Link public outcomes and changed documents back to the issue. Receiving feedback does not itself grant permission to publish private source material.
+Keep public intake separate from storage of research cases. Detailed analysis and validation can remain in the research space, while public guidance reflects only shareable evidence and generalized conclusions. Translation or explanation problems specific to one repository can be reviewed there; improvements to shared principles or patterns should connect the necessary changes across published repositories. Public issues should link only to publishable outcomes and changed documents; receiving feedback does not create authority to disclose private source material.

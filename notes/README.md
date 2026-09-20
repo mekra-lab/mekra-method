@@ -1,11 +1,16 @@
 # Notes
 
-Temporary space for observations, questions, and reflections that have not yet reached a conclusion.
+A temporary place for observations, questions, and reflections that have not yet reached a conclusion.
 
-- Keep one central question or idea per document.
-- When recording external facts, include the source and verification date.
-- Move adopted conclusions into the relevant `okf/` concept or profile/version document, leaving only the decision outcome or links in the note.
+- Keep one central question or idea in each document.
+- When recording an external fact, preserve its source and verification date.
+- Move adopted conclusions into the relevant concept under `okf/` or into an appropriate facet or version document, leaving only the decision result or link in the note.
 
-Content under `notes/` is not considered current operating guidance.
+Content under `notes/` is not treated as current operating guidance.
 
-Unresolved cases from [adoption feedback](../okf/feedback.md) can also be explored here. Distinguish observed facts from interpretations and retain shareable context and the feedback source. When an experiment becomes necessary, connect the question to experiments.
+Cases not yet explained by [adoption feedback](../okf/feedback.md) may also be explored here. Distinguish observed facts from interpretation, and preserve shareable context and the origin of feedback. If an experiment becomes necessary, link the question to be tested into `experiments/`.
+
+## Ongoing inquiries
+
+- [Knowledge properties revealed by personal context](personal-context-knowledge-properties.md) - explores missing external sources of truth, temporal validity, disclosure boundaries, and withdrawal or deletion effects through personal context.
+- [Facet perspectives and boundaries](facet-perspectives.md) - explores how facets can add real judgment value without duplicating general OKF knowledge.

@@ -1,15 +1,19 @@
 # Experiments
 
-A space for validating methods that have not yet been generalized against real materials.
+A space for testing methods that have not yet been generalized against real material.
 
 Each experiment should record at least:
 
-- the question or hypothesis
-- the materials and conditions used
-- the method
+- a question or hypothesis
+- material and conditions used
+- method
 - observed results and limitations
-- the next decision: stop, repeat, or consider for a pattern/profile
+- next judgment: stop, repeat, or consider a pattern/facet candidate
 
-Do not promote a single successful example directly into a principle. When a method is reproduced in other contexts or shows a clear operational benefit, reflect it in the relevant concepts under [`okf/`](../okf/index.md) and in the appropriate profile.
+Do not promote a one-off success directly into a principle. Reflect it in the relevant [`okf/`](../okf/index.md) concept or [facet](../facets/README.md) only when it reproduces in other contexts or provides a clear operating benefit.
 
-[Adoption feedback](../okf/feedback.md) can provide hypotheses for comparison or reproduction. Distinguish reported results from experimentally confirmed results, and reflect confirmed conditions and limitations in related concepts and application materials.
+[Adoption feedback](../okf/feedback.md) may provide a starting point for a hypothesis to compare or reproduce. Distinguish reported results from experimentally verified results, and reflect confirmed conditions and limits into related concepts and application materials.
+
+## Ongoing experiments
+
+- [Personal context](personal-context/README.md) - tests in a minimal structure whether the Knowledge-centered perspective and general OKF principles sufficiently explain personal context.

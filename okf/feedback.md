@@ -1,31 +1,31 @@
 ---
 type: Concept
-title: Learning from adoption feedback
-description: Select reusable observations from adoption experience and connect them to research and improvements in operational knowledge
+title: Feedback from adoption
+description: Select reusable observations from adoption experience and feed them back into research and operating knowledge
 ---
 
-# Learning from adoption feedback
+# Feedback from adoption
 
-Applying okf-lab's guidance to real targets reveals its usefulness and limitations. Returning that experience to research connects observation, validation, [internalization](knowledge-internalization.md), and application. This is our operating approach; submitting feedback is neither an OKF format requirement nor a condition for completing adoption.
+The usefulness and limits of okf-lab guidance become visible when it is applied to real targets. Feeding adoption experience back into research creates a loop of observation, validation, [internalization](knowledge-internalization.md), and application. This is an internal operating practice; submitting feedback is neither an OKF format requirement nor a condition for completing adoption.
 
-## Judging reporting value
+## Judging what is worth reporting
 
-Useful feedback reveals the conditions in which the guide helped or was insufficient. It can cover both user experience and new patterns without requiring a separate category. Application context, reasons for choices, observed results, and limitations make it possible to judge relevance to other targets.
+Good feedback reveals the conditions under which the guide was useful or insufficient. It may describe user experience or the discovery of a new pattern, and does not require a separate feedback type. Context of application, reasons for choices, observed results, and limitations are what make an experience reusable.
 
-Adaptation through [autonomous judgment](agent-autonomy.md) is normal. Retaining a source-material directory or fully reviewing a small bundle does not require a deviation report. Consider unexplained conditions, recurring conflicts, unexpected results, or reusable improvements rather than the size of the adaptation. Reporting every ordinary success increases review cost and user burden.
+Adaptation through [autonomous judgment](agent-autonomy.md) is normal application. Keeping an existing source folder or reviewing a small bundle in full does not by itself require a deviation report. Look not at the size of the variation, but at conditions existing knowledge does not explain well, recurring conflicts, results that change expectations, or improvements that would be reusable. Requiring a report for every ordinary success increases review cost and user burden.
 
-## The boundary between handoff and submission
+## Operational handoff and the boundary of transmission
 
-[Operational handoff](adoption.md) leaves a way to keep using the target repository. Feedback is an optional follow-up that returns experience to research. Recommend it with a reason when a useful discovery exists, but do not delay application completion until the user responds or submits it.
+[Operational handoff](adoption.md) leaves the target repository in a state where it can continue to be used. Feedback is an optional follow-up that returns experience to research. When a useful discovery exists, recommend feedback with the reason, but do not delay completion until the user responds or sends it.
 
-The agent can draft using the context it already knows, generalizing identifying internal details while preserving relevant meaning and conditions. Discretion to judge feedback value and authority to send externally are separate. Use available channels according to the user's intent to send, avoiding the burden of requiring new accounts or tools. The [feedback guide](../FEEDBACK.md) describes drafting and submission.
+The agent can draft from the application context it already knows and generalize identifying internal details while preserving the meaning and conditions worth sharing. Discretion to judge feedback value and authority to send it externally are separated according to the [disclosure boundary](disclosure-boundary.md). Use an available route according to the user's intent to transmit, and avoid imposing the burden of creating a new account or tool. Concrete drafting and submission guidance lives in the [feedback guide](../FEEDBACK.md).
 
-The public distribution space lets users leave feedback connected to the guide they used; the research space is where cases are analyzed and validated. Intake should not require expanding access to research cases. Handle privately received material within its permitted sharing scope, selecting generalized conclusions and shareable evidence when adopting public knowledge.
+Public distribution spaces are intake points where users can connect feedback to the guide they used; the research space is where cases are analyzed and validated. The intake path does not require widening access to research cases. Privately received material stays within its sharing scope, and public adoption should use generalized conclusions and selectively public evidence.
 
-For multilingual distribution, accept feedback where the user encountered the guide without requiring duplicate or translated submissions. Distinguish translation or explanation issues in a particular edition from issues with common principles. Reflect adopted common conclusions in relevant editions and connect the outcome to the original issue. Language-specific intake channels should not become separate sources of conflicting operating principles.
+With multiple language editions, receive feedback in the edition the user actually used. Do not require the same discovery to be resubmitted or translated into another edition. Distinguish translation or explanation problems from shared-principle problems. Shared conclusions adopted in research should be reflected in the relevant editions, and outcomes can be linked back to the received issue. Language-specific intake points should not become independent sources of truth for operating principles.
 
 ## From experience to adopted knowledge
 
-One success or failure cannot establish that a whole principle is valid or wrong. Distinguish insufficient explanation, an exception under particular conditions, and evidence for a new pattern; separate observation from interpretation. Clear errors can be fixed immediately, unresolved cases can go into [notes](../notes/README.md), and hypotheses needing reproduction or comparison can go into [experiments](../experiments/README.md).
+One successful or failed case cannot by itself prove an entire principle correct or incorrect. Distinguish inadequate guidance, an exception caused by specific conditions, and evidence of a new pattern; also distinguish observation from interpretation. Clear errors can be corrected immediately, uncertain cases can remain in [notes](../notes/README.md), and hypotheses needing reproduction or comparison belong in [experiments](../experiments/README.md).
 
-Internalize confirmed conclusions in affected concepts and [reflect their context](context-propagation.md) in profiles, templates, and application guidance. Connect decisions to the relevant concepts so feedback does not become a separate set of instructions competing with the source of truth. Preserve validated scope and limitations so later applications can use them as grounds for judgment.
+Internalize confirmed conclusions in affected concepts and [propagate the context](context-propagation.md) into facets, templates, and application guidance as needed. Do not leave the feedback document as a competing set of operating instructions. Preserve the validated scope and limitations so future applications can use the conclusion as a basis for judgment.

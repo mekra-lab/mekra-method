@@ -1,19 +1,19 @@
-## OKF knowledge operations
+## OKF knowledge operation
 
-This section applies to writing and updating knowledge under `okf/`, and to reflecting changes in other materials or implementations back into related knowledge. Define development, execution, and deployment instructions for the repository separately.
+This section applies to authoring and updating knowledge under `okf/`, and to reflecting changes in other material or implementation back into related knowledge. Define repository-wide development, execution, and deployment instructions separately.
 
-For OKF knowledge operations, prioritize the agent's autonomous judgment. The principles below are starting points for judgment and may be applied differently depending on purpose and context.
+For OKF knowledge operation, prioritize the agent's autonomous judgment. The principles below are starting points and may be applied differently depending on purpose and context.
 
 - Put concept meaning, boundaries, rules, relationships, and context needed for judgment in `okf/`.
-- Keep definition and change responsibility for facts and rules in a clear source of truth, while also reflecting necessary context in other concepts that depend on them.
-- Do not mechanically remove repeated context. Avoid independent ownership of the same fact in multiple places, and do not distribute responsibility for changing a fact merely because its context is distributed.
-- When knowledge or implementation changes, use the source of truth as the baseline and update related concepts whose meaning changes.
-- Decide the structure and writing style of knowledge documents autonomously according to the target OKF specification and repository context.
+- Keep responsibility for defining and changing facts and rules in clear sources of truth, while also reflecting context needed to understand them in related concepts.
+- Do not mechanically remove duplicated context. What should be avoided is independent ownership of the same fact; distributing context does not mean distributing change responsibility.
+- When knowledge or implementation changes, use the source of truth as the baseline and also update related concepts whose meaning changes.
+- Judge knowledge-document structure and writing style autonomously from the target OKF specification and repository context.
 
-### OKF-specific choices for this repository
+### Repository-specific OKF choices
 
-<!-- If needed, record or link repository-specific knowledge operations choices, such as the target bundle, canonical boundaries, guidance for source-material and new-knowledge intake, and remaining migration scope and triggers. Remove this section if there are none. -->
+<!-- When needed, record or link choices required for this repository's knowledge operation: target bundle, source-of-truth boundaries, where source material or new knowledge enters, remaining transition scope and triggers, and similar repository-specific decisions. Remove this item if none are needed. -->
 
 ## Repository operating preferences
 
-<!-- This section is not limited to OKF knowledge operations; it applies to follow-up work across the repository. Include it only when repository-level preferences have been agreed with the user or delegated during adoption. Examples include preferring editable Markdown sources for document-like derivatives, reflecting durable knowledge from deliverables back into OKF, using recommended defaults for unspecified choices, reviewing substantial work for reusable knowledge, and retaining evidence paths for derivative artifacts. Do not duplicate requirements already established by OKF operating principles or the selected profile. Remove this section if there are no such preferences. -->
+<!-- This section is not limited to OKF knowledge operation; it applies to later work across the repository. Record only preferences agreed with or delegated by the user at the end of adoption. Examples: prefer Markdown sources for document-like derived outputs, feed confirmed knowledge from outputs back into OKF, prefer the recommended option for unspecified choices, review durable knowledge after substantial work, and preserve traceable paths from derived outputs to their basis. Do not duplicate items already covered by OKF operating principles. Related facets are judgment lenses, not rules to copy here. Remove this section if none are needed. -->

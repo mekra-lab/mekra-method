@@ -1,25 +1,27 @@
 ---
 type: Pattern
-title: Synchronizing research and multilingual editions
-description: Align the meaning of language editions while preserving canonical ownership and publication boundaries
+title: Research and multilingual distribution
+description: Keep a shared source of truth and publication boundaries while aligning meaning across language editions
 ---
 
-# Synchronizing research and multilingual editions
+# Research and multilingual distribution
 
-`okf-lab-dev` is the source of truth for research and adopted shared knowledge. `okf-lab-kr` and `okf-lab` are the Korean and global English editions. Synchronization aligns the meaning of knowledge suitable for publication. Research source materials and internal Git history do not need to be distributed with it.
+`okf-lab-dev` is the source of truth for research and adopted shared knowledge, while `okf-lab-kr` and `okf-lab` are the Korean and global English editions. Synchronization exists to align the meaning of publishable knowledge. Research source material and internal Git history do not need to be distributed with it.
 
 ## Publication scope and language responsibilities
 
-Select published files explicitly, and review changed content for suitability even when its file is already listed. An unchanged path does not make new content publishable. General guidance in `notes/` and `experiments/` may be public, but actual cases and source materials require separate judgment. Development-only tools and records are not automatically included either.
+Select files for publication explicitly, and reread changed content even when the path is already listed. Under the [disclosure boundary](disclosure-boundary.md), a path being publishable or accessible does not imply that every new change is publishable. General guidance from `notes/` and `experiments/` may be published, while concrete cases and source material are judged separately. Research-only tools and records are not automatic distribution targets either.
 
-The Korean edition reflects selected shared knowledge. The English edition conveys the same meaning, conditions, exceptions, and reasoning. Do not introduce or weaken principles during translation. Adapt titles, language links, repository URLs in usage examples, and descriptions of the repository's own role to each edition. The official OKF version and an edition's synchronization baseline are separate information.
+The Korean edition reflects selected shared knowledge. The English edition must convey the same meaning, conditions, exceptions, and reasoning. Translation should neither add nor weaken principles. Titles, edition notes, repository URLs in examples, and repository-specific role descriptions may be adjusted for the edition. The official OKF version and a language edition's synchronization baseline are separate pieces of information.
 
 ## Agent judgment and tool verification
 
-The agent compares changes since the last synchronization and decides whether direct edits in a public edition should be retained or reflected in shared knowledge. Update related concepts, profiles, and templates according to [context propagation](context-propagation.md), and review the meaning of the English edition. Tools check listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or suitability for publication.
+The agent compares changes since the last publication and decides whether direct edits in an edition should be preserved or folded back into shared knowledge. Following [context propagation](context-propagation.md), update related concepts, facets, and templates, then review the meaning of the English edition. Tools verify the presence of listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or publication suitability.
 
-Recording the reviewed source baseline and output content fingerprints for each edition makes later source changes distinguishable from direct edits to the edition. Report partial completion accurately; do not record the entire synchronization as complete until both editions have been checked. Public repositories keep their own histories and receive only selected file changes.
+Recording the reviewed source baseline and content fingerprints for each edition makes later source changes distinguishable from direct edition edits. If only part of the work is complete, report that scope as-is; do not record the entire synchronization as complete before both editions have been checked. Public repositories keep their own histories and receive only selected file changes.
 
-## Changes returning from an edition
+Git history in an edition should explain the meaning users will see rather than the synchronization operation itself. Build commit messages by reviewing both the accumulated dev commits since the last publication and the actual edition diff, then naturally summarize the most important changes in that repository's language. Do not use titles such as `sync`, `synchronize`, or `apply distribution` that describe only the operation. When several changes are published together, put the most important user-visible change in the title and leave only useful details in the body.
 
-If [feedback](feedback.md) or direct edits reveal improvements to shared knowledge, reflect them in the relevant dev concepts and then in the affected editions. Language-specific wording can be resolved within that edition. Do not overwrite direct changes without comparison, or split the same knowledge into independently maintained [sources of truth](source-of-truth.md).
+## Changes flowing back from an edition
+
+When [feedback](feedback.md) or a direct edition edit reveals an improvement to shared knowledge, reflect it in the relevant dev concept before distributing it again as needed. Language-specific wording problems may be solved within that edition. Do not overwrite direct edition changes without comparison or allow the same knowledge to split into independently maintained [sources of truth](source-of-truth.md).

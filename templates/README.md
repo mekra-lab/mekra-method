@@ -1,15 +1,15 @@
 # Templates
 
-These templates are local operating examples for using [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format). The format follows the official specification, while structure and instructions should be adapted to each repository's purpose. See the [current version baseline](../versions/current.md) for the target version and specification reference point.
+These templates are examples of an operating approach built around [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format). The format follows the official specification, while structure and instructions are adapted to the purpose of each repository. See the [current version baseline](../versions/current.md) for the OKF version and specification point used here.
 
-These are minimal templates intended to be copied into a real repository, stripped of unnecessary parts, and supplemented with repository-specific context.
+They are minimal starting points to copy into a real repository, remove what is unnecessary, and add repository-specific context.
 
-- [`AGENTS.md.template`](AGENTS.md.template): an **OKF knowledge operations section and optional repository operating preferences section** to incorporate into a root `AGENTS.md`
+- [`AGENTS.md.template`](AGENTS.md.template): sections for **OKF knowledge operation and optional repository-wide operating preferences** to merge into a root `AGENTS.md`
 - [`okf/index.md`](okf/index.md): example OKF bundle root
-- [`okf/concept.md`](okf/concept.md): minimal concept-document example
+- [`okf/concept.md`](okf/concept.md): minimal concept document
 
-In actual use, merge the needed sections from `AGENTS.md.template` into the existing root `AGENTS.md` in a way that fits its context. It is not a replacement for repository-wide instructions. The autonomy principle under `OKF knowledge operations` applies specifically to OKF knowledge work, while the optional `Repository operating preferences` section, when selected, applies to the repository-wide follow-up work it explicitly describes and should remain a peer section rather than a subsection of OKF operations.
+When using `AGENTS.md.template`, merge each needed section into the context of the existing root `AGENTS.md`. It is not a replacement for repository-wide instructions. The autonomy principle in the `OKF knowledge operation` section applies to OKF knowledge work. If the `Repository operating preferences` section is selected, keep it as a peer section whose scope covers the repository-wide follow-up work it describes.
 
-The goal is not to preserve the templates unchanged. Choose a profile, inspect the actual materials, and keep only the structure that is needed.
+Keeping the template unchanged is not the goal. Use the target's actual material, relevant [facets](../facets/README.md), and OKF knowledge to keep only the structure that is useful.
 
-When updating an existing OKF, merge useful improvements while preserving its knowledge and local instructions instead of overwriting it with template files. Choose the current scope using [adoption judgment](../okf/adoption.md), and follow the [application guide](../APPLICATION.md) to leave future intake locations and incorporation methods in the target repository. Put user-facing guidance in the target README or similar locations, and link agent-relevant choices from the OKF operations section.
+When updating an existing OKF, do not overwrite it with template files. Preserve existing knowledge and repository-specific instructions while merging valid improvements. Use [adoption judgment](../okf/adoption.md) to set the scope of the current work and the [application guide](../APPLICATION.md) to leave the location and incorporation method for future material in the target repository. Put user-facing guidance in the target README or another suitable place, and link agent-relevant repository-specific choices from the OKF operating section when useful.
