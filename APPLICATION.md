@@ -1,12 +1,12 @@
 # Application guide
 
-This guide is the default path for applying okf-lab operating knowledge to a target repository. Work categories, scope, and suggested questions exist to support agent judgment and may be omitted, combined, or adapted according to purpose and context. Carry forward intent and delegated authority already established by the user.
+This guide is the default path for applying okf-method operating knowledge to a target repository. Work categories, scope, and suggested questions exist to support agent judgment and may be omitted, combined, or adapted according to purpose and context. Carry forward intent and delegated authority already established by the user.
 
 The philosophical starting point is the [operating principles](okf/operating-principles.md): keep responsibility for sources of truth clear, internalize the context each concept needs, and reflect the meaning of changes into related concepts. [Adoption judgment](okf/adoption.md) explains how that philosophy carries into application work.
 
 ## Understand the target and choose the application direction
 
-Interpret natural-language requests such as "apply this," "build an OKF," or "bring this up to current okf-lab" together with the target's current state. The [README examples](README.md) are possible wording, not a command grammar that must be matched exactly. The reasoning behind request interpretation and work categories is in [adoption judgment](okf/adoption.md).
+Interpret natural-language requests such as "apply this," "build an OKF," or "bring this up to current okf-method" together with the target's current state. The [README examples](README.md) are possible wording, not a command grammar that must be matched exactly. The reasoning behind request interpretation and work categories is in [adoption judgment](okf/adoption.md).
 
 Inspect the target's README, existing agent instructions, important material or code, and any existing OKF to understand its purpose, locations of sources of truth, and current operating model. Reuse valid structures and knowledge, and judge which changes would actually help. Explore additional OKF concepts when useful.
 
@@ -26,7 +26,7 @@ Ask when unresolved user intent that cannot be learned from exploration would ma
 
 These questions do not need to be asked in order. If the answer is already known or the choice has little impact, proceed autonomously. Do not ask again about a choice the user has already delegated. For consequential choices whose intent is genuinely unclear, provide the relevant context and a recommended option with the question.
 
-Phrase questions and options using the vocabulary, conceptual familiarity, explanation preference, and decision style visible in the conversation and material the user has provided. Do not assign the user an arbitrary skill level; use terminology and explanation depth they already demonstrate. Keep familiar technical terms when useful, and do not require the user to learn okf-lab's internal category names or implementation vocabulary just to answer. Explain what an option changes in actual operation and why it is recommended. When sufficient autonomy is already delegated, prefer making minor choices through the recommended approach and explaining them afterward rather than repeatedly asking.
+Phrase questions and options using the vocabulary, conceptual familiarity, explanation preference, and decision style visible in the conversation and material the user has provided. Do not assign the user an arbitrary skill level; use terminology and explanation depth they already demonstrate. Keep familiar technical terms when useful, and do not require the user to learn okf-method's internal category names or implementation vocabulary just to answer. Explain what an option changes in actual operation and why it is recommended. When sufficient autonomy is already delegated, prefer making minor choices through the recommended approach and explaining them afterward rather than repeatedly asking.
 
 ## Implement and verify
 
@@ -42,13 +42,13 @@ Distinguish what format and link checks establish from semantic review. The burd
 
 ## Operational handoff and completion
 
-Build and transition work continues through leaving the user a usable operating method for handling existing and new material afterward. "Incorporate the new material into OKF" is an example of a follow-up request used inside an already adopted repository; do not present it as a command for choosing okf-lab's build or transition procedure again.
+Build and transition work continues through leaving the user a usable operating method for handling existing and new material afterward. "Incorporate the new material into OKF" is an example of a follow-up request used inside an already adopted repository; do not present it as a command for choosing okf-method's build or transition procedure again.
 
 Explain the actual location and method selected for adding the next material. For example, if source material is intentionally kept in `raw/`, the handoff might say: "Put new source material in `raw/` and ask the agent to incorporate the new material into OKF." Replace the path with the target's actual arrangement.
 
 Leave guidance in the target README or the relevant material documentation about where source material and directly authored new knowledge belong, how external material should be referenced, and what request should be used to incorporate it. If there is no benefit in a separate source-material folder, explain how the existing location should be used instead. Repository-specific choices the agent also needs can be linked from the target's OKF operating instructions.
 
-To make later comparisons between changes in the guide and experience in use possible, it helps to briefly record the actual reference repository and commit, when verifiable, in existing guidance or adoption records. Distinguish [lab releases from the OKF specification baseline](versions/README.md), and note the scope if only part of the knowledge was updated. This does not require a separate record file or metadata on every concept.
+To make later comparisons between changes in the guide and experience in use possible, it helps to briefly record the actual reference repository and commit, when verifiable, in existing guidance or adoption records. Distinguish [OKF Method releases from the OKF specification baseline](versions/README.md), and note the scope if only part of the knowledge was updated. This does not require a separate record file or metadata on every concept.
 
 ### Optional operating preferences
 

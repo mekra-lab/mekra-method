@@ -6,7 +6,7 @@ description: Select reusable observations from evidence of adoption and long-ter
 
 # Feedback from adoption
 
-The usefulness and limits of okf-lab guidance become visible when it is applied to real targets. Feeding adoption experience back into research creates a loop of observation, validation, [internalization](knowledge-internalization.md), and application. This is an internal operating practice; submitting feedback is neither an OKF format requirement nor a condition for completing adoption.
+The usefulness and limits of okf-method guidance become visible when it is applied to real targets. Feeding adoption experience back into research creates a loop of observation, validation, [internalization](knowledge-internalization.md), and application. This is an internal operating practice; submitting feedback is neither an OKF format requirement nor a condition for completing adoption.
 
 ## Judging what is worth reporting
 

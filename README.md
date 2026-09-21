@@ -1,15 +1,15 @@
-# okf-lab
+# okf-method
 
 OKF (Open Knowledge Format) is a format for representing knowledge that people and agents can both read and exchange.
 
-okf-lab studies how OKF evolves and how it can be used in practice, then turns that work into operational knowledge that agents can apply to target repositories.
+OKF Method is an approach to helping agents organize an existing project's knowledge in OKF and maintain it over time. This repository provides principles and judgment guidance developed through research into OKF and its practical use.
 
 > This repository is not a copy of the OKF specification or a framework every project must follow.  
 > The canonical source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).
 
 ## Core perspective
 
-okf-lab aims for a knowledge graph where **definition and change responsibility are concentrated in clear sources of truth, while the context needed for understanding is distributed across related concepts**.
+okf-method aims for a knowledge graph where **definition and change responsibility are concentrated in clear sources of truth, while the context needed for understanding is distributed across related concepts**.
 
 Sources of truth establish the basis for facts and rules and prevent different documents from independently owning the same fact. At the same time, a single source of truth does not imply a single location for context. When one fact affects several concepts, each concept should restate as much as needed about how that fact affects its own meaning, conditions, exceptions, and judgment. Distributing context does not mean distributing responsibility for changing the fact itself.
 
@@ -34,7 +34,7 @@ In this balance, a domain is internalized not as one complete document but throu
 | [`okf/`](okf/index.md) | Understanding of OKF, operating philosophy, reusable patterns, and conceptual relationships |
 | [`facets/`](facets/README.md) | Thin lenses for finding important judgment from properties of the target |
 | [`templates/`](templates/README.md) | Minimal scaffolding to copy into a project and adapt to its context |
-| [`versions/`](versions/README.md) | OKF version baselines, lab releases and actual reference points, and migration records |
+| [`versions/`](versions/README.md) | OKF version baselines, OKF Method releases and actual reference points, and migration records |
 | [`experiments/`](experiments/README.md) | Hypotheses and methods under validation |
 | [`notes/`](notes/README.md) | Observations and reflections not yet consolidated |
 
@@ -42,14 +42,14 @@ In this balance, a domain is internalized not as one complete document but throu
 
 In the target repository, ask your agent:
 
-> Apply https://github.com/muffinbox/okf-lab to this repository.
+> Apply https://github.com/muffinbox/okf-method to this repository.
 
 You can also describe the work more specifically. Here are requests you can use with the same URL:
 
 | Example request | Main intent |
 | --- | --- |
 | Build an OKF in this repository. / Turn this repository into OKF. | Inspect current materials and build the structure and knowledge graph that are actually useful |
-| Migrate the existing OKF to okf-lab practices. / Bring it in line with current okf-lab. | Update operating practices while preserving valid existing knowledge |
+| Migrate the existing OKF to okf-method practices. / Bring it in line with current okf-method. | Update operating practices while preserving valid existing knowledge |
 | Organize this as a knowledge-centered repository. | Judge the operating approach with knowledge as the primary output |
 | Upgrade the OKF version. | Assess and address the impact and need for an official specification transition |
 | Inspect the current OKF. | Diagnose the suitability of its current structure and knowledge |
@@ -71,7 +71,7 @@ Adopted reasoning belongs in `okf/`; `facets/` helps locate relevant judgment; `
 
 Guide limitations and reusable improvements discovered during adoption can return as [feedback](FEEDBACK.md). After actual use, you can ask in the target repository:
 
-> `Review our experience using okf-lab in this repository and draft feedback for https://github.com/muffinbox/okf-lab.`
+> `Review our experience using okf-method in this repository and draft feedback for https://github.com/muffinbox/okf-method.`
 
 The agent examines the target repository, relevant history, and the guide consulted to produce a shareable draft. Investigation and drafting start with the [feedback guide](FEEDBACK.md); external transmission stays within the scope delegated by the user. Ordinary applications do not require a separate report.
 
@@ -80,8 +80,8 @@ The agent examines the target repository, relevant history, and the guide consul
 - Recommended baseline: **OKF v0.2**
 - Verification date and specification baseline: [`versions/current.md`](versions/current.md)
 
-The public repositories' `main` branches contain the latest adopted guidance, while releases provide fixed baselines for comparison and reproduction. Lab releases use the name `okf-<spec-version>-lab-<sequence>`. See the [version guide](versions/README.md) for what the name means and how to record the commit actually used during adoption.
+The public repositories' `main` branches contain the latest adopted guidance, while releases provide fixed baselines for comparison and reproduction. OKF Method releases use the name `okf-<spec-version>-method-<sequence>`. See the [version guide](versions/README.md) for what the name means and how to record the commit actually used during adoption.
 
 ## License
 
-Unless otherwise noted, files are licensed under [Apache-2.0](LICENSE). All files under `templates/`, including its README, are provided under [CC0-1.0](templates/LICENSE); copied or adapted templates do not require okf-lab attribution. See the [distribution policy](okf/distribution.md#license-scope) for the scope.
+Unless otherwise noted, files are licensed under [Apache-2.0](LICENSE). All files under `templates/`, including its README, are provided under [CC0-1.0](templates/LICENSE); copied or adapted templates do not require okf-method attribution. See the [distribution policy](okf/distribution.md#license-scope) for the scope.

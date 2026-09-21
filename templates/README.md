@@ -4,7 +4,7 @@ These templates are examples of an operating approach built around [Open Knowled
 
 They are minimal starting points to copy into a real repository, remove what is unnecessary, and add repository-specific context.
 
-All files under `templates/`, including this README, are provided under [CC0-1.0](LICENSE). Copying, adapting, or incorporating them does not require okf-lab attribution or retention of a license copy. Recording an adoption baseline is your choice. CC0 does not eliminate third-party rights or rights such as trademarks and patents.
+All files under `templates/`, including this README, are provided under [CC0-1.0](LICENSE). Copying, adapting, or incorporating them does not require okf-method attribution or retention of a license copy. Recording an adoption baseline is your choice. CC0 does not eliminate third-party rights or rights such as trademarks and patents.
 
 - [`AGENTS.md.template`](AGENTS.md.template): sections for **OKF knowledge operation and optional repository-wide operating preferences** to merge into a root `AGENTS.md`
 - [`okf/index.md`](okf/index.md): example OKF bundle root

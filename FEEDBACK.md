@@ -1,6 +1,6 @@
 # Feedback guide
 
-Experience during adoption and subsequent real operation can help improve okf-lab guidance and patterns. Feedback is optional; application and operational handoff are complete even when nothing is sent. The reasoning is in [feedback from adoption](okf/feedback.md).
+Experience during adoption and subsequent real operation can help improve okf-method guidance and patterns. Feedback is optional; application and operational handoff are complete even when nothing is sent. The reasoning is in [feedback from adoption](okf/feedback.md).
 
 ## When to recommend it
 
@@ -16,7 +16,7 @@ An operational handoff can add something like:
 
 In the repository where you use the guide, you can ask your agent:
 
-> `Review our experience using okf-lab in this repository and draft feedback for https://github.com/muffinbox/okf-lab.`
+> `Review our experience using okf-method in this repository and draft feedback for https://github.com/muffinbox/okf-method.`
 
 Use the URL or name of the repository whose guidance you consulted. The agent examines the target repository and that guide, investigates the conditions under which the guide helped or fell short in real operation, and presents a shareable draft. Choose the investigation's depth and structure to fit its purpose and available material. This request alone does not authorize external transmission; if the content and destination have already been delegated, continue within that scope.
 
@@ -35,7 +35,7 @@ Draft from context gathered during the investigation; the user should not have t
 - Response and limitations: what was adapted, whether it helped, and what remains unverified.
 - Possible improvement: related documents, clarification that may help, and questions worth checking in other contexts.
 
-No fixed form or score is required. Distinguish observed facts from guesses about cause and from proposals. When verifiable, include the period and scope examined, the okf-lab repository and commit or release consulted, and the target OKF specification version so different baselines are not confused. If there are no usage records or no improvements were identified, explain that limitation; do not invent effects or problems merely to have something to report.
+No fixed form or score is required. Distinguish observed facts from guesses about cause and from proposals. When verifiable, include the period and scope examined, the okf-method repository and commit or release consulted, and the target OKF specification version so different baselines are not confused. If there are no usage records or no improvements were identified, explain that limitation; do not invent effects or problems merely to have something to report.
 
 Generalize the draft to preserve only relationships and conditions needed for judgment. Do not copy company, customer, or personally identifying information, private-repository URLs, original documents, code, or logs directly. Apply the same standard to email. If generalization cannot preserve the meaning of the case, external submission can be skipped.
 
@@ -45,10 +45,10 @@ Public feedback should go to the repository whose guidance was used.
 
 | Guidance used | Feedback destination |
 | --- | --- |
-| `okf-lab-kr` | [existing issues](https://github.com/muffinbox/okf-lab-kr/issues) · [new issue](https://github.com/muffinbox/okf-lab-kr/issues/new) |
-| `okf-lab` | [existing issues](https://github.com/muffinbox/okf-lab/issues) · [new issue](https://github.com/muffinbox/okf-lab/issues/new) |
+| `okf-method-kr` | [existing issues](https://github.com/muffinbox/okf-method-kr/issues) · [new issue](https://github.com/muffinbox/okf-method-kr/issues/new) |
+| `okf-method` | [existing issues](https://github.com/muffinbox/okf-method/issues) · [new issue](https://github.com/muffinbox/okf-method/issues/new) |
 
-A problem shared by both repositories only needs to be reported once. If relevant discussion already exists, connect to that issue instead of submitting duplicate reports or asking the user to translate and submit the same content twice. Access to the private research repository `okf-lab-dev` is not required for submitting feedback.
+A problem shared by both repositories only needs to be reported once. If relevant discussion already exists, connect to that issue instead of submitting duplicate reports or asking the user to translate and submit the same content twice. Access to the private research repository `okf-method-dev` is not required for submitting feedback.
 
 Email for either repository can be sent to [muffinboxapps@gmail.com](mailto:muffinboxapps@gmail.com). It can be used when a public issue is unsuitable or GitHub submission is inconvenient. The agent can prepare the subject and body for the user to send from their usual email client.
 
@@ -60,11 +60,11 @@ Choose the route based on available tools and the user's preference. Do not judg
 | Email | Prepare a subject and body for the shared address above. If an email tool is connected and transmission has been requested, it may be used. |
 | Skip transmission | If no convenient route exists, provide the draft only or omit feedback. Application work can still be completed. |
 
-External transmission occurs only within the scope the user requested. General delegation to apply okf-lab does not by itself authorize sending an issue or email. Present the content and destination to be sent, and for a GitHub Issue make clear that it will be public. If the user has already delegated transmission of that content through that route, do not ask for the same intent again. After sending, report the issue link or actual send result; drafting alone is not a completed transmission.
+External transmission occurs only within the scope the user requested. General delegation to apply okf-method does not by itself authorize sending an issue or email. Present the content and destination to be sent, and for a GitHub Issue make clear that it will be public. If the user has already delegated transmission of that content through that route, do not ask for the same intent again. After sending, report the issue link or actual send result; drafting alone is not a completed transmission.
 
 ## Boundaries between feedback and reuse
 
-okf-lab does not require rights to the target repository, source materials, code, or logs examined to prepare feedback merely because it receives that feedback.
+okf-method does not require rights to the target repository, source materials, code, or logs examined to prepare feedback merely because it receives that feedback.
 
 Reviewing feedback for clues to improvement is distinct from incorporating a submitter's specific wording, code, or detailed case into published materials. Before copying, translating, or adapting such content for inclusion, check what the submission channel and the terms in effect at the time permit, and seek further clarification from the submitter when needed.
 

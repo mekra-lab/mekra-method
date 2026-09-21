@@ -6,7 +6,7 @@ description: Keep a shared source of truth and publication boundaries while alig
 
 # Research and multilingual distribution
 
-`okf-lab-dev` is the source of truth for research and adopted shared knowledge, while `okf-lab-kr` and `okf-lab` are the Korean and global English editions. Synchronization exists to align the meaning of publishable knowledge. Research source material and internal Git history do not need to be distributed with it.
+`okf-method-dev` is the source of truth for research and adopted shared knowledge, while `okf-method-kr` and `okf-method` are the Korean and global English editions. Synchronization exists to align the meaning of publishable knowledge. Research source material and internal Git history do not need to be distributed with it.
 
 ## Publication scope and language responsibilities
 
@@ -16,7 +16,7 @@ The Korean edition reflects selected shared knowledge. The English edition must 
 
 ## License scope
 
-Public repositories use Apache-2.0 for files unless otherwise noted. All files under `templates/`, including its README, are provided under [CC0-1.0](../templates/LICENSE) so they can be copied, adapted, and incorporated into a target repository. Using these templates does not require okf-lab attribution or an adoption record. This exception does not extend to documents or experimental scaffolds outside `templates/`.
+Public repositories use Apache-2.0 for files unless otherwise noted. All files under `templates/`, including its README, are provided under [CC0-1.0](../templates/LICENSE) so they can be copied, adapted, and incorporated into a target repository. Using these templates does not require okf-method attribution or an adoption record. This exception does not extend to documents or experimental scaffolds outside `templates/`.
 
 When applying CC0 or adding content later, check the rights to that content and any third-party notices. Include `templates/LICENSE` in the publication manifest and retain the Apache-2.0 `LICENSE` at each public repository's root. The public repositories' default license does not establish a license for all of dev; licensing for dev-only `scripts/` remains undecided.
 
@@ -36,10 +36,10 @@ Synchronization aligns the meaning and source baselines of public repositories; 
 
 The same release name in the Korean and English repositories denotes shared knowledge reviewed against the same dev baseline. Each keeps its own Git history and commits, with synchronization records connecting source and published content. If only one has been published, do not report the shared release as complete. Moving a published tag changes the meaning referenced by earlier users, so corrections belong in subsequent changes.
 
-A release is a convenient publication baseline, but it does not precisely identify the guidance used by targets that adopted it between releases. Checking the actual public repository, commit, and adoption scope makes past choices easier to interpret. Naming and reference-recording practices belong in the [version guide](../versions/README.md); distinguish the official OKF specification version from the lab release sequence.
+A release is a convenient publication baseline, but it does not precisely identify the guidance used by targets that adopted it between releases. Checking the actual public repository, commit, and adoption scope makes past choices easier to interpret. Naming and reference-recording practices belong in the [version guide](../versions/README.md); distinguish the official OKF specification version from the OKF Method release sequence.
 
 ## Changes flowing back from an edition
 
 When [feedback](feedback.md) or a direct edition edit reveals an improvement to shared knowledge, reflect it in the relevant dev concept before distributing it again as needed. Language-specific wording problems may be solved within that edition. Do not overwrite direct edition changes without comparison or allow the same knowledge to split into independently maintained [sources of truth](source-of-truth.md).
 
-The [application-guide link improvement](https://github.com/muffinbox/okf-lab-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca) on 2026-09-20 is a concrete example. A check comparing file destinations across languages exposed a link to the internalization concept that existed only in the English text. Review found it useful in context, so it was incorporated into dev and the Korean text as well. This demonstrates the process of reviewing a difference and returning it to shared knowledge; it does not establish effectiveness in other domains.
+The [application-guide link improvement](https://github.com/muffinbox/okf-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca) on 2026-09-20 is a concrete example. A check comparing file destinations across languages exposed a link to the internalization concept that existed only in the English text. Review found it useful in context, so it was incorporated into dev and the Korean text as well. This demonstrates the process of reviewing a difference and returning it to shared knowledge; it does not establish effectiveness in other domains.

@@ -6,7 +6,7 @@ description: Judge the target's current state, needed changes, and application s
 
 # OKF adoption judgment
 
-Applying okf-lab means understanding a target repository and reflecting adopted operating knowledge into structures and knowledge that fit its context. Copying templates is only a supporting technique; the goal is to improve actual operation while preserving the meaning of existing knowledge and the boundaries of its sources of truth. This is an okf-lab operating approach, not a requirement of the official OKF specification.
+Applying okf-method means understanding a target repository and reflecting adopted operating knowledge into structures and knowledge that fit its context. Copying templates is only a supporting technique; the goal is to improve actual operation while preserving the meaning of existing knowledge and the boundaries of its sources of truth. This is an okf-method operating approach, not a requirement of the official OKF specification.
 
 A user can begin with a repository URL and a request such as "apply this." This repository provides the reasoning and discovery paths needed for application. Keeping research and application material together allows conclusions from observation to feed back into related concepts, facets, and templates. Adopted reasoning belongs in `okf/`; unadopted content in `notes/` and `experiments/` is not a default basis for application.
 
@@ -33,13 +33,13 @@ These distinctions do not substitute for one another. A facet is a [descriptive 
 | Work | Core judgment | Starting point for scope |
 | --- | --- | --- |
 | New build | Select knowledge worth internalizing from existing material. | Inspect current material and build the selected scope sufficiently. |
-| Update existing operating practices | Compare earlier templates or local practices with current okf-lab and adopt valid improvements. | Transition the scaffold and key concepts first, then proceed progressively. |
+| Update existing operating practices | Compare earlier templates or local practices with current okf-method and adopt valid improvements. | Transition the scaffold and key concepts first, then proceed progressively. |
 | Specification-version transition | Judge the impact of official-format changes on the target bundle. | Set scope from compatibility and the actual changes involved. |
 | Inspection and improvement | Examine the suitability of current structure, sources of truth, context, and target specification, then judge needed improvements. | Review the requested concerns and affected scope; implement improvements when fixes are delegated. |
 
-Updating existing operating practices includes template migration and reapplying current okf-lab guidance. A template change does not justify replacing every valid existing document. If the target's properties or scale change and different facets become relevant, do not treat that label change as its own migration project. Update the [sources of truth](source-of-truth.md), source-material responsibilities, and concept meaning that are actually affected within the work already being done.
+Updating existing operating practices includes template migration and reapplying current okf-method guidance. A template change does not justify replacing every valid existing document. If the target's properties or scale change and different facets become relevant, do not treat that label change as its own migration project. Update the [sources of truth](source-of-truth.md), source-material responsibilities, and concept meaning that are actually affected within the work already being done.
 
-The evidence for specification-version transitions is kept in the [version records](../versions/README.md). Updating okf-lab operating practices and transitioning the official OKF version may be independently necessary, so keep them distinct.
+The evidence for specification-version transitions is kept in the [version records](../versions/README.md). Updating okf-method operating practices and transitioning the official OKF version may be independently necessary, so keep them distinct.
 
 ## Bundle location and existing structure
 
@@ -65,7 +65,7 @@ Question wording is also part of context. Use vocabulary, conceptual understandi
 
 ## Operation after adoption
 
-Build or transition requests establish or change the target's operating system; follow-up requests such as "incorporate the new material into OKF" use that system. During adoption, okf-lab should leave operating guidance fitted to the target, while routine material incorporation continues from the target's own sources of truth, instructions, and knowledge graph. This distinction lets the target operate without rerunning okf-lab's adoption procedure for every later update.
+Build or transition requests establish or change the target's operating system; follow-up requests such as "incorporate the new material into OKF" use that system. During adoption, okf-method should leave operating guidance fitted to the target, while routine material incorporation continues from the target's own sources of truth, instructions, and knowledge graph. This distinction lets the target operate without rerunning okf-method's adoption procedure for every later update.
 
 Delegating design judgment does not mean the user should have to infer how to use the result afterward. At completion, explain the actual locations selected for source material and new knowledge and how to request incorporation, and leave that information in the target repository as well. If source material is external or no separate intake location is useful, explain that operating model instead.
 

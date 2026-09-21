@@ -1,6 +1,6 @@
 # Personal context experiment
 
-This file contains temporary instructions for `personal-context` research. It is not an adopted okf-lab principle or a distribution template.
+This file contains temporary instructions for `personal-context` research. It is not an adopted okf-method principle or a distribution template.
 
 ## OKF knowledge operation
 
