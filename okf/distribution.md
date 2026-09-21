@@ -12,6 +12,8 @@ description: Keep a shared source of truth and publication boundaries while alig
 
 Select files for publication explicitly, and reread changed content even when the path is already listed. Under the [disclosure boundary](disclosure-boundary.md), a path being publishable or accessible does not imply that every new change is publishable. General guidance from `notes/` and `experiments/` may be published, while concrete cases and source material are judged separately. Research-only tools and records are not automatic distribution targets either.
 
+If private research inputs need to be retained in the research repository, first establish the need and permission to retain them, then use `research-private/` to keep them separate from publishable research explanations. Paths under this name must not be included in the publication manifest or in exceptions for edition-only files. Some files under `notes/` and `experiments/` are also publication targets, so do not assume a research directory is private. A separate path helps prevent accidental file inclusion; content copied into a public document still needs a publication review.
+
 The Korean edition reflects selected shared knowledge. The English edition must convey the same meaning, conditions, exceptions, and reasoning. Translation should neither add nor weaken principles. Titles, edition notes, repository URLs in examples, and repository-specific role descriptions may be adjusted for the edition. The official OKF version and a language edition's synchronization baseline are separate pieces of information.
 
 ## License scope
@@ -23,6 +25,8 @@ When applying CC0 or adding content later, check the rights to that content and 
 ## Agent judgment and tool verification
 
 The agent compares changes since the last publication and decides whether direct edits in an edition should be preserved or folded back into shared knowledge. Following [context propagation](context-propagation.md), update related concepts, facets, and templates, then review the meaning of the English edition. Tools verify the presence of listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or publication suitability.
+
+Before publication, check file boundaries in the actual commits to be sent and in any intervening history that will become public, as well as in the working directory. Deleting a file from the final state does not keep it private if an earlier commit still contains it. Pin the verified commit and the destination's remote baseline for transmission, and check again if the remote changes after verification. This check does not automatically identify sensitive content inside allowed files or judge the meaning of a translation.
 
 Regression tests for the tools check that the validator behaves as intended in the cases covered. Passing them does not guarantee semantic correctness across the entire knowledge graph. Differences exposed by checks are evidence for review; decide which content to change in which repository by considering meaning and publication scope.
 

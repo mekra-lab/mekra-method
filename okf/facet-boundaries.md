@@ -30,6 +30,8 @@ When a new property or use case appears, distinguish among these questions.
 
 Do not create facets just to fill out the space of possible cases. Even an observable property should remain a facet only when it provides practical value by connecting the target to relevant OKF judgment.
 
+The kind of entity being described, such as a student, restaurant, statute, or fictional character, does not by itself justify a new facet. Consider whether existing concepts and patterns explain the relevant judgments, and whether a lens that helps discover and apply that knowledge in a particular environment adds discovery value. Being explainable through general knowledge does not by itself remove a facet's value.
+
 Evaluate an existing facet by what difference reading it makes to discovery or judgment. If it merely repeats summaries of linked concepts without adding distinct judgment value, it can be integrated into those concepts or its discovery path simplified.
 
 ## Expression and structure

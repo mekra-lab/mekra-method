@@ -24,6 +24,8 @@ Examine the usefulness of knowledge operation while handling actual questions an
 
 These perspectives do not impose measurement or reporting on every task, nor do they form a fixed scorecard. When effects or failures actually emerge, record the conditions, the before-and-after state, and what remains unverified. Do not infer results for experiments without evidence and record them as success stories.
 
+Reported satisfaction or new uses alone do not establish the guide's effect. Consider other possible explanations, such as the capabilities of the agent or tools and additional work by the user.
+
 Operation of this repository is also open to observation. Use experiences whose changes and reasoning can be traced, such as [bringing an improvement from a published repository back into shared knowledge](distribution.md), while distinguishing that evidence from claims that the same effect holds in other environments.
 
 ## Evidence for reviewing long-term operation
