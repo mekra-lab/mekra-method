@@ -28,9 +28,9 @@ Git history shows what changed, but does not fully explain how often documents w
 
 ## What to include
 
-Draft from context gathered during the investigation; the user should not have to fill out a survey again. Select the items that materially support judgment and explain them at the depth needed.
+Synthesize the context gathered during the investigation into a self-contained feedback report that can be read and reviewed independently. The report can serve as the basis for a GitHub issue or email body and does not need to be saved as a separate file. The user should not have to fill out a survey again. Select the items that materially support judgment and explain them at the depth needed.
 
-- Application context: request, target character and scale, relevant facets, work and scope, and the guide or baseline used.
+- Application context: request, target purpose, character and scale, relevant facets, work and scope, and the guide or baseline used.
 - Observation: what was useful, what explanation did not fit, and what actually happened.
 - Response and limitations: what was adapted, whether it helped, and what remains unverified.
 - Possible improvement: related documents, clarification that may help, and questions worth checking in other contexts.

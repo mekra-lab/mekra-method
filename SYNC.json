@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "af0ce5cf9c80f270d0a4b53409f44834fa711c23",
+  "source_commit": "8d2b7b88102d45dd224d159b44eeca1012e80f32",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-21T01:14:38.6153637Z",
+  "reviewed_at": "2026-09-21T05:08:42.1985456Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "FEEDBACK.md",
-      "source_sha256": "37e02998def1165f4d620da409c7de07d3cc38e9ed69c3475dc4ec69519b42b3",
-      "target_sha256": "045429babaea53297e336dc3416f52d79d8783ef05d5ac64a8ec9ca83187b9fb"
+      "source_sha256": "104384fbf64848873429f4fc39e6c53e7795e5242e9a97e50377ffebd0f351e7",
+      "target_sha256": "7ce4439b38acd893e98dece4b37fecea48393a1f72de2a800a0a274b1cd416cd"
     },
     {
       "path": "okf/index.md",
@@ -97,8 +97,8 @@
     },
     {
       "path": "facets/software-project.md",
-      "source_sha256": "0cf5c169f99c7b2177e3a0960a59755d4c241908684afc30d2fab4bfc929bdb7",
-      "target_sha256": "74f81d97f96fc35b221721bb03a9855c1bfa32ec60afbcb8eceb459c55716031"
+      "source_sha256": "70d8aa732f7472d8b309b8b29e8558bdc3c8c5bf76712b0acb765cb4ee6dba17",
+      "target_sha256": "0de1ad950b3130f0950002e906ab1a71566895c7b8835a3ed35b5ff84394d4d3"
     },
     {
       "path": "facets/knowledge-centered.md",
