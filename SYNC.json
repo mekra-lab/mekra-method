@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "8d2b7b88102d45dd224d159b44eeca1012e80f32",
+  "source_commit": "22f4ba53d05ec028da64b8443981f2fdba970d42",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-21T05:08:42.1985456Z",
+  "reviewed_at": "2026-09-21T05:34:42.9622700Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -97,8 +97,8 @@
     },
     {
       "path": "facets/software-project.md",
-      "source_sha256": "70d8aa732f7472d8b309b8b29e8558bdc3c8c5bf76712b0acb765cb4ee6dba17",
-      "target_sha256": "0de1ad950b3130f0950002e906ab1a71566895c7b8835a3ed35b5ff84394d4d3"
+      "source_sha256": "13f085f69b34d51031a6af73297726003a2e5425b140977148d72d9a47a1cd5b",
+      "target_sha256": "30d0900a501236e731d097115ea632c98132e1f1feab841d1d276fb98f80f04b"
     },
     {
       "path": "facets/knowledge-centered.md",
