@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "e631e9930474ef3c708d7ade0741c95a633f82a9",
+  "source_commit": "ba8e5ba040c6704c5784ddce33221e5669829c17",
   "manifest_sha256": "0933c25eb606f8cf65d628c27895427ae8d31b07fcb95e609f31c9c77c6221fa",
-  "reviewed_at": "2026-09-22T05:14:16.6627375Z",
+  "reviewed_at": "2026-09-22T05:22:57.5822407Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -177,7 +177,7 @@
     },
     {
       "path": "notes/corpus-connection-strategies.md",
-      "source_sha256": "713c36ce3b6b0b731b95c59aa93c5fe1480e28ca82b18e6ccb6f53a8bae1ea2a",
+      "source_sha256": "925843412f69efb428a6113de882c83360c4bdc11188d148ccb019960bc95660",
       "target_sha256": "8ef90458f2c7ee7374acf7fbd1b3143f2272401ff077db85ff35bd679b0678fd"
     },
     {
