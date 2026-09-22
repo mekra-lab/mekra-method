@@ -16,6 +16,10 @@ Keep responsibility for changing a fact or rule in one source of truth. When ano
 
 A source of truth may be an OKF document, a policy source, code, configuration, schema, or an external document.
 
+Being a source of truth does not guarantee that a statement is objectively true. It establishes what serves as the reference, within what scope, and where the content is defined and changed. Having a source of truth for an observation, claim, or interpretation does not by itself establish the external facts it describes.
+
+Claims and hypotheses whose truth is not established can still be recorded with their status and evidence made clear. Deciding where to maintain and update a record is distinct from accepting its claim as fact. There is no need to force every interpretation to have a source of truth that guarantees objective truth. When restating it in related concepts, preserve the necessary evidence and scope so that a recorded statement does not become an established fact.
+
 Restating the context each concept needs is a choice intended to reduce the burden of reconstructing meaning from several sources while reading. It also creates the cost of finding and updating related restatements when the source of truth changes. Judge this balance by its usefulness for understanding and its maintenance cost during change, rather than the amount of duplicated text.
 
 ## Decision criteria

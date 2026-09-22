@@ -2,7 +2,7 @@
 
 This note is a working document for exploring where existing OKF operating principles may be insufficient when handling personal context, before adopting `personal-context` as an independent facet.
 
-At this stage, the points below are not treated as established principles or a formal classification system. Repeated needs and failures should first be observed in a real personal-context repository, and only generalizable conclusions should be promoted into `okf/` or a facet.
+Adopted general principles are linked to the relevant concepts below; the remaining questions are not treated as established principles or a formal classification system. Observe repeated needs and failures in a real personal-context repository, then reflect generalizable conclusions in `okf/` or a facet.
 
 ## Starting hypothesis
 
@@ -18,7 +18,7 @@ A diary, message, or note can support the fact that a statement or experience wa
 
 For example, if a note says "It felt like A was avoiding me," it can support that this was the person's feeling or interpretation at the time. It does not automatically establish that A intentionally avoided them.
 
-This raises a question for [source of truth and context](../okf/source-of-truth.md): how should claims, interpretations, and hypotheses with no external source of truth be handled?
+The distinctions between canonical status and certainty, and between maintaining a record and accepting a claim as fact, are now reflected in [source of truth and context](../okf/source-of-truth.md). In personal context, we continue to observe how to express the status and evidence of uncertain interpretations and how to update related records when new experiences or corrections arrive.
 
 ### Temporal validity
 

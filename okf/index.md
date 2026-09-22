@@ -2,7 +2,9 @@
 okf_version: "0.2"
 ---
 
-# OKF research and applied knowledge
+# Mekra Method operating knowledge
+
+Mekra Method grew out of practical work with OKF. It is currently built on OKF, and its operating judgments are distinct from the requirements of the official specification.
 
 OKF (Open Knowledge Format) is a format for representing knowledge that people and agents can both read and exchange. Concepts are recorded using YAML metadata and Markdown bodies, with Markdown links expressing relationships, forming a knowledge bundle organized as a directory tree.
 

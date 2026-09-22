@@ -18,6 +18,8 @@ To use that advantage, the agent must be able to judge what concepts to create, 
 
 ## Operational implications
 
+On the premise that capable agents can interpret context, we prioritize organizing and maintaining the knowledge needed for judgment over prescribing detailed sequences of work. We keep definition and change responsibility clear and make the reasons, conditions, and relationships understandable in related concepts, while leaving the concrete way of working to the agent.
+
 Keep repository instructions focused on purpose and repository-specific choices. Do not repeat generic guidance that can already be inferred from the specification and context. [Operating principles](operating-principles.md) provide judgment criteria, while [facets](../facets/README.md) help identify which judgments become especially important for a target. Facets do not prescribe structure; directory organization is chosen from actual need.
 
 Autonomous judgment depends on sufficient knowledge. Even when instructions are brief, the body should [internalize](knowledge-internalization.md) enough reasons, conditions, and relationships for judgment. Omitting domain facts or repository-specific context that the agent does not already know is not the intent of this principle.
@@ -25,6 +27,8 @@ Autonomous judgment depends on sufficient knowledge. Even when instructions are 
 The ability to interpret context is distinct from the process of finding and reading the context needed. An agent may understand one concept well yet fail to discover another affected concept. Reliable autonomous judgment depends on the evidence and context actually explored as well as reasoning ability; [context propagation](context-propagation.md) must account for these limits of discovery.
 
 Requiring a separate deviation record every time a principle is applied differently can spend more effort on reporting and classification than on judgment. Whether a reusable decision should be reflected back into knowledge or principles is itself context-dependent. Autonomy means discretion in interpretation and working method; it does not mean authority to arbitrarily alter [sources of truth and evidence](source-of-truth.md) and turn them into facts.
+
+Autonomous judgment can coexist with tools that check explicitly defined constraints. Agents judge choices that depend on context, while tools verify mechanically checkable conditions such as files, links, and review baselines. Passing [publication checks](distribution.md) does not by itself establish semantic accuracy or [suitability for disclosure](disclosure-boundary.md).
 
 The same principle carries into [adoption judgment](adoption.md). Work types, scope categories, suggested questions, and procedures are defaults that support judgment. Understand the target and user intent first, then omit, combine, or adapt them as needed, and do not ask again about choices that have already been delegated. Even when the user delegates judgment, leave the actual decisions and usage instructions needed for later operation.
 

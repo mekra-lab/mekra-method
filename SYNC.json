@@ -1,34 +1,34 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "1d76a40fff56c8158ea2e50364d5e4a031e4532d",
+  "source_commit": "9c78ce2c4eed16c1fd1100abd2ab9f5ef7ceba19",
   "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-21T06:11:50.0195305Z",
+  "reviewed_at": "2026-09-22T02:33:37.1208640Z",
   "files": [
     {
       "path": "AGENTS.md",
-      "source_sha256": "6c4e21ff675691f42b790406e8d489a77850ad9e6eb4c654e79a93f80de8d089",
-      "target_sha256": "f21c86178db1e19a8356e358fcbb37731ed1d616b3069dde9ca4f75a51727031"
+      "source_sha256": "b65492f004ab56fa2ea2a5a861a79c50ce7d6907e8b0dcb55023f2468cb6c685",
+      "target_sha256": "9b57d6bbcd8c449d747c539f3170f65da4bc628af841bc906fab22f47fa1b723"
     },
     {
       "path": "README.md",
-      "source_sha256": "4afae3d4217201bccf3ee8f0cdfb45c53e2b62088574195051ed4c687e3c36d6",
-      "target_sha256": "507868f2472d96861c5a10f028c69bea40b7a46f662e530bb0b6648408c62e2e"
+      "source_sha256": "1750bbdb4efa172c4cb4daef9bfb7d066b8eb63eab5825f9829d1776d2f2b681",
+      "target_sha256": "35b11d0d8088f5d5a9527eaf7c1e5d9353e623228821edbb1400bd44e5957c72"
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "b422164358323dc6dc4357409dce9d490e4bddc159c8c45deb9a4a5d338a248e",
-      "target_sha256": "bd597dc0a29c60e86141d888c10fe1d793c82bc3e62adc64cf2d28859e43ca74"
+      "source_sha256": "a23de56a09b9bc19e5a26e5fdd7b346726f97f4dcc554cc7ace6adcdb2afd87f",
+      "target_sha256": "a4c6b179d7d12dada1bb5c2ef084130dd486ee46cdf65a259860d1801e518c93"
     },
     {
       "path": "FEEDBACK.md",
-      "source_sha256": "104384fbf64848873429f4fc39e6c53e7795e5242e9a97e50377ffebd0f351e7",
-      "target_sha256": "7ce4439b38acd893e98dece4b37fecea48393a1f72de2a800a0a274b1cd416cd"
+      "source_sha256": "d2aeb272a7f52c9bb75ca5870a66757ce9333d14efef88241fce00ff82558127",
+      "target_sha256": "ac9662a083072cc0bee079f00db22e40fe420e74f4aeaf0e2f03f9b4b484327a"
     },
     {
       "path": "okf/index.md",
-      "source_sha256": "2fffc1fdb8ab433a4e27d8d194d41545304fc340526383a7100431dd3306f56b",
-      "target_sha256": "90830599a4204358c592080eb9a188ce4fe1acb857177cee404ae8bfce4a8844"
+      "source_sha256": "804e0204b20e3287ac50a071c5c2bf2853906c3c94f16998fbfebaf27ea4e8f2",
+      "target_sha256": "18cf52c1752640f6cbff4392c23b59ed3c5fdff2bceb111102731015b6b5e48f"
     },
     {
       "path": "okf/operating-principles.md",
@@ -37,8 +37,8 @@
     },
     {
       "path": "okf/agent-autonomy.md",
-      "source_sha256": "b387f93ef6d0d4ad4164bd6b38258e77d3293788d8b93e43553d569fb48db736",
-      "target_sha256": "e26a23f2c1ea386617360c8f3b0468d5717e9b44293e3a3dd25b536db5712a5b"
+      "source_sha256": "e0b649dbc7b4c918ede772a3a981debe37cc6855b0f4d606fe37dc7014b0f14d",
+      "target_sha256": "933537b4ecbb1d4bcf5f7a53d5290600fab27012a88fed3e4a0028d728f74660"
     },
     {
       "path": "okf/knowledge-internalization.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "okf/source-of-truth.md",
-      "source_sha256": "6f97e0e06025aab00177b0f062487b666dd538292061d6eef2873fbb20ef3c72",
-      "target_sha256": "74313564a0660616adb7431d7155f36780e345258dbdb40e8386c39731df99db"
+      "source_sha256": "dbee403a1a1ef423563d0bfa713dfa99124d7ac7a61387d1393f599d1eb2890c",
+      "target_sha256": "517560ed69c9b8e91adf5433ad3bebc16b3f82dda2e61d8d45dab9750a448a91"
     },
     {
       "path": "okf/context-propagation.md",
@@ -77,18 +77,18 @@
     },
     {
       "path": "okf/adoption.md",
-      "source_sha256": "8ffbb6142d548fb9631e3c1ff5c07892bf3cf9d61624ac32fb46ccad1a59385b",
-      "target_sha256": "8a25909031a3abd1baf2bb1982a7f5ae53dd53d1c14b1ab3ee847c2441805a45"
+      "source_sha256": "e53e6f537045e311564821e0d26369e05b74611185e0d96bb257919bb62e3e26",
+      "target_sha256": "f6172e6dcbfa9208b8a52d0f1450c5123b226adac70ed0987b46ab1d6bad8785"
     },
     {
       "path": "okf/feedback.md",
-      "source_sha256": "6df0c684c99d9f3f1a8b1f66a3b4ecb04404d2519c18cf62489cf0fda5f94287",
-      "target_sha256": "a6db98b9795a4616d136e424bcbf8c0ea532dad04d8b2672659e8859b9417118"
+      "source_sha256": "83e6f63d98a04fbaaf4b4519ce8f749bc95f0cb894e9b4c3527da5f5f6420a2d",
+      "target_sha256": "0206fc6a5b1f97b6775d02703980cf15340ade8fe847e346d235c015d63e8c14"
     },
     {
       "path": "okf/distribution.md",
-      "source_sha256": "ecf977c7e5a4223272a5f79e9d0ffc4149e134d62e0599d580e6c93a1b9323c1",
-      "target_sha256": "9f7ba46d331f1378ad488d2d22e09de4bd550226e70d3fafb1d563e4fa3b6614"
+      "source_sha256": "56de31fbc7570eaa11c1bbe37aee33d9fc3535883df0f19409618c3086be5999",
+      "target_sha256": "63501776ae3408052c61e340318016bd9814eaa3852654e86e3e9b724453791d"
     },
     {
       "path": "facets/README.md",
@@ -122,8 +122,8 @@
     },
     {
       "path": "templates/README.md",
-      "source_sha256": "1e3143749a862bacc75289aa0157eeec74854a5606444fb1a57f98764fac66df",
-      "target_sha256": "fee18e95e64549fc54e69a7deba9bc819aa0ee1c892c32dc0a049290e5bde767"
+      "source_sha256": "5838ab909aed1bffc1233b854910c3d663a216e48713874347e1d956e793dbcf",
+      "target_sha256": "417363d73c50009b51e164929fef630b149cc2f3d35fcd8856152ccdc160ed67"
     },
     {
       "path": "templates/AGENTS.md.template",
@@ -142,13 +142,13 @@
     },
     {
       "path": "versions/README.md",
-      "source_sha256": "4132bace7526cbe8e09f2bc4e71875f3d1d732d22b9af226732b1eed333c30cd",
-      "target_sha256": "127dac5c3f6f67934df6203118abc52135cf628ef1c0f4c6a9c55268e1ea445c"
+      "source_sha256": "643e5748b2a051ff7dcf8d93a411e65a1cdb444272faaa5832a08a34740f8667",
+      "target_sha256": "ee38c5d0a4c5c5c6b0a05b1682b75a49dff99fff8be1e6cffc0494469f5d64c8"
     },
     {
       "path": "versions/current.md",
-      "source_sha256": "b3c4bbce61a675df639c7d57aae938205a0d28bd94e69a22636d1644f8f010ab",
-      "target_sha256": "dd8458f770973f375f17b1e9b79d7afc679f6e7d76b082fc5d2d3aa322f8b9c1"
+      "source_sha256": "fab38e60d6089dc836a90eb87287888de4c3658c63b78a2d455cba659a4ecfaa",
+      "target_sha256": "ae4a89a5fa0a99c058861c1e36ba95db94155772aaf213144e5aad30e18dda9a"
     },
     {
       "path": "versions/migrations/v0.1-to-v0.2.md",
@@ -162,8 +162,8 @@
     },
     {
       "path": "notes/personal-context-knowledge-properties.md",
-      "source_sha256": "d3a86e5b7c3016ecb96e6c53f109c3ebc51bf31daac2c62a6c57b0626dea8fd2",
-      "target_sha256": "5cac1c350c550c29047a7a5f12438263adaf549809f69e7fb177bfb88ca199bd"
+      "source_sha256": "b792925e2481fd683da0da9df44f0209b7e8e1bcebc27bffca7bc6a492912d9a",
+      "target_sha256": "78c649275202104594c75d3a65f680891a4339538fa0e9b06ae1386c9dd6685b"
     },
     {
       "path": "notes/facet-perspectives.md",
@@ -182,8 +182,8 @@
     },
     {
       "path": "experiments/personal-context/scaffold/AGENTS.md",
-      "source_sha256": "d78fbc77f266f4a06c29ac70f4fc85d65e9a98e9c9fc9d8bf9075aa195eab2d4",
-      "target_sha256": "40cd53ae8e15a3347bead90f17d320790c9ff017e6728b632727a9da39b4b40f"
+      "source_sha256": "f807c2b9506e28fde4e531e981161e26343d1f3e9c953949f1d459a110ff52ee",
+      "target_sha256": "0fbbafd6be0982b8b87dd8bed889977c25bbf9ea277d2bfa3bb10110e6c5c868"
     },
     {
       "path": "experiments/personal-context/scaffold/README.md",
