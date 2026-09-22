@@ -14,7 +14,7 @@ In the repository you want to work on, ask an agent with access to read and edit
 
 The agent examines existing material and structure, then judges which knowledge to organize and connect. After making the changes, it explains where and how to incorporate new material and updates.
 
-[**Introducing Mekra Method**](INTRODUCTION.md) explains the problem and approach for newcomers. To apply the method, start with the [application guide](APPLICATION.md).
+[**Introducing Mekra Method**](INTRODUCTION.md) presents the name, origins, slogan, central ideas, and principles. To apply the method, start with the [application guide](APPLICATION.md).
 
 ## Core perspective
 
@@ -55,7 +55,7 @@ This guide is not a copy of the specification or a framework every project must 
 
 | Location | Role |
 | --- | --- |
-| [`INTRODUCTION.md`](INTRODUCTION.md) | The problem, approach, and illustrative examples for newcomers |
+| [`INTRODUCTION.md`](INTRODUCTION.md) | Mekra's name, origins, slogan, central ideas, and design choices |
 | [`APPLICATION.md`](APPLICATION.md) | Target exploration, adoption judgment and questions, implementation, and operational handoff |
 | [`FEEDBACK.md`](FEEDBACK.md) | Investigating adoption and long-term operating experience, drafting feedback, and submitting it |
 | [`okf/`](okf/index.md) | Understanding of OKF, operating philosophy, reusable patterns, and conceptual relationships |

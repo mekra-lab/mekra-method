@@ -1,56 +1,70 @@
 # Introducing Mekra Method
 
-This introduction is for people new to Mekra Method. To apply it, start with the [application guide](APPLICATION.md). The adopted operating judgments and their reasoning live in the relevant [knowledge documents](okf/index.md).
+Mekra Method is **a method for organizing and maintaining knowledge and context for AI agents**. It brings project facts, decisions, reasons, and relationships into knowledge that people can read, helping agents find and understand that context when making judgments in later work.
 
-## When the material exists, but the context still needs explaining
+This document introduces the name, origins, central ideas, and design choices. To apply the method, start with the [application guide](APPLICATION.md). The adopted judgments and their reasoning live in the [operating knowledge](okf/index.md).
 
-Project knowledge accumulates in different places. Meeting notes record why a decision was made, operating guides describe how to do the work, and code and configuration express current behavior. To answer "What needs to change if this condition changes?", you need to find the material and reconstruct the relationships between it.
+## Name and origins
 
-The same problem can arise when working with an AI agent over time. Reading the files may not be enough to understand which account is current or how one decision affects another part of the project. A person then has to explain the context again.
+**Mekra is inspired by the Korean word for context.** Here, context is the background that makes a fact understandable: why it matters, under which conditions it holds, and how it relates to other knowledge. The name connects with the method's interest in making that context available where related concepts are explained.
 
-Mekra Method is an approach to organizing and maintaining knowledge and context for use in later work. It provides the knowledge and context needed for judgment, while leaving the concrete way of working to the agent wherever practical.
+Mekra developed through research into and practical work with Open Knowledge Format (OKF). The project has carried its knowledge and history through the names **OKF Lab → OKF Method → Mekra Method**. While interpreting and applying the format, it developed an operating perspective on what knowledge to retain, how to connect it, and which judgments to leave to agents.
 
-## What should be authoritative, and what needs explaining elsewhere?
+The name Mekra gives this operating method a name of its own. It connects and explains existing judgments under that name, while remaining built on OKF. The [version guide](versions/README.md) records continuity across repository names and releases.
 
-Imagine running a booking service. The following is a hypothetical example of how the approach works, not a report of measured results.
+## Knowledge finds its place.
 
-You decide to move the cancellation deadline from one day before a booking to two days before it. The policy document states the new deadline accurately. But unless refund guidance and customer support documents explain its implications, each task still requires someone to work them out again.
+The slogan's “place” is a metaphor for the context in which knowledge can support understanding and judgment. Knowledge finds its place when there is a clear reference for defining and changing a fact, its meaning is understandable in related concepts, and its evidence and relationships can be found when needed. One fact can have different implications for several concepts, so that place need not be a single file.
 
-With Mekra, the policy document remains the clear reference for defining and changing the cancellation deadline: its **source of truth**. The refund explanation describes what that deadline means for refund eligibility. The support explanation describes which conditions to check and communicate. Each connects back to the policy source.
+The phrase expresses the direction of the method in a few words. It does not impose an admission test for recording knowledge or a fixed rule for where to put it. What to record and how to structure it remain decisions made for the purpose and context.
 
-The same fact can be explained in several places while retaining its source of truth. What matters is that the refund and support documents do not independently define different cancellation deadlines. When the deadline changes, use the source as the reference and review the explanations whose meaning changes. The reasoning is in [source of truth and context](okf/source-of-truth.md), [knowledge internalization](okf/knowledge-internalization.md), and [context propagation](okf/context-propagation.md).
+## Central ideas
 
-| How the knowledge is organized | What later work can draw on |
+**Keep sources of truth clear, share context where it is needed, and delegate judgment.**
+
+The first idea is to **keep definition and change responsibility clear while deliberately distributing the context needed for understanding across related concepts**. Establish where a fact is defined and changed, and explain its effects on the meaning, conditions, and exceptions of other concepts where those concepts are discussed. A single source of truth does not imply a single location for context.
+
+The second idea is to **trust capable agents to interpret context and exercise judgment**. Instead of prescribing every sequence of work, provide the reasons, conditions, and relationships that support judgment, and leave the concrete working method to the agent wherever practical. That autonomy depends on sufficient evidence and context that the agent can actually find and read.
+
+The two ideas work together. Natural-language explanations preserve relationships and reasons so agents can use their ability to interpret context and judge what the situation calls for. When facts change or new knowledge arrives, update both the source of truth and the related explanations whose meaning changes. **Distributing context brings a responsibility to maintain it together.**
+
+Consider a hypothetical change to a booking policy's cancellation deadline. The policy document defines the deadline; refund and customer support documents explain what it means for their work. An agent can read those relationships and judge what to inspect and change within the request's scope. Distributing explanations alone does not guarantee that it will discover every effect or update everything correctly, so the evidence actually read and the resulting changes still need checking.
+
+## Principles at a glance
+
+These are summaries of adopted principles. The linked documents explain their scope and reasoning.
+
+- **Distinguish canonical responsibility from the location of context.** Code, configuration, policies, and existing documents can be sources of truth, while related concepts can restate the context needed for understanding. The concern is independent definition and change in several places, rather than repetition of the same fact. [Source of truth and context](okf/source-of-truth.md)
+- **Retain the meaning, reasons, conditions, and relationships needed for judgment.** Explain implications within a concept when links or summaries alone would leave them unclear. Procedures can also be knowledge worth retaining when they support judgment. [Knowledge internalization](okf/knowledge-internalization.md)
+- **Reflect the meaning of a change in related knowledge.** Find and update concepts and explanations whose meaning changes when the source is revised. [Context propagation](okf/context-propagation.md)
+- **Choose structure and depth from actual need.** Work with the existing structure and how knowledge is used, rather than moving all material or imposing the same directories and categories everywhere. [Operating principles](okf/operating-principles.md)
+- **Start from autonomous agent judgment.** Discretion in interpretation and working method is distinct from authority to arbitrarily change facts, policies, or permissions. Tools can also verify clearly defined constraints. [Agent autonomy](okf/agent-autonomy.md)
+- **Distinguish the status of a record from the certainty of its content.** Uncertain claims can be maintained with their status and evidence made clear. Maintaining a record is different from accepting its claim as fact. Proposals under investigation are also distinguished from adopted operating knowledge. [Source of truth and context](okf/source-of-truth.md) · [Operating knowledge](okf/index.md)
+
+## What Mekra prioritizes
+
+Mekra brings canonical responsibility, distributed context, and autonomous judgment into a shared operating approach. The following questions show its emphasis in concrete design work.
+
+| Design activity | The question Mekra emphasizes |
 | --- | --- |
-| Only the changed policy is recorded | The new deadline itself. Its effects on refunds and support still need to be found and interpreted. |
-| Related explanations are updated from the policy | The new deadline, what that condition means in each activity, and a path back to the supporting source. |
+| Choosing directories and document formats | Which structure actually helps people and agents understand and update this target's knowledge? |
+| Collecting material and making it searchable | What does the fact we found mean here, and where is the reference for defining and changing it? |
+| Specifying the agent's sequence of work | What evidence and context would let the agent judge how to proceed? |
+| Updating a changed document | Which other concepts and explanations change meaning as a result? |
 
-Those explanations do not mean an agent will automatically discover every effect. Whether it actually reads the relevant material, whether the explanations are current, and whether it has authority to make changes still matter.
+These questions do not define the limits of particular products or other methods. They can be used alongside search and RAG, work procedures, and tool-based checks. Within that combination, Mekra prioritizes **organizing and maintaining the knowledge that supports judgment**. Its effects are assessed through actual use, observing the effort needed to find, understand, and update knowledge, along with maintenance costs.
 
-## Why leave the working method to the agent?
+## Relationship to OKF
 
-It is difficult to prescribe the files to read and steps to take for every possible change. Mekra works on the premise that capable agents can interpret reasons, conditions, and relationships expressed in natural language. It prioritizes organizing and maintaining that basis for judgment.
+OKF is a format for representing knowledge that people and agents can read and exchange. Mekra is currently built on that format and provides an approach to deciding what to record and connect and how to maintain it.
 
-In the booking example, making the policy's effects on refunds and support understandable gives the agent a basis for examining relevant explanations and implementation within the request's scope, then choosing how to work. Sufficient context and actual exploration must support that judgment.
+The source of truth for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format). Mekra's operating principles are its own judgments on top of that specification, rather than additional official requirements or a separate extension specification. The new name preserves the distinction between the current implementation basis and responsibility for the official format.
 
-This discretion does not grant authority to arbitrarily change policy or publish material externally. Tools can also check clearly defined constraints. [Agent autonomy](okf/agent-autonomy.md) explains the scope in more detail.
+## Getting started and further reading
 
-## What happens when you apply it?
+Use the guide URL in [getting started in the README](README.md#get-started) and ask your agent to apply Mekra Method to the repository where you work. The agent examines existing material and structure, judges the useful scope, and explains how to handle new material and changes after adoption.
 
-As shown in [getting started](README.md#get-started), ask your agent to apply this guide in the repository where you work. The agent examines existing material and instructions, builds on valid sources of truth and structures, and judges which knowledge to organize and at what depth. It asks when unresolved user intent would change the outcome and makes delegated choices in context.
-
-The result may include explanations of relevant concepts and relationships, connections that help people and agents find them, and guidance for incorporating new material and changes. There is no need to copy the same folder layout into every project or rewrite all source material. Recording the actual choices and usage instructions helps the user continue the work.
-
-Applying Mekra alone does not guarantee persistent agent memory or correct judgment. Later work must be able to find and read the relevant knowledge and update it when things change. [Experience in use](FEEDBACK.md) can show whether less context needs to be explained again, whether exploration becomes easier, whether outdated reasoning persists, and what maintenance costs arise.
-
-## When might it help?
-
-Consider it when knowledge and decisions carry across tasks, one change affects several concepts, or people repeatedly explain context specific to the project. Targets can include software projects as well as repositories where knowledge is the main material, such as research collections or fictional settings.
-
-If the material needed for a single task is brief and sufficient, or existing documents already support understanding and updates well, a separate knowledge graph may cost more than it adds. Organize the scope that is useful and build on existing practices where they are sufficient.
-
-## How Mekra relates to OKF
-
-Mekra Method is currently built on Open Knowledge Format (OKF). OKF is a format for representing knowledge that people and agents can read. Mekra is an operating method for deciding what to record and connect and how to maintain it using that format. The [OKF specification repository](https://github.com/GoogleCloudPlatform/open-knowledge-format) is the source for the official format.
-
-It continues the knowledge and history of OKF Method. The name Mekra is inspired by the Korean word for context. The [version guide](versions/README.md) explains continuity across names and releases.
+- [Application guide](APPLICATION.md): exploring the target, resolving necessary questions, making changes, and continuing to use the result.
+- [Operating knowledge](okf/index.md): adopted principles and the reasoning behind them.
+- [Facets](facets/README.md): lenses for finding important judgments from a target's properties.
+- [Feedback guide](FEEDBACK.md): sharing effects and limitations observed in actual use.
