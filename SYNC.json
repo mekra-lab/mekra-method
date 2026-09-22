@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "9c78ce2c4eed16c1fd1100abd2ab9f5ef7ceba19",
-  "manifest_sha256": "b539311176273f9e211af1601ae840c945d2f7cf590bc6d42ab853ed6eafb9a3",
-  "reviewed_at": "2026-09-22T02:33:37.1208640Z",
+  "source_commit": "a75a433ca6f809aa79a724e27224fea27d391f84",
+  "manifest_sha256": "8ac2d52f61427c27e2c4a55daf0d8e14192911757ab6e77b0a944664cabe55d4",
+  "reviewed_at": "2026-09-22T03:36:05.6428814Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,8 +12,13 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "1750bbdb4efa172c4cb4daef9bfb7d066b8eb63eab5825f9829d1776d2f2b681",
-      "target_sha256": "35b11d0d8088f5d5a9527eaf7c1e5d9353e623228821edbb1400bd44e5957c72"
+      "source_sha256": "20bae373ee66400d0fd0443b5de56421c8ada3b50424249840afb873e119ecd4",
+      "target_sha256": "102f934ba21c25433128ced6e8f09c6e6e28bd43a2ed424657054615bcd04b31"
+    },
+    {
+      "path": "INTRODUCTION.md",
+      "source_sha256": "0bc15f4f061fe0e4aa4b372363f3c40ad463b803c8520c2d31012f927a2778e3",
+      "target_sha256": "a3361a4efcec8d82f0749681ae81507ed2934cdf0e26bc9997aabd5532bb7969"
     },
     {
       "path": "APPLICATION.md",

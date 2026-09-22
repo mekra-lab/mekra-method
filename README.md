@@ -2,53 +2,31 @@
 
 *Knowledge finds its place.*
 
-A method for organizing and maintaining knowledge and context for AI agents. Built on Open Knowledge Format (OKF), it continues the work previously called OKF Method. This repository provides the adopted principles and practical guidance.
+Mekra Method helps you organize and maintain project knowledge so AI agents can understand the context and carry it into later work.
 
-OKF is a format for representing knowledge that people and agents can both read and exchange. Mekra is a name inspired by the Korean word for context.
+If you keep explaining the same background or tracing how one decision affects another task, you can record those reasons and relationships where they matter. Provide the knowledge and context needed for judgment, and leave the concrete way of working to the agent wherever practical.
 
-> This repository is not a copy of the OKF specification or a framework every project must follow.  
-> The canonical source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).
+## Get started
+
+In the repository you want to work on, ask an agent with access to read and edit it:
+
+> Apply https://github.com/muffinbox/mekra-method to this repository.
+
+The agent examines existing material and structure, then judges which knowledge to organize and connect. After making the changes, it explains where and how to incorporate new material and updates.
+
+[**Introducing Mekra Method**](INTRODUCTION.md) explains the problem and approach for newcomers. To apply the method, start with the [application guide](APPLICATION.md).
 
 ## Core perspective
 
 **Keep sources of truth clear, share context where it is needed, and delegate judgment.**
 
-Mekra Method aims for a knowledge graph where **definition and change responsibility are concentrated in clear sources of truth, while the context needed for understanding is distributed across related concepts**.
+Keep a clear reference for defining and changing a fact. In related concepts, restate as much as needed about what that fact means for their conditions and judgments. Avoid having several documents independently define and change the same fact; repeating it is not the problem. When the reference changes, review the related explanations too.
 
-Sources of truth establish the basis for facts and rules and prevent different documents from independently owning the same fact. At the same time, a single source of truth does not imply a single location for context. When one fact affects several concepts, each concept should restate as much as needed about how that fact affects its own meaning, conditions, exceptions, and judgment. Distributing context does not mean distributing responsibility for changing the fact itself.
+Mekra prioritizes organizing and maintaining the knowledge needed for judgment over prescribing detailed sequences of work. Agents choose how to work according to the purpose and situation, using the evidence and context they have actually read.
 
-The thing to avoid is therefore not repetition of the same fact, but having multiple places independently define and change it. Links should communicate the reason for and impact of a relationship through the surrounding prose rather than acting as bare addresses. When knowledge or implementation changes, use the source of truth as the baseline and also update the context of related concepts whose meaning changes.
-
-Mekra prioritizes organizing and maintaining the knowledge agents need for judgment over prescribing detailed sequences of work. Agents read that evidence and context and [choose how to work](okf/agent-autonomy.md) according to the purpose and situation.
-
-In this balance, a domain is internalized not as one complete document but through the overlap and relationships between sources of truth that provide a center and documents that carry one another's meaning. See [operating principles](okf/operating-principles.md), [source of truth and context](okf/source-of-truth.md), [knowledge internalization](okf/knowledge-internalization.md), and [context propagation](okf/context-propagation.md) for the reasoning.
-
-## What this repository does
-
-- Tracks upstream version changes and their migration impact.
-- Accumulates adopted operating principles and reusable patterns.
-- Provides [facets](facets/README.md) as thin lenses for reading important properties of a target.
-- Provides minimal templates that can be copied into real projects and adapted.
-- Keeps unverified ideas and experiments separate from established guidance.
-
-## Structure
-
-| Location | Role |
-| --- | --- |
-| [`APPLICATION.md`](APPLICATION.md) | Target exploration, adoption judgment and questions, implementation, and operational handoff |
-| [`FEEDBACK.md`](FEEDBACK.md) | Investigating adoption and long-term operating experience, drafting feedback, and submitting it |
-| [`okf/`](okf/index.md) | Understanding of OKF, operating philosophy, reusable patterns, and conceptual relationships |
-| [`facets/`](facets/README.md) | Thin lenses for finding important judgment from properties of the target |
-| [`templates/`](templates/README.md) | Minimal scaffolding to copy into a project and adapt to its context |
-| [`versions/`](versions/README.md) | OKF version baselines, Mekra Method releases and actual reference points, and migration records |
-| [`experiments/`](experiments/README.md) | Hypotheses and methods under validation |
-| [`notes/`](notes/README.md) | Observations and reflections not yet consolidated |
+The reasoning is in [source of truth and context](okf/source-of-truth.md), [knowledge internalization](okf/knowledge-internalization.md), [context propagation](okf/context-propagation.md), [agent autonomy](okf/agent-autonomy.md), and [operating principles](okf/operating-principles.md).
 
 ## How to use it
-
-In the target repository, ask your agent:
-
-> Apply https://github.com/muffinbox/mekra-method to this repository.
 
 You can also describe the work more specifically. Here are requests you can use with the same URL:
 
@@ -66,6 +44,26 @@ There is no exact wording to learn, nor do you need to know internal operation n
 The agent decides autonomously where the target supplies enough context and asks only when unresolved user intent materially affects the outcome. You may delegate judgment to the recommended approach or decide major choices together. On completion, the agent explains where new source material and knowledge belong and how to request their incorporation.
 
 A facet is a judgment lens, not a preset or default configuration. Templates are also starting points to adapt when useful. Suitability is not determined by matching a file count or directory layout, but by whether knowledge is understood in the right context and whether the effects of change are reflected where needed.
+
+## Relationship to OKF
+
+Mekra Method is currently built on Open Knowledge Format (OKF), a format for representing knowledge that people and agents can both read and exchange. It continues the work previously called OKF Method. This repository provides the adopted principles and practical guidance.
+
+This guide is not a copy of the specification or a framework every project must follow. The source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).
+
+## Structure
+
+| Location | Role |
+| --- | --- |
+| [`INTRODUCTION.md`](INTRODUCTION.md) | The problem, approach, and illustrative examples for newcomers |
+| [`APPLICATION.md`](APPLICATION.md) | Target exploration, adoption judgment and questions, implementation, and operational handoff |
+| [`FEEDBACK.md`](FEEDBACK.md) | Investigating adoption and long-term operating experience, drafting feedback, and submitting it |
+| [`okf/`](okf/index.md) | Understanding of OKF, operating philosophy, reusable patterns, and conceptual relationships |
+| [`facets/`](facets/README.md) | Thin lenses for finding important judgment from properties of the target |
+| [`templates/`](templates/README.md) | Minimal scaffolding to copy into a project and adapt to its context |
+| [`versions/`](versions/README.md) | OKF version baselines, Mekra Method releases and actual reference points, and migration records |
+| [`experiments/`](experiments/README.md) | Hypotheses and methods under validation |
+| [`notes/`](notes/README.md) | Observations and reflections not yet consolidated |
 
 ## Research and applied knowledge
 
