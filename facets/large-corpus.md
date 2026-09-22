@@ -8,6 +8,8 @@ For large bodies of material, the judgments in [knowledge organization for large
 
 The facet itself does not require directories such as `sources/`, `extracted/`, or `docs/`. If source material is already managed well in an external system or existing repository, keep that source of truth and connect only the concepts, summaries, and discovery paths that are useful.
 
+Using a database, API, or ontology does not by itself make this lens relevant. Consider whether the scale or complexity of the material changes how knowledge must be selected and discovered. A need for precise relationships or access to external material can also arise in small collections.
+
 ## Judgment questions
 
 - Answering recurring core questions, do we have to reconstruct a large amount of source material every time?

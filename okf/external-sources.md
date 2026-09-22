@@ -16,6 +16,8 @@ Preserve source material in its original location or under `raw/` or `sources/`,
 
 Text extracted from originals and transcriptions in Markdown are derivatives, not source material. When originals are difficult to work with directly and need to be searched or cited repeatedly, you can preserve them as the source of truth while creating derivatives in a reusable format and linking OKF concepts or summaries to the relevant evidence locations. Preserve these derivatives as a separate layer such as `extracted/` only when they are reused repeatedly, expensive to regenerate, or accumulate manual corrections. When an original changes, also examine the impact on retained derivatives and on knowledge internalized from them.
 
+These responsibilities also apply to material accessed through databases or APIs. Storage or access technology alone does not establish canonical authority: distinguish a database that manages source material from a search database derived from it. A connection should lead beyond the repository address to the passage or record supporting a conclusion and the surrounding context needed to interpret it. When a source may change, preserve the version, retrieval time, or query conditions needed to recheck the evidence.
+
 In [post-adoption usage guidance](adoption.md), connect these responsibilities to actual intake locations. Explain where to preserve new originals, where directly authored knowledge belongs, and how to reflect it in OKF. For external originals, explain the reference method; if no separate source-material intake is needed, do not create an intake directory.
 
 ## Decision criteria

@@ -10,6 +10,8 @@ This document introduces the name, origins, central ideas, and design choices. T
 
 Mekra developed through research into and practical work with Open Knowledge Format (OKF). The project has carried its knowledge and history through the names **OKF Lab → OKF Method → Mekra Method**. While interpreting and applying the format, it developed an operating perspective on what knowledge to retain, how to connect it, and which judgments to leave to agents.
 
+It also drew inspiration from the ontological perspective of expressing meaning through relationships between concepts.
+
 The name Mekra gives this operating method a name of its own. It connects and explains existing judgments under that name, while remaining built on OKF. The [version guide](versions/README.md) records continuity across repository names and releases.
 
 ## Knowledge finds its place.

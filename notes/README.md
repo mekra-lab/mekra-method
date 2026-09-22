@@ -12,5 +12,7 @@ Cases not yet explained by [adoption feedback](../okf/feedback.md) may also be e
 
 ## Ongoing inquiries
 
+- [Corpus connection strategies and selection conditions](corpus-connection-strategies.md) - explores when to combine originals, extractions, indexes, databases, APIs, and ontologies, and what to test.
+
 - [Knowledge properties revealed by personal context](personal-context-knowledge-properties.md) - explores missing external sources of truth, temporal validity, disclosure boundaries, and withdrawal or deletion effects through personal context.
 - [Facet perspectives and boundaries](facet-perspectives.md) - explores how facets can add real judgment value without duplicating general OKF knowledge.

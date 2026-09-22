@@ -18,6 +18,8 @@ A facet does not preselect directory layout, file placement, work sequence, or i
 
 The role of a facet is not to redefine general OKF knowledge, but to connect a particular environment with the knowledge and judgment questions that become especially important there.
 
+Facets and implementation techniques do not correspond one to one. An environment may combine several techniques, and the same technique may serve different environments. Using a database, API, or ontology does not by itself justify a new facet, nor does it give any one facet ownership of all knowledge about that technique.
+
 ## Creating and maintaining facets
 
 When a new property or use case appears, distinguish among these questions.
