@@ -6,7 +6,7 @@ This document introduces the name, origins, central ideas, and design choices. T
 
 ## Name and origins
 
-**Mekra is inspired by the Korean word for context.** Here, context is the background that makes a fact understandable: why it matters, under which conditions it holds, and how it relates to other knowledge. The name connects with the method's interest in making that context available where related concepts are explained.
+**Mekra takes its name from the Korean word 맥락 (meakrak), meaning “context”.** Here, context is the background that makes a fact understandable: why it matters, under which conditions it holds, and how it relates to other knowledge. The name connects with the method's interest in making that context available where related concepts are explained.
 
 Mekra developed through research into and practical work with Open Knowledge Format (OKF). The project has carried its knowledge and history through the names **OKF Lab → OKF Method → Mekra Method**. While interpreting and applying the format, it developed an operating perspective on what knowledge to retain, how to connect it, and which judgments to leave to agents.
 
