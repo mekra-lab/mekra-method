@@ -16,7 +16,7 @@ An operational handoff can add something like:
 
 In the repository where you use the guide, you can ask your agent:
 
-> `Review our experience using Mekra Method in this repository and draft feedback for https://github.com/muffinbox/mekra-method.`
+> `Review our experience using Mekra Method in this repository and draft feedback for https://github.com/mekra-lab/mekra-method.`
 
 Use the URL or name of the repository whose guidance you consulted. The agent examines the target repository and that guide, investigates the conditions under which the guide helped or fell short in real operation, and presents a shareable draft. Choose the investigation's depth and structure to fit its purpose and available material. This request alone does not authorize external transmission; if the content and destination have already been delegated, continue within that scope.
 
@@ -45,12 +45,14 @@ Public feedback should go to the repository whose guidance was used.
 
 | Guidance used | Feedback destination |
 | --- | --- |
-| `mekra-method-kr` | [existing issues](https://github.com/muffinbox/mekra-method-kr/issues) · [new issue](https://github.com/muffinbox/mekra-method-kr/issues/new) |
-| `mekra-method` | [existing issues](https://github.com/muffinbox/mekra-method/issues) · [new issue](https://github.com/muffinbox/mekra-method/issues/new) |
+| `mekra-method-kr` | [existing issues](https://github.com/mekra-lab/mekra-method-kr/issues) · [new issue](https://github.com/mekra-lab/mekra-method-kr/issues/new) |
+| `mekra-method` | [existing issues](https://github.com/mekra-lab/mekra-method/issues) · [new issue](https://github.com/mekra-lab/mekra-method/issues/new) |
 
 A problem shared by both repositories only needs to be reported once. If relevant discussion already exists, connect to that issue instead of submitting duplicate reports or asking the user to translate and submit the same content twice. Access to the private research repository `mekra-method-dev` is not required for submitting feedback.
 
-Email for either repository can be sent to [muffinboxapps@gmail.com](mailto:muffinboxapps@gmail.com). It can be used when a public issue is unsuitable or GitHub submission is inconvenient. The agent can prepare the subject and body for the user to send from their usual email client.
+Email for either repository can be sent to [feedback@mekralab.org](mailto:feedback@mekralab.org). It can be used when a public issue is unsuitable or GitHub submission is inconvenient. The agent can prepare the subject and body for the user to send from their usual email client.
+
+For general inquiries and collaboration proposals, contact [contact@mekralab.org](mailto:contact@mekralab.org).
 
 Choose the route based on available tools and the user's preference. Do not judge submission capability only from whether GitHub CLI is installed; an authenticated tool or browser may also be available. Do not require installation of a new tool or a new login solely for feedback.
 

@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "ba8e5ba040c6704c5784ddce33221e5669829c17",
+  "source_commit": "5aeb8881d0d90f23e93f297ebf989e0d6aaf4a4c",
   "manifest_sha256": "0933c25eb606f8cf65d628c27895427ae8d31b07fcb95e609f31c9c77c6221fa",
-  "reviewed_at": "2026-09-22T05:22:57.5822407Z",
+  "reviewed_at": "2026-09-25T08:09:47.2219027Z",
   "files": [
     {
       "path": "AGENTS.md",
-      "source_sha256": "b65492f004ab56fa2ea2a5a861a79c50ce7d6907e8b0dcb55023f2468cb6c685",
+      "source_sha256": "c47324b7edf330e6851566e9a61ccf41fa10344baf7f8766da6069a9ca8c5459",
       "target_sha256": "9b57d6bbcd8c449d747c539f3170f65da4bc628af841bc906fab22f47fa1b723"
     },
     {
       "path": "README.md",
-      "source_sha256": "1a62b405ba7e78a16cdcec2f13448c3de6d706cb041ec6dfe43f840abe182ef6",
-      "target_sha256": "b1d4e931c1f0598703eb1a4368750dd5266085226a75b5dee731eeab534a1de2"
+      "source_sha256": "3ec650a5b84b0ce0a1bad930c22c03141f6c4e260e1ae611cdf978a8b65f050a",
+      "target_sha256": "2f2f7589fa17cbef01832cd74ff9cd89e9a7666dd9ecf0b254b4b0b8478c1335"
     },
     {
       "path": "INTRODUCTION.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "FEEDBACK.md",
-      "source_sha256": "d2aeb272a7f52c9bb75ca5870a66757ce9333d14efef88241fce00ff82558127",
-      "target_sha256": "ac9662a083072cc0bee079f00db22e40fe420e74f4aeaf0e2f03f9b4b484327a"
+      "source_sha256": "c71dc1f6a0b5988f232a5388bea9c9f2a1c957a7f1582e080e9e4d54fb557718",
+      "target_sha256": "83d392372b8367beae7683997ddae0d174ece911ba4db915faca02263242c975"
     },
     {
       "path": "okf/index.md",
@@ -92,8 +92,8 @@
     },
     {
       "path": "okf/distribution.md",
-      "source_sha256": "56de31fbc7570eaa11c1bbe37aee33d9fc3535883df0f19409618c3086be5999",
-      "target_sha256": "63501776ae3408052c61e340318016bd9814eaa3852654e86e3e9b724453791d"
+      "source_sha256": "26a1ab4fb1196a01baa5133f106e2caf3ddc0b8614669e0159b1fb7c6c1db8bb",
+      "target_sha256": "856b8fc1744672528fe51136ea6f4d5111d60e744756ab9070a69986efb93555"
     },
     {
       "path": "facets/README.md",

@@ -10,7 +10,7 @@ If you keep explaining the same background or tracing how one decision affects a
 
 In the repository you want to work on, ask an agent with access to read and edit it:
 
-> Apply https://github.com/muffinbox/mekra-method to this repository.
+> Apply https://github.com/mekra-lab/mekra-method to this repository.
 
 The agent examines existing material and structure, then judges which knowledge to organize and connect. After making the changes, it explains where and how to incorporate new material and updates.
 
@@ -75,9 +75,16 @@ Adopted reasoning belongs in `okf/`; `facets/` helps locate relevant judgment; `
 
 Guide limitations and reusable improvements discovered during adoption can return as [feedback](FEEDBACK.md). After actual use, you can ask in the target repository:
 
-> `Review our experience using Mekra Method in this repository and draft feedback for https://github.com/muffinbox/mekra-method.`
+> `Review our experience using Mekra Method in this repository and draft feedback for https://github.com/mekra-lab/mekra-method.`
 
 The agent examines the target repository, relevant history, and the guide consulted to produce a shareable draft. Investigation and drafting start with the [feedback guide](FEEDBACK.md); external transmission stays within the scope delegated by the user. Ordinary applications do not require a separate report.
+
+## Maintainer and contact
+
+Mekra Method is developed and maintained by [Mekra Lab](https://github.com/mekra-lab).
+
+- General inquiries and collaboration: [contact@mekralab.org](mailto:contact@mekralab.org)
+- Adoption and usage feedback: [feedback@mekralab.org](mailto:feedback@mekralab.org). See the [feedback guide](FEEDBACK.md) for GitHub Issues and submission details.
 
 ## Current baseline
 
