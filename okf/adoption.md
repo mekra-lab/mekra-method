@@ -2,6 +2,10 @@
 type: Concept
 title: OKF adoption judgment
 description: Judge the target's current state, needed changes, and application scope, then connect the result to continued knowledge operation
+sources:
+  - id: okf-spec-v02
+    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
+    title: Open Knowledge Format v0.2
 ---
 
 # OKF adoption judgment
@@ -57,7 +61,7 @@ When it is useful to find the knowledge's purpose, scope, entry points, referenc
 
 The default location for `MEKRA.md` is the repository root. This suits an explanation of the repository's knowledge operations and links to one or more bundles. If the bundle is copied or distributed independently and its operating context needs to travel with it, the file can live at the bundle root. The two locations coincide when the repository itself is a bundle. Choose the location according to the scope of the operating context and the unit that needs to travel together, and adapt agent entry instructions and links within the file to that location.
 
-When the file is included in a bundle, it must also follow the bundle's format. The [reserved-filename rules in the baseline OKF specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames) treat Markdown files other than `index.md` and `log.md` as concept documents. A `MEKRA.md` inside a bundle therefore needs `type` frontmatter. `type: Playbook` is one local choice for representing operating guidance; the filename `MEKRA.md` has no official format exemption.
+When the file is included in a bundle, it must also follow the bundle's format. The reserved-filename rules in the baseline OKF specification treat Markdown files other than `index.md` and `log.md` as concept documents. A `MEKRA.md` inside a bundle therefore needs `type` frontmatter.[^okf-spec-v02] `type: Playbook` is one local choice for representing operating guidance; the filename `MEKRA.md` has no official format exemption.
 
 An entry point is not a place to keep accumulating detailed principles and procedures. Internalize reusable reasoning in the relevant concepts, and leave the repository's specific context and discovery paths at the entry point. When separating the files, move existing explanations so responsibility for changes remains clear. The file's existence alone does not guarantee automatic loading or actual use. The [templates](../templates/README.md#choosing-an-entry-point-arrangement) explain how to choose and apply either arrangement.
 
@@ -94,3 +98,5 @@ The intake location depends on the responsibilities described in [source materia
 Optional repository-wide operating preferences may also be suggested when they improve later work: preferring Markdown sources for document-like derived outputs, reflecting newly confirmed knowledge from outputs back into OKF, preferring the recommended option for unspecified choices, reviewing durable knowledge after substantial work, or preserving provenance paths for derived outputs. Select only preferences with real value to the target and user, and persist only what has been agreed or delegated in a root `AGENTS.md` or similar instructions. Do not re-ask source-of-truth management, context propagation, source-material separation, and other established OKF principles as if they were optional toggles. A facet is not a rule that reasserts those principles.
 
 Reusable discoveries from operational handoff can be connected to [feedback](feedback.md). Later reviews of actual use should likewise examine the conditions under which the guide supported judgment and operation, rather than how closely it was followed. Recording a verifiable [reference baseline](../versions/README.md) and the scope actually adopted helps distinguish the influence of the guide at that time from later autonomous changes. Feedback is an optional activity that returns observations about the guide's usefulness and limits to research. Autonomous adaptation during application is not itself something that must be reported, and whether feedback is sent does not determine whether adoption is complete.
+
+[^okf-spec-v02]: [OKF v0.2 §3.1: Reserved filenames](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames), [§4.1: Frontmatter](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#41-frontmatter). Introducing and locating a MEKRA.md entry point is a local adoption choice.

@@ -2,19 +2,23 @@
 type: Principle
 title: OKF operating principles
 description: Local operating principles for maintaining clear canonical responsibility together with necessary context
+sources:
+  - id: okf-spec-v02
+    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
+    title: Open Knowledge Format v0.2
 ---
 
 # OKF operating principles
 
 Start from [autonomous judgment](agent-autonomy.md), and interpret and apply the principles below according to purpose and context. Facts, evidence, user intent, authority, and the target's constraints remain conditions of that judgment. Distinguish choices in an individual application from revisions to general principles.
 
-Baseline: [Open Knowledge Format official specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md)
+Format baseline: [Current OKF baseline and reviewed specification](../versions/current.md)
 
 Use OKF to internalize curated knowledge as concepts and relationships. Do not reduce it to a simple document index or a list of source-material locations.
 
 ## Bundle location
 
-OKF is a knowledge representation format and does not prescribe a directory name for bundles. The [official specification's bundle structure](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md#3-bundle-structure) permits a bundle to occupy a whole repository or a subdirectory of a larger one. `okf/` is neither a required name nor an officially recommended standard, and its use here should not be generalized into an established convention across the ecosystem.
+OKF is a knowledge representation format and does not prescribe a directory name for bundles. The official specification's bundle structure permits a bundle to occupy a whole repository or a subdirectory of a larger one.[^okf-spec-v02] `okf/` is neither a required name nor an officially recommended standard, and its use here should not be generalized into an established convention across the ecosystem.
 
 This repository studies OKF itself and uses `okf/` to distinguish adopted knowledge from research material, templates, and tools. The roles below are choices made for this repository. [Choose](adoption.md) a different target's bundle location and name according to its purpose and existing structure.
 
@@ -39,3 +43,5 @@ When new knowledge or a change arrives, do not update only the source of truth; 
 Otherwise, choose structure, length, links, metadata, and writing style autonomously according to the official specification and the actual context.
 
 These are local operating choices layered on top of the official format. We prioritize [autonomous judgment](agent-autonomy.md) to take advantage of OKF's natural-language context and flexible relationships, and determine the depth of [internalization](knowledge-internalization.md) by actual reuse value. Responsibility for canonical facts is described in [source-of-truth management](source-of-truth.md), and coordinated updates after change are described in [context propagation](context-propagation.md).
+
+[^okf-spec-v02]: [OKF v0.2 §3: Bundle structure](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#3-bundle-structure). This supports the format description; the local operating principles above are not specification requirements.

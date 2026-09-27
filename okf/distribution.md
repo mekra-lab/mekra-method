@@ -2,6 +2,10 @@
 type: Pattern
 title: Research and multilingual distribution
 description: Keep a shared source of truth and publication boundaries while aligning meaning across language editions
+sources:
+  - id: application-link-fix
+    resource: https://github.com/mekra-lab/mekra-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca
+    title: Internalization link in the application guide
 ---
 
 # Research and multilingual distribution
@@ -48,4 +52,6 @@ A release is a convenient publication baseline, but it does not precisely identi
 
 When [feedback](feedback.md) or a direct edition edit reveals an improvement to shared knowledge, reflect it in the relevant dev concept before distributing it again as needed. Language-specific wording problems may be solved within that edition. Do not overwrite direct edition changes without comparison or allow the same knowledge to split into independently maintained [sources of truth](source-of-truth.md).
 
-The [application-guide link improvement](https://github.com/mekra-lab/mekra-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca) on 2026-09-20 is a concrete example. A check comparing file destinations across languages exposed a link to the internalization concept that existed only in the English text. Review found it useful in context, so it was incorporated into dev and the Korean text as well. This demonstrates the process of reviewing a difference and returning it to shared knowledge; it does not establish effectiveness in other domains.
+The application-guide link improvement on 2026-09-20 is a concrete example.[^application-link-fix] A check comparing file destinations across languages exposed a link to the internalization concept that existed only in the English text. Review found it useful in context, so it was incorporated into dev and the Korean text as well. This demonstrates the process of reviewing a difference and returning it to shared knowledge; it does not establish effectiveness in other domains.
+
+[^application-link-fix]: [Commit updating the Korean application guide](https://github.com/mekra-lab/mekra-method-kr/commit/5ee3ca639f4fd85a4370d3826e6df4d71c43b0ca). Evidence of the actual link change.

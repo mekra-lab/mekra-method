@@ -2,6 +2,10 @@
 type: Principle
 title: Autonomous agent judgment
 description: Start from the agent's autonomous judgment and use it to guide the application of other operating principles according to purpose and context
+sources:
+  - id: okf-spec-v02
+    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
+    title: Open Knowledge Format v0.2
 ---
 
 # Autonomous agent judgment
@@ -18,7 +22,7 @@ Distinguish a decision to apply a principle differently in one target from a dec
 
 ## Why this connects to OKF's strengths
 
-OKF expresses knowledge through minimal structured metadata, free-form bodies, and Markdown links. The concrete meaning of a relationship is carried by natural language around the link, and neither concept types nor body structure are fully prescribed by a fixed taxonomy. The format itself is defined by the [official specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md).
+OKF expresses knowledge through minimal structured metadata, free-form bodies, and Markdown links. The concrete meaning of a relationship is carried by natural language around the link, and neither concept types nor body structure are fully prescribed by a fixed taxonomy.[^okf-spec-v02]
 
 With this structure, agents can read explanations intended for people and interpret conditions, exceptions, and relationships in light of the actual question. New knowledge can be connected to existing concepts without encoding every possible relationship and case in advance as schema or branching logic. To preserve that flexibility, we rely on contextual interpretation and autonomous judgment by capable LLMs. This is not an attitude required by the official specification; it is an operating philosophy chosen to take advantage of its expressive style.
 
@@ -43,3 +47,5 @@ Autonomous judgment can coexist with tools that check explicitly defined constra
 The same principle carries into [adoption judgment](adoption.md). Work types, scope categories, suggested questions, and procedures are defaults that support judgment. Understand the target and user intent first, then omit, combine, or adapt them as needed, and do not ask again about choices that have already been delegated. Even when the user delegates judgment, leave the actual decisions and usage instructions needed for later operation.
 
 OKF's human-readable format, portability, and ease of version control remain useful without an LLM. The reason to prioritize autonomous judgment is specifically to make fuller use of agents' ability to interpret and maintain a natural-language knowledge graph.
+
+[^okf-spec-v02]: [OKF v0.2 §4: Concept documents](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#4-concept-documents), [§6.1: Links between concepts](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#61-links-between-concepts). Prioritizing autonomous judgment when using this format is Mekra's own choice.
