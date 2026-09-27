@@ -14,8 +14,9 @@ The core perspective is a balance: concentrate definition and change responsibil
 
 ## Operating philosophy
 
+- [Autonomous judgment](agent-autonomy.md) - start from the agent's autonomous judgment and use it to guide the application of other operating principles according to purpose and context.
 - [Operating principles](operating-principles.md) - keep clear source-of-truth responsibility together with the context needed for understanding.
-- [Autonomous judgment](agent-autonomy.md) - prioritize autonomous judgment so OKF can benefit from natural-language context and flexible relationships.
+- [Self-erasure](self-erasure.md) - provide the help judgment needs, and reduce the role of guidance and the method as that need diminishes.
 - [Knowledge internalization](knowledge-internalization.md) - reflect the meaning and impact of new knowledge in related concepts.
 
 ## Reusable patterns and boundaries

@@ -10,30 +10,72 @@ Track changes in upstream OKF and record their impact on this repository's princ
 | Baseline | Meaning |
 | --- | --- |
 | OKF specification version and verified file reference | The official format being interpreted and applied |
-| Mekra Method release tag | A fixed publication baseline for operating knowledge adopted on top of that specification |
+| Mekra Method release tag | A fixed publication baseline for the adopted method and operating knowledge |
 | Repository and commit of the guidance consulted | The actual state of the guide read when applying it to a target |
 
-The public repositories' `main` branches hold the latest adopted guidance and continue to evolve. Releases provide baselines for comparison and reproduction; they are not issued for every change. Use the official specification version in a target bundle's `okf_version`, not a Mekra Method release name.
+The public repositories' `main` branches retain the last reviewed and published release and are updated when a new release is published. Changes for the next release can continue to accumulate in dev. Use the official specification version in a target bundle's `okf_version`, not a Mekra Method release name.
+
+Urgent fixes also ship as releases. Corrections to errors, wording, or links that preserve meaning use a patch release; changes to adoption meaning use the appropriate level below. Urgency alone does not justify a patch version or moving an existing tag.
+
+`SYNC.json` records the dev commit and publication manifest used for review, along with the content fingerprints of the source and published files. Preserve that record when dev advances. Comparing new dev changes is separate from checking a published release against its own baseline.
 
 ## Mekra Method releases
 
 Mekra Method continues the knowledge and history of OKF Lab and OKF Method. The repositories moved from `okf-lab`, `okf-lab-kr`, and `okf-lab-dev` through `okf-method`, `okf-method-kr`, and `okf-method-dev` to `mekra-method`, `mekra-method-kr`, and `mekra-method-dev`, respectively. Preserve the existing `okf-0.2-lab-1` tag and its commit as a historical baseline; do not retroactively rename repositories or tags in past adoption records.
 
-Keep the `method` tag convention and sequence introduced with OKF Method. Do not restart the sequence because of the Mekra rename. The rename itself does not publish a release or change the OKF specification version of a target bundle.
+### Names and the meaning of changes
 
-Tags follow `okf-<spec-version>-method-<sequence>`. For example, `okf-0.2-method-1` denotes the first Mekra Method release recommending OKF 0.2, and the next release on the same specification baseline is `okf-0.2-method-2`. These names illustrate the convention; check actual tags in each public repository to determine whether a release has been published.
+New release tags use `mekra-X.Y`, or `mekra-X.Y.Z` for a separately published patch. `X`, `Y`, and `Z` are numbers. Choose which position to increment according to the impact on existing adoption and operation.
 
-The sequence numbers releases based on that specification; it is not a SemVer compatibility classification. Consider a new baseline when the adoption model, a core interpretation, template operating practices, or a major usage flow changes meaningfully. Typographic, wording, or link corrections alone do not require a new release. Even if upstream advances its version, begin `method-1` for the new specification only when the recommended baseline changes after impact review.
+| Position | Meaning of the change |
+| --- | --- |
+| Major `X` | A change requiring review of important assumptions or operating practices in existing adoption |
+| Minor `Y` | An improvement that can be adopted optionally while keeping existing practices |
+| Patch `Z` | A separately published correction to errors, wording, or links that preserves meaning |
 
-`mekra-method-kr` and `mekra-method` use the same logical release name. Each tag points to a commit whose publication scope and meaning were reviewed against the same dev baseline, so the commit hashes differ. Keep tags fixed at the published commits; subsequent corrections belong in later commits and, when needed, a new release. Describe the main changes and their adoption or migration impact in each repository's language. A shared release is complete only after both repositories have been checked. The reasoning for this relationship is in the [distribution principles](../okf/distribution.md).
+`mekra-X.Y` is the first release in that series, equivalent to patch zero. Do not add a duplicate `.0` tag for the same baseline; subsequent patches start at `.1`. Omit the patch position again when incrementing the minor version, and start the minor version at zero when incrementing the major version. Examples include `mekra-0.3`, `mekra-0.3.1`, `mekra-0.4`, and `mekra-1.0`. These illustrate the naming convention; they do not announce a release or select the next number.
+
+This is a project convention for describing a method's impact, not a software API compatibility guarantee. Even a bug fix uses the appropriate level if it changes the meaning of adoption. Adding an optional arrangement, such as the trial `MEKRA.md` entry point, does not by itself require a major version. Dev edits and local publication reviews can be grouped together; publish a release when updating public `main`.
+
+### Relationship to the OKF baseline
+
+Record the Mekra version and OKF specification version independently. Keep OKF out of the release name, and state the underlying or recommended OKF version and reviewed specification reference in the release notes. Claims of additional support should describe the scope actually checked. A target bundle continues to declare its format through `okf_version`.
+
+When changing the OKF baseline, judge the Mekra change level from its impact on actual adoption. A new specification number alone does not require incrementing Mekra's major version or restarting its numbering.
+
+### Transition from earlier baselines
+
+Dev adopted this convention on 2026-09-26. Preserve the names and targets of tags published under the earlier `okf-<spec-version>-method-<sequence>` convention and the `okf-…-lab-…` family. Do not mechanically translate old sequence numbers into new versions or rename existing tags. The combined `mekra-0.x-okf-0.y` notation considered in the inbox was not adopted.
+
+Choose the first number in the new scheme after reviewing the actual release content and transition impact. Explain the relationship to the previous public baseline and the changes in the first release notes. Adopting the convention does not itself publish a release or change a target's adoption baseline.
+
+### Publication across languages
+
+`mekra-method-kr` and `mekra-method` use the same logical release name. Each tag points to a commit whose publication scope and meaning were reviewed against the same dev baseline, so the commit hashes differ. Keep tags fixed at the published commits; subsequent corrections belong in later commits and ship as new releases when published. Describe the main changes, adoption or migration impact, and separate OKF baseline in each repository's language. A shared release is complete only after both repositories have been checked. The reasoning for this relationship is in the [distribution principles](../okf/distribution.md).
 
 The research repository does not need a tag on every commit. Each public repository's `SYNC.json` connects it to the reviewed dev baseline, and users should be able to identify the guidance available at the time of adoption from the public repository they consulted alone.
 
 ## Recording the actual reference baseline
 
-If adoption used `main` between releases, the nearest tag cannot stand in for the actual commit consulted. During [operational handoff](../APPLICATION.md), briefly recording the repository and commit actually read in the existing README or operating guide helps later comparison. A corresponding release and specification baseline can also be recorded separately, but there is no need for a separate `VERSION` file or repeated metadata on every concept.
+If adoption used public `main`, the corresponding release can identify the baseline. For history from before this release policy, release candidates, or dev, the nearest tag cannot stand in for the actual commit consulted. During [operational handoff](../APPLICATION.md), briefly recording the repository and commit actually read in the existing README or operating guide helps later comparison. A corresponding release and specification baseline can also be recorded separately, but there is no need for a separate `VERSION` file or repeated metadata on every concept.
 
 If only some concepts were updated from newer guidance, record that scope too, so readers do not assume the entire repository moved to the same baseline. If a past reference was not recorded, recover what the history supports and leave the rest unverified. [Long-term feedback](../FEEDBACK.md) connects differences between the guide used then and the current guide to observed problems.
+
+If an adoption guide such as `MEKRA.md` uses `version`, it means the Mekra Method release consulted when building or updating the knowledge system. It does not mean an individual concept's revision, freshness, or completion of the entire transition. Record the release actually consulted; if material outside that release was also used, add the repository, commit, and scope. A separate file or field is optional.
+
+In dev, where the method itself is developed, the working tree containing adopted knowledge can be described as the application baseline. Identify any uncommitted changes, and do not present an unpublished number as the release applied. When fixing a state for comparison or reproduction, record its commit.
+
+## Reviewing early metadata conventions
+
+When a local convention differs from an official field's meaning, check how actual consumers read it and which scope is being updated. The official meanings below come from [OKF v0.2 §5.2 and §5.4](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#52-trust-generated-and-verified), matching the [current baseline](current.md). The transition choices are this repository's adoption guidance.
+
+| Earlier convention | Official meaning and transition judgment |
+| --- | --- |
+| Keeping `generated.at` as the first creation date | Its official meaning is the time of the last meaningful content change. Correct it when actual creation or change evidence exists; do not invent a timestamp. The optional field can be omitted, or the initial creation history can be preserved separately. If retaining `generated`, also check its required `by` key. |
+| Using `status: active` to mean operational | Official document states are `draft`, `stable`, and `deprecated`, with `stable` as the default when omitted. Preserve operational status in prose or an extension field, and choose the document state according to its meaning. Do not replace every `active` with `stable` mechanically. |
+| Treating an old `verified` entry as current verification after editing | Generation or editing and verification are separate. Do not update the verifier or timestamp without actual verification. Review the valid scope of the earlier check, correct claims it no longer supports, and retain needed historical evidence. |
+
+Adding optional fields is not itself a quality improvement. Preserve the meaning of protected references and historical copies, and review only the compatibility needed within the current scope. These corrections alone do not require a specification upgrade or a complete rewrite.
 
 ## Flow for adopting an upstream change
 
@@ -43,3 +85,5 @@ If only some concepts were updated from newer guidance, record that scope too, s
 4. Judge the recommended version for new projects separately from the migration priority of existing projects.
 
 Do not infer compatibility from a version number alone. The specification can change while retaining the same version label, so record both the verification date and the upstream file baseline.
+
+Record the SPEC blob and a link to the matching file at a fixed commit in the [current baseline](current.md). The same fixed link in release notes lets readers inspect the specification reviewed at the time. Consider a dev snapshot when an actual local copy is needed for offline validation or comparison, and a fork when modifying or distributing OKF or maintaining a separate compatibility branch requires one.

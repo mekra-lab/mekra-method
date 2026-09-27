@@ -8,6 +8,9 @@ This document records the recommended baseline for the official specification. T
 | Official specification | [SPEC.md](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md) |
 | Verified on | 2026-09-18 |
 | Verified SPEC blob | `c06e3eede0c910d0ecf12524c34204156f8795ac` |
+| Fixed specification reference | [SPEC.md @ ad30107](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md) |
+
+The official specification link opens the current upstream document; the fixed link opens the reference matching the blob above. On 2026-09-26, the GitHub API confirmed that the `SPEC.md` blob at that fixed link matches this record. This checks the reference path for the existing baseline; it does not review all current upstream changes or adopt a new baseline.
 
 ## Use in this repository
 

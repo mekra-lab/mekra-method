@@ -24,6 +24,8 @@ Alongside current documents, examine accessible Git history, adoption records, a
 
 Where possible, identify the repository, commit, or release actually consulted and compare it with the current guide. Distinguish limitations that have since been addressed from problems that remain. If the baseline cannot be found, leave it unverified; similar wording alone does not establish that a particular release was adopted. The [specification, release, and reference commit](versions/README.md) are distinct baselines.
 
+For example: "We first built this using our own instructions, later consulted the guide to improve only the main concepts, and are now reviewing the experience against a newer guide." If the original instructions cannot be found, leave them unverified and record only the scope of later adoption and the changes observed. If the model, tools, material, or additional support from the user also changed, consider those changes when interpreting the effects.
+
 Git history shows what changed, but does not fully explain how often documents were read or why they changed. A long period without edits does not by itself imply neglect, nor do repeated revisions or deletions necessarily mean failure. Supplement the history with existing operating records or the user's explanation when needed, and distinguish confirmed changes from interpretations of their causes. Even with limited history, a draft can draw on observations supported by current material.
 
 ## What to include
@@ -36,6 +38,8 @@ Synthesize the context gathered during the investigation into a self-contained f
 - Possible improvement: related documents, clarification that may help, and questions worth checking in other contexts.
 
 No fixed form or score is required. Distinguish observed facts from guesses about cause and from proposals. When verifiable, include the period and scope examined, the Mekra Method repository and commit or release consulted, and the target OKF specification version so different baselines are not confused. If there are no usage records or no improvements were identified, explain that limitation; do not invent effects or problems merely to have something to report.
+
+Distinguish confirmation that documents exist, evidence that an agent read and used them, the user's reported experience, and measured outcomes. If the only evidence is an AI response saying "I applied it," preserve it as a report at that level. Multiple bundles and copies from the same working environment may be related observations; do not add them up as independent successes. The reasoning behind these distinctions is in [operational observations](okf/feedback.md#observations-from-real-operation).
 
 Generalize the draft to preserve only relationships and conditions needed for judgment. Do not copy company, customer, or personally identifying information, private-repository URLs, original documents, code, or logs directly. Apply the same standard to email. If generalization cannot preserve the meaning of the case, external submission can be skipped.
 

@@ -6,7 +6,7 @@ description: Keep a shared source of truth and publication boundaries while alig
 
 # Research and multilingual distribution
 
-`mekra-method-dev` is the source of truth for research and adopted shared knowledge, while `mekra-method-kr` and `mekra-method` are the Korean and global English editions. Synchronization exists to align the meaning of publishable knowledge. Research source material and internal Git history do not need to be distributed with it.
+`mekra-method-dev` is the source of truth for research and adopted shared knowledge. `mekra-method-kr` publishes that knowledge in Korean, and `mekra-method` publishes it in English for a global audience. Synchronization exists to align the meaning of publishable knowledge. Research source material and internal Git history do not need to be distributed with it.
 
 ## Publication scope and language responsibilities
 
@@ -14,7 +14,7 @@ Select files for publication explicitly, and reread changed content even when th
 
 If private research inputs need to be retained in the research repository, first establish the need and permission to retain them, then use `research-private/` to keep them separate from publishable research explanations. Paths under this name must not be included in the publication manifest or in exceptions for edition-only files. Some files under `notes/` and `experiments/` are also publication targets, so do not assume a research directory is private. A separate path helps prevent accidental file inclusion; content copied into a public document still needs a publication review.
 
-The Korean edition reflects selected shared knowledge. The English edition must convey the same meaning, conditions, exceptions, and reasoning. Translation should neither add nor weaken principles. Titles, edition notes, repository URLs in examples, and repository-specific role descriptions may be adjusted for the edition. The official OKF version and a language edition's synchronization baseline are separate pieces of information.
+The Korean repository reflects selected shared knowledge. The global repository must convey the same meaning, conditions, exceptions, and reasoning in English. Translation should neither add nor weaken principles. Titles, language notes, repository URLs in examples, and repository-specific role descriptions may be adjusted for each repository. The official OKF version and a repository's synchronization baseline are separate pieces of information.
 
 ## License scope
 
@@ -24,7 +24,7 @@ When applying CC0 or adding content later, check the rights to that content and 
 
 ## Agent judgment and tool verification
 
-The agent compares changes since the last publication and decides whether direct edits in an edition should be preserved or folded back into shared knowledge. Following [context propagation](context-propagation.md), update related concepts, facets, and templates, then review the meaning of the English edition. Tools verify the presence of listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or publication suitability.
+The agent compares changes since the last publication and decides whether direct edits in an edition should be preserved or folded back into shared knowledge. Following [context propagation](context-propagation.md), update related concepts, facets, and templates, then review the meaning of the English text. Tools verify the presence of listed files, links, content changes, and synchronization records. Matching hashes do not prove translation accuracy or publication suitability.
 
 Before publication, check file boundaries in the actual commits to be sent and in any intervening history that will become public, as well as in the working directory. Deleting a file from the final state does not keep it private if an earlier commit still contains it. Pin the verified commit and the destination's remote baseline for transmission, and check again if the remote changes after verification. This check does not automatically identify sensitive content inside allowed files or judge the meaning of a translation.
 
@@ -36,11 +36,13 @@ Git history in an edition should explain the meaning users will see rather than 
 
 ## Releases and adoption baselines
 
-Synchronization aligns the meaning and source baselines of public repositories; a release gives a reviewed state a name that remains available for later comparison. Not every synchronization needs a new release. Establishing a baseline after meaningful changes in the adoption model or operating judgments helps [long-term feedback](feedback.md) explain differences between the guide used then and the guide available now.
+Synchronization aligns the meaning and source baseline of content to be distributed. A release publishes a reviewed state under a name that remains available for later comparison. Public `main` branches retain the last release state and are updated when a new release is published. Development and local synchronization reviews can continue between releases. Keeping a baseline helps [long-term feedback](feedback.md) explain differences between the guide used then and the guide available now.
+
+Urgent corrections are also published as releases appropriate to their impact. Use a patch release for errors, wording, or links whose correction preserves meaning; if the meaning for adoption changes, judge the level of change accordingly. Each public repository's `SYNC.json` preserves the reviewed dev baseline, publication manifest, and content fingerprints of the source and result. Later changes in dev do not by themselves make an existing release wrong, and its review record should not be rewritten merely to eliminate that difference.
 
 The same release name in the Korean and English repositories denotes shared knowledge reviewed against the same dev baseline. Each keeps its own Git history and commits, with synchronization records connecting source and published content. If only one has been published, do not report the shared release as complete. Moving a published tag changes the meaning referenced by earlier users, so corrections belong in subsequent changes.
 
-A release is a convenient publication baseline, but it does not precisely identify the guidance used by targets that adopted it between releases. Checking the actual public repository, commit, and adoption scope makes past choices easier to interpret. Naming and reference-recording practices belong in the [version guide](../versions/README.md); distinguish the official OKF specification version from the Mekra Method release sequence.
+A release is a convenient publication baseline, but it does not precisely identify guidance taken from frequent updates before this release policy, a release candidate, or dev. Checking the actual public repository, commit, and adoption scope makes past choices easier to interpret. Naming and reference-recording practices belong in the [version guide](../versions/README.md). Mekra's major, minor, and patch versions describe the scale of change for existing uses of the method, while the official OKF specification baseline is recorded separately in the release description. Recording an adoption baseline does not guarantee that the target's knowledge is current or that its transition is complete.
 
 ## Changes flowing back from an edition
 

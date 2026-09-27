@@ -1,12 +1,20 @@
 ---
 type: Principle
 title: Autonomous agent judgment
-description: Prioritize autonomous judgment so OKF can benefit from natural-language context and flexible relationships
+description: Start from the agent's autonomous judgment and use it to guide the application of other operating principles according to purpose and context
 ---
 
 # Autonomous agent judgment
 
-Prioritize the agent's autonomous judgment. The principles below are starting points for judgment and may be applied differently depending on purpose and context.
+Start from the agent's autonomous judgment, and interpret and apply other operating principles according to purpose and context.
+
+Autonomous judgment is a meta-principle that guides the application of other operating principles. Clear responsibility for sources of truth, distributed context, internalization, and propagation provide the evidence and understanding needed for judgment. Choose structure, internalization depth, tools, and work sequence according to the target's needs. Autonomous judgment is a starting point for achieving the user's purpose; increasing autonomy is not an end in itself.
+
+Facts and evidence, the user's intent, actual authority, and the target's constraints are conditions of that judgment. Discretion over how to apply a principle does not permit arbitrary changes to those conditions.
+
+## Applying principles and revising them
+
+Distinguish a decision to apply a principle differently in one target from a decision to revise Mekra's general principles. A choice that works in one target does not by itself change a general principle. When evidence supports reuse elsewhere, examine the conditions and limits before reflecting it in the source of truth. Mekra's own principles are also open to this reassessment; [self-erasure](self-erasure.md) describes how to judge their role as the need for them diminishes.
 
 ## Why this connects to OKF's strengths
 
@@ -21,6 +29,8 @@ To use that advantage, the agent must be able to judge what concepts to create, 
 On the premise that capable agents can interpret context, we prioritize organizing and maintaining the knowledge needed for judgment over prescribing detailed sequences of work. We keep definition and change responsibility clear and make the reasons, conditions, and relationships understandable in related concepts, while leaving the concrete way of working to the agent.
 
 Keep repository instructions focused on purpose and repository-specific choices. Do not repeat generic guidance that can already be inferred from the specification and context. [Operating principles](operating-principles.md) provide judgment criteria, while [facets](../facets/README.md) help identify which judgments become especially important for a target. Facets do not prescribe structure; directory organization is chosen from actual need.
+
+Reassess the need for supporting guidance already in place. If the agent can make the judgment on its own, or principles, tools, or operating conditions have changed, consider whether keeping the guidance still has practical value. [Self-erasure](self-erasure.md) applies this reassessment to Mekra itself, expressing the aim of stepping back as its contribution to judgment becomes less necessary.
 
 Autonomous judgment depends on sufficient knowledge. Even when instructions are brief, the body should [internalize](knowledge-internalization.md) enough reasons, conditions, and relationships for judgment. Omitting domain facts or repository-specific context that the agent does not already know is not the intent of this principle.
 

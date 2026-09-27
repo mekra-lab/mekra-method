@@ -22,6 +22,12 @@ Claims and hypotheses whose truth is not established can still be recorded with 
 
 Restating the context each concept needs is a choice intended to reduce the burden of reconstructing meaning from several sources while reading. It also creates the cost of finding and updating related restatements when the source of truth changes. Judge this balance by its usefulness for understanding and its maintenance cost during change, rather than the amount of duplicated text.
 
+## Paths to current sources of truth and historical evidence
+
+The path to a current definition and the evidence needed to reconstruct a past judgment may serve different roles. Preserve the conditions of the time in historical copies and provide a path to the current baseline, so an old explanation found through search is not treated as the current source of truth. Do not rewrite historical statements retroactively to fit current policy.
+
+If evidence came from a document in a temporary branch or worktree, check whether the readers who need it can still reach it after integration or relocation. When reconnecting to a corresponding document in the main repository, compare the cited content and version, and preserve the baseline needed for the historical judgment. A matching filename alone does not justify substitution. A path missing from one copy is not evidence that the material has disappeared from its original environment. A working link or matching content hash does not guarantee that the content is current, true, or approved.
+
 ## Decision criteria
 
 - Is it clear where the fact is defined and changed?

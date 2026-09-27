@@ -6,7 +6,7 @@ This document introduces the name, origins, central ideas, and design choices. T
 
 ## Name and origins
 
-**Mekra takes its name from the Korean word 맥락 (meakrak), meaning “context”.** Here, context is the background that makes a fact understandable: why it matters, under which conditions it holds, and how it relates to other knowledge. The name connects with the method's interest in making that context available where related concepts are explained.
+**Mekra takes its name from the Korean word 맥락, meaning “context”.** Here, context is the background that makes a fact understandable: why it matters, under which conditions it holds, and how it relates to other knowledge. To exercise judgment, an agent needs to find and understand that context. The name connects with the method's interest in retaining the context needed for judgment.
 
 Mekra developed through research into and practical work with Open Knowledge Format (OKF). The project has carried its knowledge and history through the names **OKF Lab → OKF Method → Mekra Method**. While interpreting and applying the format, it developed an operating perspective on what knowledge to retain, how to connect it, and which judgments to leave to agents.
 
@@ -22,13 +22,13 @@ The phrase expresses the direction of the method in a few words. It does not imp
 
 ## Central ideas
 
-**Keep sources of truth clear, share context where it is needed, and delegate judgment.**
+**Start from autonomous agent judgment.**
 
-The first idea is to **keep definition and change responsibility clear while deliberately distributing the context needed for understanding across related concepts**. Establish where a fact is defined and changed, and explain its effects on the meaning, conditions, and exceptions of other concepts where those concepts are discussed. A single source of truth does not imply a single location for context.
+Interpret and apply the other operating principles according to purpose and context. Trust capable agents to interpret context and exercise judgment, and provide the reasons, conditions, and relationships they need. Facts, user intent, authority, and the target's constraints remain conditions of that judgment, while the concrete working method is left to the agent wherever practical.
 
-The second idea is to **trust capable agents to interpret context and exercise judgment**. Instead of prescribing every sequence of work, provide the reasons, conditions, and relationships that support judgment, and leave the concrete working method to the agent wherever practical. That autonomy depends on sufficient evidence and context that the agent can actually find and read.
+To support this, **keep sources of truth clear, share context where it is needed, and delegate judgment**. Establish where a fact is defined and changed, and explain its effects on the meaning, conditions, and exceptions of other concepts where those concepts are discussed. A single source of truth does not imply a single location for context.
 
-The two ideas work together. Natural-language explanations preserve relationships and reasons so agents can use their ability to interpret context and judge what the situation calls for. When facts change or new knowledge arrives, update both the source of truth and the related explanations whose meaning changes. **Distributing context brings a responsibility to maintain it together.**
+Autonomy depends on sufficient evidence and context that the agent can actually find and read. When facts change or new knowledge arrives, update both the source of truth and the related explanations whose meaning changes. **Distributing context brings a responsibility to maintain it together.**
 
 Consider a hypothetical change to a booking policy's cancellation deadline. The policy document defines the deadline; refund and customer support documents explain what it means for their work. An agent can read those relationships and judge what to inspect and change within the request's scope. Distributing explanations alone does not guarantee that it will discover every effect or update everything correctly, so the evidence actually read and the resulting changes still need checking.
 
@@ -36,11 +36,11 @@ Consider a hypothetical change to a booking policy's cancellation deadline. The 
 
 These are summaries of adopted principles. The linked documents explain their scope and reasoning.
 
+- **Start from autonomous agent judgment.** Interpret and apply the other operating principles according to purpose and context. Distinguish discretion in an individual application from revising general principles, and retain facts, user intent, authority, and the target's constraints as conditions of judgment. [Agent autonomy](okf/agent-autonomy.md)
 - **Distinguish canonical responsibility from the location of context.** Code, configuration, policies, and existing documents can be sources of truth, while related concepts can restate the context needed for understanding. The concern is independent definition and change in several places, rather than repetition of the same fact. [Source of truth and context](okf/source-of-truth.md)
 - **Retain the meaning, reasons, conditions, and relationships needed for judgment.** Explain implications within a concept when links or summaries alone would leave them unclear. Procedures can also be knowledge worth retaining when they support judgment. [Knowledge internalization](okf/knowledge-internalization.md)
 - **Reflect the meaning of a change in related knowledge.** Find and update concepts and explanations whose meaning changes when the source is revised. [Context propagation](okf/context-propagation.md)
 - **Choose structure and depth from actual need.** Work with the existing structure and how knowledge is used, rather than moving all material or imposing the same directories and categories everywhere. [Operating principles](okf/operating-principles.md)
-- **Start from autonomous agent judgment.** Discretion in interpretation and working method is distinct from authority to arbitrarily change facts, policies, or permissions. Tools can also verify clearly defined constraints. [Agent autonomy](okf/agent-autonomy.md)
 - **Distinguish the status of a record from the certainty of its content.** Uncertain claims can be maintained with their status and evidence made clear. Maintaining a record is different from accepting its claim as fact. Proposals under investigation are also distinguished from adopted operating knowledge. [Source of truth and context](okf/source-of-truth.md) · [Operating knowledge](okf/index.md)
 
 ## What Mekra prioritizes
@@ -55,6 +55,20 @@ Mekra brings canonical responsibility, distributed context, and autonomous judgm
 | Updating a changed document | Which other concepts and explanations change meaning as a result? |
 
 These questions do not define the limits of particular products or other methods. They can be used alongside search and RAG, work procedures, and tool-based checks. Within that combination, Mekra prioritizes **organizing and maintaining the knowledge that supports judgment**. Its effects are assessed through actual use, observing the effort needed to find, understand, and update knowledge, along with maintenance costs.
+
+## Direction and practice
+
+Mekra Method puts its aim of retaining knowledge and context for judgment into practice under current technical and operating conditions. Those practices can also change or become unnecessary.
+
+The reasons for prioritizing autonomous judgment and reassessing the need for guidance may evolve at a different pace from specific ways of using OKF, facets, and context propagation. This distinction explains both what the practice is for and how it currently works. A principle can contain both an aim and a concrete method, so their relationship is currently explained within the same methodology.
+
+## Self-erasure
+
+**Mekra helps as much as judgment requires and steps back as that need diminishes.**
+
+As agent capabilities, principles, tools, and operating conditions change, reassess the contribution of supporting guidance. Remove guidance that no longer helps, and apply the same judgment to Mekra itself if maintaining it as a distinct method no longer adds value. Retain the knowledge, context, and history of important judgments that are still needed.
+
+This is Mekra's chosen direction. Observation and validation will show how much guidance can be reduced and where it becomes unnecessary. The [self-erasure principle](okf/self-erasure.md) explains the reasoning and scope of that judgment.
 
 ## Relationship to OKF
 

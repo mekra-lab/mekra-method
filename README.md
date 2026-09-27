@@ -91,7 +91,7 @@ Mekra Method is developed and maintained by [Mekra Lab](https://github.com/mekra
 - Recommended baseline: **OKF v0.2**
 - Verification date and specification baseline: [`versions/current.md`](versions/current.md)
 
-The public repositories' `main` branches contain the latest adopted guidance, while releases provide fixed baselines for comparison and reproduction. Mekra Method releases use the name `okf-<spec-version>-method-<sequence>`. See the [version guide](versions/README.md) for what the name means and how to record the commit actually used during adoption.
+The public repositories' `main` branches retain the last reviewed and published release, while dev changes accumulate for the next one. Urgent fixes also ship as releases at the level appropriate to their impact. New Mekra Method releases use `mekra-X.Y`, or `mekra-X.Y.Z` for a separately published patch. Record the OKF specification baseline separately and preserve existing tags. See the [version guide](versions/README.md) for the meaning of change levels and how to record the commit actually used during adoption.
 
 ## License
 

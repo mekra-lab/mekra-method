@@ -16,7 +16,13 @@ The prose around a link should explain why the relationship matters and what eff
 
 Knowledge operations themselves can also be internalized, such as criteria for adopting collected material or how to interpret conflicting evidence. Do not send something to `docs/` automatically just because it is procedural; decide whether separate task guidance is needed based on how it is actually used.
 
-When internalizing a design conversation, distinguish the user's purpose and adopted judgments from proposed filenames, categories, and procedures. Reflect later corrections to the context and connect reusable conclusions and their reasons to related concepts. For example, the operation categories in [adoption judgment](adoption.md) are vocabulary for understanding natural-language intent; their appearance in a conversation does not require fixed commands or separate directories. Choose the concrete document structure to fit the adopted purpose and its relationship to existing knowledge.
+When internalizing design conversations and research records, distinguish the user's purpose and [what was actually adopted](external-sources.md#roles-and-valid-scope-of-materials) from proposed filenames, categories, and procedures. Reflect later corrections to the context and connect reusable conclusions and their reasons to related concepts. For example, the operation categories in [adoption judgment](adoption.md) are vocabulary for understanding natural-language intent; their appearance in a conversation does not require fixed commands or separate directories. Choose the concrete document structure to fit the adopted purpose and its relationship to existing knowledge.
+
+## Meaning of states and results
+
+A state name alone may not convey enough meaning for the next judgment. For example, if `ready` only confirms that configuration is in place, judging whether a request actually succeeded requires separate evidence about connectivity, authentication, or other relevant conditions. If successful processing, completed storage, and business approval depend on different conditions, explain those conditions and responsibilities in the relevant concepts. Internalize the relationships when default behavior has exceptions or applicability differs by caller. Explain the judgments that are actually being confused rather than adding new fields to every state.
+
+Also distinguish the scope of knowledge written from the scope an agent actually read and used. [Adoption judgment](adoption.md#connecting-knowledge-to-actual-use) addresses how knowledge connects to work and what counts as completed adoption; [operational observations](feedback.md) address its effects on results.
 
 ## Internalization depth and operating cost
 

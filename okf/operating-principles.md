@@ -6,7 +6,7 @@ description: Local operating principles for maintaining clear canonical responsi
 
 # OKF operating principles
 
-Prioritize the agent's autonomous judgment. The principles below are starting points for judgment and may be applied differently depending on purpose and context.
+Start from [autonomous judgment](agent-autonomy.md), and interpret and apply the principles below according to purpose and context. Facts, evidence, user intent, authority, and the target's constraints remain conditions of that judgment. Distinguish choices in an individual application from revisions to general principles.
 
 Baseline: [Open Knowledge Format official specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md)
 

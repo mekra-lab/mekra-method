@@ -18,4 +18,6 @@ Judge extraction and retention, evidence discovery, and the representation of me
 
 People should also be able to read concept documents and find their way back to the source. Separate human and agent bodies are not inherently necessary; topical synthesis documents may be useful when they improve discovery.
 
+An index's coverage also informs discovery decisions. Distinguishing material registered only by title and location, material whose body has been extracted, and material reviewed for meaning helps avoid overinterpreting gaps in search results or registration counts. Where needed, explain the baseline date and changes not yet reflected. The existence of a saved list and the operation of automatic updates are checked separately when establishing the [scope of adoption and use](adoption.md#connecting-knowledge-to-actual-use).
+
 The [Large corpus facet](../facets/large-corpus.md) identifies environments where these judgments become especially important. Choose concrete directories and file placement from the actual location of source material, the existing storage system, and reuse cost. Domains such as medicine or law, where provenance and application conditions matter, should first use these general principles; consider a separate facet or pattern only when recurring domain-specific judgment is actually observed.

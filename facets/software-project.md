@@ -15,6 +15,9 @@ A facet for environments where software code and configuration are primary sourc
 - Is this information already expressed sufficiently in code, configuration, or existing documents as its source of truth? What additional context is needed in OKF to understand related concepts and make judgments?
 - Do we need to explain purpose, constraints, business meaning, or design judgment rather than implementation facts?
 - Does this implementation change alter the meaning of any OKF concept?
+- What outcomes and execution scope do labels such as `ready`, success, or `dry-run` actually guarantee? Does the [meaning of the concept](../okf/knowledge-internalization.md#meaning-of-states-and-results) also cover exceptions to the default behavior or differences between callers?
+- Is the knowledge read by a development agent, or is it also connected as input to AI within the product? What is the [scope in which actual use has been confirmed](../okf/adoption.md#connecting-knowledge-to-actual-use)?
+- After work from a branch or worktree is integrated, can you still find [evidence paths](../okf/source-of-truth.md#paths-to-current-sources-of-truth-and-historical-evidence) that match the cited content and version?
 - Would using an existing location and convention be more natural than creating a new directory or document?
 
 Related knowledge: [source of truth and context](../okf/source-of-truth.md), [knowledge internalization](../okf/knowledge-internalization.md), [context propagation](../okf/context-propagation.md)

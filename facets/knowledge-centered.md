@@ -12,6 +12,7 @@ A facet for environments where knowledge itself is the primary output. More impo
 ## Judgment questions
 
 - What is the source of truth for the source material, and what is interpretation or a derived artifact?
+- Can you distinguish [currently adopted conclusions from remaining proposals](../okf/external-sources.md#roles-and-valid-scope-of-materials) in material that has been retained or reviewed?
 - What knowledge should remain understandable without rereading the source material every time?
 - Would a separate storage layer or retained extraction materially improve reuse, traceability, or regeneration cost?
 - Is keeping the existing storage location and tools better than creating a new structure?

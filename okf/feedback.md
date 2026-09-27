@@ -26,6 +26,10 @@ These perspectives do not impose measurement or reporting on every task, nor do 
 
 Reported satisfaction or new uses alone do not establish the guide's effect. Consider other possible explanations, such as the capabilities of the agent or tools and additional work by the user.
 
+The existence of knowledge documents, access from an execution environment, use in a particular task, and improved results each require different evidence. An agent's adoption completion report is a starting point for investigation, not a substitute for evidence of actual use. Connect verifiable reading records with the evidence used in answers, while allowing for cases where the current conversation already contained the needed information and no new lookup was necessary. Conversely, if some records show no trace of reading, state the scope examined and do not conclude that the knowledge was unused in every environment.
+
+Also distinguish requests and plans, output creation, reports of actual use, and work outcomes. Preserve the user's experience of greater convenience, but make causal claims about time saved or improved accuracy only when comparable evidence is available. Examine what was already possible before adoption, together with changes in the user, model, tools, source material, or additional support. Do not count several bundles, historical copies, and their reports from the same environment as independent success stories.
+
 Operation of this repository is also open to observation. Use experiences whose changes and reasoning can be traced, such as [bringing an improvement from a published repository back into shared knowledge](distribution.md), while distinguishing that evidence from claims that the same effect holds in other environments.
 
 ## Evidence for reviewing long-term operation
@@ -35,6 +39,8 @@ An agent working in the user's repository can read its current knowledge and acc
 Change history provides evidence of structures being introduced, revised, or removed, but reading and reuse may leave no trace. Do not infer usefulness or failure from edit frequency alone. Connect changes to operating context and reasons for choices as far as the evidence permits. Distinguishing recorded changes, interpretations of causes, and unverified effects leaves meaningful questions for later research.
 
 Identifying [guide releases and the commits actually consulted](../versions/README.md) helps separate past explanations from current ones. Before judging past choices against today's guide, examine the evidence available at the time. Observations of current material can remain useful even without history or an identifiable adoption baseline; do not fill gaps in the past with speculation.
+
+If knowledge was first organized under local instructions and the guide was adopted only in part later, distinguish the initial setup, subsequent adoption, and the baseline used for the current retrospective. Respect the scope of reference copies excluded from later adoption. Do not attribute every good explanation now present to the guide, or retroactively judge early conventions as violations of today's guide.
 
 ## Operational handoff and the boundary of transmission
 

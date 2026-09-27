@@ -41,11 +41,25 @@ Updating existing operating practices includes template migration and reapplying
 
 The evidence for specification-version transitions is kept in the [version records](../versions/README.md). Updating Mekra Method operating practices and transitioning the official OKF version may be independently necessary, so keep them distinct.
 
+Review knowledge first built as a prototype or under local instructions from the same starting point. Distinguishing the initial setup, the timing and scope of later changes informed by the guide, and the baseline used for the current retrospective helps preserve existing knowledge while transitioning what needs to change. Do not extend an adoption record for a parent workspace to every bundle within it. When early metadata conventions differ from the current format, consult the [optional compatibility review](../versions/README.md#reviewing-early-metadata-conventions).
+
 ## Bundle location and existing structure
 
 As the [operating principles](operating-principles.md) explain, adopting the OKF format and choosing a directory name are separate decisions. Identify existing bundles from their document format, entry points, and existing guidance, not just the name `okf/`. Choose a new bundle's location to fit its subject and the boundaries of existing material. Names such as `knowledge/`, `domain/`, or `policy/` can express content or responsibility; when a repository distributes a single bundle, its root can serve as the bundle root.
 
 A separate subdirectory helps when bundle knowledge needs to be distinguished from code, research material, or operating guidance. Keep an existing location when it is suitable, and adapt files and instructions to the actual bundle boundary rather than the template's enclosing folder name. When moving a bundle, also inspect entry points, links, and path assumptions in related tools.
+
+Do not treat the current structure as fixed. Where useful, a Mekra can be split, multiple Mekras can be connected or integrated, and existing structure can be reduced. Existing [source-of-truth responsibilities](source-of-truth.md) and [disclosure boundaries](disclosure-boundary.md) still apply to these choices; judge the concrete arrangement from the target's purpose and context.
+
+## Knowledge operating entry point
+
+When it is useful to find the knowledge's purpose, scope, entry points, reference baseline, and operating context separately, collect them in a brief `MEKRA.md` and link to it from the target's agent entry instructions. In repositories using `AGENTS.md`, keep that link together with repository-wide development, execution, and deployment instructions and operating preferences in AGENTS. If the knowledge operating guidance is short and easy to find in existing instructions, it can remain as a section of AGENTS. A separate file is neither an official OKF requirement nor a condition for completing every adoption.
+
+The default location for `MEKRA.md` is the repository root. This suits an explanation of the repository's knowledge operations and links to one or more bundles. If the bundle is copied or distributed independently and its operating context needs to travel with it, the file can live at the bundle root. The two locations coincide when the repository itself is a bundle. Choose the location according to the scope of the operating context and the unit that needs to travel together, and adapt agent entry instructions and links within the file to that location.
+
+When the file is included in a bundle, it must also follow the bundle's format. The [reserved-filename rules in the baseline OKF specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames) treat Markdown files other than `index.md` and `log.md` as concept documents. A `MEKRA.md` inside a bundle therefore needs `type` frontmatter. `type: Playbook` is one local choice for representing operating guidance; the filename `MEKRA.md` has no official format exemption.
+
+An entry point is not a place to keep accumulating detailed principles and procedures. Internalize reusable reasoning in the relevant concepts, and leave the repository's specific context and discovery paths at the entry point. When separating the files, move existing explanations so responsibility for changes remains clear. The file's existence alone does not guarantee automatic loading or actual use. The [templates](../templates/README.md#choosing-an-entry-point-arrangement) explain how to choose and apply either arrangement.
 
 ## Review scope and modification scope
 
@@ -62,6 +76,12 @@ Explore the target first; existing documents and instructions often answer quest
 A user may delegate judgment to the recommended approach or choose major decisions together. This is a preference for degree of involvement, not a fixed mode that must be selected every time. Once judgment is delegated, do not ask again for the same choice. Suggested questions, work categories, and application procedures may themselves be omitted, combined, or adapted according to purpose and context.
 
 Question wording is also part of context. Use vocabulary, conceptual understanding, explanation preferences, and decision style visible in the user's conversation and material. Do not make users learn internal work names or classifications before they can choose; explain what each choice changes in actual operation. Terms the user already knows can be used directly. With sufficient delegated autonomy, applying the recommended option and then explaining the judgment may be more appropriate than repeatedly asking about minor choices.
+
+## Connecting knowledge to actual use
+
+Stored knowledge can inform work only if the agent or product that uses it can discover and read it. Examine the target environment's entry instructions, discovery paths, and [access permissions and how they are implemented](disclosure-boundary.md), and check whether relevant concepts and evidence can be found and used for actual questions. Do not extend a connection confirmed in the current task to all other conversations, devices, or execution environments. Connecting knowledge for a development agent to a product AI's inputs may be a separate scope of work.
+
+State what knowledge was organized and which usage environment was checked when reporting completion. If describing automatic updates, explain the execution mechanism actually connected and the scope in which success was confirmed. A saved index, a schedule setting, a successful run, and the incorporation of changes each require separate evidence. If connections or automation are outside the request's scope, explain what remains. Checking use does not require detailed logs for every task. Being able to read material and obtaining better results from using it are [different observations](feedback.md).
 
 ## Operation after adoption
 

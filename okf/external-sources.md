@@ -20,6 +20,16 @@ These responsibilities also apply to material accessed through databases or APIs
 
 In [post-adoption usage guidance](adoption.md), connect these responsibilities to actual intake locations. Explain where to preserve new originals, where directly authored knowledge belongs, and how to reflect it in OKF. For external originals, explain the reference method; if no separate source-material intake is needed, do not create an intake directory.
 
+## Roles and valid scope of materials
+
+Distinguish ideas, hypotheses, and proposals under review from currently adopted knowledge. Preserving material or completing its review or processing does not by itself mean a proposal has been adopted. If only some conclusions were adopted, distinguish their scope from the remaining proposals and make the current baseline discoverable in the updated [source of truth](source-of-truth.md).
+
+A form and a completed copy with the same name, or a transcript and a summary derived from the same original, have different roles. Identical extracted text does not mean the originals have the same tables, layout, or attachments. Do not count multiple derivatives of one original as independent evidence. A saved query result records the conditions at that time; when answering about the current state, check whether its retrieval time, coverage, and query conditions are still appropriate.
+
+When a derivative contains an error, compare it with the source material to judge which claims it can still support, and [reflect the correction in related knowledge](context-propagation.md#when-confidence-in-evidence-decreases). Do not record the entire source as validated merely because a derivative was created or a checking tool was run.
+
+Excluding source material from Git is a separate decision from retaining or disposing of it. If material is stored elsewhere, record the storage location and access method as needed so readers can tell what a repository clone can restore on its own.
+
 ## Decision criteria
 
 - Is this information repeatedly needed across multiple judgments?
