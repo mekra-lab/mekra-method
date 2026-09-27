@@ -15,6 +15,6 @@ Questions under particular study include:
 - the boundary between information usable for internal judgment and information that may be disclosed or transmitted externally
 - the impact of deleting or withdrawing source material or prior judgments on related context
 
-For now, first try to explain these needs through the [Knowledge-centered](knowledge-centered.md) perspective and general OKF principles. Do not require a separate classification system or structure until distinct recurring judgment is observed in real operation.
+For now, first try to explain these needs through the [Knowledge-centered](knowledge-centered.md) perspective and Mekra's operating principles. Do not require a separate classification system or structure until distinct recurring judgment is observed in real operation.
 
-The minimal experimental structure is in the [personal-context scaffold](../experiments/personal-context/scaffold/). Real cases should determine whether existing facets and general OKF concepts are sufficient or whether this should remain an independent facet.
+The minimal experimental structure is in the [personal-context scaffold](../experiments/personal-context/scaffold/). Real cases should determine whether existing facets and shared concepts are sufficient or whether this should remain an independent facet.

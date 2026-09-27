@@ -22,6 +22,14 @@ Claims and hypotheses whose truth is not established can still be recorded with 
 
 Restating the context each concept needs is a choice intended to reduce the burden of reconstructing meaning from several sources while reading. It also creates the cost of finding and updating related restatements when the source of truth changes. Judge this balance by its usefulness for understanding and its maintenance cost during change, rather than the amount of duplicated text.
 
+## Temporal validity and corrections
+
+When updating a current source of truth, distinguish a change in the subject's state from a correction to a past explanation. For example, if a policy changes next month, the earlier policy may remain evidence for the earlier period. An explanation based on a misreading of the source needs a correction and a link to the current reference; it should not be preserved as a policy that was valid at the time.
+
+The time something was recorded or retrieved may differ from the time its content applies to. Use evidence for the relevant period and conditions, depending on whether the question concerns the current state or a past judgment. If dates or conditions change the conclusion, make their scope clear in the prose or evidence references. A recent document edit alone does not establish current validity.
+
+Consider both the need to retain historical records and the need to change current explanations. If a change in current facts or a correction to a past interpretation alters related concepts, [update their context](context-propagation.md). Express temporal differences where they affect understanding and reuse, without requiring period fields in every document.
+
 ## Paths to current sources of truth and historical evidence
 
 The path to a current definition and the evidence needed to reconstruct a past judgment may serve different roles. Preserve the conditions of the time in historical copies and provide a path to the current baseline, so an old explanation found through search is not treated as the current source of truth. Do not rewrite historical statements retroactively to fit current policy.

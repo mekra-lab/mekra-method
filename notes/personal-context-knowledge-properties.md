@@ -1,6 +1,6 @@
 # Knowledge properties revealed by personal context
 
-This note is a working document for exploring where existing OKF operating principles may be insufficient when handling personal context, before adopting `personal-context` as an independent facet.
+This note is a working document for exploring where existing Mekra operating principles may be insufficient when handling personal context, before adopting `personal-context` as an independent facet.
 
 Adopted general principles are linked to the relevant concepts below; the remaining questions are not treated as established principles or a formal classification system. Observe repeated needs and failures in a real personal-context repository, then reflect generalizable conclusions in `okf/` or a facet.
 
@@ -22,9 +22,9 @@ The distinctions between canonical status and certainty, and between maintaining
 
 ### Temporal validity
 
-In personal context, different statements from the past and present do not necessarily conflict. A state may have been valid in the past and later changed.
+The distinction between a state that was valid in the past and a correction to an erroneous explanation, and between recording or retrieval time and effective time, is now reflected in [source of truth and context](../okf/source-of-truth.md#temporal-validity-and-corrections). This judgment applies beyond personal context, so it was integrated into the existing source of truth. This is an adopted operating principle, not evidence that a particular representation has been effective.
 
-We need to observe whether it is useful to distinguish information that was wrong from information that was valid at the time, and when the lifecycle fields in OKF v0.2 are worth using.
+Continue to examine through actual use how much temporal and conditional detail personal context needs, and when the lifecycle fields in OKF v0.2 are worth using.
 
 ### Internal access and external disclosure
 
@@ -36,7 +36,7 @@ This distinction also recurred in [feedback](../okf/feedback.md) and [distributi
 
 Personal material often needs to be removed because of a deletion request, a relationship ending, withdrawal of consent, or abandonment of an incorrect inference.
 
-When source material or a judgment is withdrawn, how far should dependent context and conclusions be re-examined? This may reveal whether [context propagation](../okf/context-propagation.md) needs an explicit notion of reverse change.
+[Context propagation](../okf/context-propagation.md#when-confidence-in-evidence-decreases) already explains how to review related conclusions when confidence in evidence decreases or a judgment is withdrawn. Continue to examine the specific needs for retention, access, and handling derivatives when personal material is deleted or consent is withdrawn, using actual material and the relevant authority. Correcting a judgment alone does not address every deletion request.
 
 ## Formalization deliberately deferred
 
@@ -51,11 +51,11 @@ If real use repeatedly needs these distinctions, structure them then.
 
 ## Next validation
 
-The [personal-context experiment](../experiments/personal-context/README.md) applies the [Knowledge-centered facet](../facets/knowledge-centered.md) and general OKF principles to a minimal structure.
+The [personal-context experiment](../experiments/personal-context/README.md) applies the [Knowledge-centered facet](../facets/knowledge-centered.md) and Mekra's operating principles to a minimal structure.
 
 The core questions are:
 
-1. Can personal context be operated adequately using the existing Knowledge-centered facet and general OKF principles?
+1. Can personal context be operated adequately using the existing Knowledge-centered facet and Mekra's operating principles?
 2. Are there recurring operating choices that are specific to personal context?
-3. Which of the issues above are not personal-specific and deserve promotion into general OKF concepts?
+3. Which of the issues above are not personal-specific and deserve promotion into shared concepts?
 4. Which structures or categories initially seemed necessary but prove unnecessary in actual use?

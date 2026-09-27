@@ -28,7 +28,7 @@ Large corpus is currently the clearest example.
 
 ### Control and constraints
 
-Properties that look like publication scope, regulation, or audit requirements may be more likely to become general OKF patterns than facets. The distinction between information access and external disclosure is already handled as the general [disclosure-boundary](../okf/disclosure-boundary.md) pattern.
+Properties that look like publication scope, regulation, or audit requirements may be more likely to become shared patterns than facets. The distinction between information access and external disclosure is already handled as the general [disclosure-boundary](../okf/disclosure-boundary.md) pattern.
 
 ## Still undecided
 

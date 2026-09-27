@@ -2,13 +2,13 @@
 
 ## Question
 
-When personal context is operated using the [Knowledge-centered facet](../../facets/knowledge-centered.md) and general OKF principles, does a separate `personal-context` facet provide real judgment value?
+When personal context is operated using the [Knowledge-centered facet](../../facets/knowledge-centered.md) and Mekra's operating principles, does a separate `personal-context` facet provide real judgment value?
 
 ## Current state
 
 No real personal material is included yet. The experiment first prepares only a minimal repository structure and will observe operating friction and recurring choices once suitable real material is available.
 
-This experiment is not intended to justify a facet in advance. If existing facets and general OKF knowledge are sufficient, an acceptable outcome is to leave no separate facet.
+This experiment is not intended to justify a facet in advance. If existing facets and shared operating knowledge are sufficient, an acceptable outcome is to leave no separate facet.
 
 ## Temporary scaffold
 
@@ -36,7 +36,7 @@ Once real material exists, record:
 - whether information about a person and information about a relationship need to be separated in actual operation
 - whether the boundary between internal reference and external disclosure repeatedly causes problems
 - what re-examination deletion or withdrawal requires of existing context
-- whether judgments recur that existing facets and general OKF knowledge cannot explain well
+- whether judgments recur that existing facets and shared operating knowledge cannot explain well
 
 ## Recording results
 

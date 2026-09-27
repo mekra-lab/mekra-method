@@ -74,7 +74,7 @@ This is Mekra's chosen direction. Observation and validation will show how much 
 
 OKF is a format for representing knowledge that people and agents can read and exchange. Mekra is currently built on that format and provides an approach to deciding what to record and connect and how to maintain it.
 
-The source of truth for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format). Mekra's operating principles are its own judgments on top of that specification, rather than additional official requirements or a separate extension specification. The new name preserves the distinction between the current implementation basis and responsibility for the official format.
+The source of truth for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format). Mekra's operating principles are its own judgments on top of that specification, rather than additional official requirements or a separate extension specification. The new name preserves the distinction between the current implementation basis and responsibility for the official format. [The role and use of OKF](okf/okf-format.md) explains its representation model, bundle boundaries, and the context for choosing specification features.
 
 ## Getting started and further reading
 

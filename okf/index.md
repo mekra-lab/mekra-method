@@ -4,18 +4,12 @@ okf_version: "0.2"
 
 # Mekra Method operating knowledge
 
-Mekra Method grew out of practical work with OKF. It is currently built on OKF, and its operating judgments are distinct from the requirements of the official specification.
-
-OKF (Open Knowledge Format) is a format for representing knowledge that people and agents can both read and exchange. Concepts are recorded using YAML metadata and Markdown bodies, with Markdown links expressing relationships, forming a knowledge bundle organized as a directory tree.
-
-The [official specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md) is the source of truth for format details and requirements. This bundle internalizes operating philosophy and design judgments adopted through work with that format. It distinguishes the official specification itself from our interpretations; the baseline for the official format is kept in the [version documentation](../versions/current.md).
-
-The core perspective is a balance: concentrate definition and change responsibility in clear sources of truth, while distributing the context needed for understanding across related concepts. A source of truth prevents independent ownership of the same fact, while each concept may naturally restate what that fact means for itself. Distributing context does not distribute ownership of the fact, and when something changes, its effects propagate from the source of truth into contexts whose meaning changes.
+This bundle is the source of truth for Mekra Method's adopted operating principles, patterns, and adoption judgments. It currently uses OKF, while distinguishing [the format and its use](okf-format.md) from Mekra's operating choices. Start with the [operating principles](operating-principles.md) for the overall approach.
 
 ## Operating philosophy
 
 - [Autonomous judgment](agent-autonomy.md) - start from the agent's autonomous judgment and use it to guide the application of other operating principles according to purpose and context.
-- [Operating principles](operating-principles.md) - keep clear source-of-truth responsibility together with the context needed for understanding.
+- [Operating principles](operating-principles.md) - use autonomous judgment to maintain sources of truth and context, and reassess the need for structure and guidance.
 - [Self-erasure](self-erasure.md) - provide the help judgment needs, and reduce the role of guidance and the method as that need diminishes.
 - [Knowledge internalization](knowledge-internalization.md) - reflect the meaning and impact of new knowledge in related concepts.
 
@@ -28,7 +22,9 @@ The core perspective is a balance: concentrate definition and change responsibil
 - [Knowledge organization for large corpora](large-corpus.md) - combine core knowledge with summaries and discovery paths.
 - [Role and boundaries of facets](facet-boundaries.md) - use facets as thin lenses on properties of the target rather than presets or a duplicate knowledge layer.
 
-## Application
+## Format and application
+
+- [The role and use of OKF](okf-format.md) - understand its representation model and bundle boundaries, and distinguish the official format from operating choices.
 
 - [Adoption judgment](adoption.md) - distinguish operating form, needed changes, and scope, then connect them to continued knowledge operation.
 - [Feedback from adoption](feedback.md) - select reusable observations and feed them back into research and operating knowledge.

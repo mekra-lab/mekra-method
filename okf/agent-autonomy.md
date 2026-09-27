@@ -20,9 +20,9 @@ Facts and evidence, the user's intent, actual authority, and the target's constr
 
 Distinguish a decision to apply a principle differently in one target from a decision to revise Mekra's general principles. A choice that works in one target does not by itself change a general principle. When evidence supports reuse elsewhere, examine the conditions and limits before reflecting it in the source of truth. Mekra's own principles are also open to this reassessment; [self-erasure](self-erasure.md) describes how to judge their role as the need for them diminishes.
 
-## Why this connects to OKF's strengths
+## Why use OKF
 
-OKF expresses knowledge through minimal structured metadata, free-form bodies, and Markdown links. The concrete meaning of a relationship is carried by natural language around the link, and neither concept types nor body structure are fully prescribed by a fixed taxonomy.[^okf-spec-v02]
+[OKF](okf-format.md) expresses knowledge through minimal structured metadata, free-form bodies, and Markdown links. The concrete meaning of a relationship is carried by natural language around the link, and neither concept types nor body structure are fully prescribed by a fixed taxonomy.[^okf-spec-v02]
 
 With this structure, agents can read explanations intended for people and interpret conditions, exceptions, and relationships in light of the actual question. New knowledge can be connected to existing concepts without encoding every possible relationship and case in advance as schema or branching logic. To preserve that flexibility, we rely on contextual interpretation and autonomous judgment by capable LLMs. This is not an attitude required by the official specification; it is an operating philosophy chosen to take advantage of its expressive style.
 

@@ -1,6 +1,6 @@
 # Templates
 
-These templates are examples of an operating approach built around [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format). The format follows the official specification, while structure and instructions are adapted to the purpose of each repository. See the [current version baseline](../versions/current.md) for the OKF version and specification point used here.
+These templates illustrate Mekra Method operating practices and use [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format) to represent knowledge. The format follows the official specification, while structure and instructions are adapted to the purpose of each repository. See the [current version baseline](../versions/current.md) for the OKF version and specification point used here.
 
 They are minimal starting points to copy into a real repository, remove what is unnecessary, and add repository-specific context.
 
@@ -20,7 +20,7 @@ The `okf/` directory here holds an example bundle. A target can use a different 
 Choose one of the two arrangements to fit the target. `MEKRA.md` is an optional Mekra Method operating example, not a required file in the official OKF specification. The reasoning is in [knowledge operating entry points](../okf/adoption.md#knowledge-operating-entry-point).
 
 - **Separate files:** In the default example, copy `MEKRA.md.template` to `MEKRA.md` at the repository root and merge the needed sections of `AGENTS.md.template` into the existing root `AGENTS.md`. Keep the purpose and scope of the knowledge and its operating context in `MEKRA.md`, with AGENTS directing readers to it.
-- **AGENTS only:** Merge the needed content from `MEKRA.md.template` into the `OKF knowledge operation` section of the existing `AGENTS.md`. Omit the `# Mekra` heading and adjust the levels of the remaining headings. Omit the AGENTS template's first sentence, which directs readers to `MEKRA.md`, while preserving the rest of its scope explanation. Do not create a separate `MEKRA.md` file.
+- **AGENTS only:** Merge the needed content from `MEKRA.md.template` into the `Knowledge operation` section of the existing `AGENTS.md`. Omit the `# Mekra` heading and adjust the levels of the remaining headings. Omit the AGENTS template's first sentence, which directs readers to `MEKRA.md`, while preserving the rest of its scope explanation. Do not create a separate `MEKRA.md` file.
 
 If the bundle and its operating context are copied or distributed independently, `MEKRA.md` can be placed at the bundle root. For example, if it is at `knowledge/MEKRA.md`, change the link in AGENTS to `knowledge/MEKRA.md` and the knowledge navigation link in MEKRA to `index.md`. If the repository itself is the bundle, the two roots coincide. A `MEKRA.md` inside the bundle must follow the format for concept documents, so add the following frontmatter at the beginning. `Playbook` is an example type for operating guidance. See [knowledge operating entry points](../okf/adoption.md#knowledge-operating-entry-point) for the location and format rationale.
 
@@ -34,7 +34,7 @@ When the whole repository is used as a bundle, this format rule also applies to 
 
 Preserve existing repository instructions and specific choices, and maintain operating explanations in one place when moving them. If concepts already contain the operating principles, link to them from the entry point and shorten the template's general explanations. When recording an adoption baseline, follow [the actual reference baseline guidance](../versions/README.md#recording-the-actual-reference-baseline). Do not prefill the templates with unverified release numbers.
 
-The autonomy principle for knowledge operation applies to OKF knowledge work. Keep the optional `Repository operating preferences` section at the same heading level as `OKF knowledge operation`, so it covers the later repository-wide work it describes. After application, check the links from the actual entry instructions to the knowledge bundle.
+The autonomy guidance in these templates applies to authoring and updating knowledge and reflecting related changes in it. Keep the optional `Repository operating preferences` section at the same heading level as `Knowledge operation`, so it covers the later repository-wide work it describes. After application, check the links from the actual entry instructions to the knowledge bundle.
 
 Keeping the template unchanged is not the goal. Use the target's actual material, relevant [facets](../facets/README.md), and OKF knowledge to keep only the structure that is useful.
 

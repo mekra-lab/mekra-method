@@ -66,7 +66,7 @@ Examples that may be worth adding to the target's root `AGENTS.md` include:
 - After substantial work, distinguish one-off notes from knowledge with durable reuse value and consider internalizing the latter into relevant OKF concepts.
 - In repositories where provenance of derived outputs matters, preserve a path back to source material, sources of truth, or related OKF concepts.
 
-Do not present requirements already established by general OKF knowledge—such as [operating principles](okf/operating-principles.md), [source of truth and context](okf/source-of-truth.md), or [context propagation](okf/context-propagation.md)—as user preferences that can simply be toggled on or off. Facets do not re-own those principles; they only connect environments to judgments that become especially important.
+Do not present operating principles already adopted by Mekra—such as [operating principles](okf/operating-principles.md), [source of truth and context](okf/source-of-truth.md), or [context propagation](okf/context-propagation.md)—as user preferences that can simply be toggled on or off. Facets do not re-own those principles; they only connect environments to judgments that become especially important.
 
 If a progressive transition was chosen, also leave the remaining scope and the conditions under which later use or changes should continue the transition. This is part of making the transition resumable. The target repository alone should be enough to continue later work. A completion report should cover the main judgments and changes, verification results, and how to add the next material. If the work was diagnosis only, report findings and recommended follow-up instead.
 

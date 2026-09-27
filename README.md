@@ -58,7 +58,7 @@ This guide is not a copy of the specification or a framework every project must 
 | [`INTRODUCTION.md`](INTRODUCTION.md) | Mekra's name, origins, slogan, central ideas, and design choices |
 | [`APPLICATION.md`](APPLICATION.md) | Target exploration, adoption judgment and questions, implementation, and operational handoff |
 | [`FEEDBACK.md`](FEEDBACK.md) | Investigating adoption and long-term operating experience, drafting feedback, and submitting it |
-| [`okf/`](okf/index.md) | Understanding of OKF, operating philosophy, reusable patterns, and conceptual relationships |
+| [`okf/`](okf/index.md) | Mekra's operating principles, patterns, adoption judgments, and knowledge about using OKF |
 | [`facets/`](facets/README.md) | Thin lenses for finding important judgment from properties of the target |
 | [`templates/`](templates/README.md) | Minimal scaffolding to copy into a project and adapt to its context |
 | [`versions/`](versions/README.md) | OKF version baselines, Mekra Method releases and actual reference points, and migration records |

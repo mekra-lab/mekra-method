@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "31462662057b07dd027bc557c2cfe55ecd094b1d",
-  "manifest_sha256": "30fb37cdf93496301aa636188d1ceb9d3f44a9866253e6cfc32cfeb1ee5b71be",
-  "reviewed_at": "2026-09-27T00:32:58.7725403Z",
+  "source_commit": "c49a11ac9fbd727d629d3b60edd168c41d848538",
+  "manifest_sha256": "c51626015680a65e26bb19f558bc9ab7295eece21c5355ea3f51e03c325b7902",
+  "reviewed_at": "2026-09-27T01:01:28.0576965Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,18 +12,18 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "e4f87574dc9ec4b19f970fcb033d676bc1ea1e6adc64c90f1403997286a3ece0",
-      "target_sha256": "a031e67a6cbb447d6ddcb24b90c89f92e433ac47d2a13d2940559160b0d007c3"
+      "source_sha256": "6304673f2af0a2c29e42998cedcb7a6a3ce058c2a4f26f68f08b846e0eb4f37f",
+      "target_sha256": "f5f3ea74359a4e7cd39985a6f9b10e0eea586a2fea6fadefef8b5b671022a917"
     },
     {
       "path": "INTRODUCTION.md",
-      "source_sha256": "b17b8190e782c157ca7439d657baaebcfef3d1462c3ce74245c58ffedb1c61b7",
-      "target_sha256": "e568e7cb3bcffac4398a37b84af4a6c7c09889015ad2bcfb56cc3f3db116ea09"
+      "source_sha256": "1ba8285e9677347d8185fedc452408166c99ea0802b92c0c855952cdeed47a4c",
+      "target_sha256": "0fe3dc95a51d172a4e2ed30054f37ba1b6017824c872b7472e90f418f548aaa9"
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "a9f370a833b38134223df39605b43375e114acd6c44e45eb6b95218c4a6877c8",
-      "target_sha256": "b45fc0fcd2e4862f65746f30d99be724ef2dceab959dc6eb6c2417b2df03fb38"
+      "source_sha256": "23cfabaa8efa6c97f3073fa2437b6d4ad4226c9c606201637368cd2e22834bff",
+      "target_sha256": "3086c4fee2c34d58838c92b65c69e59d8be071edbe569b2fc73cf403fd8c513d"
     },
     {
       "path": "FEEDBACK.md",
@@ -32,18 +32,23 @@
     },
     {
       "path": "okf/index.md",
-      "source_sha256": "9db723c514aa9ea028c220ec35fa4b17b81f2930a6922a464aead387cd35c9b5",
-      "target_sha256": "a1b3eb4dc7f3d909d2b46fdf1cc7bfaab80dd18f2c751983b543a5d2ca805d4f"
+      "source_sha256": "b301c75c872ed3d916aa9422ac65b3be247d12f23734c3e54bc5ccc4a284634f",
+      "target_sha256": "4963c7e3f25c44a8d1a84a048be1126b1144304c7215989190693e3d7cce5594"
+    },
+    {
+      "path": "okf/okf-format.md",
+      "source_sha256": "e4c9f48c186252a1633f23233ee2d28aad0ef0735696a3faf7c070ef76cbd77f",
+      "target_sha256": "f372b6079a1dd5048bf12f0178f570fb2ac92e6b8739c10c0554e87744edc2d0"
     },
     {
       "path": "okf/operating-principles.md",
-      "source_sha256": "715cc06f33ec4c54ed9947c3c6cce2ebf4bc7d096cfe00f200de8e2f659304ee",
-      "target_sha256": "643085f9ae1b89a64db7d14537d25cc355fdc41b4ad77655ae36d5df3c95962d"
+      "source_sha256": "9cee0d3a750e5c0f97f3990abade27290086ae7b6fe8b17377cb08f11230b5d9",
+      "target_sha256": "84deb9942aa13761c42d61101be7fd6cd62fa9cbda1a8dd5d420c9a248125763"
     },
     {
       "path": "okf/agent-autonomy.md",
-      "source_sha256": "11c453fae3a3f9274449a965094e32b5cd251db04805993b69acd7160b6f3a6f",
-      "target_sha256": "d225e13d7cd3ea7971151dddf56035c53065533af180043805474f3737c7a13b"
+      "source_sha256": "a87257b78cc88f8a741c78f9633f8d7baf9b8cca87acd35512113af833459379",
+      "target_sha256": "72bb682e0a44e684c00d28cccd7fd311d03c38ff549bfadeddee6ead8a65c818"
     },
     {
       "path": "okf/self-erasure.md",
@@ -57,8 +62,8 @@
     },
     {
       "path": "okf/source-of-truth.md",
-      "source_sha256": "f7ce06d919009009a8aaa8881a12bba62ae60aa698bdd1ef615384109e112aef",
-      "target_sha256": "f1c19c03bda65414c685935beaf1ba900cac64dd3a8f37911ef8c73cc70120ab"
+      "source_sha256": "30f5099b7a715827f800c9dd365cf2d7b12c91b7c7f26ff4dcaddc8546bfcb92",
+      "target_sha256": "9658aad1d998609d8731eea1acb045892603bc1b22a8715ecc236abe9f245913"
     },
     {
       "path": "okf/context-propagation.md",
@@ -77,8 +82,8 @@
     },
     {
       "path": "okf/facet-boundaries.md",
-      "source_sha256": "4bd720cdf4f5b67760ffe9b515e006307856eeca14b99941428ae1a0a5fdbf0c",
-      "target_sha256": "777f7f1c20715fe4b2674dbd88afa2399b9ab085df502a8c65560f2526a05415"
+      "source_sha256": "c8e0e69b9900eabfbd96b8757323df510f5818d4827e0948ce68106c906bc133",
+      "target_sha256": "2b307e5b6f437c1343fd579a302b45b8997ba2aa1936dcf56c6629150d8d3534"
     },
     {
       "path": "okf/large-corpus.md",
@@ -87,8 +92,8 @@
     },
     {
       "path": "okf/adoption.md",
-      "source_sha256": "477cf314dc665960a24607373fe8fbf5f046363ebe723c1db365fddff12b2d1a",
-      "target_sha256": "b5b894bc1b9b4e56c30f1018e440307d874e800aa9b0d987f3d2bc89692250a4"
+      "source_sha256": "b70baf85ce81ab1dfaf4b5c2250a3f94a39f0b0be31770f72f2213e8587dea27",
+      "target_sha256": "3561b98bac75270cebc41802c7dac5ce1fe15a85b951b8e05a34545f3caaa92d"
     },
     {
       "path": "okf/feedback.md",
@@ -102,8 +107,8 @@
     },
     {
       "path": "facets/README.md",
-      "source_sha256": "e509133741f2fd02db4c0048776d5f0228ddd2479e6dc10c707676259a9a4c5d",
-      "target_sha256": "28d034ad67e925c0806ac02044751f3bf329c08825394735770fce116178a6c0"
+      "source_sha256": "6d14f182b2a79420090b0e66401ba127d33fa045638cda2b94afd4c9bd17cade",
+      "target_sha256": "dcd07fa6e4bb0a446273165af6fedbccf817ef32e7d12467613bf879770411ef"
     },
     {
       "path": "facets/software-project.md",
@@ -122,8 +127,8 @@
     },
     {
       "path": "facets/personal-context.md",
-      "source_sha256": "8864ffac8dded32d643573924b7b0f17c941c12b9decba1ff52d396ac7e4693f",
-      "target_sha256": "9045f52e20eb8bbdcc557ff7502d2ee354ee1b7043241fe1959175b45d900c6a"
+      "source_sha256": "7780f81a1ef6f5f72cb804a5d85e5942a62c94755c3ccea151fa0f4c55462c7d",
+      "target_sha256": "a6541894b7ab10d021f7e2cb81dd2b0cd36113662656e4fc6e03ce0bc0624e3f"
     },
     {
       "path": "templates/LICENSE",
@@ -132,18 +137,18 @@
     },
     {
       "path": "templates/README.md",
-      "source_sha256": "49f3b92cf39dedcb91fe0aa1df4587848e4953752b156d1c887eb5dda77e066f",
-      "target_sha256": "5048341519c2ac86b00115844f2d8922767cefc36942008ab8ea6d9df8e40bb4"
+      "source_sha256": "d4e84e905319ad69c1d845ce21e57a1f7866a7c7708487ff1b690dd60d79649a",
+      "target_sha256": "f51827a1c94d219b885130659c08721ff44b3ef4b1a67bc1e3c1cae50fa2e469"
     },
     {
       "path": "templates/AGENTS.md.template",
-      "source_sha256": "2ac52c0346cae489f486310b3365458e24360a57c0acba8bebc1a1b6057e3535",
-      "target_sha256": "2c46c08b28931e61add726d18501837bbd620a40a429ec21167b941e798d7517"
+      "source_sha256": "a115d4ff9bc4d0f824779e5008d393552362c62b742d52e1f23e6bfb89c8785e",
+      "target_sha256": "b57fe4815f770ab288e529de1d522205300863f632428ede6b02075c8058c780"
     },
     {
       "path": "templates/MEKRA.md.template",
-      "source_sha256": "7147cd451cfe0853ac748f20d879a09cd3803053fbaf57da27a70419f6779edb",
-      "target_sha256": "5665fecc30d5719f8e5cc08e2ed905914f1601f9425aa79eb0375e0d41fedde0"
+      "source_sha256": "f8a458c4dea44dd3327445501cb63b6f853c1aaddaf68f3e67c826176bba6e33",
+      "target_sha256": "958c5e807bb266b10c320ec35b2819f9d3815804a90fb511bd76ee4a78c512d8"
     },
     {
       "path": "templates/okf/index.md",
@@ -172,18 +177,18 @@
     },
     {
       "path": "notes/README.md",
-      "source_sha256": "b23fd2858eac6cdf040c6d01e15fe47527473d737abb642d059bb4544cbe9654",
-      "target_sha256": "c77c8c54964879c8559bdaf3657a1a274bd2b5e1fd7391c99a41d10d679a611a"
+      "source_sha256": "46c345ac93a4b48d00010f93d14d33ab1cbf7bbda11b7345022eb554a484887f",
+      "target_sha256": "1d96e8d4e88ef4646957b87ae4db01c649f486d93f9e2fa00304cda87ac7758d"
     },
     {
       "path": "notes/personal-context-knowledge-properties.md",
-      "source_sha256": "b792925e2481fd683da0da9df44f0209b7e8e1bcebc27bffca7bc6a492912d9a",
-      "target_sha256": "78c649275202104594c75d3a65f680891a4339538fa0e9b06ae1386c9dd6685b"
+      "source_sha256": "7a0d0baa76e2ecb558806439631e58b39639e9e2b89a97be725e76af4209079f",
+      "target_sha256": "cadb0dfb25f9a57e33161dadeac0f56126553bb24bf4595deb14d5c429ab1b4b"
     },
     {
       "path": "notes/facet-perspectives.md",
-      "source_sha256": "0e14bca09fea635bbab5b8ce33f29bf99e3f07772d2789ba44bd492301a196a5",
-      "target_sha256": "8217dfca1601b08c5e924197abfdf5cc7103b91e55983fdff7808b6987a3158a"
+      "source_sha256": "bcfdcf12ca6e869abdde4693fcea3e30e0ad60ed48378ad9860d91041d9982c2",
+      "target_sha256": "3f324b7cc9d330988104ceafffa9022cab7b03242a5c60422c0d1cc2e14a2324"
     },
     {
       "path": "notes/corpus-connection-strategies.md",
@@ -192,13 +197,13 @@
     },
     {
       "path": "experiments/README.md",
-      "source_sha256": "6878eb346954a5f44274e57f0bf50fcb2c33a1e8beb3b668afb3669178b6d047",
-      "target_sha256": "f404e008b6da31e6a12145acc67c0fd08e687db1b7a581319406b19b1a022f66"
+      "source_sha256": "306976a936144a21819ebee567bc2444cac1aad6866b0c2122aef406155ceaba",
+      "target_sha256": "31fddae6348c6eab8a9d3e5effe62614ad136d08435ed381d00be0e03f2e2726"
     },
     {
       "path": "experiments/personal-context/README.md",
-      "source_sha256": "3f47344668de64ac18345801d3e38120608c238aae10817141a51ce96993fb20",
-      "target_sha256": "5529e0bc3637dabbbc5073697409dff4ed8b61ae5e2726d42bd9e42d5ce2be94"
+      "source_sha256": "7e4f601934bf67c5cc24fc1783f2c4deb8b0b322fc1c419fe0f571423287d7a7",
+      "target_sha256": "6ce971ee786fc339c10e0bb36bd7d25d3814267645f4e6365620da3d639c9423"
     },
     {
       "path": "experiments/personal-context/scaffold/AGENTS.md",

@@ -16,4 +16,4 @@ Do not promote a one-off success directly into a principle. Reflect it in the re
 
 ## Ongoing experiments
 
-- [Personal context](personal-context/README.md) - tests in a minimal structure whether the Knowledge-centered perspective and general OKF principles sufficiently explain personal context.
+- [Personal context](personal-context/README.md) - tests in a minimal structure whether the Knowledge-centered perspective and Mekra's operating principles sufficiently explain personal context.

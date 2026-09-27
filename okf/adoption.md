@@ -1,6 +1,6 @@
 ---
 type: Concept
-title: OKF adoption judgment
+title: Mekra Method adoption judgment
 description: Judge the target's current state, needed changes, and application scope, then connect the result to continued knowledge operation
 sources:
   - id: okf-spec-v02
@@ -8,7 +8,7 @@ sources:
     title: Open Knowledge Format v0.2
 ---
 
-# OKF adoption judgment
+# Mekra Method adoption judgment
 
 Applying Mekra Method means understanding a target repository and reflecting adopted operating knowledge into structures and knowledge that fit its context. Copying templates is only a supporting technique; the goal is to improve actual operation while preserving the meaning of existing knowledge and the boundaries of its sources of truth. This is a Mekra Method operating approach, not a requirement of the official OKF specification.
 
@@ -49,9 +49,9 @@ Review knowledge first built as a prototype or under local instructions from the
 
 ## Bundle location and existing structure
 
-As the [operating principles](operating-principles.md) explain, adopting the OKF format and choosing a directory name are separate decisions. Identify existing bundles from their document format, entry points, and existing guidance, not just the name `okf/`. Choose a new bundle's location to fit its subject and the boundaries of existing material. Names such as `knowledge/`, `domain/`, or `policy/` can express content or responsibility; when a repository distributes a single bundle, its root can serve as the bundle root.
+As [the role and use of OKF](okf-format.md#bundle-boundaries-and-location) explains, adopting the OKF format and choosing a directory name are separate decisions. Identify existing bundles from their document format, entry points, and existing guidance, not just the name `okf/`. Choose a new bundle's location to fit its subject and the boundaries of existing material. Names such as `knowledge/`, `domain/`, or `policy/` can express content or responsibility; when a repository distributes a single bundle, its root can serve as the bundle root.
 
-A separate subdirectory helps when bundle knowledge needs to be distinguished from code, research material, or operating guidance. Keep an existing location when it is suitable, and adapt files and instructions to the actual bundle boundary rather than the template's enclosing folder name. When moving a bundle, also inspect entry points, links, and path assumptions in related tools.
+A separate subdirectory helps when bundle knowledge needs to be distinguished from code, research material, or operating guidance. If implementation or task guidance benefits from separate management, use an existing location such as `docs/`. Knowledge about operating the knowledge base can still be internalized in relevant concepts when it contains reusable meaning and decision criteria. Keep an existing location when it is suitable, and adapt files and instructions to the actual bundle boundary rather than the template's enclosing folder name. When moving a bundle, also inspect entry points, links, and path assumptions in related tools.
 
 Do not treat the current structure as fixed. Where useful, a Mekra can be split, multiple Mekras can be connected or integrated, and existing structure can be reduced. Existing [source-of-truth responsibilities](source-of-truth.md) and [disclosure boundaries](disclosure-boundary.md) still apply to these choices; judge the concrete arrangement from the target's purpose and context.
 
@@ -95,7 +95,7 @@ Delegating design judgment does not mean the user should have to infer how to us
 
 The intake location depends on the responsibilities described in [source material and derived artifacts](external-sources.md) and the target's real material flow. Relevant [facets](../facets/README.md) may help identify which judgments deserve attention. Do not create a directory such as `raw/` uniformly. In a progressive transition, leave the trigger and method for absorbing unconverted knowledge so follow-up work can continue. Operational handoff is therefore part of completing a build or transition and part of the progressive-transition strategy. The practical entry point is the [application guide](../APPLICATION.md).
 
-Optional repository-wide operating preferences may also be suggested when they improve later work: preferring Markdown sources for document-like derived outputs, reflecting newly confirmed knowledge from outputs back into OKF, preferring the recommended option for unspecified choices, reviewing durable knowledge after substantial work, or preserving provenance paths for derived outputs. Select only preferences with real value to the target and user, and persist only what has been agreed or delegated in a root `AGENTS.md` or similar instructions. Do not re-ask source-of-truth management, context propagation, source-material separation, and other established OKF principles as if they were optional toggles. A facet is not a rule that reasserts those principles.
+Optional repository-wide operating preferences may also be suggested when they improve later work: preferring Markdown sources for document-like derived outputs, reflecting newly confirmed knowledge from outputs back into OKF, preferring the recommended option for unspecified choices, reviewing durable knowledge after substantial work, or preserving provenance paths for derived outputs. Select only preferences with real value to the target and user, and persist only what has been agreed or delegated in a root `AGENTS.md` or similar instructions. Do not re-ask source-of-truth management, context propagation, source-material separation, and other adopted Mekra operating principles as if they were optional toggles. A facet is not a rule that reasserts those principles.
 
 Reusable discoveries from operational handoff can be connected to [feedback](feedback.md). Later reviews of actual use should likewise examine the conditions under which the guide supported judgment and operation, rather than how closely it was followed. Recording a verifiable [reference baseline](../versions/README.md) and the scope actually adopted helps distinguish the influence of the guide at that time from later autonomous changes. Feedback is an optional activity that returns observations about the guide's usefulness and limits to research. Autonomous adaptation during application is not itself something that must be reported, and whether feedback is sent does not determine whether adoption is complete.
 

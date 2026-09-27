@@ -1,7 +1,7 @@
-## OKF knowledge operation
+## Knowledge operation
 
 When starting work, read [MEKRA.md](MEKRA.md) to understand the knowledge scope, entry points, and operating context. This guidance applies to authoring and updating knowledge, and to reflecting changes in other material or implementation in related knowledge. Define repository-wide development, execution, and deployment instructions separately.
 
 ## Repository operating preferences
 
-<!-- This section is not limited to OKF knowledge operation; it applies to later work across the repository. Record only preferences agreed with or delegated by the user at the end of adoption. Examples: prefer Markdown sources for document-like derived outputs, feed confirmed knowledge from outputs back into OKF, prefer the recommended option for unspecified choices, review durable knowledge after substantial work, and preserve traceable paths from derived outputs to their basis. Do not duplicate items already covered by OKF operating principles. Related facets are judgment lenses, not rules to copy here. Remove this section if none are needed. -->
+<!-- This section is not limited to knowledge operation; it applies to later work across the repository. Record only preferences agreed with or delegated by the user at the end of adoption. Examples: prefer Markdown sources for document-like derived outputs, feed confirmed knowledge from outputs back into OKF, prefer the recommended option for unspecified choices, review durable knowledge after substantial work, and preserve traceable paths from derived outputs to their basis. Do not duplicate items already covered by adopted knowledge operating principles. Related facets are judgment lenses, not rules to copy here. Remove this section if none are needed. -->

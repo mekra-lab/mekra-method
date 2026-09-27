@@ -1,47 +1,43 @@
 ---
 type: Principle
-title: OKF operating principles
-description: Local operating principles for maintaining clear canonical responsibility together with necessary context
-sources:
-  - id: okf-spec-v02
-    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
-    title: Open Knowledge Format v0.2
+title: Mekra Method operating principles
+description: Use autonomous judgment to maintain sources of truth and context, adapting knowledge, structure, and guidance to change and actual need
 ---
 
-# OKF operating principles
+# Mekra Method operating principles
+
+Mekra's operating principles guide how knowledge is organized and maintained so that agents can find the facts, reasons, and relationships needed for judgment in later work. The linked concepts explain each principle's reasoning and scope in detail.
+
+## Autonomous judgment
 
 Start from [autonomous judgment](agent-autonomy.md), and interpret and apply the principles below according to purpose and context. Facts, evidence, user intent, authority, and the target's constraints remain conditions of that judgment. Distinguish choices in an individual application from revisions to general principles.
 
-Format baseline: [Current OKF baseline and reviewed specification](../versions/current.md)
+Avoid continually adding detailed instructions for general matters that a capable LLM can judge from context. Provide enough facts, constraints, evidence, and context specific to the target to support that judgment.
 
-Use OKF to internalize curated knowledge as concepts and relationships. Do not reduce it to a simple document index or a list of source-material locations.
+## Sources of truth and context
 
-## Bundle location
+Give facts and rules a clear [source of truth](source-of-truth.md) whenever practical. It holds responsibility for definition and change; concentrating that responsibility does not imply keeping all context in one place.
 
-OKF is a knowledge representation format and does not prescribe a directory name for bundles. The official specification's bundle structure permits a bundle to occupy a whole repository or a subdirectory of a larger one.[^okf-spec-v02] `okf/` is neither a required name nor an officially recommended standard, and its use here should not be generalized into an established convention across the ecosystem.
-
-This repository studies OKF itself and uses `okf/` to distinguish adopted knowledge from research material, templates, and tools. The roles below are choices made for this repository. [Choose](adoption.md) a different target's bundle location and name according to its purpose and existing structure.
-
-| Location | Role |
-| --- | --- |
-| `okf/` | Concept meaning, boundaries, rules, relationships, and the context needed for judgment |
-| `docs/` (optional) | Implementation or task guidance that benefits from separate management |
-| `README.md` | Repository introduction, quick start, and major entry points |
-
-## Principles
-
-Give facts and rules a clear source of truth whenever practical. However, a single source of truth does not imply a single location for context.
-
-Knowledge needed to understand another concept should also be sufficiently internalized from that concept's perspective. When one fact affects several concepts, reflect its meaning and impact in each of those concepts.
+Knowledge needed to understand another concept should also be sufficiently [internalized](knowledge-internalization.md) from that concept's perspective. When one fact affects several concepts, reflect its meaning and impact in each. A source location or link alone cannot replace that explanation.
 
 Do not avoid repetition itself. Avoid independently defining and maintaining the same fact in multiple places.
 
-When implementation or task guidance accumulates enough to benefit from separate management, add `docs/` or an equivalent location. Knowledge about operating the knowledge base may itself be a subject of internalization, and reusable meanings, constraints, and decision criteria should be reflected in relevant OKF concepts regardless of document location.
+Knowledge about operating the knowledge base may itself be a subject of internalization. Reflect reusable meaning, constraints, and decision criteria in relevant concepts regardless of document location, while preserving the responsibilities and evidential scope of [source material and derivatives](external-sources.md).
 
-When new knowledge or a change arrives, do not update only the source of truth; also update related concepts whose meaning changes.
+## Reflecting changes
 
-Otherwise, choose structure, length, links, metadata, and writing style autonomously according to the official specification and the actual context.
+When new knowledge or a change arrives, [update](context-propagation.md) the source of truth and related concepts whose meaning changes. A link alone does not make a document an update target; examine where meaning, conditions, relationships, or judgments actually change.
 
-These are local operating choices layered on top of the official format. We prioritize [autonomous judgment](agent-autonomy.md) to take advantage of OKF's natural-language context and flexible relationships, and determine the depth of [internalization](knowledge-internalization.md) by actual reuse value. Responsibility for canonical facts is described in [source-of-truth management](source-of-truth.md), and coordinated updates after change are described in [context propagation](context-propagation.md).
+Distinguish the scope of material preserved or processed from the conclusions adopted. Make uncertainty and its evidence clear, and preserve both the degree of certainty and [disclosure boundaries](disclosure-boundary.md) when carrying knowledge into other contexts.
 
-[^okf-spec-v02]: [OKF v0.2 §3: Bundle structure](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#3-bundle-structure). This supports the format description; the local operating principles above are not specification requirements.
+## Reassessing structure and guidance
+
+Choose structure, length, depth of internalization, metadata, and working practices according to the target's purpose and actual use. Keep valid knowledge and structure, and split, connect, combine, or simplify them as needed. Reassess these choices through [adoption experience](feedback.md), observing actual discovery, judgment, and the burden of updates.
+
+[Self-erasure](self-erasure.md) applies the same judgment to supporting guidance and the method itself. Reduce their role as the need for help diminishes, while preserving knowledge, responsibilities, evidence, and important decision history specific to the target.
+
+## OKF and practical adoption
+
+Mekra currently uses [OKF's representation model](okf-format.md). These operating principles are Mekra's adopted criteria for judgment within that setting. Distinguish official format requirements from operating choices; the specification baseline is kept in the [current OKF baseline](../versions/current.md).
+
+[Adoption judgment](adoption.md) covers a target's current state, work scope, bundle location, and entry point choices. The [repository structure](../README.md#structure) describes the directory layout used here.
