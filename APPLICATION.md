@@ -10,21 +10,25 @@ The default entry point is `releases/latest` in the public repository being cons
 
 ## Understand the target and choose the application direction
 
-Interpret natural-language requests such as "apply this," "build an OKF," or "bring this up to current Mekra Method" together with the target's current state. The [README examples](README.md) are possible wording, not a command grammar that must be matched exactly. The reasoning behind request interpretation and work categories is in [adoption judgment](okf/adoption.md).
+Interpret natural-language requests such as "apply Mekra," "incorporate new material into the existing Mekra," or "update this Mekra to the latest formal release" together with the target's current state. The [README examples](README.md) are possible wording, not a command grammar that must be matched exactly. The reasoning behind request interpretation and work categories is in [adoption judgment](okf/adoption.md).
 
-Inspect the target's README, existing agent instructions, important material or code, and any existing OKF to understand its purpose, locations of sources of truth, and current operating model. Reuse valid structures and knowledge, and judge which changes would actually help. Explore additional OKF concepts when useful.
+Inspect the target's README, existing agent instructions, important material or code, and existing knowledge to understand its purpose, locations of sources of truth, and current operating model. Reuse valid structures and knowledge, and judge which changes would actually help. Explore relevant Method operating knowledge when useful.
 
-Use [facets](facets/README.md) as supporting lenses for understanding important dimensions of the application context, such as the target, primary outputs, or material characteristics. Do not choose a facet and apply it wholesale; identify relevant properties in the target and consult only what helps. A `preview` facet is a research candidate still under validation, so it is not a prerequisite for normal application. Determine whether the work is a new build, an update to existing operating practices, a change driven by target characteristics, a specification-version transition, or some combination, then set the scope for this application. Even for a build request, if an existing OKF is present, first judge what knowledge to preserve and what needs improvement. A request to "turn this repo into OKF" focuses on finding knowledge worth reusing in current material and [internalizing](okf/knowledge-internalization.md) it as actual concepts and relationships. When these kinds of work overlap, they can be handled together.
+Use [facets](facets/README.md) as supporting lenses for understanding important dimensions of the application context, such as the target, primary outputs, or material characteristics. Do not choose a facet and apply it wholesale; identify relevant properties in the target and consult only what helps. A `preview` facet is a research candidate still under validation, so it is not a prerequisite for normal application. Determine whether the work is a new build, an update to existing operating practices, a change driven by target characteristics, a specification-version transition, or some combination, then set the scope for this application. Even for an initial application request, if Mekra or OKF knowledge is already present, first judge what to preserve and what needs improvement. A request to incorporate new material focuses on finding knowledge worth retaining and [internalizing](okf/knowledge-internalization.md) it in the relevant concepts and relationships. When these kinds of work overlap, they can be handled together.
 
 An inspection request focuses on diagnosing whether the current structure and knowledge are suitable and explaining findings and improvements. If the user also requested fixes, or prior context already delegated them, implement the necessary improvements as well. If the request is diagnosis only, do not automatically proceed into structural migration.
 
 In this guide repository, adopted principles and patterns live under `okf/`, lenses for reading application context under `facets/`, and copyable scaffolding under `templates/`. `notes/` and `experiments/` are research material. If a specification-version transition is relevant, inspect the [version records](versions/README.md) and the format actually used by the target bundle.
 
+## Existing OKF material and specification changes
+
+For "apply Mekra Method to existing OKF material," preserve valid knowledge and sources of truth while assessing changes to operating practices. Earlier requests such as "build an OKF" or "turn this repo into OKF" can also be interpreted from their purpose and the target's state; they do not automatically require rebuilding. An explicit request to update the OKF specification is a format transition, distinct from updating the Method baseline. See the [version guide](versions/README.md) for the specification baseline and migration considerations.
+
 ## Ask only for intent that matters
 
 Ask when unresolved user intent that cannot be learned from exploration would materially change the result. The following are examples to adapt to the situation:
 
-- "The structure changes depending on whether the existing domain document remains the source of truth or that responsibility moves into OKF. Is there a location that must remain canonical?"
+- "The structure changes depending on whether the existing domain document remains the source of truth or its content is incorporated into another knowledge document. Is there a location that must remain canonical?"
 - "I recommend migrating the core knowledge first and converting the rest progressively. Do you need the whole repository reviewed this time?"
 - "I can proceed with the recommended approach for this context, or we can decide the major choices together."
 
@@ -48,13 +52,13 @@ Distinguish what format and link checks establish from semantic review. The burd
 
 ## Operational handoff and completion
 
-Build and transition work continues through leaving the user a usable operating method for handling existing and new material afterward. "Incorporate the new material into OKF" is an example of a follow-up request used inside an already adopted repository; do not present it as a command for choosing Mekra Method's build or transition procedure again.
+Build and transition work continues through leaving the user a usable operating method for handling existing and new material afterward. "Incorporate new material into the existing Mekra" is an example of a follow-up request used inside an already adopted repository; do not present it as a command for choosing Mekra Method's build or transition procedure again.
 
-Explain the actual location and method selected for adding the next material. For example, if source material is intentionally kept in `raw/`, the handoff might say: "Put new source material in `raw/` and ask the agent to incorporate the new material into OKF." Replace the path with the target's actual arrangement.
+Explain the actual location and method selected for adding the next material. For example, if source material is intentionally kept in `raw/`, the handoff might say: "Put new source material in `raw/` and ask the agent to incorporate the new material into the existing Mekra." Replace the path with the target's actual arrangement.
 
 Explain the [division of responsibility](okf/context-propagation.md#human-and-agent-roles): people supply new facts, intent, evidence, and corrections, while the agent explores related context and updates the source of truth and affected knowledge together. For example: "This condition has changed; check the evidence and update the related knowledge." After a person edits knowledge directly, they can ask: "Review the meaning and impact of this change and update related knowledge too."
 
-Leave guidance in the target README or the relevant material documentation about where source material and directly authored new knowledge belong, how external material should be referenced, and what request should be used to incorporate it. If there is no benefit in a separate source-material folder, explain how the existing location should be used instead. Repository-specific choices the agent also needs can be linked from the target's OKF operating instructions.
+Leave guidance in the target README or the relevant material documentation about where source material and directly authored new knowledge belong, how external material should be referenced, and what request should be used to incorporate it. If there is no benefit in a separate source-material folder, explain how the existing location should be used instead. Repository-specific choices the agent also needs can be linked from the target's Mekra operating instructions.
 
 Also explain where use was confirmed and whether updates happen at the user's request or through automation that has actually been connected. Specify where the knowledge is stored and which entry point to use next. Distinguish the verified scope of completion from connections in other environments or automation that has not been implemented.
 

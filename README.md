@@ -2,7 +2,11 @@
 
 *Knowledge finds its place.*
 
-Mekra Method helps you organize and maintain project knowledge so AI agents can understand the context and carry it into later work.
+Mekra Method lets AI agents decide for themselves what to retain as knowledge and how to organize, connect, and maintain it, based on the available material and purpose.
+
+Agents use the knowledge and context maintained this way to decide what to do in later work as the situation requires.
+
+It provides application guides, templates, and operating knowledge to put the method into practice.
 
 If you keep explaining the same background or tracing how one decision affects another task, you can record those reasons and relationships where they matter. Provide the knowledge and context needed for judgment, and leave the concrete way of working to the agent wherever practical.
 
@@ -34,12 +38,12 @@ You can also describe the work more specifically. Here are requests you can use 
 
 | Example request | Main intent |
 | --- | --- |
-| Build an OKF in this repository. / Turn this repository into OKF. | Inspect current materials and build the structure and knowledge graph that are actually useful |
-| Migrate the existing OKF to Mekra Method practices. / Bring it in line with current Mekra Method. | Update operating practices while preserving valid existing knowledge |
+| Apply Mekra to this folder. | Examine current material and organize the knowledge and context that are needed |
+| Incorporate new material into the existing Mekra. | Review new knowledge and changes, then update the source of truth and affected context |
+| Inspect this Mekra. | Diagnose its knowledge organization and operating practices |
+| Inspect this Mekra and fix what needs improvement. | Diagnose and implement the necessary improvements |
+| Update this Mekra to the latest formal release. | Preserve valid knowledge while adopting the selected Method baseline |
 | Organize this as a knowledge-centered repository. | Judge the operating approach with knowledge as the primary output |
-| Upgrade the OKF version. | Assess and address the impact and need for an official specification transition |
-| Inspect the current OKF. | Diagnose the suitability of its current structure and knowledge |
-| Inspect the OKF structure and fix what needs improvement. | Diagnose and implement necessary improvements |
 
 There is no exact wording to learn, nor do you need to know internal operation names. The agent starts with the [application guide](APPLICATION.md) and interprets the request together with the target's current state. "Apply it" delegates an overall assessment of necessary work; more specific requests guide exploration of relevant philosophy and facets within their purpose and scope.
 
@@ -49,7 +53,9 @@ A facet is a judgment lens, not a preset or default configuration. Templates are
 
 ## Relationship to OKF
 
-Mekra Method is currently built on Open Knowledge Format (OKF), a format for representing knowledge that people and agents can both read and exchange. It continues the work previously called OKF Method. This repository provides the adopted principles and practical guidance.
+Mekra Method currently uses Open Knowledge Format (OKF) to represent knowledge. OKF is a format that people and agents can both read and exchange. Mekra continues the knowledge and history previously called OKF Method. This repository provides the adopted principles and practical guidance.
+
+For existing OKF material, you can ask: "Apply Mekra Method to the existing OKF material." If the format itself needs updating, ask: "Review the impact of the OKF specification change and update what is needed." These requests preserve valid existing knowledge and are interpreted within their purpose and scope. See the [application guide](APPLICATION.md) and [version guide](versions/README.md).
 
 This guide is not a copy of the specification or a framework every project must follow. The source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).
 

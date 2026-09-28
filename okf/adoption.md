@@ -12,13 +12,15 @@ sources:
 
 Applying Mekra Method means understanding a target repository and reflecting adopted operating knowledge into structures and knowledge that fit its context. Copying templates is only a supporting technique; the goal is to improve actual operation while preserving the meaning of existing knowledge and the boundaries of its sources of truth. This is a Mekra Method operating approach, not a requirement of the official OKF specification.
 
-A user can begin with a repository URL and a request such as "apply this." This repository provides the reasoning and discovery paths needed for application. Keeping research and application material together allows conclusions from observation to feed back into related concepts, facets, and templates. Adopted reasoning belongs in `okf/`; unadopted content in `notes/` and `experiments/` is not a default basis for application.
+A user can begin with the public guide's latest formal release URL and a request such as "apply Mekra." This repository provides the reasoning and discovery paths needed for application. Keeping research and application material together allows conclusions from observation to feed back into related concepts, facets, and templates. Adopted reasoning belongs in `okf/`; unadopted content in `notes/` and `experiments/` is not a default basis for application.
 
 ## Natural-language requests and current state
 
 Interpret requests that reach this repository by looking at both the user's desired result and the current state of the target. "Apply it" is a broad delegation to judge the work that is needed, while "build," "migrate," and "inspect" express narrower purposes. Names for work types and scope are vocabulary for organizing agent judgment; users do not need to learn them or use fixed phrases.
 
-A request to "build an OKF" does not automatically regenerate an existing knowledge graph. If OKF is already present, judge whether to preserve and improve current knowledge or update its operating approach. "Turn this repo into OKF" includes the purpose of finding reusable knowledge in current material and [internalizing](knowledge-internalization.md) it as actual concepts and relationships. Whether an empty scaffold is sufficient depends on the requested scope and state of the material.
+A request to "apply Mekra" does not automatically regenerate an existing knowledge graph. If Mekra or OKF knowledge is already present, judge what to preserve and improve or which operating practices to update. "Incorporate new material into the existing Mekra" focuses on finding knowledge worth retaining and [internalizing](knowledge-internalization.md) it in the relevant concepts and relationships. Whether a scaffold alone is sufficient depends on the requested scope and state of the material.
+
+Requests involving existing OKF material, including earlier wording such as "build an OKF" or "turn this repo into OKF," are also interpreted from their purpose and the target's state. An explicit request to update the OKF specification is distinct from an update to the Mekra Method baseline.
 
 "Inspect it" focuses on diagnosis and improvement proposals, while "inspect it and fix what is needed" includes implementing improvements. The actual scope also incorporates delegated authority and constraints established earlier in the conversation. Autonomous judgment selects methods inside that intent; it is not a reason to expand diagnosis-only work into an automatic structural transition.
 
@@ -89,7 +91,7 @@ State what knowledge was organized and which usage environment was checked when 
 
 ## Operation after adoption
 
-Build or transition requests establish or change the target's operating system; follow-up requests such as "incorporate the new material into OKF" use that system. During adoption, Mekra Method should leave operating guidance fitted to the target, while routine material incorporation continues from the target's own sources of truth, instructions, and knowledge graph. This distinction lets the target operate without rerunning Mekra Method's adoption procedure for every later update.
+Build or transition requests establish or change the target's operating system; follow-up requests such as "incorporate new material into the existing Mekra" use that system. During adoption, Mekra Method should leave operating guidance fitted to the target, while routine material incorporation continues from the target's own sources of truth, instructions, and knowledge graph. This distinction lets the target operate without rerunning Mekra Method's adoption procedure for every later update.
 
 Delegating design judgment does not mean the user should have to infer how to use the result afterward. At completion, explain the actual locations selected for source material and new knowledge and how to request incorporation, and leave that information in the target repository as well. If source material is external or no separate intake location is useful, explain that operating model instead.
 

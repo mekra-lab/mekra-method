@@ -1,6 +1,10 @@
 # Introducing Mekra Method
 
-Mekra Method is **a method for organizing and maintaining knowledge and context for AI agents**. It brings project facts, decisions, reasons, and relationships into knowledge that people can read, helping agents find and understand that context when making judgments in later work.
+Mekra Method lets AI agents decide for themselves what to retain as knowledge and how to organize, connect, and maintain it, based on the available material and purpose.
+
+Agents use the knowledge and context maintained this way to decide what to do in later work as the situation requires.
+
+It provides application guides, templates, and operating knowledge to put the method into practice.
 
 This document introduces the name, origins, central ideas, and design choices. To apply the method, start with the [application guide](APPLICATION.md). The adopted judgments and their reasoning live in the [operating knowledge](okf/index.md).
 
@@ -12,7 +16,7 @@ Mekra developed through research into and practical work with Open Knowledge For
 
 It also drew inspiration from the ontological perspective of expressing meaning through relationships between concepts.
 
-The name Mekra gives this operating method a name of its own. It connects and explains existing judgments under that name, while remaining built on OKF. The [version guide](versions/README.md) records continuity across repository names and releases.
+The name Mekra gives this operating method a name of its own. It connects and explains existing judgments under that name, while currently using OKF to represent knowledge. The [version guide](versions/README.md) records continuity across repository names and releases.
 
 ## Knowledge finds its place.
 
@@ -23,6 +27,8 @@ The phrase expresses the direction of the method in a few words. It does not imp
 ## Central ideas
 
 **Start from autonomous agent judgment.**
+
+This includes deciding how to organize and maintain knowledge: what to retain, which relationships and conditions matter, where the source of truth belongs, and what else needs updating. Agents also use the resulting knowledge and context to decide what to do in later work.
 
 Interpret and apply the other operating principles according to purpose and context. Trust capable agents to interpret context and exercise judgment, and provide the reasons, conditions, and relationships they need. Facts, user intent, authority, and the target's constraints remain conditions of that judgment, while the concrete working method is left to the agent wherever practical.
 
@@ -72,7 +78,7 @@ This is Mekra's chosen direction. Observation and validation will show how much 
 
 ## Relationship to OKF
 
-OKF is a format for representing knowledge that people and agents can read and exchange. Mekra is currently built on that format and provides an approach to deciding what to record and connect and how to maintain it.
+Mekra Method currently uses OKF to represent knowledge. OKF is a format that people and agents can read and exchange. Mekra's operating principles guide how agents decide what to retain, how to organize and connect it, and what to update as things change.
 
 The source of truth for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format). Mekra's operating principles are its own judgments on top of that specification, rather than additional official requirements or a separate extension specification. The new name preserves the distinction between the current implementation basis and responsibility for the official format. [The role and use of OKF](okf/okf-format.md) explains its representation model, bundle boundaries, and the context for choosing specification features.
 

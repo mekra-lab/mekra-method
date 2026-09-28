@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "536ded2df3001f19e79c20f03841d5425dbc7bb2",
+  "source_commit": "09bbddc9d6f1d10622f27190e1face312d246f8b",
   "manifest_sha256": "c51626015680a65e26bb19f558bc9ab7295eece21c5355ea3f51e03c325b7902",
-  "reviewed_at": "2026-09-28T01:53:06.1602615Z",
+  "reviewed_at": "2026-09-28T02:19:08.9423638Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,18 +12,18 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "0c5e4c1da622e842f4de4c1b800aaa4f97ccf3445ff4e2c24b7dfe2e77de7e63",
-      "target_sha256": "5f7d9fca55a562c4ee478709ae8a957c9c3a1bfdebcf0917b2679d8d9ec76e29"
+      "source_sha256": "155c334342c6a439edd49bdd863ccb938f962c4767b9497b974b58a4a6012214",
+      "target_sha256": "f3a00c31bb306e708f9822a124a1ab9c91a1983c1277a3740aaebe2e0639dee7"
     },
     {
       "path": "INTRODUCTION.md",
-      "source_sha256": "1ba8285e9677347d8185fedc452408166c99ea0802b92c0c855952cdeed47a4c",
-      "target_sha256": "0fe3dc95a51d172a4e2ed30054f37ba1b6017824c872b7472e90f418f548aaa9"
+      "source_sha256": "0cee13d9821897a6d4ab7685b5748e6a9bb33bb40705dc09bd40b1e4f5552d43",
+      "target_sha256": "54771f25283300b3f07dd129af2496bacc4cd09f3a288c41b8a954ae6ee68d0c"
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "f358de835833b29ef34b03472dea1741f5dc5418f4c3074b763d9d5c271867cd",
-      "target_sha256": "0a1ba1b1a2679afc5fb03101404ea1967dbaf33163b26d858a17763103fbf57d"
+      "source_sha256": "7cc01920d810892c1e61c74a8505fe54ab5c1d7d360fe3321d4690f9ad837d1a",
+      "target_sha256": "14eb87b1fcdaa503015d870f9c582bf72b714b888eb3f677e6c3b2e20e0c8ccd"
     },
     {
       "path": "FEEDBACK.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "okf/agent-autonomy.md",
-      "source_sha256": "a87257b78cc88f8a741c78f9633f8d7baf9b8cca87acd35512113af833459379",
-      "target_sha256": "72bb682e0a44e684c00d28cccd7fd311d03c38ff549bfadeddee6ead8a65c818"
+      "source_sha256": "6ef8113647f93744863cfd2392f63b192b2049cda1f90920bced6e613edfce31",
+      "target_sha256": "b0ca3ec171ad654125af56eee1d60a084365ad10fef85dbb47c6e385b54e0d52"
     },
     {
       "path": "okf/self-erasure.md",
@@ -92,8 +92,8 @@
     },
     {
       "path": "okf/adoption.md",
-      "source_sha256": "b70baf85ce81ab1dfaf4b5c2250a3f94a39f0b0be31770f72f2213e8587dea27",
-      "target_sha256": "3561b98bac75270cebc41802c7dac5ce1fe15a85b951b8e05a34545f3caaa92d"
+      "source_sha256": "de1daf1131cddbf294e92340f87c93ae4d9f3fd4676b4846912454793b05ffff",
+      "target_sha256": "a7d740ae548d6b162de4d0b3bb5a301e0f587359a9032401a9008dfc32718bef"
     },
     {
       "path": "okf/feedback.md",
