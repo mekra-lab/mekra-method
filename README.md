@@ -10,7 +10,9 @@ If you keep explaining the same background or tracing how one decision affects a
 
 In the repository you want to work on, ask an agent with access to read and edit it:
 
-> Apply https://github.com/mekra-lab/mekra-method to this repository.
+> Apply https://github.com/mekra-lab/mekra-method/releases/latest to this repository.
+
+The default adoption baseline is the latest formal release. Resolve its tag and commit at the start, then follow the application guide and related documents at that same revision. The documents on `main` may include later wording or link improvements.
 
 The agent examines existing material and structure, then judges which knowledge to organize and connect. After making the changes, it explains where and how to incorporate new material and updates.
 
@@ -91,7 +93,7 @@ Mekra Method is developed and maintained by [Mekra Lab](https://github.com/mekra
 - Recommended baseline: **OKF v0.2**
 - Verification date and specification baseline: [`versions/current.md`](versions/current.md)
 
-The public repositories' `main` branches retain the last reviewed and published release, while dev changes accumulate for the next one. Urgent fixes also ship as releases at the level appropriate to their impact. New Mekra Method releases use `mekra-X.Y`, or `mekra-X.Y.Z` for a separately published patch. Record the OKF specification baseline separately and preserve existing tags. See the [version guide](versions/README.md) for the meaning of change levels and how to record the commit actually used during adoption.
+The latest formal release is the default adoption baseline. Public `main` can receive reviewed corrections to wording, links, and usability between releases when they preserve adoption meaning. Changes to adoption judgments or core principles reach public `main` together with a release. Publish a new release to include an improvement in the formal adoption baseline. New Mekra Method releases use `mekra-X.Y`, or `mekra-X.Y.Z` for a separately published patch. Record the OKF specification baseline separately and preserve existing tags. See the [version guide](versions/README.md) for change levels and recording the actual reference commit.
 
 ## License
 

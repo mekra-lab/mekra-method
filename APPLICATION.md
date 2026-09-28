@@ -4,6 +4,10 @@ This guide is the default path for applying Mekra Method operating knowledge to 
 
 The philosophical starting point is the [operating principles](okf/operating-principles.md): keep responsibility for sources of truth clear, internalize the context each concept needs, and reflect the meaning of changes into related concepts. [Adoption judgment](okf/adoption.md) explains how that philosophy carries into application work.
 
+## Confirm the adoption baseline
+
+The default entry point is `releases/latest` in the public repository being consulted. At the start, resolve the formal release's tag and commit, then read `APPLICATION.md` and related documents at that revision. Keep that baseline throughout the application even if public `main` contains later explanatory improvements. On completion, record the actual release and commit rather than only the moving `latest` URL. If the user specified a tag, commit, or dev working tree, keep that baseline. If the release baseline cannot be verified, report the limit instead of treating `main` as the latest formal release.
+
 ## Understand the target and choose the application direction
 
 Interpret natural-language requests such as "apply this," "build an OKF," or "bring this up to current Mekra Method" together with the target's current state. The [README examples](README.md) are possible wording, not a command grammar that must be matched exactly. The reasoning behind request interpretation and work categories is in [adoption judgment](okf/adoption.md).
@@ -47,6 +51,8 @@ Distinguish what format and link checks establish from semantic review. The burd
 Build and transition work continues through leaving the user a usable operating method for handling existing and new material afterward. "Incorporate the new material into OKF" is an example of a follow-up request used inside an already adopted repository; do not present it as a command for choosing Mekra Method's build or transition procedure again.
 
 Explain the actual location and method selected for adding the next material. For example, if source material is intentionally kept in `raw/`, the handoff might say: "Put new source material in `raw/` and ask the agent to incorporate the new material into OKF." Replace the path with the target's actual arrangement.
+
+Explain the [division of responsibility](okf/context-propagation.md#human-and-agent-roles): people supply new facts, intent, evidence, and corrections, while the agent explores related context and updates the source of truth and affected knowledge together. For example: "This condition has changed; check the evidence and update the related knowledge." After a person edits knowledge directly, they can ask: "Review the meaning and impact of this change and update related knowledge too."
 
 Leave guidance in the target README or the relevant material documentation about where source material and directly authored new knowledge belong, how external material should be referenced, and what request should be used to incorporate it. If there is no benefit in a separate source-material folder, explain how the existing location should be used instead. Repository-specific choices the agent also needs can be linked from the target's OKF operating instructions.
 

@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "c49a11ac9fbd727d629d3b60edd168c41d848538",
+  "source_commit": "536ded2df3001f19e79c20f03841d5425dbc7bb2",
   "manifest_sha256": "c51626015680a65e26bb19f558bc9ab7295eece21c5355ea3f51e03c325b7902",
-  "reviewed_at": "2026-09-27T01:01:28.0576965Z",
+  "reviewed_at": "2026-09-28T01:53:06.1602615Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -12,8 +12,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "6304673f2af0a2c29e42998cedcb7a6a3ce058c2a4f26f68f08b846e0eb4f37f",
-      "target_sha256": "f5f3ea74359a4e7cd39985a6f9b10e0eea586a2fea6fadefef8b5b671022a917"
+      "source_sha256": "0c5e4c1da622e842f4de4c1b800aaa4f97ccf3445ff4e2c24b7dfe2e77de7e63",
+      "target_sha256": "5f7d9fca55a562c4ee478709ae8a957c9c3a1bfdebcf0917b2679d8d9ec76e29"
     },
     {
       "path": "INTRODUCTION.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "23cfabaa8efa6c97f3073fa2437b6d4ad4226c9c606201637368cd2e22834bff",
-      "target_sha256": "3086c4fee2c34d58838c92b65c69e59d8be071edbe569b2fc73cf403fd8c513d"
+      "source_sha256": "f358de835833b29ef34b03472dea1741f5dc5418f4c3074b763d9d5c271867cd",
+      "target_sha256": "0a1ba1b1a2679afc5fb03101404ea1967dbaf33163b26d858a17763103fbf57d"
     },
     {
       "path": "FEEDBACK.md",
@@ -42,8 +42,8 @@
     },
     {
       "path": "okf/operating-principles.md",
-      "source_sha256": "9cee0d3a750e5c0f97f3990abade27290086ae7b6fe8b17377cb08f11230b5d9",
-      "target_sha256": "84deb9942aa13761c42d61101be7fd6cd62fa9cbda1a8dd5d420c9a248125763"
+      "source_sha256": "b0f7a52f55af229f1e42c3a2c2acc1d3eff0c5a8af0339811296ea29d784a67f",
+      "target_sha256": "14c02b0b788b551a3f24157839ef5d899fc972401af2860a7a87598ca6ed4f8e"
     },
     {
       "path": "okf/agent-autonomy.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "okf/context-propagation.md",
-      "source_sha256": "8a7cc797fde16f3ba6ed50f79598744011c8c4856e21416abbebeb955d87ef19",
-      "target_sha256": "4ced769c2d5c3048c1cd539b1b719e741b2057493e2dee5ca910b81ae7cbf0a5"
+      "source_sha256": "1e76e03d0989e7c3425df7fce8e3c6dc7430bad4f7914491be91f406071a94ff",
+      "target_sha256": "079eb15d1f7e188b3fa1bba45473b54470c5b3af96cfc71c8ad978562125b489"
     },
     {
       "path": "okf/external-sources.md",
@@ -102,8 +102,8 @@
     },
     {
       "path": "okf/distribution.md",
-      "source_sha256": "1000788e3aba7a30b7f409bbe1d05253633a581544ef502d1b0a7926705856c7",
-      "target_sha256": "dad903d41c925d42882573da21689a28f33afc9bd8f826b616ffb2f24afd7ed8"
+      "source_sha256": "77a23cb74ea2ee2f1822c275a633e6d5b190dd1967c8afbd6b90609d1b5e5ae8",
+      "target_sha256": "2680b486ed01a23ccc9b65abcb979a3b41e7927921ce1d85b13b477d6b821ebc"
     },
     {
       "path": "facets/README.md",
@@ -162,8 +162,8 @@
     },
     {
       "path": "versions/README.md",
-      "source_sha256": "ad558d4e5a9329b1023838c7dd1aaaa75f3e8351acd36fea2cc53828c39cf692",
-      "target_sha256": "c2e69aaa0b185ea781935d86e29508e896fa6e9611f2e0ecffd99c2ab37ae962"
+      "source_sha256": "ec2645b640848553142d77dfa2c2e470c96c3aa5f153b41a1ca329b677bf0124",
+      "target_sha256": "898aaf49eab344b0910e6a90de0e61dc1636dd7d491a528714eb031f1d2bce43"
     },
     {
       "path": "versions/current.md",

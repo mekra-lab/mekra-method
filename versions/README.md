@@ -13,11 +13,13 @@ Track changes in upstream OKF and record their impact on this repository's princ
 | Mekra Method release tag | A fixed publication baseline for the adopted method and operating knowledge |
 | Repository and commit of the guidance consulted | The actual state of the guide read when applying it to a target |
 
-The public repositories' `main` branches retain the last reviewed and published release and are updated when a new release is published. Changes for the next release can continue to accumulate in dev. Use the official specification version in a target bundle's `okf_version`, not a Mekra Method release name.
+The default adoption baseline is each public repository's latest formal release, reached through `releases/latest`. Public `main` contains the latest reviewed documents and can receive corrections to errors, wording, links, and usability between releases when they preserve adoption meaning. Changes to adoption judgments or core principles are reviewed in dev or a preparation branch and reach public `main` together with a release. Judge the boundary by meaning, not filenames or change size; do not use public `main` to trial unreleased principles. Use the official specification version in a target bundle's `okf_version`, not a Mekra Method release name.
 
-Urgent fixes also ship as releases. Corrections to errors, wording, or links that preserve meaning use a patch release; changes to adoption meaning use the appropriate level below. Urgency alone does not justify a patch version or moving an existing tag.
+Publish a new release to include improvements from public `main` in the formal adoption baseline. Urgent corrections needed in that baseline follow the same process. Corrections to errors, wording, or links that preserve meaning use a patch release; changes to adoption meaning use the appropriate level below. Urgency alone does not justify a patch version or moving an existing tag.
 
-`SYNC.json` records the dev commit and publication manifest used for review, along with the content fingerprints of the source and published files. Preserve that record when dev advances. Comparing new dev changes is separate from checking a published release against its own baseline.
+`SYNC.json` records the dev commit and publication manifest used to review that public state, along with the content fingerprints of the source and published files. Update the record when public content changes, and preserve past release records in their tags. Comparing new dev changes is separate from checking a published release against its own baseline.
+
+`releases/latest` can point to a different release over time. At the start of an application, resolve the release tag and commit, then follow `APPLICATION.md` and related documents at that revision. Keep the same baseline throughout the work and record what was actually consulted on completion. If the user specified a tag, commit, or dev working tree, use that baseline.
 
 ## Mekra Method releases
 
@@ -35,7 +37,7 @@ New release tags use `mekra-X.Y`, or `mekra-X.Y.Z` for a separately published pa
 
 `mekra-X.Y` is the first release in that series, equivalent to patch zero. Do not add a duplicate `.0` tag for the same baseline; subsequent patches start at `.1`. Omit the patch position again when incrementing the minor version, and start the minor version at zero when incrementing the major version. Examples include `mekra-0.3`, `mekra-0.3.1`, `mekra-0.4`, and `mekra-1.0`. These illustrate the naming convention; they do not announce a release or select the next number.
 
-This is a project convention for describing a method's impact, not a software API compatibility guarantee. Even a bug fix uses the appropriate level if it changes the meaning of adoption. Adding an optional arrangement, such as the trial `MEKRA.md` entry point, does not by itself require a major version. Dev edits and local publication reviews can be grouped together; publish a release when updating public `main`.
+This is a project convention for describing a method's impact, not a software API compatibility guarantee. Even a bug fix uses the appropriate level if it changes the meaning of adoption. Adding an optional arrangement, such as the trial `MEKRA.md` entry point, does not by itself require a major version. Document improvements that preserve meaning can reach public `main` between releases; updates to the formal adoption baseline are published as releases.
 
 ### Relationship to the OKF baseline
 
@@ -51,13 +53,13 @@ Choose the first number in the new scheme after reviewing the actual release con
 
 ### Publication across languages
 
-`mekra-method-kr` and `mekra-method` use the same logical release name. Each tag points to a commit whose publication scope and meaning were reviewed against the same dev baseline, so the commit hashes differ. Keep tags fixed at the published commits; subsequent corrections belong in later commits and ship as new releases when published. Describe the main changes, adoption or migration impact, and separate OKF baseline in each repository's language. A shared release is complete only after both repositories have been checked. The reasoning for this relationship is in the [distribution principles](../okf/distribution.md).
+`mekra-method-kr` and `mekra-method` use the same logical release name. Each tag points to a commit whose publication scope and meaning were reviewed against the same dev baseline, so the commit hashes differ. Keep tags fixed at the published commits; subsequent corrections belong in later commits and ship as new releases when included in the formal adoption baseline. Describe the main changes, adoption or migration impact, and separate OKF baseline in each repository's language. Release notes link directly to `README.md` and `APPLICATION.md` at that repository's release tag. After checking both repositories, designate the same formal release as latest and verify both `releases/latest` destinations before reporting the shared release complete. The reasoning for this relationship is in the [distribution principles](../okf/distribution.md).
 
 The research repository does not need a tag on every commit. Each public repository's `SYNC.json` connects it to the reviewed dev baseline, and users should be able to identify the guidance available at the time of adoption from the public repository they consulted alone.
 
 ## Recording the actual reference baseline
 
-If adoption used public `main`, the corresponding release can identify the baseline. For history from before this release policy, release candidates, or dev, the nearest tag cannot stand in for the actual commit consulted. During [operational handoff](../APPLICATION.md), briefly recording the repository and commit actually read in the existing README or operating guide helps later comparison. A corresponding release and specification baseline can also be recorded separately, but there is no need for a separate `VERSION` file or repeated metadata on every concept.
+When starting from the latest release, record the actual tag and commit resolved. The moving `latest` URL alone does not identify the baseline used at the time. When consulting public `main`, a release candidate, or dev, verify the actual commit; do not describe content that differs from a release as belonging to the nearest tag. During [operational handoff](../APPLICATION.md), briefly recording the repository and commit actually read in the existing README or operating guide helps later comparison. A corresponding release and specification baseline can also be recorded separately, but there is no need for a separate `VERSION` file or repeated metadata on every concept.
 
 If only some concepts were updated from newer guidance, record that scope too, so readers do not assume the entire repository moved to the same baseline. If a past reference was not recorded, recover what the history supports and leave the rest unverified. [Long-term feedback](../FEEDBACK.md) connects differences between the guide used then and the current guide to observed problems.
 

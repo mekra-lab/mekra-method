@@ -26,6 +26,12 @@ Even during a [progressive migration of operating practices](adoption.md), refle
 
 The [source of truth](source-of-truth.md) is the starting point for a change, while impact scope is left to the [agent's contextual judgment](agent-autonomy.md). Because the meaning of a relationship is expressed in natural language, the existence of a link alone cannot determine whether there is an impact, and concepts without existing links may still be affected. The autonomy to interpret these relationships is what turns OKF's flexible relationship expression into coordinated updates. The same principle applies when [source material](external-sources.md) changes.
 
+## Human and agent roles
+
+The default operating model is for people to supply new facts, intent, evidence, and corrections, while the agent explores related context and updates the source of truth and affected knowledge together. A change in one concept can alter conditions or judgments in another, so the agent handles both the update itself and the review of its effects.
+
+After a person edits knowledge directly, the agent still reviews the meaning and scope of that change. This division of responsibility supports updates to related knowledge regardless of whether it is stored in files, a database, or another form. The agent judges within the user's intent and authority and the target's constraints; its conclusions remain limited by the context actually explored.
+
 ## When confidence in evidence decreases
 
 Even when source material is unchanged, discovering extraction errors or a misunderstanding of what was validated can change judgments drawn from it. For example, if an omission in an automatic transcript means a statement can no longer be regarded as confirmed, review both the transcript's explanation and assertions in concepts about decisions, responsibilities, or work that relied on it. Distinguish the scope where confidence has decreased from the scope still supported by other evidence.

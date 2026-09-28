@@ -28,6 +28,8 @@ Knowledge about operating the knowledge base may itself be a subject of internal
 
 When new knowledge or a change arrives, [update](context-propagation.md) the source of truth and related concepts whose meaning changes. A link alone does not make a document an update target; examine where meaning, conditions, relationships, or judgments actually change.
 
+The [default operating model](context-propagation.md#human-and-agent-roles) is for people to supply new facts, intent, evidence, and corrections, while the agent explores related context and updates the source of truth and affected knowledge together.
+
 Distinguish the scope of material preserved or processed from the conclusions adopted. Make uncertainty and its evidence clear, and preserve both the degree of certainty and [disclosure boundaries](disclosure-boundary.md) when carrying knowledge into other contexts.
 
 ## Reassessing structure and guidance
