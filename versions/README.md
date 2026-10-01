@@ -19,7 +19,7 @@ Publish a new release to include improvements from public `main` in the formal a
 
 `SYNC.json` records the dev commit and publication manifest used to review that public state, along with the content fingerprints of the source and published files. Update the record when public content changes, and preserve past release records in their tags. Comparing new dev changes is separate from checking a published release against its own baseline.
 
-`releases/latest` can point to a different release over time. At the start of an application, resolve the release tag and commit, then follow `APPLICATION.md` and related documents at that revision. Keep the same baseline throughout the work and record what was actually consulted on completion. If the user specified a tag, commit, or dev working tree, use that baseline.
+`releases/latest` locates the latest recommended release and can point to a different release over time. At the start of an application, verify the public repository commit targeted by the release tag, then follow `APPLICATION.md` and related documents pinned to that commit. Keep the same baseline throughout the work and record the public repository, release, and commit actually consulted on completion. If the user specified a tag, commit, or dev working tree, use that baseline.
 
 ## Mekra Method releases
 
@@ -53,9 +53,17 @@ Choose the first number in the new scheme after reviewing the actual release con
 
 ### Publication across languages
 
-`mekra-method-kr` and `mekra-method` use the same logical release name. Each tag points to a commit whose publication scope and meaning were reviewed against the same dev baseline, so the commit hashes differ. Keep tags fixed at the published commits; subsequent corrections belong in later commits and ship as new releases when included in the formal adoption baseline. Describe the main changes, adoption or migration impact, and separate OKF baseline in each repository's language. Release notes link directly to `README.md` and `APPLICATION.md` at that repository's release tag. After checking both repositories, designate the same formal release as latest and verify both `releases/latest` destinations before reporting the shared release complete. The reasoning for this relationship is in the [distribution principles](../okf/distribution.md).
+`mekra-method-kr` and `mekra-method` use the same logical release name. Each tag points to a commit whose publication scope and meaning were reviewed against the same dev baseline, so the commit hashes differ. Keep tags fixed at the published commits; subsequent corrections belong in later commits and ship as new releases when included in the formal adoption baseline. Describe the main changes, adoption or migration impact, and separate OKF baseline in each repository's language. Release notes specify the public repository and full commit SHA as the adoption baseline, with `README.md` and `APPLICATION.md` links pinned to that commit. After checking both repositories, designate the same formal release as latest and verify both `releases/latest` destinations before reporting the shared release complete. The reasoning for this relationship is in the [distribution principles](../okf/distribution.md).
 
 The research repository does not need a tag on every commit. Each public repository's `SYNC.json` connects it to the reviewed dev baseline, and users should be able to identify the guidance available at the time of adoption from the public repository they consulted alone.
+
+### Adoption baseline in release notes
+
+First commit the public repository changes and `SYNC.json` to establish the commit hash, then tag that commit and publish the GitHub Release. Release notes are managed separately from repository commits: adding the resolved commit hash or clarifying the notes does not change the target commit.
+
+The adoption-baseline section names the public repository, release, and full commit SHA targeted by the tag. Use document links such as `https://github.com/mekra-lab/<public-repository>/blob/<full-commit-SHA>/APPLICATION.md`, and pin `README.md` to the same commit. Distinguish an annotated tag's object hash from its target commit hash; use the commit hash for the adoption baseline.
+
+The dev baseline is source-tracing information linked through `SYNC.json` at that public commit. Describe the official OKF version and the Git blob hash of `SPEC.md` separately as the specification baseline. Users and agents can then identify the public guide to read directly and trace its source and specification when needed.
 
 ## Recording the actual reference baseline
 

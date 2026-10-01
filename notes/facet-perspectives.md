@@ -1,5 +1,9 @@
 # Hypotheses about facet perspectives and boundaries
 
+Status: classification perspective preserved; awaiting cases of additional judgment value or discovery problems · 2026-09-29
+
+This is not a project to build a separate taxonomy or composition hierarchy. The existing role and creation criteria have already been reflected in the guidance. Revisit the hypotheses below when actual facet use reveals duplication, discovery failures, or distinct judgment value. The list of perspectives is not a list of facets that must be created.
+
 Concern that use-case guides could be read as presets led to a shift toward a thin `facet` model that describes properties of the target. The adopted role and creation criteria for facets are in [Role and boundaries of facets](../okf/facet-boundaries.md).
 
 This note keeps only unresolved hypotheses about ways of viewing and bounding facets.

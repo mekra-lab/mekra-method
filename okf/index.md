@@ -4,12 +4,13 @@ okf_version: "0.2"
 
 # Mekra Method operating knowledge
 
-This bundle is the source of truth for Mekra Method's adopted operating principles, patterns, and adoption judgments. It currently uses OKF, while distinguishing [the format and its use](okf-format.md) from Mekra's operating choices. Start with the [operating principles](operating-principles.md) for the overall approach.
+This index leads to the detailed meaning, reasoning, and boundaries of Mekra Method's adopted principles, operating patterns, and adoption judgments. Start with the [operating principles](../PRINCIPLES.md) for the list, core meaning, and relationships of principles, and with the [application guide](../APPLICATION.md) for practical adoption. This knowledge currently uses OKF, while distinguishing [the format and its use](okf-format.md) from Mekra's operating choices. Expressing knowledge in OKF does not limit its reasoning to matters of format.
 
 ## Operating philosophy
 
 - [Autonomous judgment](agent-autonomy.md) - start from the agent's autonomous judgment and use it to guide the application of other operating principles according to purpose and context.
-- [Operating principles](operating-principles.md) - use autonomous judgment to maintain sources of truth and context, and reassess the need for structure and guidance.
+- [Preserving epistemic distinctions](epistemic-distinctions.md) - preserve differences in claims, perspectives, and uncertainty that matter for judgment in the material and the user's account.
+- [Operating principles](../PRINCIPLES.md) - use autonomous judgment to maintain sources of truth and context, and reassess the need for structure and guidance.
 - [Self-erasure](self-erasure.md) - provide the help judgment needs, and reduce the role of guidance and the method as that need diminishes.
 - [Knowledge internalization](knowledge-internalization.md) - reflect the meaning and impact of new knowledge in related concepts.
 

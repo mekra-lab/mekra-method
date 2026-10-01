@@ -1,6 +1,8 @@
 # Corpus connection strategies and selection conditions
 
-Status: research candidates · Compiled: 2026-09-22
+Status: awaiting real query or update cases; implementation and effects unverified · Updated: 2026-09-29
+
+Resume when usable material and a case where current methods make evidence difficult to find or update become available. The approaches below are not a feature-development list; compare only what is needed. The external-source verification date remains the 2026-09-22 record at the end.
 
 The central question is: **Under which conditions should we combine which ways of connecting material so agents can find and understand evidence and maintain knowledge after changes?** The approaches and combinations below are candidates for investigation, not implementation patterns validated in Mekra or required components.
 

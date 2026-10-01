@@ -1,12 +1,12 @@
 # Application guide
 
-This guide is the default path for applying Mekra Method operating knowledge to a target repository. Work categories, scope, and suggested questions exist to support agent judgment and may be omitted, combined, or adapted according to purpose and context. Carry forward intent and delegated authority already established by the user.
+This guide is the starting point for applying Mekra Method to a real target. It covers the flow from exploring the target through implementation, verification, and operational handoff, linking to the sources of truth for the judgments involved. Work categories, scope, and suggested questions support agent judgment and may be omitted, combined, or adapted according to purpose and context. Carry forward intent and delegated authority already established by the user.
 
-The philosophical starting point is the [operating principles](okf/operating-principles.md): keep responsibility for sources of truth clear, internalize the context each concept needs, and reflect the meaning of changes into related concepts. [Adoption judgment](okf/adoption.md) explains how that philosophy carries into application work.
+The [operating principles](PRINCIPLES.md) explain the core principles and their relationships; [adoption judgment](okf/adoption.md) provides detailed reasoning and boundaries for scope, structure, delegation, and connection to actual use. [Facets](facets/README.md) help locate relevant judgments from properties of the target. Consult the [operating knowledge](okf/index.md) and [templates](templates/README.md) as needed. This guide does not separately define the reasoning owned by those documents.
 
 ## Confirm the adoption baseline
 
-The default entry point is `releases/latest` in the public repository being consulted. At the start, resolve the formal release's tag and commit, then read `APPLICATION.md` and related documents at that revision. Keep that baseline throughout the application even if public `main` contains later explanatory improvements. On completion, record the actual release and commit rather than only the moving `latest` URL. If the user specified a tag, commit, or dev working tree, keep that baseline. If the release baseline cannot be verified, report the limit instead of treating `main` as the latest formal release.
+The default entry point is `releases/latest` in the public repository being consulted. At the start, verify the formal release's tag and the public repository commit it points to, then read `APPLICATION.md` and related documents pinned to that commit. If the release notes specify an adoption commit, check that it matches the tag's target. The `source_commit` in `SYNC.json` traces the dev source reviewed for publication; the actual adoption baseline is the commit of the public repository being read. Keep that baseline even if public `main` contains later explanatory improvements. On completion, record the public repository, release, and commit actually consulted. If the user specified a tag, commit, or dev working tree, keep that baseline. If the release baseline cannot be verified, report the limit instead of treating `main` as the latest formal release.
 
 ## Understand the target and choose the application direction
 
@@ -18,7 +18,7 @@ Use [facets](facets/README.md) as supporting lenses for understanding important 
 
 An inspection request focuses on diagnosing whether the current structure and knowledge are suitable and explaining findings and improvements. If the user also requested fixes, or prior context already delegated them, implement the necessary improvements as well. If the request is diagnosis only, do not automatically proceed into structural migration.
 
-In this guide repository, adopted principles and patterns live under `okf/`, lenses for reading application context under `facets/`, and copyable scaffolding under `templates/`. `notes/` and `experiments/` are research material. If a specification-version transition is relevant, inspect the [version records](versions/README.md) and the format actually used by the target bundle.
+The entry point to this guide's principles is `PRINCIPLES.md`; `okf/` holds the adopted detailed operating knowledge, currently expressed in OKF. Distinguish the directory's representation format from the scope in which its reasoning applies. `notes/` and `experiments/` are research material, and unadopted content is not a default basis for application. If a specification-version transition is relevant, inspect the [version records](versions/README.md) and the format actually used by the target bundle.
 
 ## Existing OKF material and specification changes
 
@@ -26,21 +26,11 @@ For "apply Mekra Method to existing OKF material," preserve valid knowledge and 
 
 ## Ask only for intent that matters
 
-Ask when unresolved user intent that cannot be learned from exploration would materially change the result. The following are examples to adapt to the situation:
-
-- "The structure changes depending on whether the existing domain document remains the source of truth or its content is incorporated into another knowledge document. Is there a location that must remain canonical?"
-- "I recommend migrating the core knowledge first and converting the rest progressively. Do you need the whole repository reviewed this time?"
-- "I can proceed with the recommended approach for this context, or we can decide the major choices together."
-
-These questions do not need to be asked in order. If the answer is already known or the choice has little impact, proceed autonomously. Do not ask again about a choice the user has already delegated. For consequential choices whose intent is genuinely unclear, provide the relevant context and a recommended option with the question.
-
-Phrase questions and options using the vocabulary, conceptual familiarity, explanation preference, and decision style visible in the conversation and material the user has provided. Do not assign the user an arbitrary skill level; use terminology and explanation depth they already demonstrate. Keep familiar technical terms when useful, and do not require the user to learn Mekra Method's internal category names or implementation vocabulary just to answer. Explain what an option changes in actual operation and why it is recommended. When sufficient autonomy is already delegated, prefer making minor choices through the recommended approach and explaining them afterward rather than repeatedly asking.
+Ask when unresolved user intent that cannot be learned from exploration would materially change the result, explaining the practical difference and the recommended option. Carry forward established intent and delegation without asking about the same choice again. See [user intent and delegated autonomy](okf/adoption.md#user-intent-and-delegated-autonomy) for the scope, wording, and examples of questions.
 
 ## Implement and verify
 
-Reflect the chosen direction in structure and knowledge. [Templates](templates/README.md) are starting points that should be adapted while preserving existing content. Knowledge operating guidance can be merged into a section of the existing root `AGENTS.md`, or placed in a separate `MEKRA.md` that AGENTS directs readers to. Choose one [entry point arrangement](okf/adoption.md#knowledge-operating-entry-point) and keep its scope distinct from development, execution, and deployment instructions for the target.
-
-Choose the target's [bundle location](okf/adoption.md#bundle-location-and-existing-structure) to fit its purpose and existing structure. The name `okf/` is not required; another directory or the repository root may be used. The repository root is the default location for `MEKRA.md`, but it can sit at the bundle root when the operating context needs to move independently with the bundle. When included in a bundle, it must also follow the format for concept documents. Adjust paths in template files and instructions to the location actually chosen.
+Reflect the chosen direction in structure and knowledge. Preserve existing content and target-specific instructions when choosing the [bundle location](okf/adoption.md#bundle-location-and-existing-structure) and [knowledge operating entry point](okf/adoption.md#knowledge-operating-entry-point). Adapt the [templates](templates/README.md) as needed, and verify links for the actual location and the format of documents inside the bundle. Keep the scope of knowledge operating guidance distinct from development, execution, and deployment instructions for the target.
 
 Identify the [role of new material and which conclusions have been adopted](okf/external-sources.md#roles-and-valid-scope-of-materials), then internalize that knowledge in the meaning, conditions, and relationships of relevant concepts. When a source of truth or operating model changes, update concepts whose meaning is affected. Even during a full review, leave documents unchanged when no change is needed. In a progressive transition, distinguish what was converted now from what remains for later.
 
@@ -54,6 +44,8 @@ Distinguish what format and link checks establish from semantic review. The burd
 
 Build and transition work continues through leaving the user a usable operating method for handling existing and new material afterward. "Incorporate new material into the existing Mekra" is an example of a follow-up request used inside an already adopted repository; do not present it as a command for choosing Mekra Method's build or transition procedure again.
 
+Having one adoption entry point does not mean that every knowledge lookup or routine material update must pass through this guide. After adoption, continue from the target's own entry points and operating knowledge, returning to this guide and relevant reasoning when its operating system needs reassessment.
+
 Explain the actual location and method selected for adding the next material. For example, if source material is intentionally kept in `raw/`, the handoff might say: "Put new source material in `raw/` and ask the agent to incorporate the new material into the existing Mekra." Replace the path with the target's actual arrangement.
 
 Explain the [division of responsibility](okf/context-propagation.md#human-and-agent-roles): people supply new facts, intent, evidence, and corrections, while the agent explores related context and updates the source of truth and affected knowledge together. For example: "This condition has changed; check the evidence and update the related knowledge." After a person edits knowledge directly, they can ask: "Review the meaning and impact of this change and update related knowledge too."
@@ -66,17 +58,7 @@ To make later comparisons between changes in the guide and experience in use pos
 
 ### Optional operating preferences
 
-After a build or transition, judge whether repository-level operating preferences would improve later work. Do not mechanically list every possible preference; select only those with real value for the target's material and workflow, and express them in terms the user can understand. If the user already stated the same preference or delegated the choice, it may be applied without asking again.
-
-Examples that may be worth adding to the target's root `AGENTS.md` include:
-
-- For document-like derived outputs, prefer creating a human-readable, editable source such as Markdown before deriving PDF, DOCX, PPTX, or similar final formats when that intermediate source is useful. Do not force it when the final format is itself canonical or the Markdown layer adds no value.
-- After producing a report, analysis, design document, or similar output, check whether newly established concepts, rules, judgments, or relationships are worth reflecting into OKF. Update them when the case is clear and within delegated scope; ask when it depends on user intent. Do not copy the entire output into knowledge.
-- When the user has not specified a method for a choice, prefer the recommended option and ask only about unresolved intent that materially changes the outcome.
-- After substantial work, distinguish one-off notes from knowledge with durable reuse value and consider internalizing the latter into relevant OKF concepts.
-- In repositories where provenance of derived outputs matters, preserve a path back to source material, sources of truth, or related OKF concepts.
-
-Do not present operating principles already adopted by Mekra—such as [operating principles](okf/operating-principles.md), [source of truth and context](okf/source-of-truth.md), or [context propagation](okf/context-propagation.md)—as user preferences that can simply be toggled on or off. Facets do not re-own those principles; they only connect environments to judgments that become especially important.
+Where repository-level preferences would help later work, consult the [selection criteria and exceptions](okf/adoption.md#optional-operating-preferences) and persist only what has been agreed or delegated. The [AGENTS template](templates/AGENTS.md.template) provides an example section to copy. Do not re-ask Method operating principles as optional features or add them as duplicate rules.
 
 If a progressive transition was chosen, also leave the remaining scope and the conditions under which later use or changes should continue the transition. This is part of making the transition resumable. The target repository alone should be enough to continue later work. A completion report should cover the main judgments and changes, verification results, and how to add the next material. If the work was diagnosis only, report findings and recommended follow-up instead.
 

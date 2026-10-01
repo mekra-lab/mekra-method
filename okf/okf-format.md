@@ -28,7 +28,7 @@ The official specification does not prescribe `okf/` as the bundle directory nam
 
 OKF v0.2 provides fields for provenance, generation, verification, and lifecycle information, along with a format for attested computation. Consult the official specification for the conditions applying to each field and concept type.[^okf-spec-v02] A [minimal template](../templates/okf/concept.md) does not limit the available forms of expression.
 
-In Mekra, choose the representation needed for information you actually have to convey, such as traceable sources, the scope of completed verification, or judgments about validity. Metadata and prose should refer to the same evidential scope. The presence or number of attributes alone does not establish accuracy, freshness, or adoption. These choices also follow the [operating principles](operating-principles.md).
+In Mekra, choose the representation needed for information you actually have to convey, such as traceable sources, the scope of completed verification, or judgments about validity. Metadata and prose should refer to the same evidential scope. The presence or number of attributes alone does not establish accuracy, freshness, or adoption. These choices also follow the [operating principles](../PRINCIPLES.md).
 
 ## Responsibilities of the format and the method
 

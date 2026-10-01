@@ -38,6 +38,8 @@ Even when source material is unchanged, discovering extraction errors or a misun
 
 Update current explanations with the reason for the correction, the valid scope of evidence, and what remains unconfirmed. Keep source material and past judgments traceable in history where retention is permitted, and connect them to the correction so current readers do not keep using withdrawn judgments. A list of corrected documents shows the update scope; it does not mean every connected claim has been validated again. When inputs or application conditions change, also recheck whether earlier validation results support the new judgment.
 
+Following [preservation of epistemic distinctions](epistemic-distinctions.md), updated explanations retain the differences between observations, claims, inferences, and the scope actually verified. Propagating a new conclusion should not erase the existence of earlier judgments; distinguish and connect the context needed for later understanding to the current assessment.
+
 ## Limitations
 
 Natural-language relationships and restatement help preserve the context each concept needs, but they do not guarantee that every semantic dependency can be tracked explicitly. When a source of truth or related knowledge changes, some concepts may therefore retain outdated meaning or decision criteria.

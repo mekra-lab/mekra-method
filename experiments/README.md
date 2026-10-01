@@ -14,6 +14,8 @@ Do not promote a one-off success directly into a principle. Reflect it in the re
 
 [Adoption feedback](../okf/feedback.md) may provide a starting point for a hypothesis to compare or reproduce. Distinguish reported results from experimentally verified results, and reflect confirmed conditions and limits into related concepts and application materials.
 
-## Ongoing experiments
+## Experiments awaiting material
 
-- [Personal context](personal-context/README.md) - tests in a minimal structure whether the Knowledge-centered perspective and Mekra's operating principles sufficiently explain personal context.
+- [Personal context](personal-context/README.md) - only the scaffold is prepared; the experiment has not run. When material, permitted scope, and a task are available, test whether the existing principles and perspectives suffice.
+
+Being listed here does not mean an experiment is running. Distinguish design and material preparation from execution and recorded results.

@@ -22,6 +22,8 @@ Claims and hypotheses whose truth is not established can still be recorded with 
 
 Restating the context each concept needs is a choice intended to reduce the burden of reconstructing meaning from several sources while reading. It also creates the cost of finding and updating related restatements when the source of truth changes. Judge this balance by its usefulness for understanding and its maintenance cost during change, rather than the amount of duplicated text.
 
+[Preserving epistemic distinctions](epistemic-distinctions.md) applies these distinctions across writing, restatement, and correction. Even as the current source-of-truth account becomes more accurate, do not silently replace the source's perspective or earlier states of knowledge needed for judgment.
+
 ## Temporal validity and corrections
 
 When updating a current source of truth, distinguish a change in the subject's state from a correction to a past explanation. For example, if a policy changes next month, the earlier policy may remain evidence for the earlier period. An explanation based on a misreading of the source needs a correction and a link to the current reference; it should not be preserved as a policy that was valid at the time.

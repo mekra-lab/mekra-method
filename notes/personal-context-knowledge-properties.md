@@ -1,5 +1,9 @@
 # Knowledge properties revealed by personal context
 
+Status: record of adopted general judgments; awaiting personal material and permitted scope · 2026-09-29
+
+Preserve adopted general principles through the source-of-truth links below. Observe remaining personal-context needs within the [experiment](../experiments/personal-context/README.md), rather than as a separate parallel project. Resume when material, permitted scope, and questions to examine are available; do not expand structure or classification while waiting.
+
 This note is a working document for exploring where existing Mekra operating principles may be insufficient when handling personal context, before adopting `personal-context` as an independent facet.
 
 Adopted general principles are linked to the relevant concepts below; the remaining questions are not treated as established principles or a formal classification system. Observe repeated needs and failures in a real personal-context repository, then reflect generalizable conclusions in `okf/` or a facet.

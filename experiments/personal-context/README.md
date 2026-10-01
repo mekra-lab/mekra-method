@@ -1,5 +1,7 @@
 # Personal context experiment
 
+Status: awaiting material and permitted scope; scaffold only; not yet run · 2026-09-29
+
 ## Question
 
 When personal context is operated using the [Knowledge-centered facet](../../facets/knowledge-centered.md) and Mekra's operating principles, does a separate `personal-context` facet provide real judgment value?
@@ -9,6 +11,8 @@ When personal context is operated using the [Knowledge-centered facet](../../fac
 No real personal material is included yet. The experiment first prepares only a minimal repository structure and will observe operating friction and recurring choices once suitable real material is available.
 
 This experiment is not intended to justify a facet in advance. If existing facets and shared operating knowledge are sufficient, an acceptable outcome is to leave no separate facet.
+
+Resume when material, permission to retain and use it, and a task to examine are available. Do not expand the scaffold or classification while waiting, and do not count a prepared structure as an execution result.
 
 ## Temporary scaffold
 

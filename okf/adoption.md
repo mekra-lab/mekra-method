@@ -10,9 +10,11 @@ sources:
 
 # Mekra Method adoption judgment
 
+This document owns the detailed reasoning for scope, structure, delegation, connection to actual use, and operational handoff. The [operating principles](../PRINCIPLES.md) explain the core principles and their relationships, while the [application guide](../APPLICATION.md) is the entry point for finding relevant reasoning and putting it into practice. Do not treat the distinctions here as a separate adoption procedure or mandatory stages.
+
 Applying Mekra Method means understanding a target repository and reflecting adopted operating knowledge into structures and knowledge that fit its context. Copying templates is only a supporting technique; the goal is to improve actual operation while preserving the meaning of existing knowledge and the boundaries of its sources of truth. This is a Mekra Method operating approach, not a requirement of the official OKF specification.
 
-A user can begin with the public guide's latest formal release URL and a request such as "apply Mekra." This repository provides the reasoning and discovery paths needed for application. Keeping research and application material together allows conclusions from observation to feed back into related concepts, facets, and templates. Adopted reasoning belongs in `okf/`; unadopted content in `notes/` and `experiments/` is not a default basis for application.
+A user can begin with the public guide's latest formal release URL and a request such as "apply Mekra." This repository provides the reasoning and discovery paths needed for application. Keeping research and application material together allows conclusions from observation to feed back into related concepts, facets, and templates. Find adopted principles in `PRINCIPLES.md` and detailed operating knowledge in `okf/`; unadopted content in `notes/` and `experiments/` is not a default basis for application.
 
 ## Natural-language requests and current state
 
@@ -81,7 +83,13 @@ Explore the target first; existing documents and instructions often answer quest
 
 A user may delegate judgment to the recommended approach or choose major decisions together. This is a preference for degree of involvement, not a fixed mode that must be selected every time. Once judgment is delegated, do not ask again for the same choice. Suggested questions, work categories, and application procedures may themselves be omitted, combined, or adapted according to purpose and context.
 
-Question wording is also part of context. Use vocabulary, conceptual understanding, explanation preferences, and decision style visible in the user's conversation and material. Do not make users learn internal work names or classifications before they can choose; explain what each choice changes in actual operation. Terms the user already knows can be used directly. With sufficient delegated autonomy, applying the recommended option and then explaining the judgment may be more appropriate than repeatedly asking about minor choices.
+Phrase questions and options using the vocabulary, conceptual familiarity, explanation preference, and decision style visible in the conversation and material the user has provided. Do not assign the user an arbitrary skill level; use terminology and explanation depth they already demonstrate. Keep familiar technical terms when useful, and do not require the user to learn Mekra Method's internal category names or implementation vocabulary just to answer. Explain what an option changes in actual operation and why it is recommended. When sufficient autonomy is already delegated, prefer making minor choices through the recommended approach and explaining them afterward rather than repeatedly asking.
+
+Questions such as these can be adapted to the situation; they are not a fixed sequence.
+
+- "The structure changes depending on whether the existing domain document remains the source of truth or its content is incorporated into another knowledge document. Is there a location that must remain canonical?"
+- "I recommend migrating the core knowledge first and converting the rest progressively. Do you need the whole repository reviewed this time?"
+- "I can proceed with the recommended approach for this context, or we can decide the major choices together."
 
 ## Connecting knowledge to actual use
 
@@ -97,8 +105,22 @@ Delegating design judgment does not mean the user should have to infer how to us
 
 The intake location depends on the responsibilities described in [source material and derived artifacts](external-sources.md) and the target's real material flow. Relevant [facets](../facets/README.md) may help identify which judgments deserve attention. Do not create a directory such as `raw/` uniformly. In a progressive transition, leave the trigger and method for absorbing unconverted knowledge so follow-up work can continue. Operational handoff is therefore part of completing a build or transition and part of the progressive-transition strategy. The practical entry point is the [application guide](../APPLICATION.md).
 
-Optional repository-wide operating preferences may also be suggested when they improve later work: preferring Markdown sources for document-like derived outputs, reflecting newly confirmed knowledge from outputs back into OKF, preferring the recommended option for unspecified choices, reviewing durable knowledge after substantial work, or preserving provenance paths for derived outputs. Select only preferences with real value to the target and user, and persist only what has been agreed or delegated in a root `AGENTS.md` or similar instructions. Do not re-ask source-of-truth management, context propagation, source-material separation, and other adopted Mekra operating principles as if they were optional toggles. A facet is not a rule that reasserts those principles.
-
 Reusable discoveries from operational handoff can be connected to [feedback](feedback.md). Later reviews of actual use should likewise examine the conditions under which the guide supported judgment and operation, rather than how closely it was followed. Recording a verifiable [reference baseline](../versions/README.md) and the scope actually adopted helps distinguish the influence of the guide at that time from later autonomous changes. Feedback is an optional activity that returns observations about the guide's usefulness and limits to research. Autonomous adaptation during application is not itself something that must be reported, and whether feedback is sent does not determine whether adoption is complete.
+
+### Optional operating preferences
+
+After a build or transition, judge whether repository-level operating preferences would improve later work. Do not mechanically list every possible preference; select only those with real value for the target's material and workflow, and express them in terms the user can understand. If the user already stated the same preference or delegated the choice, it may be applied without asking again.
+
+Examples that may be worth adding to the target's root `AGENTS.md` include:
+
+- For document-like derived outputs, prefer creating a human-readable, editable source such as Markdown before deriving PDF, DOCX, PPTX, or similar final formats when that intermediate source is useful. Do not force it when the final format is itself canonical or the Markdown layer adds no value.
+- After producing a report, analysis, design document, or similar output, check whether newly established concepts, rules, judgments, or relationships are worth reflecting into OKF. Update them when the case is clear and within delegated scope; ask when it depends on user intent. Do not copy the entire output into knowledge.
+- When the user has not specified a method for a choice, prefer the recommended option and ask only about unresolved intent that materially changes the outcome.
+- After substantial work, distinguish one-off notes from knowledge with durable reuse value and consider internalizing the latter into relevant OKF concepts.
+- In repositories where provenance of derived outputs matters, preserve a path back to source material, sources of truth, or related OKF concepts.
+
+Do not present operating principles already adopted by Mekra—such as [operating principles](../PRINCIPLES.md), [source of truth and context](source-of-truth.md), or [context propagation](context-propagation.md)—as user preferences that can simply be toggled on or off. Facets do not re-own those principles; they only connect environments to judgments that become especially important.
+
+The [AGENTS template](../templates/AGENTS.md.template) provides an example section to copy. Persist only target-specific preferences agreed or delegated under the reasoning above; do not add every example wholesale.
 
 [^okf-spec-v02]: [OKF v0.2 §3.1: Reserved filenames](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames), [§4.1: Frontmatter](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#41-frontmatter). Introducing and locating a MEKRA.md entry point is a local adoption choice.

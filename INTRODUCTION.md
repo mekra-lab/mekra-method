@@ -6,7 +6,7 @@ Agents use the knowledge and context maintained this way to decide what to do in
 
 It provides application guides, templates, and operating knowledge to put the method into practice.
 
-This document introduces the name, origins, central ideas, and design choices. To apply the method, start with the [application guide](APPLICATION.md). The adopted judgments and their reasoning live in the [operating knowledge](okf/index.md).
+This document introduces the name, origins, central ideas, and design choices. The [operating principles](PRINCIPLES.md) explain the core meaning and relationships of adopted principles, and the [operating knowledge](okf/index.md) provides detailed reasoning. Start practical adoption with the [application guide](APPLICATION.md).
 
 ## Name and origins
 
@@ -46,7 +46,7 @@ These are summaries of adopted principles. The linked documents explain their sc
 - **Distinguish canonical responsibility from the location of context.** Code, configuration, policies, and existing documents can be sources of truth, while related concepts can restate the context needed for understanding. The concern is independent definition and change in several places, rather than repetition of the same fact. [Source of truth and context](okf/source-of-truth.md)
 - **Retain the meaning, reasons, conditions, and relationships needed for judgment.** Explain implications within a concept when links or summaries alone would leave them unclear. Procedures can also be knowledge worth retaining when they support judgment. [Knowledge internalization](okf/knowledge-internalization.md)
 - **Reflect the meaning of a change in related knowledge.** Find and update concepts and explanations whose meaning changes when the source is revised. [Context propagation](okf/context-propagation.md)
-- **Choose structure and depth from actual need.** Work with the existing structure and how knowledge is used, rather than moving all material or imposing the same directories and categories everywhere. [Operating principles](okf/operating-principles.md)
+- **Choose structure and depth from actual need.** Work with the existing structure and how knowledge is used, rather than moving all material or imposing the same directories and categories everywhere. [Operating principles](PRINCIPLES.md)
 - **Distinguish the status of a record from the certainty of its content.** Uncertain claims can be maintained with their status and evidence made clear. Maintaining a record is different from accepting its claim as fact. Proposals under investigation are also distinguished from adopted operating knowledge. [Source of truth and context](okf/source-of-truth.md) · [Operating knowledge](okf/index.md)
 
 ## What Mekra prioritizes

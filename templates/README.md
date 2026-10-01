@@ -4,6 +4,8 @@ These templates illustrate Mekra Method operating practices and use [Open Knowle
 
 They are minimal starting points to copy into a real repository, remove what is unnecessary, and add repository-specific context.
 
+Use the [application guide](../APPLICATION.md) to examine the target and scope when judging which templates are useful. The Method's [operating principles](../PRINCIPLES.md) and detailed concepts provide reasoning; they do not require copying those documents or the guide repository's layout into the target.
+
 All files under `templates/`, including this README, are provided under [CC0-1.0](LICENSE). Copying, adapting, or incorporating them does not require Mekra Method attribution or retention of a license copy. Recording an adoption baseline is your choice. CC0 does not eliminate third-party rights or rights such as trademarks and patents.
 
 - [`AGENTS.md.template`](AGENTS.md.template): a **link to the MEKRA entry point and an optional section for repository operating preferences** to merge into a root `AGENTS.md`

@@ -16,6 +16,8 @@ Autonomous judgment is a meta-principle that guides the application of other ope
 
 Facts and evidence, the user's intent, actual authority, and the target's constraints are conditions of that judgment. Discretion over how to apply a principle does not permit arbitrary changes to those conditions.
 
+[Preserving epistemic distinctions](epistemic-distinctions.md) concerns differences that must not disappear during judgment. Distinguish claims in the material or the user's perspective from the agent's interpretation. Even when updating an account to be more accurate, do not silently replace earlier states of knowledge needed for later judgment.
+
 The agent also decides what to retain as knowledge, which conditions and relationships to preserve, where the source of truth belongs, and what to update or reorganize as things change. The knowledge and context organized and maintained this way become evidence for deciding what to do in later work as the situation requires.
 
 ## Applying principles and revising them
@@ -34,7 +36,7 @@ To use that advantage, the agent must be able to judge what concepts to create, 
 
 On the premise that capable agents can interpret context, we prioritize organizing and maintaining the knowledge needed for judgment over prescribing detailed sequences of work. We keep definition and change responsibility clear and make the reasons, conditions, and relationships understandable in related concepts, while leaving the concrete way of working to the agent.
 
-Keep repository instructions focused on purpose and repository-specific choices. Do not repeat generic guidance that can already be inferred from the specification and context. [Operating principles](operating-principles.md) provide judgment criteria, while [facets](../facets/README.md) help identify which judgments become especially important for a target. Facets do not prescribe structure; directory organization is chosen from actual need.
+Keep repository instructions focused on purpose and repository-specific choices. Do not repeat generic guidance that can already be inferred from the specification and context. [Operating principles](../PRINCIPLES.md) provide judgment criteria, while [facets](../facets/README.md) help identify which judgments become especially important for a target. Facets do not prescribe structure; directory organization is chosen from actual need.
 
 Reassess the need for supporting guidance already in place. If the agent can make the judgment on its own, or principles, tools, or operating conditions have changed, consider whether keeping the guidance still has practical value. [Self-erasure](self-erasure.md) applies this reassessment to Mekra itself, expressing the aim of stepping back as its contribution to judgment becomes less necessary.
 

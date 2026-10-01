@@ -30,7 +30,7 @@ Keep a clear reference for defining and changing a fact. In related concepts, re
 
 Mekra prioritizes organizing and maintaining the knowledge needed for judgment over prescribing detailed sequences of work. Agents choose how to work according to the purpose and situation, using the evidence and context they have actually read.
 
-The reasoning is in [source of truth and context](okf/source-of-truth.md), [knowledge internalization](okf/knowledge-internalization.md), [context propagation](okf/context-propagation.md), [agent autonomy](okf/agent-autonomy.md), and [operating principles](okf/operating-principles.md).
+The [operating principles](PRINCIPLES.md) explain the core principles and their relationships. Follow the linked [operating knowledge](okf/index.md) for detailed reasoning and application boundaries.
 
 ## How to use it
 
@@ -64,14 +64,15 @@ This guide is not a copy of the specification or a framework every project must 
 | Location | Role |
 | --- | --- |
 | [`INTRODUCTION.md`](INTRODUCTION.md) | Mekra's name, origins, slogan, central ideas, and design choices |
-| [`APPLICATION.md`](APPLICATION.md) | Target exploration, adoption judgment and questions, implementation, and operational handoff |
+| [`PRINCIPLES.md`](PRINCIPLES.md) | The adopted principles, their core meaning and relationships, and links to detailed concepts |
+| [`APPLICATION.md`](APPLICATION.md) | Adoption entry point: exploring the target, consulting relevant reasoning, implementation, verification, and operational handoff |
 | [`FEEDBACK.md`](FEEDBACK.md) | Investigating adoption and long-term operating experience, drafting feedback, and submitting it |
-| [`okf/`](okf/index.md) | Mekra's operating principles, patterns, adoption judgments, and knowledge about using OKF |
+| [`okf/`](okf/index.md) | Detailed reasoning and boundaries of principles, operating patterns, adoption judgments, and format guidance, currently expressed in OKF |
 | [`facets/`](facets/README.md) | Thin lenses for finding important judgment from properties of the target |
 | [`templates/`](templates/README.md) | Minimal scaffolding to copy into a project and adapt to its context |
 | [`versions/`](versions/README.md) | OKF version baselines, Mekra Method releases and actual reference points, and migration records |
 | [`experiments/`](experiments/README.md) | Hypotheses and methods under validation |
-| [`notes/`](notes/README.md) | Observations and reflections not yet consolidated |
+| [`notes/`](notes/README.md) | Research, observations, questions, and the background and follow-up to judgments |
 
 ## Research and applied knowledge
 
@@ -79,7 +80,7 @@ Shareable conclusions are developed in the research repository and published her
 
 Public material is updated according to [publication scope and language responsibilities](okf/distribution.md). The last reviewed source and published file baselines are kept in the [synchronization record](SYNC.json).
 
-Adopted reasoning belongs in `okf/`; `facets/` helps locate relevant judgment; `templates/` provides optional application scaffolding. `notes/` and `experiments/` contain research material, and unadopted content is not a default basis for application. Observations from real use can be reflected back into related concepts and application materials when they prove reusable.
+The core meaning and relationships of adopted principles belong in `PRINCIPLES.md`, with detailed reasoning in `okf/`; `facets/` helps locate relevant judgment; `templates/` provides optional application scaffolding. `notes/` and `experiments/` contain research material, and unadopted content is not a default basis for application. Observations from real use can be reflected back into related concepts and application materials when they prove reusable.
 
 Guide limitations and reusable improvements discovered during adoption can return as [feedback](FEEDBACK.md). After actual use, you can ask in the target repository:
 
