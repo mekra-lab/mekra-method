@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "1c2583f1bc30caab7edd618d1e398eab0e897b43",
+  "source_commit": "09bdab3270ef28522c91e231955b5d0d9354973b",
   "manifest_sha256": "7cc8cae5afcdbabc46b58f6b9ec027ed745cc0bff29788cd8bc8ab46a942e4e4",
-  "reviewed_at": "2026-10-11T09:13:41.8795964Z",
+  "reviewed_at": "2026-10-11T11:47:02.2909084Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "APPLICATION.md",
-      "source_sha256": "1a8fe813ef12383206ae24d06e22f70d0aedee56783a2450ff6f0a8ec9e8147a",
-      "target_sha256": "e9eb7e5b5c7b1693b2b8746cecf4f7b4b6e616ab3d09d6f99bcf883d27c2954d"
+      "source_sha256": "5bfda4f47ffd672eeced25e662fcb0524ac140b95bfca996b79a1a0dd1adee60",
+      "target_sha256": "24a6a5175d1cd9568718ae5ab0664a972fafb114ee2004d94c7d351d3b12ad29"
     },
     {
       "path": "FEEDBACK.md",
@@ -142,8 +142,8 @@
     },
     {
       "path": "templates/README.md",
-      "source_sha256": "5723762d97456ea5222594a03bcae0a2a4d0d645d25fa5bee3b429fc4abfca70",
-      "target_sha256": "ea522a1cc19df05a5ebfe55214d28f37ad9ed760a6804bed5f9a3b8cdac9080e"
+      "source_sha256": "ae7dc467c508376c7e6346f7b0236bcbda3e3081a80c1f5a58579f5f71851c8e",
+      "target_sha256": "3e94baaef8e5b557ff1546d50aecacfbfb7ece58980ec93d62c0e968106ffffa"
     },
     {
       "path": "templates/AGENTS.md.template",
@@ -167,8 +167,8 @@
     },
     {
       "path": "templates/mekra/concept.md",
-      "source_sha256": "9bad00c3341823b46cd08a967e25b64fbe155ee99523af70bd78f605c0c7b7b8",
-      "target_sha256": "baa6f6d28c63fe3f3db0524b2fc45a20baf029b2d22e2a07ceb5d0fe037d3619"
+      "source_sha256": "b7f48c40093534f83fc8c9367820893ca60a54137c2300f59560e670514a4978",
+      "target_sha256": "40be7ac7c8da404e21cbe4890e0dd1eaa59a5853b5f7077b38108edbf12c8404"
     },
     {
       "path": "versions/README.md",

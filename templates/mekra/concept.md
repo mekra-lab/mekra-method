@@ -2,7 +2,7 @@
 type: Example
 title: Core concept
 description: Describe what this concept is in one sentence.
-# Select and add other properties from the OKF specification in use when needed.
+# Choose properties to suit the target's material and intended use, and define custom properties if needed.
 ---
 
 # Core concept

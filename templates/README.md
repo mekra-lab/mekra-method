@@ -2,7 +2,7 @@
 
 These templates illustrate Mekra Method operating practices and use [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format) to represent knowledge. The format follows the official specification, while structure and instructions are adapted to the purpose of each repository. See the [current version baseline](../versions/current.md) for the OKF version and specification point used here.
 
-They are minimal starting points to copy into a real repository, remove what is unnecessary, and add repository-specific context.
+The templates are examples to support application. Use or adapt the parts that help; in particular, design concept document types, properties, and body structure to suit the target's material and intended use.
 
 Use the [application guide](../APPLICATION.md) to examine the target and scope when judging which templates are useful. The Method's [operating principles](../PRINCIPLES.md) and detailed concepts provide reasoning; they do not require copying those documents or the guide repository's layout into the target.
 
@@ -14,7 +14,7 @@ All files under `templates/`, including this README, are provided under [CC0-1.0
 - [`mekra/index.md`](mekra/index.md): example OKF bundle root using the default directory name
 - [`mekra/concept.md`](mekra/concept.md): minimal concept document
 
-`concept.md` remains a minimal example, with a short authoring hint that features from the OKF specification in use can be selected when needed. The fields shown in the example do not represent the full range available. The current version baseline linked above provides the specification reference and the baseline used by this repository.
+`concept.md` remains a minimal example, with guidance on choosing properties suited to the target and defining custom properties where needed. The fields shown in the example do not represent the full range available. The current version baseline linked above provides the specification reference and the baseline used by this repository.
 
 When a new file-based Mekra needs its own directory, use `mekra/` as the default location. The `mekra/` directory here is an example OKF bundle using that default. Preserve an existing canonical location or use a structure better suited to the target, including a name such as `knowledge/` or the repository root. Copy the files inside `mekra/` into the chosen bundle location and adapt instructions and links accordingly. See [adoption judgment](../okf/adoption.md#bundle-location-and-existing-structure) for the reasoning behind location choices.
 
