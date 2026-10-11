@@ -27,6 +27,10 @@ Maintain Mekra structure and knowledge autonomously within delegated scope. Spli
 
 <!-- If these principles have been internalized in the target's knowledge, link to the relevant concepts and shorten the explanations here. Keep detailed operating procedures and the reasoning behind judgments in the related concepts. -->
 
+## Updating the Method baseline
+
+Distinguish updates to knowledge from updates to the Mekra Method adoption baseline according to the request's intent and context. When an update to the Method baseline is requested, use the baseline specified by the user, or consult the [latest formal release](https://github.com/mekra-lab/mekra-method/releases/latest) if none is specified. Refer to the application guide pinned to the chosen baseline, compare the current baseline with the changes, and apply what is needed within delegated scope, taking existing knowledge and operating context into account.
+
 ## Repository-specific operating context
 
 <!-- When needed, record or link repository-specific choices such as source-of-truth boundaries, where to find guidance for adding source material or new knowledge, and remaining transition scope and triggers. Remove this section if none are needed. -->

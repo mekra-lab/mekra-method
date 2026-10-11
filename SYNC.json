@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "09bdab3270ef28522c91e231955b5d0d9354973b",
-  "manifest_sha256": "7cc8cae5afcdbabc46b58f6b9ec027ed745cc0bff29788cd8bc8ab46a942e4e4",
-  "reviewed_at": "2026-10-11T11:47:02.2909084Z",
+  "source_commit": "7ceeafd8c703bc3d2a531cac6a476f8a25660d47",
+  "manifest_sha256": "ef938b03fc1ebde305b0b06e3bd56e84c46c69d86e2c538143e2913f309f4b6e",
+  "reviewed_at": "2026-10-11T12:17:11.2519599Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -157,8 +157,8 @@
     },
     {
       "path": "templates/mekra/MEKRA.md",
-      "source_sha256": "f69a6ede92d70f1b3a01103d41c83fb4414e5b5a2b57b96a62c59ebb0121fb64",
-      "target_sha256": "f0ebc947794e72db6fb7059aa11a01cad0a9a92febc4b423321917f3ece904d7"
+      "source_sha256": "a8d9de76439b3fe3120607a0ff5e2a0b635455cf7c26855e2c13675c006b1a4a",
+      "target_sha256": "8dad1a078d9b24bd2861fe83a97ec448b67b7f24b236c1d9b44e81ef7af5b54b"
     },
     {
       "path": "templates/mekra/index.md",
