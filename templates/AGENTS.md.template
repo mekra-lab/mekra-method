@@ -1,6 +1,8 @@
 ## Knowledge operation
 
-When starting work, read [MEKRA.md](MEKRA.md) to understand the knowledge scope, entry points, and operating context. This guidance applies to authoring and updating knowledge, and to reflecting changes in other material or implementation in related knowledge. Define repository-wide development, execution, and deployment instructions separately.
+When starting work, read [MEKRA.md](mekra/MEKRA.md) to understand the knowledge scope, entry points, and operating context. This guidance applies to authoring and updating knowledge, and to reflecting changes in other material or implementation in related knowledge. Define repository-wide development, execution, and deployment instructions separately.
+
+<!-- Adapt the link to the actual Mekra location. In an environment using multiple Mekras, replace the first sentence with: "When starting work, read [MEKRAS.md](MEKRAS.md) and follow the entry points for Mekras relevant to the current task." Keep only the connection that applies. -->
 
 ## Repository operating preferences
 

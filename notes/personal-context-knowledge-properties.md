@@ -4,9 +4,7 @@ Status: record of adopted general judgments; awaiting personal material and perm
 
 Preserve adopted general principles through the source-of-truth links below. Observe remaining personal-context needs within the [experiment](../experiments/personal-context/README.md), rather than as a separate parallel project. Resume when material, permitted scope, and questions to examine are available; do not expand structure or classification while waiting.
 
-This note is a working document for exploring where existing Mekra operating principles may be insufficient when handling personal context, before adopting `personal-context` as an independent facet.
-
-Adopted general principles are linked to the relevant concepts below; the remaining questions are not treated as established principles or a formal classification system. Observe repeated needs and failures in a real personal-context repository, then reflect generalizable conclusions in `okf/` or a facet.
+This note explores where existing Mekra operating principles may be insufficient for personal context. The [Personal context preview](../facets/personal-context.md) is a research entry point; adoption as an independent facet and validation through operation with real personal material have not yet taken place. The note preserves both general judgments reflected in their sources of truth and additional needs to examine with real material.
 
 ## Starting hypothesis
 
@@ -49,7 +47,7 @@ For now, do not turn the following into rules:
 - fixed categories such as Observation / Self-Stated / Hypothesis / Preference
 - mandatory directory structures such as `state/`, `patterns/`, `people/`, or `relationships/`
 - protocols that promote knowledge based only on repetition counts
-- an independent `personal-context` facet
+- formal adoption of the `personal-context` preview as a facet
 
 If real use repeatedly needs these distinctions, structure them then.
 

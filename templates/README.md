@@ -9,22 +9,26 @@ Use the [application guide](../APPLICATION.md) to examine the target and scope w
 All files under `templates/`, including this README, are provided under [CC0-1.0](LICENSE). Copying, adapting, or incorporating them does not require Mekra Method attribution or retention of a license copy. Recording an adoption baseline is your choice. CC0 does not eliminate third-party rights or rights such as trademarks and patents.
 
 - [`AGENTS.md.template`](AGENTS.md.template): a **link to the MEKRA entry point and an optional section for repository operating preferences** to merge into a root `AGENTS.md`
-- [`MEKRA.md.template`](MEKRA.md.template): an optional entry point describing the purpose and scope of the knowledge, where to start, reference baselines, and operating context
-- [`okf/index.md`](okf/index.md): example OKF bundle root
-- [`okf/concept.md`](okf/concept.md): minimal concept document
+- [`mekra/MEKRA.md`](mekra/MEKRA.md): the common entry point describing an individual Mekra's purpose, scope, discovery paths, reference baselines, and operating context
+- [`MEKRAS.md.template`](MEKRAS.md.template): an example discovery index for an environment using multiple Mekras
+- [`mekra/index.md`](mekra/index.md): example OKF bundle root using the default directory name
+- [`mekra/concept.md`](mekra/concept.md): minimal concept document
 
 `concept.md` remains a minimal example, with a short authoring hint that features from the OKF specification in use can be selected when needed. The fields shown in the example do not represent the full range available. The current version baseline linked above provides the specification reference and the baseline used by this repository.
 
-The `okf/` directory here holds an example bundle. A target can use a different name such as `knowledge/`, or use the repository root as its bundle. Copy the files inside `okf/` into the chosen bundle location and adapt instructions and links accordingly; the enclosing `okf/` folder need not be copied as-is. See [adoption judgment](../okf/adoption.md#bundle-location-and-existing-structure) for the reasoning behind location choices.
+When a new file-based Mekra needs its own directory, use `mekra/` as the default location. The `mekra/` directory here is an example OKF bundle using that default. Preserve an existing canonical location or use a structure better suited to the target, including a name such as `knowledge/` or the repository root. Copy the files inside `mekra/` into the chosen bundle location and adapt instructions and links accordingly. See [adoption judgment](../okf/adoption.md#bundle-location-and-existing-structure) for the reasoning behind location choices.
 
 ## Choosing an entry point arrangement
 
-Choose one of the two arrangements to fit the target. `MEKRA.md` is an optional Mekra Method operating example, not a required file in the official OKF specification. The reasoning is in [knowledge operating entry points](../okf/adoption.md#knowledge-operating-entry-point).
+Align each Mekra's entry point with the environment's discovery path. The roles of `MEKRA.md` and `MEKRAS.md` are Mekra operating practices, not required-file rules in the official OKF specification. See [knowledge operating entry points](../okf/adoption.md#knowledge-operating-entry-point) and the [discovery index for multiple Mekras](../okf/adoption.md#discovery-index-for-multiple-mekras) for the reasoning.
 
-- **Separate files:** In the default example, copy `MEKRA.md.template` to `MEKRA.md` at the repository root and merge the needed sections of `AGENTS.md.template` into the existing root `AGENTS.md`. Keep the purpose and scope of the knowledge and its operating context in `MEKRA.md`, with AGENTS directing readers to it.
-- **AGENTS only:** Merge the needed content from `MEKRA.md.template` into the `Knowledge operation` section of the existing `AGENTS.md`. Omit the `# Mekra` heading and adjust the levels of the remaining headings. Omit the AGENTS template's first sentence, which directs readers to `MEKRA.md`, while preserving the rest of its scope explanation. Do not create a separate `MEKRA.md` file.
+- **A separate Mekra within a repository:** Copy the example files from `mekra/` to the target's `mekra/` or chosen location. Keep `MEKRA.md` with that Mekra, and merge the needed sections of `AGENTS.md.template` into the existing AGENTS to link it.
+- **The whole repository as one Mekra:** Place `MEKRA.md` at the repository root and link directly from AGENTS. Adapt MEKRA's knowledge navigation links to the actual `index.md`, `okf/index.md`, or other location. The knowledge need not all move into the same directory.
+- **An environment using multiple Mekras:** Copy `MEKRAS.md.template` to `MEKRAS.md` in an accessible location such as the environment root, and populate it with actual Mekra names, brief descriptions, and entry point links. Change the first sentence of AGENTS to direct readers through the index to relevant Mekras. For a single Mekra, link directly to MEKRA.
 
-If the bundle and its operating context are copied or distributed independently, `MEKRA.md` can be placed at the bundle root. For example, if it is at `knowledge/MEKRA.md`, change the link in AGENTS to `knowledge/MEKRA.md` and the knowledge navigation link in MEKRA to `index.md`. If the repository itself is the bundle, the two roots coincide. A `MEKRA.md` inside the bundle must follow the format for concept documents, so add the following frontmatter at the beginning. `Playbook` is an example type for operating guidance. See [knowledge operating entry points](../okf/adoption.md#knowledge-operating-entry-point) for the location and format rationale.
+The default example connects `AGENTS.md → mekra/MEKRA.md → index.md`. With multiple Mekras, use `AGENTS.md → MEKRAS.md → the relevant MEKRA.md`. Update related entry points and index links whenever structure changes.
+
+A `MEKRA.md` inside a bundle follows the concept document format. The supplied example already includes the following frontmatter; `Playbook` is a type choice for operating guidance. Moving the entry point outside an OKF bundle does not impose the same format requirement on its new location.
 
 ```yaml
 ---
@@ -32,9 +36,9 @@ type: Playbook
 ---
 ```
 
-When the whole repository is used as a bundle, this format rule also applies to other operational Markdown files included in that bundle, such as `AGENTS.md`.
+When the whole repository is used as an OKF bundle, the concept document format also applies to other operational Markdown files included in that bundle, such as `AGENTS.md` or `MEKRAS.md`.
 
-Preserve existing repository instructions and specific choices, and maintain operating explanations in one place when moving them. If concepts already contain the operating principles, link to them from the entry point and shorten the template's general explanations. When recording an adoption baseline, follow [the actual reference baseline guidance](../versions/README.md#recording-the-actual-reference-baseline). Do not prefill the templates with unverified release numbers.
+If knowledge operation started as a section in an existing AGENTS, move its valid explanations to `MEKRA.md`, leaving the link and repository-wide operating instructions in AGENTS. Before creating a duplicate entry point, check the purpose, scope, and location of any existing one. If concepts already contain the operating principles, link to them from the entry point and shorten the template's general explanations. When recording an adoption baseline, follow [the actual reference baseline guidance](../versions/README.md#recording-the-actual-reference-baseline). Do not prefill the templates with unverified release numbers.
 
 The autonomy guidance in these templates applies to authoring and updating knowledge and reflecting related changes in it. Keep the optional `Repository operating preferences` section at the same heading level as `Knowledge operation`, so it covers the later repository-wide work it describes. After application, check the links from the actual entry instructions to the knowledge bundle.
 

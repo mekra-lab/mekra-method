@@ -28,11 +28,38 @@ For example: "We first built this using our own instructions, later consulted th
 
 Git history shows what changed, but does not fully explain how often documents were read or why they changed. A long period without edits does not by itself imply neglect, nor do repeated revisions or deletions necessarily mean failure. Supplement the history with existing operating records or the user's explanation when needed, and distinguish confirmed changes from interpretations of their causes. Even with limited history, a draft can draw on observations supported by current material.
 
+## Filling information gaps through conversation
+
+Use accessible material and records first, then ask the user about information needed for feedback that remains unverified. Investigate adoption scope, knowledge depth, and roles alongside other systems; carry forward purpose and experience already provided. The user's account can fill gaps about inaccessible operating environments. Distinguish [information sources and ways to verify them](okf/feedback.md#information-sources-and-how-to-verify-them).
+
+Frame questions with options and free text suited to the target and missing information. Do not recommend or preselect answers about actual experience. [Discussing options for an initial build](okf/adoption.md#discussing-options-for-an-initial-build) helps decide future work; here, the purpose is to collect experience and evidence. Recommendations can be offered when proposing improvements after the response.
+
+Show only the findings needed to understand the questions, and let the user answer or supplement the relevant parts. Choose question count and order from the material and context. One or two questions may fill the gaps needed for a detailed report; if existing material is sufficient, omit further questions.
+
+### Example — Adding one account of use
+
+In this hypothetical case, the adoption purpose is already known, but records of usage experience are limited. The explanation and question below are not a fixed survey; in an actual investigation, connect them to the evidence and scope examined.
+
+> I confirmed the main rules and their links to related documents. The current records do not show how you experienced the updates in actual work after the change.
+>
+> **What was your experience using the related knowledge after the change?** You can select several items or describe it yourself.
+>
+> - The needed content was incorporated and helped with the work
+> - Missing content or outdated explanations caused difficulty
+> - I used it after the change and had no particular difficulty
+> - I have not used it since the change
+> - I have used it but find it difficult to judge
+> - Another experience: free text
+>
+> If you want, add one task where it helped or caused difficulty. You can also skip the question.
+
+In the final feedback, distinguish investigated connections from the user's reported experience, and interpret causes of update outcomes and contributions of individual tools within the evidence available.
+
 ## What to include
 
-Synthesize the context gathered during the investigation into a self-contained feedback report that can be read and reviewed independently. The report can serve as the basis for a GitHub issue or email body and does not need to be saved as a separate file. The user should not have to fill out a survey again. Select the items that materially support judgment and explain them at the depth needed.
+Synthesize the agent's investigation and the user's responses into a self-contained feedback report that can be read and reviewed independently. The report can serve as the basis for a GitHub issue or email body and does not need to be saved as a separate file. Select the items that materially support judgment and explain them at the depth needed.
 
-- Application context: request, target purpose, character and scale, relevant facets, work and scope, and the guide or baseline used.
+- Application context: request, target purpose, character and scale, relevant facets, actual adoption scope and knowledge depth, division of roles with existing systems and other tools, and the guide or baseline used.
 - Observation: what was useful, what explanation did not fit, and what actually happened.
 - Response and limitations: what was adapted, whether it helped, and what remains unverified.
 - Possible improvement: related documents, clarification that may help, and questions worth checking in other contexts.

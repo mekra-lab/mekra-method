@@ -1,0 +1,7 @@
+# Mekras
+
+<!-- Briefly describe the scope of the environment in which multiple Mekras are discovered and used together. Link this file from the environment's entry instructions, and populate the list below with actual Mekra names, brief descriptions, and entry point links. For an environment using just one Mekra, link directly to its MEKRA.md without this file. -->
+
+- [Core knowledge](mekra/MEKRA.md): Describe this Mekra's purpose and scope.
+
+<!-- Add entries as needed and replace examples with actual content. Keep detailed operating rules in individual Mekras. Update relevant links when creating, moving, splitting, or merging within delegated scope. -->

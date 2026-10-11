@@ -20,11 +20,19 @@ A user can begin with the public guide's latest formal release URL and a request
 
 Interpret requests that reach this repository by looking at both the user's desired result and the current state of the target. "Apply it" is a broad delegation to judge the work that is needed, while "build," "migrate," and "inspect" express narrower purposes. Names for work types and scope are vocabulary for organizing agent judgment; users do not need to learn them or use fixed phrases.
 
-A request to "apply Mekra" does not automatically regenerate an existing knowledge graph. If Mekra or OKF knowledge is already present, judge what to preserve and improve or which operating practices to update. "Incorporate new material into the existing Mekra" focuses on finding knowledge worth retaining and [internalizing](knowledge-internalization.md) it in the relevant concepts and relationships. Whether a scaffold alone is sufficient depends on the requested scope and state of the material.
+A request to "apply Mekra" does not automatically regenerate an existing knowledge graph. If Mekra or OKF knowledge is already present, judge what to preserve and improve or which operating practices to update. "Incorporate new material into the existing Mekra" focuses on finding knowledge worth retaining and [internalizing](knowledge-internalization.md) it in the relevant concepts and relationships. For an initial build, judge the needed arrangement against the role and completion expectations below.
 
 Requests involving existing OKF material, including earlier wording such as "build an OKF" or "turn this repo into OKF," are also interpreted from their purpose and the target's state. An explicit request to update the OKF specification is distinct from an update to the Mekra Method baseline.
 
 "Inspect it" focuses on diagnosis and improvement proposals, while "inspect it and fix what is needed" includes implementing improvements. The actual scope also incorporates delegated authority and constraints established earlier in the conversation. Autonomous judgment selects methods inside that intent; it is not a reason to expand diagnosis-only work into an automatic structural transition.
+
+## The role and completion expectations of an initial build
+
+An initial build starts by understanding the target's material and existing knowledge systems, then providing the knowledge and relationships needed for actual use. Examine what the existing system already does, what needs improvement, and expected changes to judge Mekra's role and its relationship to that system, then [discuss the build direction with the user](#discussing-options-for-an-initial-build).
+
+Where sufficient knowledge already exists, use its sources of truth and strengthen the connections needed to find, understand, and update it. Where further internalization is needed, develop the conditions, evidence, exceptions, and relationships that affect judgment for the agreed use. Mekra may strengthen the existing system or operate alongside it as a knowledge layer with a different role. If sufficient exploration shows that current needs are already met, a minimal arrangement or deferring further adoption may also be appropriate. Explain that judgment in terms of what the existing system provides and what needs improvement.
+
+Judge completion by whether the agreed role can actually be fulfilled. For questions or tasks within that use, check whether the needed knowledge can be found and its relationships and conditions understood and used in judgment. File counts or entry point creation alone do not establish completion. For a progressive build, make the core area delegated for this pass usable and explain what remains for later. Choose verification methods and depth to fit the target, and also examine [connection to use](#connecting-knowledge-to-actual-use) and [operational handoff](#operation-after-adoption).
 
 ## Three distinctions that support judgment
 
@@ -40,7 +48,7 @@ These distinctions do not substitute for one another. A facet is a [descriptive 
 
 | Work | Core judgment | Starting point for scope |
 | --- | --- | --- |
-| New build | Select knowledge worth internalizing from existing material. | Inspect current material and build the selected scope sufficiently. |
+| New build | Consider both the use of existing knowledge and further internalization. | Provide usable knowledge and relationships for the role established through exploration and discussion. |
 | Update existing operating practices | Compare earlier templates or local practices with current Mekra Method and adopt valid improvements. | Transition the scaffold and key concepts first, then proceed progressively. |
 | Specification-version transition | Judge the impact of official-format changes on the target bundle. | Set scope from compatibility and the actual changes involved. |
 | Inspection and improvement | Examine the suitability of current structure, sources of truth, context, and target specification, then judge needed improvements. | Review the requested concerns and affected scope; implement improvements when fixes are delegated. |
@@ -53,7 +61,11 @@ Review knowledge first built as a prototype or under local instructions from the
 
 ## Bundle location and existing structure
 
-As [the role and use of OKF](okf-format.md#bundle-boundaries-and-location) explains, adopting the OKF format and choosing a directory name are separate decisions. Identify existing bundles from their document format, entry points, and existing guidance, not just the name `okf/`. Choose a new bundle's location to fit its subject and the boundaries of existing material. Names such as `knowledge/`, `domain/`, or `policy/` can express content or responsibility; when a repository distributes a single bundle, its root can serve as the bundle root.
+As [the role and use of OKF](okf-format.md#bundle-boundaries-and-location) explains, adopting the OKF format and choosing a directory name are separate decisions. Identify existing bundles from their document format, entry points, and existing guidance, not just the name `okf/` or `mekra/`.
+
+When a new file-based Mekra needs its own directory, use `mekra/` as the default location. Preserve an existing canonical location or use a structure better suited to the target. Names such as `knowledge/`, `domain/`, or `policy/` can express content or responsibility; when a repository distributes a single bundle, its root can serve as the bundle root.
+
+`mekra/` is a consistent default name for new arrangements and adoption examples, not a required path or representation format. Do not rename an existing `okf/` or other directory merely to match the default; connect entry points and tools to the actual location chosen. When using OKF, `mekra/` itself can be the OKF bundle, without an extra `mekra/okf/` wrapper.
 
 A separate subdirectory helps when bundle knowledge needs to be distinguished from code, research material, or operating guidance. If implementation or task guidance benefits from separate management, use an existing location such as `docs/`. Knowledge about operating the knowledge base can still be internalized in relevant concepts when it contains reusable meaning and decision criteria. Keep an existing location when it is suitable, and adapt files and instructions to the actual bundle boundary rather than the template's enclosing folder name. When moving a bundle, also inspect entry points, links, and path assumptions in related tools.
 
@@ -61,13 +73,25 @@ Do not treat the current structure as fixed. Where useful, a Mekra can be split,
 
 ## Knowledge operating entry point
 
-When it is useful to find the knowledge's purpose, scope, entry points, reference baseline, and operating context separately, collect them in a brief `MEKRA.md` and link to it from the target's agent entry instructions. In repositories using `AGENTS.md`, keep that link together with repository-wide development, execution, and deployment instructions and operating preferences in AGENTS. If the knowledge operating guidance is short and easy to find in existing instructions, it can remain as a section of AGENTS. A separate file is neither an official OKF requirement nor a condition for completing every adoption.
+An independently organized file-based Mekra uses `MEKRA.md` at its logical root as a common entry point. It describes that Mekra's purpose, scope, discovery paths, reference baseline, and specific operating context, and is linked from the target's agent entry instructions. In repositories using `AGENTS.md`, keep that link together with repository-wide development, execution, and deployment instructions and operating preferences in AGENTS. If knowledge operating guidance previously lived inside AGENTS, preserve its valid content, move it to MEKRA, and link to it. This is Mekra's adoption approach, not a required-file rule in the official OKF specification.
 
-The default location for `MEKRA.md` is the repository root. This suits an explanation of the repository's knowledge operations and links to one or more bundles. If the bundle is copied or distributed independently and its operating context needs to travel with it, the file can live at the bundle root. The two locations coincide when the repository itself is a bundle. Choose the location according to the scope of the operating context and the unit that needs to travel together, and adapt agent entry instructions and links within the file to that location.
+Choose the logical root according to the Mekra's operating scope and the unit that needs to move together. For a separate Mekra inside a code repository, the default example is `mekra/MEKRA.md`; when the entire repository operates as one Mekra, use root `MEKRA.md`. One Mekra may connect several OKF bundles or external documents and databases, so its knowledge need not all live in one physical directory. In environments without files, link an equivalent entry point such as a page.
 
 When the file is included in a bundle, it must also follow the bundle's format. The reserved-filename rules in the baseline OKF specification treat Markdown files other than `index.md` and `log.md` as concept documents. A `MEKRA.md` inside a bundle therefore needs `type` frontmatter.[^okf-spec-v02] `type: Playbook` is one local choice for representing operating guidance; the filename `MEKRA.md` has no official format exemption.
 
-An entry point is not a place to keep accumulating detailed principles and procedures. Internalize reusable reasoning in the relevant concepts, and leave the repository's specific context and discovery paths at the entry point. When separating the files, move existing explanations so responsibility for changes remains clear. The file's existence alone does not guarantee automatic loading or actual use. The [templates](../templates/README.md#choosing-an-entry-point-arrangement) explain how to choose and apply either arrangement.
+An entry point is not a place to keep accumulating detailed principles and procedures. Internalize reusable reasoning in the relevant concepts, and leave the Mekra's specific context and discovery paths at the entry point. OKF's `index.md` lists the bundle's knowledge, while `MEKRA.md` explains the scope and context in which it operates; connect the two. The file's existence alone does not guarantee automatic loading or actual use, so check the agent's actual entry path. The [templates](../templates/README.md#choosing-an-entry-point-arrangement) show how to adapt locations and links to the target.
+
+Another `MEKRA.md` in a nested directory does not, by physical containment alone, merge knowledge identity or responsibility for sources of truth. Read each entry point's purpose, scope, and responsibilities to judge the relationship. Referencing another Mekra, including an independent Mekra within a scope, and merging multiple Mekras describe relationships rather than fixed types or mandatory procedures. When merging, examine existing differences in meaning, source-of-truth responsibilities, evidence, and necessary history to establish new boundaries and references.
+
+## Discovery index for multiple Mekras
+
+In an environment where multiple Mekras are discovered and used together, use `MEKRAS.md` as the default discovery index. Place it somewhere accessible from the environment's entry instructions, such as the workspace root, and list known Mekras with names, brief descriptions, and links to each `MEKRA.md` or equivalent entry point. Detailed knowledge and operating rules belong in the individual Mekras. Connecting multiple Mekras in an index does not by itself define the environment as a new parent Mekra.
+
+For an environment using just one Mekra, link directly to its `MEKRA.md` from agent instructions. For multiple Mekras, direct the agent to read `MEKRAS.md` and find those relevant to the current task. Connecting the actual entry point during adoption avoids repeating a separate discovery procedure in every product's instructions. Multiple agents using the same environment can share the same index.
+
+Maintain Mekra structure and knowledge autonomously within the scope delegated by the environment and user. When creation, movement, splitting, or merging changes the structure, update relevant entry points and index links as well. The index communicates the current structure; discovering an entry does not grant new authority to act. Changes within delegated scope do not require separate permission merely to register the result in the index.
+
+When index links or descriptions differ from the actual structure, verify the targets and sources of truth and correct them. Make the scope clear even in nested environments, and avoid unnecessarily maintaining independent copies of the same list. Markdown is the default example; fixed fields, a global registry, and an automatic discovery protocol are not additional requirements.
 
 ## Review scope and modification scope
 
@@ -85,11 +109,44 @@ A user may delegate judgment to the recommended approach or choose major decisio
 
 Phrase questions and options using the vocabulary, conceptual familiarity, explanation preference, and decision style visible in the conversation and material the user has provided. Do not assign the user an arbitrary skill level; use terminology and explanation depth they already demonstrate. Keep familiar technical terms when useful, and do not require the user to learn Mekra Method's internal category names or implementation vocabulary just to answer. Explain what an option changes in actual operation and why it is recommended. When sufficient autonomy is already delegated, prefer making minor choices through the recommended approach and explaining them afterward rather than repeatedly asking.
 
-Questions such as these can be adapted to the situation; they are not a fixed sequence.
+### Discussing options for an initial build
 
-- "The structure changes depending on whether the existing domain document remains the source of truth or its content is incorporated into another knowledge document. Is there a location that must remain canonical?"
-- "I recommend migrating the core knowledge first and converting the rest progressively. Do you need the whole repository reviewed this time?"
-- "I can proceed with the recommended approach for this context, or we can decide the major choices together."
+For an initial build, recommend an approach grounded in analysis of the target and offer understandable options for the aspects of Mekra's role, expected results, scope, and depth that need discussion. Explain how each choice changes actual use and the resulting build, and identify the recommended option. Use the user's choices and additional comments to judge the concrete knowledge arrangement autonomously. Carry forward purpose and delegation already provided.
+
+Choose questions and options to fit the target. If no existing knowledge is available, there is no need to offer an option that relies only on it; if the user requested a full review, carry that scope forward. You can offer a **"Proceed with the recommended approach"** path alongside individual adjustments and additional comments. Where intent or delegation is already sufficient, use that context to set the direction and proceed. Reassess even the initial direction as purpose and knowledge change.
+
+Review scope, depth of knowledge development, and the scope to complete now are separate choices. You can review all material and select reusable knowledge, or build a core area deeply first. A depth preference conveys overall expectations and priorities; judge each concept's precision by the meaning needed for the agreed use. Even when focusing on key concepts, preserve conditions and exceptions that change the judgment.
+
+#### Example B — Aligning the role and build scope
+
+In this hypothetical situation, existing documents already manage the sources of truth for business rules and design well, but relationships between concepts and the effects of changes need strengthening.
+
+> I recommend preserving the existing sources of truth while strengthening relationships between key concepts and the explanation of change impacts. I will review all material to select the knowledge needed, then organize the core area's rules, conditions, and relationships so they can support real questions and changes. These choices let you adjust the role and build scope.
+
+| Topic to discuss | Options for this situation |
+| --- | --- |
+| Mekra's role | Connect existing knowledge for discovery, use, and updates / **Strengthen the existing system with concepts, relationships, and context for judgment — recommended** / Operate a separate knowledge layer alongside it |
+| Review scope | Focus on a core area / **Review all material and select the knowledge needed — recommended** |
+| Depth of knowledge development | Focus on using and connecting existing knowledge / Develop key concepts, rules, and relationships / **Include conditions, evidence, exceptions, and effects needed for judgment — recommended** |
+| Scope to complete now | **Make the core area usable and expand progressively — recommended** / Complete the needed build more broadly in this pass |
+
+In this situation, a focus on connections improves paths to existing explanations; strengthening context supports understanding of judgments spanning several concepts; a separate layer supports a different role alongside the existing system. A broader review examines more material for selection, while a broader completion scope means organizing and checking more knowledge now. Depth adjusts the explanation to the questions and tasks it will support.
+
+> You can **proceed with the recommended approach** or **adjust individual choices**. Add any main tasks you want to delegate or constraints that require preserving the existing structure.
+
+These recommendations and four topics are examples for this hypothetical target. In practice, frame questions around meaningful differences in judgment and intent already provided.
+
+#### Example A — Clarifying one future plan
+
+In this hypothetical situation, the material is small and existing explanations support basic use, but future plans affect the role of the build.
+
+> The current material can be used through its existing explanations and connections. If you plan to keep adding material and delegate updates, it would help to develop the concepts, relationships, and operating practices needed for growth. What use do you expect?
+>
+> 1. Keep adding material and tasks and develop it over time
+> 2. Use it while keeping roughly the current material and scale
+> 3. Not decided yet
+
+Future plans are information the user supplies, so do not recommend an answer about whether growth is expected. If plans are undecided, recommend an arrangement that meets current needs and adjust its role and depth as the purpose becomes clearer.
 
 ## Connecting knowledge to actual use
 

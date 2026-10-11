@@ -60,7 +60,7 @@ Mekra brings canonical responsibility, distributed context, and autonomous judgm
 | Specifying the agent's sequence of work | What evidence and context would let the agent judge how to proceed? |
 | Updating a changed document | Which other concepts and explanations change meaning as a result? |
 
-These questions do not define the limits of particular products or other methods. They can be used alongside search and RAG, work procedures, and tool-based checks. Within that combination, Mekra prioritizes **organizing and maintaining the knowledge that supports judgment**. Its effects are assessed through actual use, observing the effort needed to find, understand, and update knowledge, along with maintenance costs.
+Mekra can be used alongside search and RAG, work procedures, and tool-based checks. Within that combination, Mekra prioritizes **organizing and maintaining the knowledge that supports judgment**. Its effects are assessed through actual use, observing the effort needed to find, understand, and update knowledge, along with maintenance costs.
 
 ## Direction and practice
 

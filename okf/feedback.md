@@ -14,6 +14,14 @@ Good feedback reveals the conditions under which the guide was useful or insuffi
 
 Adaptation through [autonomous judgment](agent-autonomy.md) is normal application. Keeping an existing source folder or reviewing a small bundle in full does not by itself require a deviation report. Look not at the size of the variation, but at conditions existing knowledge does not explain well, recurring conflicts, results that change expectations, or improvements that would be reusable. Requiring a report for every ordinary success increases review cost and user burden.
 
+## Information sources and how to verify them
+
+Use information available in existing material and operating records first. When needed information is missing, ask someone who can provide it. The user's purpose may already be available in earlier conversation, and the user or person responsible can explain operation in inaccessible external systems. Choose how to verify information according to its nature, evidence already available, and accessibility.
+
+Examine Mekra's actual adoption scope, knowledge depth, and division of roles with existing systems and other tools, alongside the user's purpose and experience. Describe depth in terms of the judgments supported by knowledge in each use and area. Include whether connections to existing canonical knowledge are sufficient for use. If [the role and expectations established for the initial build](adoption.md#the-role-and-completion-expectations-of-an-initial-build) are recorded, relate them to current implementation and use.
+
+Following [preservation of epistemic distinctions](epistemic-distinctions.md), distinguish verified facts, user statements, agent interpretations, and unknowns when judging the relationship between expected roles and actual implementation, use, and effects. Fit questions to the information gaps needed for this judgment, and synthesize investigation, responses, and interpretation in the final report. When existing material is sufficient, the report can be prepared without further questions.
+
 ## Observations from real operation
 
 Examine the usefulness of knowledge operation while handling actual questions and changes. Observations such as these can inform adjustments to internalization depth and operating practices:
@@ -24,7 +32,7 @@ Examine the usefulness of knowledge operation while handling actual questions an
 
 These perspectives do not impose measurement or reporting on every task, nor do they form a fixed scorecard. When effects or failures actually emerge, record the conditions, the before-and-after state, and what remains unverified. Do not infer results for experiments without evidence and record them as success stories.
 
-Reported satisfaction or new uses alone do not establish the guide's effect. Consider other possible explanations, such as the capabilities of the agent or tools and additional work by the user.
+Reported satisfaction or new uses alone do not establish the guide's effect. Consider other possible explanations, such as the capabilities of the agent or tools and additional work by the user. Establishing the division of roles is different from demonstrating each contribution to performance. Even if a search tool finds material and Mekra supplies context for judgment with a good result, interpret each element's contribution within the scope of comparable evidence.
 
 The existence of knowledge documents, access from an execution environment, use in a particular task, and improved results each require different evidence. An agent's adoption completion report is a starting point for investigation, not a substitute for evidence of actual use. Connect verifiable reading records with the evidence used in answers, while allowing for cases where the current conversation already contained the needed information and no new lookup was necessary. Conversely, if some records show no trace of reading, state the scope examined and do not conclude that the knowledge was unused in every environment.
 

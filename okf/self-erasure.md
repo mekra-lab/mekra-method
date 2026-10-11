@@ -36,4 +36,4 @@ The willingness to relinquish the role of guidance and the method when they are 
 
 Distinguish a historical observation that guidance was used and later removed, an interpretation of the reasons at the time, and results from comparing its effects with and without that guidance. A principle appearing in a document does not mean its effects have been validated. When comparing effects, state the agents, material, tools, tasks, and scope of observation, and do not generalize the findings directly to other conditions.
 
-This principle does not claim that the effects of removing guidance or Mekra's eventual disappearance have been established. How far it can step back is learned through [adoption experience](feedback.md) and comparisons where needed.
+How far it can step back is learned through [adoption experience](feedback.md) and comparisons where needed.

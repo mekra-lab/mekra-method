@@ -2,11 +2,10 @@
 type: Example
 title: Core concept
 description: Describe what this concept is in one sentence.
+# Select and add other properties from the OKF specification in use when needed.
 ---
 
 # Core concept
-
-<!-- This template is a minimal example. If additional structure is needed to improve the reliability or usability of the knowledge, consult the OKF specification in use and choose the features needed. -->
 
 Describe the concept's meaning, boundaries, and the context needed for judgment.
 

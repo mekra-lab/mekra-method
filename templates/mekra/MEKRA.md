@@ -1,10 +1,14 @@
+---
+type: Playbook
+---
+
 # Mekra
 
-<!-- Briefly describe the purpose and scope of the knowledge covered by this entry point. The default location is the repository root. If included in an OKF bundle, add type frontmatter at the beginning (for example, type: Playbook) and change the link below to index.md. -->
+<!-- Briefly describe this Mekra's purpose and scope. Place this file at its logical root. In this example, mekra/ itself is an OKF bundle, so the type required for documents inside the bundle is included. If the whole repository operates as one Mekra, place the file at the repository root and adapt links to the actual knowledge locations. -->
 
 ## Entry points and baselines
 
-- Knowledge navigation: [Knowledge bundle](okf/index.md)
+- Knowledge navigation: [Knowledge bundle](index.md)
 
 <!-- Adjust the link to the actual bundle location. If concepts containing operating principles or adoption records already exist, link to them here. -->
 <!-- If recording a reference baseline, state the Mekra Method release or repository and commit actually consulted, along with the scope of application. If version is used, it means the methodology release consulted. Do not enter unverified numbers. Distinguish the OKF specification baseline from the methodology version. Remove this comment if it is not needed. -->
@@ -13,7 +17,7 @@
 
 For knowledge operation, prioritize the agent's autonomous judgment. The principles below are starting points and may be applied differently depending on purpose and context.
 
-Do not treat the current structure as fixed. When needed, split a Mekra, connect or consolidate multiple Mekras, or reduce an existing structure.
+Maintain Mekra structure and knowledge autonomously within delegated scope. Split, connect, merge, or reduce it when needed, updating relevant entry points and discovery index links whenever the structure changes.
 
 - Put concept meaning, boundaries, rules, relationships, and context needed for judgment in the OKF bundle.
 - Keep responsibility for defining and changing facts and rules in clear sources of truth, while also reflecting context needed to understand them in related concepts.
