@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "locale": "en",
-  "source_commit": "7ceeafd8c703bc3d2a531cac6a476f8a25660d47",
+  "source_commit": "16b8129883be7191bda87787260446c6597efb4e",
   "manifest_sha256": "ef938b03fc1ebde305b0b06e3bd56e84c46c69d86e2c538143e2913f309f4b6e",
-  "reviewed_at": "2026-10-11T12:17:11.2519599Z",
+  "reviewed_at": "2026-10-12T04:51:48.3844171Z",
   "files": [
     {
       "path": "AGENTS.md",
@@ -42,8 +42,8 @@
     },
     {
       "path": "okf/okf-format.md",
-      "source_sha256": "1db598f2e8eb897779db7640e81c2c7a9d68c724ae71d1844d23c9cd8a5211dd",
-      "target_sha256": "a75f2c6ef9e02f792e4f862c73af74337e11e178e16150dbe9d501f18d8fa527"
+      "source_sha256": "07955390395c68e74b3a13bd47a00c84398fe7bf78778bc7dbb05aaf7c65e461",
+      "target_sha256": "f928423799706dccc65d64e5ca0ff3adb3c9f3c7a1cd07dfd16354cf92090248"
     },
     {
       "path": "okf/agent-autonomy.md",
