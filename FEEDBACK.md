@@ -32,7 +32,7 @@ Git history shows what changed, but does not fully explain how often documents w
 
 Use accessible material and records first, then ask the user about information needed for feedback that remains unverified. Investigate adoption scope, knowledge depth, and roles alongside other systems; carry forward purpose and experience already provided. The user's account can fill gaps about inaccessible operating environments. Distinguish [information sources and ways to verify them](okf/feedback.md#information-sources-and-how-to-verify-them).
 
-Frame questions with options and free text suited to the target and missing information. Do not recommend or preselect answers about actual experience. [Discussing options for an initial build](okf/adoption.md#discussing-options-for-an-initial-build) helps decide future work; here, the purpose is to collect experience and evidence. Recommendations can be offered when proposing improvements after the response.
+Frame questions with options and free text suited to the target and missing information. Do not recommend or preselect answers about actual experience. [Discussing options for an initial build](okf/construction-consultation.md#discussing-options-for-an-initial-build) helps decide future work; here, the purpose is to collect experience and evidence. Recommendations can be offered when proposing improvements after the response.
 
 Show only the findings needed to understand the questions, and let the user answer or supplement the relevant parts. Choose question count and order from the material and context. One or two questions may fill the gaps needed for a detailed report; if existing material is sufficient, omit further questions.
 

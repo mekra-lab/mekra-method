@@ -20,7 +20,7 @@ For external actions, use only the information needed for the purpose, recipient
 
 When authority for the purpose and scope is already clear, there is no need to mechanically reconfirm the same decision. Conversely, do not infer new external-disclosure authority merely from internal access or delegated autonomy over the task.
 
-Links between documents and concepts do not establish actual access permissions. The underlying repository, file system, or service is responsible for restricting access to documents and relationships and limiting discovery results for each user. When [connecting knowledge to actual use](adoption.md#connecting-knowledge-to-actual-use), distinguish the scope in which this principle has been documented from the scope in which those controls have been implemented and checked.
+Links between documents and concepts do not establish actual access permissions. The underlying repository, file system, or service is responsible for restricting access to documents and relationships and limiting discovery results for each user. When [connecting knowledge to actual use](knowledge-operation.md#connecting-knowledge-to-actual-use), distinguish the scope in which this principle has been documented from the scope in which those controls have been implemented and checked.
 
 ## Titles, relationships, and derived expressions
 

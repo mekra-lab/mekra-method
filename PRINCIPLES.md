@@ -38,6 +38,6 @@ Choose structure, length, depth of internalization, metadata, and working practi
 
 ## OKF and practical adoption
 
-Mekra currently uses [OKF's representation model](okf/okf-format.md). These operating principles are Mekra's adopted criteria for judgment within that setting. Distinguish official format requirements from operating choices; the specification baseline is kept in the [current OKF baseline](versions/current.md).
+Mekra currently [requires OKF as its knowledge representation format](okf/okf-format.md). There is no need to convert all existing material or sources of truth; Mekra knowledge reuses existing OKF or is organized in OKF. These operating principles are Mekra's adopted criteria for judgment within that setting. Distinguish official format requirements from operating choices; the specification baseline is kept in the [current OKF baseline](versions/current.md).
 
-Start practical adoption with the [application guide](APPLICATION.md). [Adoption judgment](okf/adoption.md) covers the detailed reasoning for a target's current state, work scope, bundle location, and entry point choices. The [repository structure](README.md#structure) describes the directory layout used here.
+Start practical adoption with the [application guide](APPLICATION.md). [Adoption judgment](okf/adoption.md) addresses the current state and completion scope; [structure and discovery](okf/structure-and-discovery.md) explains bundle locations and entry point responsibilities. The [repository structure](README.md#structure) describes the directory layout used here.

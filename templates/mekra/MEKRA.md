@@ -33,4 +33,4 @@ Distinguish updates to knowledge from updates to the Mekra Method adoption basel
 
 ## Repository-specific operating context
 
-<!-- When needed, record or link repository-specific choices such as source-of-truth boundaries, where to find guidance for adding source material or new knowledge, and remaining transition scope and triggers. Remove this section if none are needed. -->
+<!-- If needed, describe or link target-specific choices such as source-of-truth boundaries, guidance for adding source material and new knowledge, and remaining transition scope and triggers. Preserve reasons for the arrangement, assumptions, and conditions for reconsideration when they will matter for future judgment, distinguishing them from observed facts. Link to sufficient explanations in related concepts; do not record every alternative or thought process. Remove this section if unnecessary. -->

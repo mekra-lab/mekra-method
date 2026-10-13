@@ -10,7 +10,9 @@ sources:
 
 # The role and use of OKF
 
-Mekra currently uses Open Knowledge Format (OKF) to represent knowledge and context. OKF provides a format that people and agents can read and exchange, while Mekra provides an approach to deciding what knowledge to retain and how to connect and maintain it.
+Mekra currently requires Open Knowledge Format (OKF) as its knowledge representation format. There is no need to convert all existing material or sources of truth; Mekra knowledge reuses existing OKF or is organized in OKF. A non-OKF arrangement that only adds operating guidance does not count as completed Mekra adoption.
+
+OKF provides a format that people and agents can read and exchange, while Mekra provides an approach to deciding what knowledge to retain and how to connect and maintain it. Requiring OKF is the current Mekra adoption criterion and can be reconsidered if actual applications reveal a need for other representations.
 
 ## Representing concepts and relationships
 
@@ -22,7 +24,7 @@ Mekra uses this representation to [internalize](knowledge-internalization.md) de
 
 A bundle is a directory tree of knowledge documents and may be distributed as a whole repository or a subdirectory of a larger one. Within a bundle, `index.md` and `log.md` are reserved filenames; other `.md` files are concept documents.[^okf-spec-v02]
 
-The official specification does not prescribe `okf/` as the bundle directory name. The default `mekra/` location for a new file-based Mekra is also a Method adoption choice, not an official format requirement. Choose a target's bundle boundaries from the existing location of its knowledge and what needs to move together. [Adoption judgment](adoption.md#bundle-location-and-existing-structure) explains those choices.
+The official specification does not prescribe `okf/` as the bundle directory name. The default `mekra/` location for a new file-based Mekra is also a Method adoption choice, not an official format requirement. Choose a target's bundle boundaries from the existing location of its knowledge and what needs to move together. [Structure and discovery](structure-and-discovery.md#bundle-location-and-existing-structure) explains those choices.
 
 `index.md` is an optional reserved file that supports navigation by collecting concept links and short descriptions, and it can be generated automatically.[^okf-spec-v02] In Mekra, an index may also own unique navigation information, such as question-based groupings and reading order. When regenerating an index, choose an update method that preserves this navigation information and the necessary metadata. Domain rules and evidence belong in the relevant concepts, while responsibility for changing navigation information may remain with the index. This applies [source of truth and context](source-of-truth.md) to index maintenance; it is not a specification rule guaranteeing the preservation behavior of a particular generator.
 

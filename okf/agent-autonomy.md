@@ -42,13 +42,15 @@ Reassess the need for supporting guidance already in place. If the agent can mak
 
 Autonomous judgment depends on sufficient knowledge. Even when instructions are brief, the body should [internalize](knowledge-internalization.md) enough reasons, conditions, and relationships for judgment. Omitting domain facts or repository-specific context that the agent does not already know is not the intent of this principle.
 
+The ability to make judgments is distinct from actually exploring possible approaches. Knowledge about available arrangements, when they help, and what a chosen design must support enables autonomous judgment. [Design exploration](knowledge-design.md) compares alternatives against the target's use and changes to establish reasons for a choice. Candidate counts and output length alone do not measure the effort invested in exploration.
+
 The ability to interpret context is distinct from the process of finding and reading the context needed. An agent may understand one concept well yet fail to discover another affected concept. Reliable autonomous judgment depends on the evidence and context actually explored as well as reasoning ability; [context propagation](context-propagation.md) must account for these limits of discovery.
 
 Requiring a separate deviation record every time a principle is applied differently can spend more effort on reporting and classification than on judgment. Whether a reusable decision should be reflected back into knowledge or principles is itself context-dependent. Autonomy means discretion in interpretation and working method; it does not mean authority to arbitrarily alter [sources of truth and evidence](source-of-truth.md) and turn them into facts.
 
 Autonomous judgment can coexist with tools that check explicitly defined constraints. Agents judge choices that depend on context, while tools verify mechanically checkable conditions such as files, links, and review baselines. Passing [publication checks](distribution.md) does not by itself establish semantic accuracy or [suitability for disclosure](disclosure-boundary.md).
 
-The same principle carries into [adoption judgment](adoption.md). Work types, scope categories, suggested questions, and procedures are defaults that support judgment. Understand the target and user intent first, then omit, combine, or adapt them as needed, and do not ask again about choices that have already been delegated. Even when the user delegates judgment, leave the actual decisions and usage instructions needed for later operation.
+The same principle carries into [adoption judgment](adoption.md). Meet Mekra's current knowledge representation requirements, and have the user choose or explicitly delegate unresolved directions that materially affect later use and updates. Within that direction, exercise autonomy over design, implementation, maintenance, the form of discussion, and work order. Do not ask again about choices already delegated. Even when the user delegates judgment, leave the actual decisions and usage instructions needed for later operation.
 
 OKF's human-readable format, portability, and ease of version control remain useful without an LLM. The reason to prioritize autonomous judgment is specifically to make fuller use of agents' ability to interpret and maintain a natural-language knowledge graph.
 

@@ -1,5 +1,5 @@
 ---
-type: Example
+type: Example # Required. Replace with the actual concept type.
 title: Core concept
 description: Describe what this concept is in one sentence.
 # Choose properties to suit the target's material and intended use, and define custom properties if needed.
