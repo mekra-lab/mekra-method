@@ -24,6 +24,8 @@ For an initial build, explore the target and develop a provisional design. Prese
 
 Ground the provisional design in actual material and intended use, making it concrete enough to explain the knowledge, relationships, and reasoning needed and what existing knowledge does or does not cover. Establish reasons for a choice through [comparing alternatives and expanding exploration](knowledge-design.md#expanding-and-concluding-exploration). If viable options with different strengths and operational consequences remain, present representative options with the recommendation and its reasons. Reusing existing OKF with small additions can be a valid option. Distinguish expected improvement from effects actually confirmed; there is no need to implement or report every alternative considered.
 
+Explain Mekra's operational role separately from the location and format of sources of truth. Mekra can support knowledge operations across a repository while preserving existing sources of truth; conversely, moving those sources into OKF does not by itself establish the needed knowledge relationships and update workflows. Carry forward stated role expectations as criteria for comparing alternatives, and make the arrangement that fulfills the role and the scope to complete now concrete.
+
 Choose the number and grouping of questions and options to fit the target and unresolved intent. Ask about a single choice or present related choices as an arrangement; do not turn exploration, provisional design, and consultation into a fixed survey or a checklist with separately completed steps every time. If no existing knowledge is available, there is no need to offer an option that relies only on it; if the user requested a full review, carry that scope forward. You can offer a **"Proceed with the recommended approach"** path alongside individual adjustments and additional comments. Reassess even the initial direction as purpose and knowledge change.
 
 Review scope, depth of knowledge development, and the scope to complete now are separate choices. You can review all material and select reusable knowledge, or build a core area deeply first. A depth preference conveys overall expectations and priorities; judge each concept's precision by the meaning needed for the agreed use. Even when focusing on key concepts, preserve conditions and exceptions that change the judgment.
@@ -36,7 +38,7 @@ Consider a hypothetical repository containing deployment procedures, incident re
 
 | Topic to discuss | Options for this situation |
 | --- | --- |
-| Mekra's role | **Preserve existing procedures as sources of truth and strengthen judgment context in OKF — recommended** / Move the canonical procedures into OKF and manage them together |
+| Source-of-truth location and format | **Preserve existing procedures as sources of truth and connect related judgments and changes to Mekra knowledge — recommended** / Move the canonical procedures into OKF and manage them together |
 | Review scope | Focus on current deployment and incident-response documents / **Also review service dependencies and past incident records — recommended** |
 | Depth of knowledge development | Focus on deployment-stop and rollback decisions / **Also organize related service constraints, past exceptions, and change impacts — recommended** |
 | Scope to complete now | **Make knowledge usable for actual judgment in one frequently operated service, then expand — recommended** / Build deployment and incident-response knowledge for all operating services in this pass |

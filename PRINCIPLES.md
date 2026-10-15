@@ -2,6 +2,8 @@
 
 Mekra's operating principles guide how knowledge is organized and maintained so that agents can find the facts, reasons, and relationships needed for judgment in later work. This document owns the list of principles, their core meaning, and their relationships; the linked concepts own the detailed meaning, reasoning, and application boundaries. When revising a principle, update both the summary and the detailed explanations whose meaning changes.
 
+Mekra aims to serve as the foundation for knowledge operations in the assigned target. In a repository, understand the whole repository from this perspective and support continued discovery, organization, use, and updating of important knowledge. Follow any scope limits set by the user, and organize knowledge relationships and operating workflows for the purpose while preserving existing source-of-truth responsibilities. This role informs [initial builds and completion judgments](okf/adoption.md#the-role-and-completion-expectations-of-an-initial-build).
+
 ## Autonomous judgment
 
 Start from [autonomous judgment](okf/agent-autonomy.md), and interpret and apply the principles below according to purpose and context. Facts, evidence, user intent, authority, and the target's constraints remain conditions of that judgment. Distinguish choices in an individual application from revisions to general principles.
@@ -25,6 +27,8 @@ Knowledge about operating the knowledge base may itself be a subject of internal
 ## Reflecting changes
 
 When new knowledge or a change arrives, [update](okf/context-propagation.md) the source of truth and related concepts whose meaning changes. A link alone does not make a document an update target; examine where meaning, conditions, relationships, or judgments actually change.
+
+Reading and using knowledge also provide opportunities to develop context. Reflect meaningful omissions, inconsistencies, and new relationships in relevant knowledge according to the evidence and delegated scope, judging review scope and depth by impact and cost. Do not require edits or history records for every lookup.
 
 The [default operating model](okf/context-propagation.md#human-and-agent-roles) is for people to supply new facts, intent, evidence, and corrections, while the agent explores related context and updates the source of truth and affected knowledge together.
 

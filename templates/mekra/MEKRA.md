@@ -4,7 +4,7 @@ type: Playbook
 
 # Mekra
 
-<!-- Briefly describe this Mekra's purpose and scope. Place this file at its logical root. In this example, mekra/ itself is an OKF bundle, so the type required for documents inside the bundle is included. If the whole repository operates as one Mekra, place the file at the repository root and adapt links to the actual knowledge locations. -->
+<!-- Briefly describe the purpose and scope of the knowledge operations this Mekra supports. If it covers the whole repository, make its relationship to existing material and knowledge and the operating context for handling new information and changes clear. Distinguish operating scope from what has been built and reviewed in this pass. Place this file at its logical root. In this example, mekra/ itself is an OKF bundle, so the type required for documents inside the bundle is included. If the whole repository operates as one Mekra, place the file at the repository root and adapt links to the actual knowledge locations. -->
 
 ## Entry points and baselines
 
@@ -23,6 +23,7 @@ Maintain Mekra structure and knowledge autonomously within delegated scope. Spli
 - Keep responsibility for defining and changing facts and rules in clear sources of truth, while also reflecting context needed to understand them in related concepts.
 - Do not mechanically remove duplicated context. What should be avoided is independent ownership of the same fact; distributing context does not mean distributing change responsibility.
 - When knowledge or implementation changes, use the source of truth as the baseline and also update related concepts whose meaning changes.
+- Reflect meaningful omissions, inconsistencies, and new relationships discovered during reading and use according to the evidence and delegated scope. Distinguish checks needed for the current request from additional maintenance, judge scope by impact and cost, and do not require edits or history records for every lookup.
 - Judge knowledge-document structure and writing style autonomously from the target OKF specification and repository context.
 
 <!-- If these principles have been internalized in the target's knowledge, link to the relevant concepts and shorten the explanations here. Keep detailed operating procedures and the reasoning behind judgments in the related concepts. -->

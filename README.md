@@ -2,9 +2,9 @@
 
 *Knowledge finds its place.*
 
-Mekra Method lets AI agents decide for themselves what to retain as knowledge and how to organize, connect, and maintain it, based on the available material and purpose.
+Mekra Method enables AI agents to explore a target's material and knowledge, organize important knowledge into reusable units and relationships, and discover and understand the context needed to interpret that knowledge and make judgments, internalizing and updating it in the relevant concepts.
 
-Agents use the knowledge and context maintained this way to decide what to do in later work as the situation requires.
+In later work, agents can find and combine the knowledge they need, carry forward its meaning, reasons, conditions, and evidence, and respond to new situations and changes. The agent autonomously judges the concrete structure, expression, and depth of internalization based on the target's purpose, material, and existing sources of truth.
 
 It provides application guides, templates, and operating knowledge to put the method into practice.
 

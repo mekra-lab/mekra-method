@@ -42,6 +42,8 @@ During construction, understand related knowledge together to discover condition
 
 Synthesis knowledge can be created when integrated judgments across several concepts are repeatedly needed. A synthesis explains the overall relationships and conditions acting together, without independently taking ownership of individual concepts' definitions or change responsibilities. In use, find and combine the concepts relevant to a question so that their meaning and relationships can support questions not anticipated during construction. There is no need to prewrite every insight as a synthesis document or defer all integration until a question arrives.
 
+When combining concepts during use reveals conditions or relationships needed for later judgments, preserve them in relevant concepts through [context propagation triggered by reading](context-propagation.md#context-discovered-through-reading-and-use). Distinguish combinations specific to the current question from reusable knowledge, retaining the evidence and uncertainty of new interpretations.
+
 ## Meaning of states and results
 
 A state name alone may not convey enough meaning for the next judgment. For example, if `ready` only confirms that configuration is in place, judging whether a request actually succeeded requires separate evidence about connectivity, authentication, or other relevant conditions. If successful processing, completed storage, and business approval depend on different conditions, explain those conditions and responsibilities in the relevant concepts. Internalize the relationships when default behavior has exceptions or applicability differs by caller. Explain the judgments that are actually being confused rather than adding new fields to every state.

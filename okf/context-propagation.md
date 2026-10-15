@@ -14,6 +14,14 @@ If new knowledge or a rule change is reflected only in the source of truth, rela
 
 Update concepts whose definitions, relationships, applicability conditions, exceptions, or judgments actually change. In each document, reflect the changed meaning for that concept rather than copying the entire source text.
 
+## Context discovered through reading and use
+
+Reading and using knowledge also provide opportunities to review and develop context. Examine the concepts and evidence needed for the current question together; when meaningful omissions, inconsistencies, or new relationships emerge, internalize them in relevant knowledge according to the evidence and delegated scope. Preserve understanding needed for later use without requiring a separate inspection or edit on every lookup.
+
+Reading and changes are triggers for review, not predefined limits on propagation. A problem discovered during reading may require broad updates, while a change to a source of truth may affect only a small area. Start from context already read, adjusting scope according to the significance and certainty of impacts, exploration and update costs, and the current request's purpose. This does not replace necessary exploration during an initial build or impact review after changes.
+
+Distinguish checks needed for the current answer's accuracy from additional knowledge maintenance. If necessary evidence cannot be verified, make uncertainty and answer limitations clear. Avoid unnecessarily delaying the request for incidental maintenance, but when deferring a confirmed significant impact, consider the risk of reusing outdated judgments and make the affected knowledge's limitations or need for correction visible within delegated scope. Leave the remaining impact scope and triggers for follow-up review; recording an issue does not resolve it.
+
 ## Scope
 
 Consider not only existing links but also terminology and conceptual dependencies. Do not determine scope by file count or link distance, and do not modify every connected document merely because a connection exists.
@@ -39,6 +47,12 @@ Even when source material is unchanged, discovering extraction errors or a misun
 Update current explanations with the reason for the correction, the valid scope of evidence, and what remains unconfirmed. Keep source material and past judgments traceable in history where retention is permitted, and connect them to the correction so current readers do not keep using withdrawn judgments. A list of corrected documents shows the update scope; it does not mean every connected claim has been validated again. When inputs or application conditions change, also recheck whether earlier validation results support the new judgment.
 
 Following [preservation of epistemic distinctions](epistemic-distinctions.md), updated explanations retain the differences between observations, claims, inferences, and the scope actually verified. Propagating a new conclusion should not erase the existence of earlier judgments; distinguish and connect the context needed for later understanding to the current assessment.
+
+## Review scope and history
+
+Distinguish editing or reading content, reviewing its context, and the validity of the resulting judgment. Checking the A–B relationship does not mean A–C or all relationships of A were reviewed. When needed for later reassessment, leave the actual scope, evidence, and results identifiable. A review date alone does not guarantee freshness or factual accuracy; examine how changes to relevant premises, evidence, and conditions affect earlier judgments.
+
+Do not create separate logs or fields if existing explanations or change records suffice. Choose whether to record at the document, relationship, or review-event level according to actual reuse and maintenance costs. There is no requirement to record the history of every lookup or relationship.
 
 ## Limitations
 

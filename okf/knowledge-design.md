@@ -6,13 +6,13 @@ description: Compare meaningful arrangements against actual use and changes, and
 
 # Knowledge design exploration and sufficiency
 
-Design knowledge structures to support judgments needed for actual use and expected changes. Consider reusing existing arrangements alongside alternatives that differ in concept granularity, integration, relationships, and internalized reasoning, then choose what fits the purpose. Available approaches and evidence for judging sufficiency support [autonomous judgment](agent-autonomy.md). A plausible first arrangement does not establish that important possibilities have been explored.
+Knowledge design makes an understanding of the target usable for later questions, tasks, and changes. Pursue both organization that lets needed knowledge be found and combined, and context internalization that lets meaning and judgment carry forward. Understanding context can change concept boundaries and relationship choices, while organization helps reveal new context. Consider reusing existing arrangements alongside alternatives that differ in concept granularity, integration, relationships, and internalization depth, then choose what fits the purpose. Available approaches and evidence for judging sufficiency support [autonomous judgment](agent-autonomy.md).
 
 This document addresses exploring and choosing arrangements. [Knowledge internalization](knowledge-internalization.md) covers semantic boundaries and necessary context; [adoption judgment](adoption.md) covers initial build scope, consultation, and completion. The current [OKF representation requirements](okf-format.md), sources of truth, permissions, and target constraints set the conditions for candidates.
 
 ## Starting a comparison
 
-Derive comparison questions and change scenarios from the work the user intends to delegate, conditions and exceptions in actual material, previously difficult judgments, and expected changes. Choosing only questions that a candidate can easily answer after designing it can make an insufficient arrangement appear sufficient. Include needs discovered during exploration, and distinguish assumptions from purposes actually stated by the user.
+Select and organize knowledge based on sufficient exploration and understanding of the target. Derive comparison questions and change scenarios from the work the user intends to delegate, conditions and exceptions in actual material, previously difficult judgments, and expected changes. Alongside answering questions from the organized knowledge, start from important content, conditions, and exceptions in source material to examine whether their meaning has been internalized in relevant knowledge or connected as necessary evidence. Do not judge sufficiency only through questions the candidate can easily answer. Move between exploration and organization, incorporating newly discovered needs and distinguishing unreviewed scope and uncertainty from what has been checked. Distinguish assumptions from purposes actually stated by the user.
 
 Consider both answering representative questions and combining knowledge for different questions later. Even knowledge not directly used in a current question can preserve valuable premises, exceptions, and meaningful relationships. Rather than predicting every future question, keep the meaning and applicability of knowledge from being tied to a single answer.
 
@@ -20,7 +20,7 @@ Consider both answering representative questions and combining knowledge for dif
 
 Focus alternatives on arrangements that change actual discovery, judgment, and updates, rather than variants differing only in names or file counts. Relevant possibilities include reusing knowledge, separating independent judgment units, integrating conditions that must be understood together, connecting direct relationships, deepening internalized reasoning, and combining individual concepts with synthesis. [Concept boundaries and organization](knowledge-internalization.md#concept-boundaries-and-organization) explains when these approaches help.
 
-Design depth and document length are separate choices. Thorough exploration can lead to linked short concepts or a longer document containing context that needs to be understood together. Reusing existing knowledge with limited additions can also be the result of careful consideration. There is no need to make a candidate that skips analysis for comparison.
+Design depth and document length are separate choices. Thoroughly explored knowledge can be organized into linked short concepts or a longer document containing context that needs to be understood together. Reusing existing knowledge or merging unnecessary concepts also counts as organizational progress; leaving relationships unresolved when evidence is insufficient also reflects contextual understanding. Limited additions can be the result of careful consideration. There is no need to make a candidate that skips analysis for comparison.
 
 Do not fix the number or types of candidates or require every combination. Compare provisional concept boundaries, key relationships, and representative explanations; try the parts needed where differences are hard to judge. There is no need to write every candidate's complete documents. Preserve the same knowledge, conditions, and exceptions when comparing organizational effects; if candidates also differ in coverage, make that difference explicit.
 
@@ -28,13 +28,14 @@ Do not fix the number or types of candidates or require every combination. Compa
 
 | Perspective | Differences to examine through actual questions and changes |
 | --- | --- |
-| Discovery | Can the needed concepts and evidence be found accurately? Does finding them require unrelated reading or repeated link traversal? |
-| Judgment | Can conditions, exceptions, and relationships be understood? Is knowledge needed together scattered, or are independent judgments unnecessarily grouped? |
+| Semantic coverage | Have important knowledge, conditions, and exceptions within the assigned scope been internalized or meaningfully connected? Has anything been missed because of its location or the initial question? |
+| Organizational sufficiency | Can needed knowledge and evidence be found and combined through suitable units and relationships? Is knowledge needed together scattered, or are independent judgments unnecessarily grouped? |
+| Contextual sufficiency | Can meaning, reasons, conditions, evidence, and uncertainty be understood and used to continue judgment? Must the same background be repeatedly reconstructed from source material or past conversations? |
 | Updates | Can change responsibilities and affected concepts be found? Do outdated judgments or conflicting definitions remain after an edit? |
 | Operating cost | Are the burdens of construction, discovery, review, maintenance, and user correction appropriate for the use? |
 | New uses | Can new facts and questions connect to existing knowledge? Has explanation tailored to a particular question lost meaning or relationships? |
 
-These perspectives are not a fixed scorecard. One arrangement may favor discovery while another favors contextual understanding or maintenance cost. Judge the benefits and losses that matter for the target rather than erasing differences in one combined score. Distinguish expectations with limited evidence from behavior actually checked.
+These perspectives can be examined together; they are not a fixed scorecard or separate inspection procedures. Tracing where an important exception from source material is reflected, whether the relevant knowledge can be found, and whether its applicability can be understood can examine coverage, organization, and context together. Choose verification scope and depth according to purpose, material, permissions, and cost, without presenting checks of selected cases as a full review. One arrangement may favor discovery while another favors contextual understanding or maintenance cost. Judge the benefits and losses that matter for the target, distinguishing expectations with limited evidence from behavior actually checked.
 
 ## Expanding and concluding exploration
 
