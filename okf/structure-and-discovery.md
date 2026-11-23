@@ -3,9 +3,9 @@ type: Concept
 title: Mekra structure and discovery
 description: Define bundle locations and logical operating scope, and maintain individual entry points and discovery paths for multiple Mekras
 sources:
-  - id: okf-spec-v02
-    resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md
-    title: Open Knowledge Format v0.2
+  - id: okf-spec-v03
+    resource: https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md
+    title: Open Knowledge Format v0.3
 ---
 
 # Mekra structure and discovery
@@ -32,7 +32,7 @@ An independently organized file-based Mekra uses `MEKRA.md` at its logical root 
 
 Choose the logical root according to the Mekra's operating scope and the unit that needs to move together. When the entire repository operates as one Mekra, use root `MEKRA.md`; knowledge bundles can live in `mekra/` or another suitable location. If a specific area within the repository operates as an independent Mekra, place its entry point within that area, such as `mekra/MEKRA.md`. Existing sources of truth in `docs/` do not by themselves limit Mekra's operating scope or entry point to that directory. One Mekra may connect several OKF bundles or external documents and databases, so its knowledge need not all live in one physical directory. In environments without files, link an equivalent entry point such as a page.
 
-When the file is included in a bundle, it must also follow the bundle's format. The reserved-filename rules in the baseline OKF specification treat Markdown files other than `index.md` and `log.md` as concept documents. A `MEKRA.md` inside a bundle therefore needs `type` frontmatter.[^okf-spec-v02] `type: Playbook` is one local choice for representing operating guidance; the filename `MEKRA.md` has no official format exemption.
+When the file is included in a bundle, it must also follow the bundle's format. Under the baseline OKF specification, Markdown files without `type` are skipped during concept discovery even if they are part of the bundle. Include `type` in the frontmatter of a bundle's `MEKRA.md` so it can be discovered as knowledge.[^okf-spec-v03] `type: Playbook` is one local choice for representing operating guidance; the filename `MEKRA.md` has no official format exemption.
 
 An entry point is not a place to keep accumulating detailed principles and procedures. Internalize reusable reasoning in the relevant concepts, and leave the Mekra's specific context and discovery paths at the entry point. OKF's `index.md` lists the bundle's knowledge, while `MEKRA.md` explains the scope and context in which it operates; connect the two. The file's existence alone does not guarantee automatic loading or actual use, so check the agent's actual entry path. The [templates](../templates/README.md#choosing-an-entry-point-arrangement) show how to adapt locations and links to the target.
 
@@ -48,4 +48,4 @@ Maintain Mekra structure and knowledge autonomously within the scope delegated b
 
 When index links or descriptions differ from the actual structure, verify the targets and sources of truth and correct them. Make the scope clear even in nested environments, and avoid unnecessarily maintaining independent copies of the same list. Markdown is the default example; fixed fields, a global registry, and an automatic discovery protocol are not additional requirements.
 
-[^okf-spec-v02]: [OKF v0.2 §3.1: Reserved filenames](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#31-reserved-filenames), [§4.1: Frontmatter](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#41-frontmatter). Introducing and locating a MEKRA.md entry point is a local adoption choice.
+[^okf-spec-v03]: [OKF v0.3 §3.1: Reserved filenames](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#31-reserved-filenames), [§3.2: Concepts and other files](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#32-concepts-assets-and-other-files), [§4.1: Frontmatter](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#41-frontmatter). Introducing and locating a MEKRA.md entry point is a local adoption choice.

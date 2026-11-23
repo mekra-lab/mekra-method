@@ -77,12 +77,12 @@ In dev, where the method itself is developed, the working tree containing adopte
 
 ## Reviewing early metadata conventions
 
-When a local convention differs from an official field's meaning, check how actual consumers read it and which scope is being updated. The official meanings below come from [OKF v0.2 §5.2 and §5.4](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md#52-trust-generated-and-verified), matching the [current baseline](current.md). The transition choices are this repository's adoption guidance.
+When a local convention differs from an official field's meaning, check how actual consumers read it and which scope is being updated. The official meanings below come from [OKF v0.3 §§5.2–5.4](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md#52-trust-generated-and-verified), matching the [current baseline](current.md). The transition choices are this repository's adoption guidance.
 
 | Earlier convention | Official meaning and transition judgment |
 | --- | --- |
 | Keeping `generated.at` as the first creation date | Its official meaning is the time of the last meaningful content change. Correct it when actual creation or change evidence exists; do not invent a timestamp. The optional field can be omitted, or the initial creation history can be preserved separately. If retaining `generated`, also check its required `by` key. |
-| Using `status: active` to mean operational | Official document states are `draft`, `stable`, and `deprecated`, with `stable` as the default when omitted. Preserve operational status in prose or an extension field, and choose the document state according to its meaning. Do not replace every `active` with `stable` mechanically. |
+| Using `status: active` to mean operational | Official document states are `draft`, `stable`, and `deprecated`, with `stable` as the default when omitted. Starting in v0.3, unlisted values do not count as `stable`, so consumers that filter for current knowledge exclude concepts with those values. Preserve operational status in prose or an extension field, and choose the document state according to its meaning. Do not replace every `active` with `stable` mechanically. |
 | Treating an old `verified` entry as current verification after editing | Generation or editing and verification are separate. Do not update the verifier or timestamp without actual verification. Review the valid scope of the earlier check, correct claims it no longer supports, and retain needed historical evidence. |
 
 Adding optional fields is not itself a quality improvement. Preserve the meaning of protected references and historical copies, and review only the compatibility needed within the current scope. These corrections alone do not require a specification upgrade or a complete rewrite.

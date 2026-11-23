@@ -57,7 +57,7 @@ Mekra Method currently uses Open Knowledge Format (OKF) to represent knowledge. 
 
 For existing OKF material, you can ask: "Apply Mekra Method to the existing OKF material." If the format itself needs updating, ask: "Review the impact of the OKF specification change and update what is needed." These requests preserve valid existing knowledge and are interpreted within their purpose and scope. See the [application guide](APPLICATION.md) and [version guide](versions/README.md).
 
-This guide is not a copy of the specification or a framework every project must follow. The source for the official format is [GoogleCloudPlatform/open-knowledge-format](https://github.com/GoogleCloudPlatform/open-knowledge-format).
+This guide is not a copy of the specification or a framework every project must follow. The source for the official format is [open-knowledge-format/open-knowledge-format](https://github.com/open-knowledge-format/open-knowledge-format).
 
 ## Structure
 
@@ -97,7 +97,7 @@ Mekra Method is developed and maintained by [Mekra Lab](https://github.com/mekra
 
 ## Current baseline
 
-- Recommended baseline: **OKF v0.2**
+- Recommended baseline: **OKF v0.3** for new knowledge. Existing v0.2 bundles remain valid.
 - Verification date and specification baseline: [`versions/current.md`](versions/current.md)
 
 The latest formal release is the default adoption baseline. Public `main` can receive reviewed corrections to wording, links, and usability between releases when they preserve adoption meaning. Changes to adoption judgments or core principles reach public `main` together with a release. Publish a new release to include an improvement in the formal adoption baseline. New Mekra Method releases use `mekra-X.Y`, or `mekra-X.Y.Z` for a separately published patch. Record the OKF specification baseline separately and preserve existing tags. See the [version guide](versions/README.md) for change levels and recording the actual reference commit.

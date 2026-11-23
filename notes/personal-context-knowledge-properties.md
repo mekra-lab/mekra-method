@@ -26,7 +26,7 @@ The distinctions between canonical status and certainty, and between maintaining
 
 The distinction between a state that was valid in the past and a correction to an erroneous explanation, and between recording or retrieval time and effective time, is now reflected in [source of truth and context](../okf/source-of-truth.md#temporal-validity-and-corrections). This judgment applies beyond personal context, so it was integrated into the existing source of truth. This is an adopted operating principle, not evidence that a particular representation has been effective.
 
-Continue to examine through actual use how much temporal and conditional detail personal context needs, and when the lifecycle fields in OKF v0.2 are worth using.
+Continue to examine through actual use how much temporal and conditional detail personal context needs, and when the lifecycle fields in OKF are worth using.
 
 ### Internal access and external disclosure
 

@@ -1,10 +1,10 @@
 ---
-okf_version: "0.2"
+okf_version: "0.3"
 ---
 
 # Mekra Method operating knowledge
 
-This index leads to the detailed meaning, reasoning, and boundaries of Mekra Method's adopted principles, operating patterns, and adoption judgments. Start with the [operating principles](../PRINCIPLES.md) for the list, core meaning, and relationships of principles, and with the [application guide](../APPLICATION.md) for practical adoption. This knowledge currently uses OKF, while distinguishing [the format and its use](okf-format.md) from Mekra's operating choices. Expressing knowledge in OKF does not limit its reasoning to matters of format.
+This index leads to the detailed meaning, reasoning, and boundaries of Mekra Method's adopted principles, operating patterns, and adoption judgments. Start with the [operating principles](../PRINCIPLES.md) for the list, core meaning, and relationships of principles, and with the [application guide](../APPLICATION.md) for practical adoption. This knowledge currently uses OKF, while distinguishing [the format and its use](okf-format.md) from Mekra's operating choices. Expressing knowledge in OKF does not limit its reasoning to matters of format. Links starting with `../` point to guide documents outside this directory. Those documents are outside the scope of a standalone reading of `okf/`.
 
 ## Start from a question
 

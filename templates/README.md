@@ -1,6 +1,6 @@
 # Templates
 
-These templates illustrate Mekra Method operating practices and use [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format) to represent knowledge. The format follows the official specification, while structure and instructions are adapted to the purpose of each repository. See the [current version baseline](../versions/current.md) for the OKF version and specification point used here.
+These templates illustrate Mekra Method operating practices and use [Open Knowledge Format](https://github.com/open-knowledge-format/open-knowledge-format) to represent knowledge. The format follows the official specification, while structure and instructions are adapted to the purpose of each repository. See the [current version baseline](../versions/current.md) for the OKF version and specification point used here.
 
 The templates are examples to support application. Use or adapt the parts that help; in particular, design concept document types, properties, and body structure to suit the target's material and intended use.
 
@@ -36,7 +36,7 @@ type: Playbook
 ---
 ```
 
-When the whole repository is used as an OKF bundle, the concept document format also applies to other operational Markdown files included in that bundle, such as `AGENTS.md` or `MEKRAS.md`.
+When the whole repository is used as an OKF bundle, it also includes other operational Markdown files, such as `AGENTS.md` or `MEKRAS.md`. OKF v0.3 allows these files to remain without frontmatter and skips them during concept discovery. Add `type` only to documents you want to treat as knowledge. If you also use tools that only support OKF v0.2, they may require `type` in every Markdown file in the bundle. See the [current OKF baseline](../versions/current.md).
 
 If knowledge operation started as a section in an existing AGENTS, move its valid explanations to `MEKRA.md`, leaving the link and repository-wide operating instructions in AGENTS. Before creating a duplicate entry point, check the purpose, scope, and location of any existing one. If concepts already contain the operating principles, link to them from the entry point and shorten the template's general explanations. When recording an adoption baseline, follow [the actual reference baseline guidance](../versions/README.md#recording-the-actual-reference-baseline). Do not prefill the templates with unverified release numbers.
 
